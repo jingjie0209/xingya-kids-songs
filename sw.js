@@ -1,4 +1,4 @@
-const CACHE_NAME = 'xingya-shell-v8';
+const CACHE_NAME = 'xingya-shell-v9';
 const SHELL = [
   './',
   './index.html',
@@ -31,6 +31,24 @@ self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET') return;
 
+  // Cache songs from the same origin or the GitHub CDN after their first play.
+  // jsDelivr sends CORS headers, so these responses can be stored by the Cache API.
+  if (request.destination === 'audio') {
+    event.respondWith(
+      caches.match(request).then((cached) => {
+        if (cached) return cached;
+        return fetch(request).then((response) => {
+          if (response.status === 200 || response.status === 206) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        });
+      })
+    );
+    return;
+  }
+
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
@@ -43,21 +61,6 @@ self.addEventListener('fetch', (event) => {
           return response;
         })
         .catch(() => caches.match('./index.html'))
-    );
-    return;
-  }
-
-  if (request.destination === 'audio') {
-    event.respondWith(
-      fetch(request)
-        .then((response) => {
-          if (response.status === 200 && !request.headers.has('range')) {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-          }
-          return response;
-        })
-        .catch(() => caches.match(request, { ignoreSearch: true }))
     );
     return;
   }

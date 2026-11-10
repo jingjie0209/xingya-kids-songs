@@ -27,6 +27,10 @@ python3 -m http.server 8765
 
 然后访问 <http://127.0.0.1:8765/?v=84>。
 
+在线版：<https://jingjie0209.github.io/xingya-kids-songs/>
+
+GitHub Pages 使用 `docs/` 中的轻量页面，音频通过 GitHub 仓库的 jsDelivr CDN 加载。
+
 ## 安装说明
 
 - iPhone / iPad：使用 Safari 打开，点「分享」→「添加到主屏幕」。
