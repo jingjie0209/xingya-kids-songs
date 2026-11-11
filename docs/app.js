@@ -67,7 +67,6 @@
     totalPlayCount: document.getElementById('totalPlayCount'),
     songReportList: document.getElementById('songReportList'),
     resetStatsButton: document.getElementById('resetStatsButton'),
-    installButton: document.getElementById('installButton'),
     installDialog: document.getElementById('installDialog'),
     closeInstallButton: document.getElementById('closeInstallButton'),
     installConfirmButton: document.getElementById('installConfirmButton'),
@@ -860,8 +859,8 @@
     openInstallDialog();
   }
 
-  els.installButton.addEventListener('click', requestInstall);
-  els.installConfirmButton.addEventListener('click', requestInstall);
+  const installConfirmButton = document.getElementById('installConfirmButton');
+  if (installConfirmButton) installConfirmButton.addEventListener('click', requestInstall);
   els.closeInstallButton.addEventListener('click', () => els.installDialog.close());
 
   [els.statsDialog, els.installDialog].forEach((dialog) => {
@@ -915,7 +914,6 @@
 
   window.addEventListener('appinstalled', () => {
     deferredInstallPrompt = null;
-    els.installButton.innerHTML = '<svg><use href="#icon-check"></use></svg><span>已安装</span>';
     showToast('baby专属已安装');
   });
 
@@ -963,7 +961,6 @@
   updateStatsUI();
 
   if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) {
-    els.installButton.innerHTML = '<svg><use href="#icon-check"></use></svg><span>已安装</span>';
   }
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {

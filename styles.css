@@ -1561,12 +1561,12 @@ input[type="range"]::-moz-range-thumb {
   .hero h1 { font-size: clamp(29px, 6vw, 38px); }
   .hero-copy > p { display: none; }
   .hero-actions { display: none; }
-  .hero-meta { margin-top: 6px; }
+  .hero-meta { margin-top: 10px; }
   /* On phones the dock already shows the current song, so the decorative
      record area is removed to keep the blue hero compact. */
   .hero-visual { display: none; }
   .library { padding: 28px 22px 32px; border-radius: 30px; }
-  .library-head { margin-bottom: 0; }
+  .library-head { margin-bottom: 20px; }
   .filter-row { margin-inline: 0; padding-inline: 0; }
   .song-row { grid-template-columns: 38px minmax(0, 1fr) 65px 36px; gap: 8px; padding-inline: 13px; }
   .song-play-count { display: none; }
@@ -1608,10 +1608,10 @@ input[type="range"]::-moz-range-thumb {
   .hero h1 { font-size: 31px; }
   .hero-copy > p { display: none; }
   .hero-actions { display: none; }
-  .hero-meta { gap: 9px; margin-top: 8px; font-size: 10px; }
+  .hero-meta { gap: 9px; margin-top: 10px; font-size: 10px; }
   .hero-visual { display: none; }
   .library { margin-top: 18px; padding: 24px 13px 26px; border-radius: 26px; }
-  .library-head { margin-bottom: 0; }
+  .library-head { margin-bottom: 20px; }
   .filter-row { margin-inline: 0; padding-inline: 0; gap: 5px; }
   .filter-chip { min-height: 33px; padding-inline: 11px; font-size: 10px; }
   .playlist-groups { gap: 14px; }
@@ -1650,7 +1650,7 @@ input[type="range"]::-moz-range-thumb {
   .hero h1 { font-size: 27px; }
   .eyebrow { margin-bottom: 4px; }
   .hero-actions { display: none; }
-  .hero-meta { margin-top: 6px; }
+  .hero-meta { margin-top: 10px; }
   .hero-actions .secondary-button { display: none; }
   .dock-copy strong, .dock-copy span { max-width: 155px; }
 }
