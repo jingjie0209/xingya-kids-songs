@@ -292,7 +292,7 @@
     try {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: song.title,
-        artist: '星芽儿歌',
+        artist: 'baby专属',
         album: category?.name || '英文启蒙儿歌',
         artwork: [
           { src: new URL('icons/icon-192.png', window.location.href).href, sizes: '192x192', type: 'image/png' },
@@ -353,7 +353,7 @@
     els.dockTitle.textContent = song.title;
     els.dockSubtitle.textContent = `${category.name} · ${song.zh}`;
     els.durationTime.textContent = formatTime(Number.isFinite(audio.duration) ? audio.duration : song.duration);
-    document.title = `${song.title} · 星芽儿歌`;
+    document.title = `${song.title} · baby专属`;
     updateMediaSession(song);
     updateSongRows();
   }
@@ -918,7 +918,7 @@
   window.addEventListener('appinstalled', () => {
     deferredInstallPrompt = null;
     els.installButton.innerHTML = '<svg><use href="#icon-check"></use></svg><span>已安装</span>';
-    showToast('星芽儿歌已安装');
+    showToast('baby专属已安装');
   });
 
   window.addEventListener('pagehide', () => {

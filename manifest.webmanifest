@@ -1,6 +1,6 @@
 {
-  "name": "星芽儿歌 · Little Star Songs",
-  "short_name": "星芽儿歌",
+  "name": "baby专属",
+  "short_name": "baby专属",
   "description": "87首英文启蒙儿歌，支持单曲循环、顺序播放、随机播放、后台播放与播放统计。",
   "lang": "zh-CN",
   "start_url": "./index.html",
