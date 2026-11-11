@@ -1,16 +1,24 @@
 {
   "name": "baby专属",
   "short_name": "baby专属",
+  "id": "/xingya-kids-songs/",
   "description": "89首英文启蒙儿歌，支持单曲循环、顺序播放、随机播放、后台播放与播放统计。",
   "lang": "zh-CN",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone"],
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
   "orientation": "any",
   "background_color": "#f3efe5",
   "theme_color": "#17314f",
-  "categories": ["music", "education", "kids"],
+  "categories": [
+    "music",
+    "education",
+    "kids"
+  ],
   "icons": [
     {
       "src": "icons/icon-192.png",
