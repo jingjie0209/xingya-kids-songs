@@ -5,16 +5,23 @@
   const allCategories = window.SONG_CATEGORIES || [];
   const tabs = [
     { id: 'songs', name: '儿歌', icon: 'music' },
-    { id: 'wow', name: 'wow', icon: 'globe' },
-    { id: 'littlefox', name: 'little fox', icon: 'abc' },
+    { id: 'animation', name: '动画片熏听', icon: 'globe' },
     { id: 'talk', name: '见物能聊', icon: 'hand' },
     { id: 'library', name: '资料库', icon: 'globe' },
   ];
   const tabCategoryGroups = {
-    wow: ['wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange', 'wow-bronze', 'wow-silver', 'wow-gold'],
+    animation: [
+      'wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange',
+      'wow-bronze', 'wow-silver', 'wow-gold',
+    ],
     talk: ['talk'],
   };
-  const collectionTabIds = new Set(['songs', 'wow', 'talk']);
+  const animationGroups = [
+    { id: 'animation-wow', name: 'Wow English', categoryPrefixes: ['wow-'], icon: 'globe', color: '#d98543' },
+    { id: 'animation-littlefox', name: 'Little Fox', categoryPrefixes: ['littlefox-'], icon: 'abc', color: '#4f8ccc' },
+    { id: 'animation-peppa', name: '小猪佩奇', categoryPrefixes: ['peppa-'], icon: 'hand', color: '#dc7f9b' },
+  ];
+  const collectionTabIds = new Set(['songs', 'animation', 'talk']);
   const resourceLinks = [
     {
       title: 'Susan句型理论',
@@ -449,11 +456,72 @@
       .filter(({ song }) => song.category === categoryId);
   }
 
+  function animationSongs(group) {
+    return songs.filter((song) => group.categoryPrefixes.some((prefix) => song.category.startsWith(prefix)));
+  }
+
   function renderFilters() {
+    const filters = activeTab === 'animation'
+      ? animationGroups.map((group) => ({ id: group.id, name: group.name }))
+      : categories.map((category) => ({ id: category.id, name: category.name }));
     els.filterRow.innerHTML = [
       '<button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">全部</button>',
-      ...categories.map((category) => `<button class="filter-chip" type="button" data-filter="${category.id}" aria-pressed="false">${category.name}</button>`),
+      ...filters.map((item) => `<button class="filter-chip" type="button" data-filter="${item.id}" aria-pressed="false">${item.name}</button>`),
     ].join('');
+  }
+
+  function renderAnimationPlaylist() {
+    els.libraryHead.hidden = true;
+    els.filterRow.hidden = false;
+    renderFilters();
+    const visible = animationGroups.filter((group) => activeFilter === 'all' || activeFilter === group.id);
+    const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
+    els.playlistGroups.innerHTML = visible.map((group) => {
+      const rows = animationSongs(group).map((song, index) => `
+        <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+          <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+          <span class="song-title-block">
+            <strong>${song.title}</strong>
+            <span>${song.zh}</span>
+          </span>
+          <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+          <span class="song-duration">${formatTime(song.duration)}</span>
+          <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+        </button>
+      `).join('');
+      return `
+        <section class="song-group" data-group-category="${group.id}">
+          <header class="group-head">
+            <div class="group-title">
+              <span class="group-icon" style="--group-color:${group.color}"><svg><use href="#icon-${group.icon}"></use></svg></span>
+              <span class="group-title-text">
+                <strong>${group.name}</strong>
+                <span>${counts[group.id] ? `${counts[group.id]} 个音频` : '内容准备中'}</span>
+              </span>
+            </div>
+            <span class="group-count">${counts[group.id]} 首</span>
+          </header>
+          ${rows ? `<div class="song-list">${rows}</div>` : '<div class="group-empty">内容正在准备中</div>'}
+        </section>
+      `;
+    }).join('');
+    bindSongRows();
+    updateSongRows();
+    updateCountsUI();
+  }
+
+  function bindSongRows() {
+    els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
+      row.addEventListener('click', () => {
+        const id = row.dataset.songId;
+        if (id === currentSongId) togglePlayback();
+        else {
+          shuffleHistory = [];
+          if (mode === 'shuffle') resetShuffleQueue(id);
+          loadSong(id, { autoplay: true, resetShuffle: false, restart: id === currentSongId });
+        }
+      });
+    });
   }
 
   function renderPlaylist() {
@@ -493,19 +561,7 @@
       `;
     }).join('');
 
-    els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
-      row.addEventListener('click', () => {
-        const id = row.dataset.songId;
-        if (id === currentSongId) {
-          togglePlayback();
-        } else {
-          shuffleHistory = [];
-          if (mode === 'shuffle') resetShuffleQueue(id);
-          loadSong(id, { autoplay: true, resetShuffle: false, restart: id === currentSongId });
-        }
-      });
-    });
-
+    bindSongRows();
     updateSongRows();
     updateCountsUI();
     applyFilter();
@@ -627,15 +683,21 @@
       renderResourceLibrary();
       return;
     }
-    if (activeTab === 'littlefox') {
-      renderEmptyTab();
-      return;
-    }
     updateActiveCollections();
-    renderPlaylist();
+    if (activeTab === 'animation') renderAnimationPlaylist();
+    else renderPlaylist();
   }
 
   function applyFilter() {
+    els.filterRow.querySelectorAll('.filter-chip').forEach((chip) => {
+      const active = chip.dataset.filter === activeFilter;
+      chip.classList.toggle('is-active', active);
+      chip.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+    if (activeTab === 'animation') {
+      renderAnimationPlaylist();
+      return;
+    }
     els.playlistGroups.querySelectorAll('[data-group-category]').forEach((group) => {
       group.hidden = activeFilter !== 'all' && group.dataset.groupCategory !== activeFilter;
     });

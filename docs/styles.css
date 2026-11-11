@@ -1615,6 +1615,13 @@ input[type="range"]::-moz-range-thumb {
 }
 
 
+.group-empty {
+  padding: 26px 18px;
+  color: var(--muted);
+  font-size: 10px;
+  text-align: center;
+}
+
 .resource-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
