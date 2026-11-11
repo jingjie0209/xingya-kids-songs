@@ -16,8 +16,8 @@
   let activeTab = 'songs';
   let songs = window.SONGS.filter((song) => !song.category.startsWith('wow-'));
   let categories = window.SONG_CATEGORIES.filter((category) => !category.id.startsWith('wow-'));
-  const songById = new Map(songs.map((song) => [song.id, song]));
-  const categoryById = new Map(categories.map((category) => [category.id, category]));
+  const songById = new Map(allSongs.map((song) => [song.id, song]));
+  const categoryById = new Map(allCategories.map((category) => [category.id, category]));
   const audio = document.getElementById('audio');
 
   const STORAGE = {
