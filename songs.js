@@ -134,6 +134,14 @@ window.SONG_CATEGORIES = [
     "note": "红色分级课程音频",
     "icon": "globe",
     "color": "#cf5b5f"
+  },
+  {
+    "id": "talk",
+    "name": "见物能聊",
+    "english": "OBJECT TALK",
+    "note": "100篇常用物品对话",
+    "icon": "hand",
+    "color": "#b06fb4"
   }
 ];
 
@@ -943,7 +951,7 @@ window.SONGS = [
     "title": "Wow!Yellow Unit 4 'toys' - part 2 video_story",
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
-    "duration": 306.0,
+    "duration": 306,
     "file": "audio/wow/wow-yellow-012.mp3"
   },
   {
@@ -1641,5 +1649,805 @@ window.SONGS = [
     "category": "wow-red",
     "duration": 106.584,
     "file": "audio/wow/wow-red-033.mp3"
+  },
+  {
+    "id": "talk-01",
+    "title": "egg 鸡蛋",
+    "zh": "egg 鸡蛋",
+    "category": "talk",
+    "duration": 62.66775,
+    "file": "audio/talk/talk-01.mp3"
+  },
+  {
+    "id": "talk-02",
+    "title": "noodles 面条",
+    "zh": "noodles 面条",
+    "category": "talk",
+    "duration": 64.339594,
+    "file": "audio/talk/talk-02.mp3"
+  },
+  {
+    "id": "talk-03",
+    "title": "Brush Teeth 刷牙",
+    "zh": "Brush Teeth 刷牙",
+    "category": "talk",
+    "duration": 42.971406,
+    "file": "audio/talk/talk-03.mp3"
+  },
+  {
+    "id": "talk-04",
+    "title": "Wash Face 洗脸",
+    "zh": "Wash Face 洗脸",
+    "category": "talk",
+    "duration": 55.771406,
+    "file": "audio/talk/talk-04.mp3"
+  },
+  {
+    "id": "talk-05",
+    "title": "Go Potty 上厕所",
+    "zh": "Go Potty 上厕所",
+    "category": "talk",
+    "duration": 46.550187,
+    "file": "audio/talk/talk-05.mp3"
+  },
+  {
+    "id": "talk-06",
+    "title": "Let's eat 吃东西",
+    "zh": "Let's eat 吃东西",
+    "category": "talk",
+    "duration": 59.768163,
+    "file": "audio/talk/talk-06.mp3"
+  },
+  {
+    "id": "talk-07",
+    "title": "Thirsty 口渴",
+    "zh": "Thirsty 口渴",
+    "category": "talk",
+    "duration": 59.715906,
+    "file": "audio/talk/talk-07.mp3"
+  },
+  {
+    "id": "talk-08",
+    "title": "umbrella 雨伞",
+    "zh": "umbrella 雨伞",
+    "category": "talk",
+    "duration": 77.426937,
+    "file": "audio/talk/talk-08.mp3"
+  },
+  {
+    "id": "talk-09",
+    "title": "pants 裤子",
+    "zh": "pants 裤子",
+    "category": "talk",
+    "duration": 81.266937,
+    "file": "audio/talk/talk-09.mp3"
+  },
+  {
+    "id": "talk-10",
+    "title": "cup 水杯",
+    "zh": "cup 水杯",
+    "category": "talk",
+    "duration": 66.40325,
+    "file": "audio/talk/talk-10.mp3"
+  },
+  {
+    "id": "talk-100",
+    "title": "play kitchen 厨房游戏",
+    "zh": "play kitchen 厨房游戏",
+    "category": "talk",
+    "duration": 61.544469,
+    "file": "audio/talk/talk-100.mp3"
+  },
+  {
+    "id": "talk-11",
+    "title": "milk 牛奶",
+    "zh": "milk 牛奶",
+    "category": "talk",
+    "duration": 69.903656,
+    "file": "audio/talk/talk-11.mp3"
+  },
+  {
+    "id": "talk-12",
+    "title": "shoe 鞋子",
+    "zh": "shoe 鞋子",
+    "category": "talk",
+    "duration": 59.324062,
+    "file": "audio/talk/talk-12.mp3"
+  },
+  {
+    "id": "talk-13",
+    "title": "book 书",
+    "zh": "book 书",
+    "category": "talk",
+    "duration": 66.664469,
+    "file": "audio/talk/talk-13.mp3"
+  },
+  {
+    "id": "talk-14",
+    "title": "apple 苹果",
+    "zh": "apple 苹果",
+    "category": "talk",
+    "duration": 69.459594,
+    "file": "audio/talk/talk-14.mp3"
+  },
+  {
+    "id": "talk-15",
+    "title": "wake up 起床",
+    "zh": "wake up 起床",
+    "category": "talk",
+    "duration": 61.910187,
+    "file": "audio/talk/talk-15.mp3"
+  },
+  {
+    "id": "talk-16",
+    "title": "tomato 西红柿",
+    "zh": "tomato 西红柿",
+    "category": "talk",
+    "duration": 75.232625,
+    "file": "audio/talk/talk-16.mp3"
+  },
+  {
+    "id": "talk-17",
+    "title": "sofa 沙发",
+    "zh": "sofa 沙发",
+    "category": "talk",
+    "duration": 74.004875,
+    "file": "audio/talk/talk-17.mp3"
+  },
+  {
+    "id": "talk-18",
+    "title": "put on your socks 穿袜子",
+    "zh": "put on your socks 穿袜子",
+    "category": "talk",
+    "duration": 71.993469,
+    "file": "audio/talk/talk-18.mp3"
+  },
+  {
+    "id": "talk-19",
+    "title": "take off your socks 脱袜子",
+    "zh": "take off your socks 脱袜子",
+    "category": "talk",
+    "duration": 75.52,
+    "file": "audio/talk/talk-19.mp3"
+  },
+  {
+    "id": "talk-20",
+    "title": "hair 头发",
+    "zh": "hair 头发",
+    "category": "talk",
+    "duration": 64.0,
+    "file": "audio/talk/talk-20.mp3"
+  },
+  {
+    "id": "talk-21",
+    "title": "floor 地板",
+    "zh": "floor 地板",
+    "category": "talk",
+    "duration": 66.612219,
+    "file": "audio/talk/talk-21.mp3"
+  },
+  {
+    "id": "talk-22",
+    "title": "Window 窗子",
+    "zh": "Window 窗子",
+    "category": "talk",
+    "duration": 75.781219,
+    "file": "audio/talk/talk-22.mp3"
+  },
+  {
+    "id": "talk-23",
+    "title": "bed 床",
+    "zh": "bed 床",
+    "category": "talk",
+    "duration": 63.320813,
+    "file": "audio/talk/talk-23.mp3"
+  },
+  {
+    "id": "talk-24",
+    "title": "Door 门",
+    "zh": "Door 门",
+    "category": "talk",
+    "duration": 66.56,
+    "file": "audio/talk/talk-24.mp3"
+  },
+  {
+    "id": "talk-25",
+    "title": "towel 毛巾",
+    "zh": "towel 毛巾",
+    "category": "talk",
+    "duration": 76.146938,
+    "file": "audio/talk/talk-25.mp3"
+  },
+  {
+    "id": "talk-26",
+    "title": "ball 球",
+    "zh": "ball 球",
+    "category": "talk",
+    "duration": 60.16,
+    "file": "audio/talk/talk-26.mp3"
+  },
+  {
+    "id": "talk-27",
+    "title": "toy 玩具",
+    "zh": "toy 玩具",
+    "category": "talk",
+    "duration": 74.657938,
+    "file": "audio/talk/talk-27.mp3"
+  },
+  {
+    "id": "talk-28",
+    "title": "chair 椅子",
+    "zh": "chair 椅子",
+    "category": "talk",
+    "duration": 73.377938,
+    "file": "audio/talk/talk-28.mp3"
+  },
+  {
+    "id": "talk-29",
+    "title": "spoon 勺子",
+    "zh": "spoon 勺子",
+    "category": "talk",
+    "duration": 69.851406,
+    "file": "audio/talk/talk-29.mp3"
+  },
+  {
+    "id": "talk-30",
+    "title": "tissue 纸巾",
+    "zh": "tissue 纸巾",
+    "category": "talk",
+    "duration": 75.755094,
+    "file": "audio/talk/talk-30.mp3"
+  },
+  {
+    "id": "talk-31",
+    "title": "hat 帽子",
+    "zh": "hat 帽子",
+    "category": "talk",
+    "duration": 83.826937,
+    "file": "audio/talk/talk-31.mp3"
+  },
+  {
+    "id": "talk-32",
+    "title": "faucet 水龙头",
+    "zh": "faucet 水龙头",
+    "category": "talk",
+    "duration": 72.437531,
+    "file": "audio/talk/talk-32.mp3"
+  },
+  {
+    "id": "talk-33",
+    "title": "nut 坚果",
+    "zh": "nut 坚果",
+    "category": "talk",
+    "duration": 78.132219,
+    "file": "audio/talk/talk-33.mp3"
+  },
+  {
+    "id": "talk-34",
+    "title": "glove 手套",
+    "zh": "glove 手套",
+    "category": "talk",
+    "duration": 77.92325,
+    "file": "audio/talk/talk-34.mp3"
+  },
+  {
+    "id": "talk-35",
+    "title": "soap 肥皂",
+    "zh": "soap 肥皂",
+    "category": "talk",
+    "duration": 72.489781,
+    "file": "audio/talk/talk-35.mp3"
+  },
+  {
+    "id": "talk-36",
+    "title": "toothpaste 牙膏",
+    "zh": "toothpaste 牙膏",
+    "category": "talk",
+    "duration": 68.780406,
+    "file": "audio/talk/talk-36.mp3"
+  },
+  {
+    "id": "talk-37",
+    "title": "trash can 垃圾桶",
+    "zh": "trash can 垃圾桶",
+    "category": "talk",
+    "duration": 80.770594,
+    "file": "audio/talk/talk-37.mp3"
+  },
+  {
+    "id": "talk-38",
+    "title": "chopsticks 筷子",
+    "zh": "chopsticks 筷子",
+    "category": "talk",
+    "duration": 79.960813,
+    "file": "audio/talk/talk-38.mp3"
+  },
+  {
+    "id": "talk-39",
+    "title": "water 水",
+    "zh": "water 水",
+    "category": "talk",
+    "duration": 70.217125,
+    "file": "audio/talk/talk-39.mp3"
+  },
+  {
+    "id": "talk-40",
+    "title": "tooth 牙齿",
+    "zh": "tooth 牙齿",
+    "category": "talk",
+    "duration": 72.69875,
+    "file": "audio/talk/talk-40.mp3"
+  },
+  {
+    "id": "talk-41",
+    "title": "bowl 碗",
+    "zh": "bowl 碗",
+    "category": "talk",
+    "duration": 67.631,
+    "file": "audio/talk/talk-41.mp3"
+  },
+  {
+    "id": "talk-42",
+    "title": "blocks 积木",
+    "zh": "blocks 积木",
+    "category": "talk",
+    "duration": 63.451406,
+    "file": "audio/talk/talk-42.mp3"
+  },
+  {
+    "id": "talk-43",
+    "title": "pajamas 睡衣",
+    "zh": "pajamas 睡衣",
+    "category": "talk",
+    "duration": 85.368156,
+    "file": "audio/talk/talk-43.mp3"
+  },
+  {
+    "id": "talk-44",
+    "title": "light 灯",
+    "zh": "light 灯",
+    "category": "talk",
+    "duration": 80.431,
+    "file": "audio/talk/talk-44.mp3"
+  },
+  {
+    "id": "talk-45",
+    "title": "finger 手指",
+    "zh": "finger 手指",
+    "category": "talk",
+    "duration": 70.974688,
+    "file": "audio/talk/talk-45.mp3"
+  },
+  {
+    "id": "talk-46",
+    "title": "photo 照片",
+    "zh": "photo 照片",
+    "category": "talk",
+    "duration": 68.388563,
+    "file": "audio/talk/talk-46.mp3"
+  },
+  {
+    "id": "talk-47",
+    "title": "plate 盘子",
+    "zh": "plate 盘子",
+    "category": "talk",
+    "duration": 72.019594,
+    "file": "audio/talk/talk-47.mp3"
+  },
+  {
+    "id": "talk-48",
+    "title": "table 桌子",
+    "zh": "table 桌子",
+    "category": "talk",
+    "duration": 69.355094,
+    "file": "audio/talk/talk-48.mp3"
+  },
+  {
+    "id": "talk-49",
+    "title": "pencil 铅笔",
+    "zh": "pencil 铅笔",
+    "category": "talk",
+    "duration": 77.609781,
+    "file": "audio/talk/talk-49.mp3"
+  },
+  {
+    "id": "talk-50",
+    "title": "switch 开关",
+    "zh": "switch 开关",
+    "category": "talk",
+    "duration": 78.576313,
+    "file": "audio/talk/talk-50.mp3"
+  },
+  {
+    "id": "talk-51",
+    "title": "nail 指甲",
+    "zh": "nail 指甲",
+    "category": "talk",
+    "duration": 61.544469,
+    "file": "audio/talk/talk-51.mp3"
+  },
+  {
+    "id": "talk-52",
+    "title": "pan 平底锅",
+    "zh": "pan 平底锅",
+    "category": "talk",
+    "duration": 76.016312,
+    "file": "audio/talk/talk-52.mp3"
+  },
+  {
+    "id": "talk-53",
+    "title": "shape 形状",
+    "zh": "shape 形状",
+    "category": "talk",
+    "duration": 74.684062,
+    "file": "audio/talk/talk-53.mp3"
+  },
+  {
+    "id": "talk-54",
+    "title": "straw 吸管",
+    "zh": "straw 吸管",
+    "category": "talk",
+    "duration": 67.944469,
+    "file": "audio/talk/talk-54.mp3"
+  },
+  {
+    "id": "talk-55",
+    "title": "mat 垫子",
+    "zh": "mat 垫子",
+    "category": "talk",
+    "duration": 76.904469,
+    "file": "audio/talk/talk-55.mp3"
+  },
+  {
+    "id": "talk-56",
+    "title": "television 电视",
+    "zh": "television 电视",
+    "category": "talk",
+    "duration": 82.050594,
+    "file": "audio/talk/talk-56.mp3"
+  },
+  {
+    "id": "talk-57",
+    "title": "pillow 枕头",
+    "zh": "pillow 枕头",
+    "category": "talk",
+    "duration": 71.836719,
+    "file": "audio/talk/talk-57.mp3"
+  },
+  {
+    "id": "talk-58",
+    "title": "clock 钟",
+    "zh": "clock 钟",
+    "category": "talk",
+    "duration": 69.381219,
+    "file": "audio/talk/talk-58.mp3"
+  },
+  {
+    "id": "talk-59",
+    "title": "circle 圆形",
+    "zh": "circle 圆形",
+    "category": "talk",
+    "duration": 66.429375,
+    "file": "audio/talk/talk-59.mp3"
+  },
+  {
+    "id": "talk-60",
+    "title": "doll 娃娃",
+    "zh": "doll 娃娃",
+    "category": "talk",
+    "duration": 73.168969,
+    "file": "audio/talk/talk-60.mp3"
+  },
+  {
+    "id": "talk-61",
+    "title": "sink 水槽",
+    "zh": "sink 水槽",
+    "category": "talk",
+    "duration": 73.769781,
+    "file": "audio/talk/talk-61.mp3"
+  },
+  {
+    "id": "talk-62",
+    "title": "clay 黏土",
+    "zh": "clay 黏土",
+    "category": "talk",
+    "duration": 73.743656,
+    "file": "audio/talk/talk-62.mp3"
+  },
+  {
+    "id": "talk-63",
+    "title": "bib 围兜",
+    "zh": "bib 围兜",
+    "category": "talk",
+    "duration": 76.878344,
+    "file": "audio/talk/talk-63.mp3"
+  },
+  {
+    "id": "talk-64",
+    "title": "mosquito 蚊子",
+    "zh": "mosquito 蚊子",
+    "category": "talk",
+    "duration": 78.759156,
+    "file": "audio/talk/talk-64.mp3"
+  },
+  {
+    "id": "talk-65",
+    "title": "scissors 剪刀",
+    "zh": "scissors 剪刀",
+    "category": "talk",
+    "duration": 78.341219,
+    "file": "audio/talk/talk-65.mp3"
+  },
+  {
+    "id": "talk-66",
+    "title": "balloon 气球",
+    "zh": "balloon 气球",
+    "category": "talk",
+    "duration": 71.836719,
+    "file": "audio/talk/talk-66.mp3"
+  },
+  {
+    "id": "talk-67",
+    "title": "bathtub 浴缸",
+    "zh": "bathtub 浴缸",
+    "category": "talk",
+    "duration": 74.266094,
+    "file": "audio/talk/talk-67.mp3"
+  },
+  {
+    "id": "talk-68",
+    "title": "thermometer 温度计",
+    "zh": "thermometer 温度计",
+    "category": "talk",
+    "duration": 89.33875,
+    "file": "audio/talk/talk-68.mp3"
+  },
+  {
+    "id": "talk-69",
+    "title": "drawer 抽屉",
+    "zh": "drawer 抽屉",
+    "category": "talk",
+    "duration": 68.075094,
+    "file": "audio/talk/talk-69.mp3"
+  },
+  {
+    "id": "talk-70",
+    "title": "snack 零食",
+    "zh": "snack 零食",
+    "category": "talk",
+    "duration": 66.4555,
+    "file": "audio/talk/talk-70.mp3"
+  },
+  {
+    "id": "talk-71",
+    "title": "wall 墙壁",
+    "zh": "wall 墙壁",
+    "category": "talk",
+    "duration": 70.217125,
+    "file": "audio/talk/talk-71.mp3"
+  },
+  {
+    "id": "talk-72",
+    "title": "fan 风扇",
+    "zh": "fan 风扇",
+    "category": "talk",
+    "duration": 72.69875,
+    "file": "audio/talk/talk-72.mp3"
+  },
+  {
+    "id": "talk-73",
+    "title": "shampoo 洗发水",
+    "zh": "shampoo 洗发水",
+    "category": "talk",
+    "duration": 69.982031,
+    "file": "audio/talk/talk-73.mp3"
+  },
+  {
+    "id": "talk-74",
+    "title": "glue 胶水",
+    "zh": "glue 胶水",
+    "category": "talk",
+    "duration": 78.550188,
+    "file": "audio/talk/talk-74.mp3"
+  },
+  {
+    "id": "talk-75",
+    "title": "bubble (吹)泡泡",
+    "zh": "bubble (吹)泡泡",
+    "category": "talk",
+    "duration": 70.34775,
+    "file": "audio/talk/talk-75.mp3"
+  },
+  {
+    "id": "talk-76",
+    "title": "bookshelf 书架",
+    "zh": "bookshelf 书架",
+    "category": "talk",
+    "duration": 71.288156,
+    "file": "audio/talk/talk-76.mp3"
+  },
+  {
+    "id": "talk-77",
+    "title": "mirror 镜子",
+    "zh": "mirror 镜子",
+    "category": "talk",
+    "duration": 70.164875,
+    "file": "audio/talk/talk-77.mp3"
+  },
+  {
+    "id": "talk-78",
+    "title": "dumpling 饺子",
+    "zh": "dumpling 饺子",
+    "category": "talk",
+    "duration": 68.022844,
+    "file": "audio/talk/talk-78.mp3"
+  },
+  {
+    "id": "talk-79",
+    "title": "bag 包",
+    "zh": "bag 包",
+    "category": "talk",
+    "duration": 63.634281,
+    "file": "audio/talk/talk-79.mp3"
+  },
+  {
+    "id": "talk-80",
+    "title": "heater 取暖器",
+    "zh": "heater 取暖器",
+    "category": "talk",
+    "duration": 72.150188,
+    "file": "audio/talk/talk-80.mp3"
+  },
+  {
+    "id": "talk-81",
+    "title": "fish (吃)鱼",
+    "zh": "fish (吃)鱼",
+    "category": "talk",
+    "duration": 69.668562,
+    "file": "audio/talk/talk-81.mp3"
+  },
+  {
+    "id": "talk-82",
+    "title": "slippers 拖鞋",
+    "zh": "slippers 拖鞋",
+    "category": "talk",
+    "duration": 74.840812,
+    "file": "audio/talk/talk-82.mp3"
+  },
+  {
+    "id": "talk-83",
+    "title": "paper 纸",
+    "zh": "paper 纸",
+    "category": "talk",
+    "duration": 64.548563,
+    "file": "audio/talk/talk-83.mp3"
+  },
+  {
+    "id": "talk-84",
+    "title": "puzzle 拼图",
+    "zh": "puzzle 拼图",
+    "category": "talk",
+    "duration": 58.72325,
+    "file": "audio/talk/talk-84.mp3"
+  },
+  {
+    "id": "talk-85",
+    "title": "balcony 阳台",
+    "zh": "balcony 阳台",
+    "category": "talk",
+    "duration": 79.36,
+    "file": "audio/talk/talk-85.mp3"
+  },
+  {
+    "id": "talk-86",
+    "title": "fruit 水果",
+    "zh": "fruit 水果",
+    "category": "talk",
+    "duration": 69.407344,
+    "file": "audio/talk/talk-86.mp3"
+  },
+  {
+    "id": "talk-87",
+    "title": "elevator 电梯",
+    "zh": "elevator 电梯",
+    "category": "talk",
+    "duration": 60.839156,
+    "file": "audio/talk/talk-87.mp3"
+  },
+  {
+    "id": "talk-88",
+    "title": "washing machine 洗衣机",
+    "zh": "washing machine 洗衣机",
+    "category": "talk",
+    "duration": 63.84325,
+    "file": "audio/talk/talk-88.mp3"
+  },
+  {
+    "id": "talk-89",
+    "title": "fridge 冰箱",
+    "zh": "fridge 冰箱",
+    "category": "talk",
+    "duration": 66.011406,
+    "file": "audio/talk/talk-89.mp3"
+  },
+  {
+    "id": "talk-90",
+    "title": "nose 鼻子",
+    "zh": "nose 鼻子",
+    "category": "talk",
+    "duration": 60.0555,
+    "file": "audio/talk/talk-90.mp3"
+  },
+  {
+    "id": "talk-91",
+    "title": "scale 秤",
+    "zh": "scale 秤",
+    "category": "talk",
+    "duration": 72.359156,
+    "file": "audio/talk/talk-91.mp3"
+  },
+  {
+    "id": "talk-92",
+    "title": "exercise 做运动",
+    "zh": "exercise 做运动",
+    "category": "talk",
+    "duration": 59.924875,
+    "file": "audio/talk/talk-92.mp3"
+  },
+  {
+    "id": "talk-93",
+    "title": "toy car 玩具车",
+    "zh": "toy car 玩具车",
+    "category": "talk",
+    "duration": 64.574687,
+    "file": "audio/talk/talk-93.mp3"
+  },
+  {
+    "id": "talk-94",
+    "title": "eye 眼睛",
+    "zh": "eye 眼睛",
+    "category": "talk",
+    "duration": 61.596719,
+    "file": "audio/talk/talk-94.mp3"
+  },
+  {
+    "id": "talk-95",
+    "title": "play doctor 医生游戏",
+    "zh": "play doctor 医生游戏",
+    "category": "talk",
+    "duration": 67.108563,
+    "file": "audio/talk/talk-95.mp3"
+  },
+  {
+    "id": "talk-96",
+    "title": "bike 自行车",
+    "zh": "bike 自行车",
+    "category": "talk",
+    "duration": 61.048156,
+    "file": "audio/talk/talk-96.mp3"
+  },
+  {
+    "id": "talk-97",
+    "title": "talking pen 点读笔",
+    "zh": "talking pen 点读笔",
+    "category": "talk",
+    "duration": 62.223656,
+    "file": "audio/talk/talk-97.mp3"
+  },
+  {
+    "id": "talk-98",
+    "title": "box 盒子",
+    "zh": "box 盒子",
+    "category": "talk",
+    "duration": 65.071,
+    "file": "audio/talk/talk-98.mp3"
+  },
+  {
+    "id": "talk-99",
+    "title": "mouth 嘴巴",
+    "zh": "mouth 嘴巴",
+    "category": "talk",
+    "duration": 66.351,
+    "file": "audio/talk/talk-99.mp3"
   }
 ];

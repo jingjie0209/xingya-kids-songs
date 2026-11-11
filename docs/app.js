@@ -12,6 +12,7 @@
   ];
   const tabCategoryGroups = {
     wow: ['wow-yellow', 'wow-blue', 'wow-red'],
+    talk: ['talk'],
   };
   let activeTab = 'songs';
   let songs = window.SONGS.filter((song) => !song.category.startsWith('wow-'));
@@ -411,12 +412,14 @@
   }
 
   function updateActiveCollections() {
-    if (activeTab === 'wow') {
-      categories = allCategories.filter((category) => tabCategoryGroups.wow.includes(category.id));
-      songs = allSongs.filter((song) => tabCategoryGroups.wow.includes(song.category));
+    if (tabCategoryGroups[activeTab]) {
+      const allowed = tabCategoryGroups[activeTab];
+      categories = allCategories.filter((category) => allowed.includes(category.id));
+      songs = allSongs.filter((song) => allowed.includes(song.category));
     } else {
-      categories = allCategories.filter((category) => !category.id.startsWith('wow-'));
-      songs = allSongs.filter((song) => !song.category.startsWith('wow-'));
+      const hidden = Object.values(tabCategoryGroups).flat();
+      categories = allCategories.filter((category) => !hidden.includes(category.id));
+      songs = allSongs.filter((song) => !hidden.includes(song.category));
     }
     if (!songById.has(currentSongId) && songs.length) {
       currentSongId = songs[0].id;
@@ -579,7 +582,7 @@
       chip.classList.toggle('is-active', active);
       chip.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
-    if (activeTab !== 'songs' && activeTab !== 'wow') {
+    if (!tabCategoryGroups[activeTab]) {
       els.playlistGroups.innerHTML = `
         <div class="empty-tab">
           <svg><use href="#icon-music"></use></svg>
@@ -600,7 +603,7 @@
     });
     document.body.dataset.tab = tabId;
     updateActiveCollections();
-    if (activeTab === 'songs' || activeTab === 'wow') {
+    if (tabCategoryGroups[activeTab]) {
       renderPlaylist();
     } else {
       applyFilter();
