@@ -8,9 +8,9 @@ else
   PORT=8765
 fi
 
-URL="http://127.0.0.1:${PORT}/?v=84"
+URL="http://127.0.0.1:${PORT}/?v=87"
 is_app() {
-  /usr/bin/curl -s --max-time 1 "$URL" 2>/dev/null | /usr/bin/grep -q '84 首英文启蒙儿歌'
+  /usr/bin/curl -s --max-time 1 "$URL" 2>/dev/null | /usr/bin/grep -q '87 首英文启蒙儿歌'
 }
 
 if is_app; then

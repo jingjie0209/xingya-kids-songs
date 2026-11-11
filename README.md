@@ -1,10 +1,10 @@
 # 星芽儿歌
 
-一个面向 84 首英文启蒙儿歌的本地 PWA 播放器，按 14 个主题分类。
+一个面向 87 首英文启蒙儿歌的本地 PWA 播放器，按 14 个主题分类。
 
 ## 已实现
 
-- 84 首英文启蒙儿歌，14 个主题分类
+- 87 首英文启蒙儿歌，14 个主题分类
 
 - 单曲循环、顺序播放、随机播放
 - 上一曲、下一曲
@@ -25,7 +25,7 @@
 python3 -m http.server 8765
 ```
 
-然后访问 <http://127.0.0.1:8765/?v=84>。
+然后访问 <http://127.0.0.1:8765/?v=87>。
 
 在线版：<https://jingjie0209.github.io/xingya-kids-songs/>
 
@@ -37,7 +37,7 @@ GitHub Pages 使用 `docs/` 中的轻量页面，音频通过 GitHub 仓库的 j
 - Android：使用 Chrome 打开，点菜单 →「安装应用」。
 - Mac / Windows：Chrome 或 Edge 地址栏右侧点安装图标。
 
-浏览器要求安装页面运行在 `localhost` 或 HTTPS 环境。若要安装到手机并在家庭网络使用，建议部署到 GitHub Pages、Cloudflare Pages 或任意 HTTPS 静态托管。84 首音频共约 232MB，播放过的歌曲会由浏览器增量缓存。
+浏览器要求安装页面运行在 `localhost` 或 HTTPS 环境。若要安装到手机并在家庭网络使用，建议部署到 GitHub Pages、Cloudflare Pages 或任意 HTTPS 静态托管。87 首音频共约 237MB，播放过的歌曲会由浏览器增量缓存。
 
 ## 后台播放说明
 

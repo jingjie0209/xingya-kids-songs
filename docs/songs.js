@@ -785,5 +785,29 @@ window.SONGS = [
     "category": "animals",
     "duration": 282.514286,
     "file": "https://cdn.jsdelivr.net/gh/jingjie0209/xingya-kids-songs@main/audio/bees-go-buzzing.mp3"
+  },
+  {
+    "id": "humpty-dumpty",
+    "title": "Humpty Dumpty",
+    "zh": "蛋头先生",
+    "category": "rhymes",
+    "duration": 78.837551,
+    "file": "https://cdn.jsdelivr.net/gh/jingjie0209/xingya-kids-songs@main/audio/humpty-dumpty.mp3"
+  },
+  {
+    "id": "we-wish-you-a-merry-christmas",
+    "title": "We Wish You A Merry Christmas",
+    "zh": "祝你圣诞快乐",
+    "category": "holidays",
+    "duration": 120.137143,
+    "file": "https://cdn.jsdelivr.net/gh/jingjie0209/xingya-kids-songs@main/audio/we-wish-you-a-merry-christmas.mp3"
+  },
+  {
+    "id": "mary-had-a-little-lamb",
+    "title": "Mary Had A Little Lamb",
+    "zh": "玛丽有只小羊羔",
+    "category": "animals",
+    "duration": 176.274286,
+    "file": "https://cdn.jsdelivr.net/gh/jingjie0209/xingya-kids-songs@main/audio/mary-had-a-little-lamb.mp3"
   }
 ];
