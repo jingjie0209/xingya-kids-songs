@@ -295,8 +295,8 @@
         artist: 'baby专属',
         album: category?.name || '英文启蒙儿歌',
         artwork: [
-          { src: new URL('icons/icon-192-v2.png?v=22', window.location.href).href, sizes: '192x192', type: 'image/png' },
-          { src: new URL('icons/icon-512-v2.png?v=22', window.location.href).href, sizes: '512x512', type: 'image/png' },
+          { src: new URL('icons/icon-192-v3.png?v=23', window.location.href).href, sizes: '192x192', type: 'image/png' },
+          { src: new URL('icons/icon-512-v3.png?v=23', window.location.href).href, sizes: '512x512', type: 'image/png' },
         ],
       });
     } catch (error) {
