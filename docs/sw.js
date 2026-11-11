@@ -1,4 +1,4 @@
-const CACHE_NAME = 'xingya-shell-v9';
+const CACHE_NAME = 'xingya-shell-v13';
 const SHELL = [
   './',
   './index.html',
@@ -34,18 +34,29 @@ self.addEventListener('fetch', (event) => {
   // Cache songs from the same origin or the GitHub CDN after their first play.
   // jsDelivr sends CORS headers, so these responses can be stored by the Cache API.
   if (request.destination === 'audio') {
-    event.respondWith(
-      caches.match(request).then((cached) => {
-        if (cached) return cached;
-        return fetch(request).then((response) => {
-          if (response.status === 200 || response.status === 206) {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-          }
-          return response;
-        });
-      })
-    );
+    event.respondWith((async () => {
+      const cache = await caches.open(CACHE_NAME);
+      // Always use the song URL as the cache key. Browsers send a different
+      // Range header while seeking, and partial responses must never replace
+      // the complete cached song.
+      const cacheKey = new URL(request.url).toString();
+      const cached = await cache.match(cacheKey, { ignoreVary: true });
+      if (cached) return cached;
+
+      try {
+        // Fetch the complete song once. Returning it to the initial Range
+        // request is accepted by Chrome/Safari, and later seeks reuse the cache.
+        const response = await fetch(request.url, { cache: 'default' });
+        if (response.ok) {
+          await cache.put(cacheKey, response.clone());
+        }
+        return response;
+      } catch (error) {
+        const fallback = await cache.match(cacheKey, { ignoreVary: true });
+        if (fallback) return fallback;
+        throw error;
+      }
+    })());
     return;
   }
 

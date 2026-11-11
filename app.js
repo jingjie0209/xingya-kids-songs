@@ -556,17 +556,25 @@
     });
   }
 
+  let loadingSongId = null;
+  let loadingToken = 0;
+
   function prepareAudioSource(song, preservePosition = false) {
     const oldPosition = preservePosition ? audio.currentTime : 0;
+    const token = ++loadingToken;
+    loadingSongId = song.id;
+    // Do not tear down the old element while the user can still hear it.
+    // Setting preload=auto lets Safari start buffering immediately; metadata
+    // usually arrives before playback is invoked, keeping the click instant.
     audio.src = song.file;
     audio.load();
-    if (preservePosition && Number.isFinite(oldPosition) && oldPosition > 0) {
-      const restore = () => {
-        audio.currentTime = Math.min(oldPosition, Number.isFinite(audio.duration) ? audio.duration - 0.1 : oldPosition);
-        audio.removeEventListener('loadedmetadata', restore);
-      };
-      audio.addEventListener('loadedmetadata', restore);
-    }
+    const restore = () => {
+      if (token !== loadingToken) return;
+      if (preservePosition && Number.isFinite(oldPosition) && oldPosition > 0) {
+        audio.currentTime = Math.min(oldPosition, Number.isFinite(audio.duration) ? Math.max(audio.duration - 0.1, 0) : oldPosition);
+      }
+    };
+    audio.addEventListener('loadedmetadata', restore, { once: true });
   }
 
   function loadSong(id, options = {}) {
@@ -702,8 +710,55 @@
     flushPlayTime();
     updateProgressUI();
   });
-  audio.addEventListener('waiting', flushPlayTime);
-  audio.addEventListener('stalled', flushPlayTime);
+  audio.addEventListener('waiting', () => {
+    flushPlayTime();
+    updateProgressUI();
+  });
+  audio.addEventListener('stalled', () => {
+    flushPlayTime();
+    updateProgressUI();
+  });
+
+  async function recoverPlayback(reason) {
+    const song = currentSong();
+    if (!song || audio.paused || audio.ended) return;
+    const position = audio.currentTime;
+    const wasPlaying = !audio.paused;
+    if (!wasPlaying) return;
+    showToast('网络有点慢，正在自动恢复播放…');
+    try {
+      if (Number.isFinite(audio.currentTime) && audio.currentTime > 0) {
+        audio.currentTime = Math.max(audio.currentTime - 0.08, 0);
+      } else {
+        audio.load();
+      }
+      await audio.play();
+    } catch (error) {
+      loadingToken += 1;
+      loadingSongId = null;
+      prepareAudioSource(song);
+      audio.currentTime = position;
+      try {
+        await audio.play();
+      } catch (retryError) {
+        showToast('播放中断了，请再点一次播放按钮');
+        audio.pause();
+      }
+    }
+  }
+
+  let recoverTimer = null;
+  audio.addEventListener('waiting', () => {
+    window.clearTimeout(recoverTimer);
+    recoverTimer = window.setTimeout(() => recoverPlayback('waiting'), 4200);
+  });
+  audio.addEventListener('stalled', () => {
+    window.clearTimeout(recoverTimer);
+    recoverTimer = window.setTimeout(() => recoverPlayback('stalled'), 4200);
+  });
+  ['playing', 'pause', 'ended', 'error'].forEach((type) => {
+    audio.addEventListener(type, () => window.clearTimeout(recoverTimer));
+  });
   audio.addEventListener('error', () => {
     if (audio.error) showToast('这首歌曲暂时无法播放，请检查文件是否完整');
     updatePlaybackButtons();
