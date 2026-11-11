@@ -616,7 +616,6 @@
               <strong>${item.title}</strong>
               <span>${item.note}</span>
             </span>
-            <span class="resource-card-arrow" aria-hidden="true">→</span>
           </a>
         `).join('')}
       </div>

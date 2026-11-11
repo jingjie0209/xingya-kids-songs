@@ -610,6 +610,11 @@ svg {
   margin-bottom: 28px;
 }
 
+.library-head[hidden],
+.filter-row[hidden] {
+  display: none !important;
+}
+
 .section-kicker {
   display: block;
   margin-bottom: 6px;
@@ -1677,13 +1682,6 @@ input[type="range"]::-moz-range-thumb {
   color: var(--muted);
   font-size: 10px;
   line-height: 1.5;
-}
-
-.resource-card-arrow {
-  flex: 0 0 auto;
-  color: #c77b96;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 @keyframes vinyl-spin {
