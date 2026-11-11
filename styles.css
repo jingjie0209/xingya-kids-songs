@@ -596,11 +596,10 @@ svg {
 .library {
   margin-top: 30px;
   padding: 36px 40px 42px;
-  border: 1px solid rgba(255,255,255,.76);
+  border: 1px solid rgba(23,43,69,.05);
   border-radius: var(--radius-xl);
-  background: rgba(255, 253, 248, 0.74);
+  background: #ffffff;
   box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(12px);
 }
 
 .library-head {
