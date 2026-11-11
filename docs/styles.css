@@ -1512,6 +1512,103 @@ input[type="range"]::-moz-range-thumb {
   transform: translate(-50%, 0);
 }
 
+/* Bottom tabs sit above the audio dock and keep five destinations thumb-reachable. */
+.bottom-tabs {
+  position: fixed;
+  z-index: 40;
+  right: 24px;
+  bottom: calc(128px + env(safe-area-inset-bottom));
+  left: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 2px;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 16px 38px rgba(23, 43, 69, 0.16);
+  backdrop-filter: blur(24px) saturate(1.2);
+}
+
+.tab-button {
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  gap: 2px;
+  padding: 6px 2px;
+  border: 0;
+  border-radius: 18px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 680;
+  letter-spacing: .02em;
+  transition: color .18s ease, background .18s ease, transform .18s ease;
+}
+
+.tab-button svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.tab-button span {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.tab-button.is-active {
+  background: #fff0f5;
+  color: #c25e83;
+}
+
+.tab-button.is-active svg {
+  color: #d16889;
+}
+
+.tab-button:active {
+  transform: scale(.98);
+}
+
+.empty-tab {
+  display: grid;
+  min-height: 180px;
+  place-items: center;
+  gap: 6px;
+  border: 1px dashed var(--line);
+  border-radius: 24px;
+  background: #faf8f2;
+  color: var(--muted);
+  text-align: center;
+}
+
+.empty-tab svg {
+  width: 34px;
+  height: 34px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.6;
+}
+
+.empty-tab strong {
+  color: var(--ink);
+  font-size: 16px;
+}
+
+.empty-tab span {
+  font-size: 10px;
+}
+
 @keyframes vinyl-spin {
   to { transform: rotate(360deg); }
 }
@@ -1547,11 +1644,16 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media (max-width: 860px) {
-  body { padding-bottom: calc(160px + env(safe-area-inset-bottom)); }
+  body { padding-bottom: calc(228px + env(safe-area-inset-bottom)); }
   .app-shell { padding: 18px 16px 18px; }
   .topbar { margin-bottom: 16px; }
-  .top-actions .install-button { width: 42px; padding: 0; justify-content: center; }
-  .top-actions .install-button span { display: none; }
+  .bottom-tabs {
+    right: 16px;
+    bottom: calc(124px + env(safe-area-inset-bottom));
+    left: 16px;
+    padding: 3px;
+    border-radius: 20px;
+  }
   .hero {
     min-height: 0;
     grid-template-columns: 1fr;
@@ -1591,7 +1693,7 @@ input[type="range"]::-moz-range-thumb {
   .dock-play-button { width: 43px; height: 43px; }
   .progress-row { grid-template-columns: 31px minmax(70px, 1fr) 31px; }
   .volume-button { display: none; }
-  .toast { bottom: calc(152px + env(safe-area-inset-bottom)); }
+  .toast { bottom: calc(206px + env(safe-area-inset-bottom)); }
 }
 
 @media (max-width: 560px) {
@@ -1627,6 +1729,9 @@ input[type="range"]::-moz-range-thumb {
   .song-duration { font-size: 9px; }
   .dock-copy strong { max-width: 185px; font-size: 12px; }
   .dock-copy span { max-width: 185px; }
+  .bottom-tabs { right: 10px; bottom: calc(121px + env(safe-area-inset-bottom)); left: 10px; }
+  .tab-button { font-size: 8px; gap: 1px; padding: 5px 1px; }
+  .tab-button svg { width: 16px; height: 16px; }
   .mini-cover { width: 43px; height: 43px; border-radius: 13px; }
   .mode-button { height: 34px; padding-inline: 9px; }
   .mode-button span { display: none; }

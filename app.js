@@ -1,8 +1,21 @@
 (() => {
   'use strict';
 
-  const songs = window.SONGS || [];
-  const categories = window.SONG_CATEGORIES || [];
+  const allSongs = window.SONGS || [];
+  const allCategories = window.SONG_CATEGORIES || [];
+  const tabs = [
+    { id: 'songs', name: '儿歌', icon: 'music' },
+    { id: 'wow', name: 'wow', icon: 'globe' },
+    { id: 'littlefox', name: 'little fox', icon: 'abc' },
+    { id: 'talk', name: '见物能聊', icon: 'hand' },
+    { id: 'scene', name: '场景口语', icon: 'bus' },
+  ];
+  const tabCategoryGroups = {
+    wow: ['wow-yellow', 'wow-blue', 'wow-red'],
+  };
+  let activeTab = 'songs';
+  let songs = window.SONGS.filter((song) => !song.category.startsWith('wow-'));
+  let categories = window.SONG_CATEGORIES.filter((category) => !category.id.startsWith('wow-'));
   const songById = new Map(songs.map((song) => [song.id, song]));
   const categoryById = new Map(categories.map((category) => [category.id, category]));
   const audio = document.getElementById('audio');
@@ -71,6 +84,7 @@
     closeInstallButton: document.getElementById('closeInstallButton'),
     installConfirmButton: document.getElementById('installConfirmButton'),
     toast: document.getElementById('toast'),
+    tabBar: document.getElementById('tabBar'),
   };
 
   function readJSON(key, fallback) {
@@ -396,6 +410,19 @@
     els.volumeButton.title = audio.muted || audio.volume === 0 ? '取消静音' : '静音';
   }
 
+  function updateActiveCollections() {
+    if (activeTab === 'wow') {
+      categories = allCategories.filter((category) => tabCategoryGroups.wow.includes(category.id));
+      songs = allSongs.filter((song) => tabCategoryGroups.wow.includes(song.category));
+    } else {
+      categories = allCategories.filter((category) => !category.id.startsWith('wow-'));
+      songs = allSongs.filter((song) => !song.category.startsWith('wow-'));
+    }
+    if (!songById.has(currentSongId) && songs.length) {
+      currentSongId = songs[0].id;
+    }
+  }
+
   function groupSongs(categoryId) {
     return songs
       .map((song, index) => ({ song, index }))
@@ -464,7 +491,7 @@
 
   function updateSongRows() {
     const playing = !audio.paused && !audio.ended;
-    els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
+    document.querySelectorAll('.song-row').forEach((row) => {
       const isCurrent = row.dataset.songId === currentSongId;
       row.classList.toggle('is-current', isCurrent);
       row.setAttribute('aria-current', isCurrent ? 'true' : 'false');
@@ -479,20 +506,21 @@
   }
 
   function updateCountsUI() {
-    els.playlistGroups.querySelectorAll('[data-count-id]').forEach((element) => {
+    document.querySelectorAll('[data-count-id]').forEach((element) => {
       const count = Number(playCounts[element.dataset.countId]) || 0;
       element.textContent = `播放 ${count} 次`;
     });
-    const total = songs.reduce((sum, song) => sum + (Number(playCounts[song.id]) || 0), 0);
+    const total = allSongs.reduce((sum, song) => sum + (Number(playCounts[song.id]) || 0), 0);
     els.totalPlayCount.textContent = `共 ${total} 次`;
     updateStatsUI();
   }
 
   function todayPlayCount() {
-    return songs.reduce((sum, song) => sum + (Number(daily.playCounts[song.id]) || 0), 0);
+    return allSongs.reduce((sum, song) => sum + (Number(daily.playCounts[song.id]) || 0), 0);
   }
 
   function updateStatsUI() {
+    els.heroTotalDuration.textContent = String(Math.round(songs.reduce((sum, song) => sum + (Number(song.duration) || 0), 0) / 60));
     const duration = formatCompactDuration(daily.totalMs);
     els.headerTodayDuration.textContent = duration;
     els.heroTodayDuration.textContent = duration;
@@ -500,7 +528,7 @@
     els.todayDurationDetail.textContent = daily.totalMs > 0 ? '仅统计今天正在播放的时间' : '今天还没有开始聆听';
     els.todayPlayCount.textContent = `${todayPlayCount()} 次`;
 
-    const ranked = songs
+    const ranked = allSongs
       .map((song) => ({ song, count: Number(playCounts[song.id]) || 0 }))
       .sort((a, b) => b.count - a.count);
     const top = ranked[0];
@@ -546,11 +574,40 @@
     els.playlistGroups.querySelectorAll('[data-group-category]').forEach((group) => {
       group.hidden = activeFilter !== 'all' && group.dataset.groupCategory !== activeFilter;
     });
-    document.querySelectorAll('.filter-chip').forEach((chip) => {
+    els.filterRow.querySelectorAll('.filter-chip').forEach((chip) => {
       const active = chip.dataset.filter === activeFilter;
       chip.classList.toggle('is-active', active);
       chip.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
+    if (activeTab !== 'songs' && activeTab !== 'wow') {
+      els.playlistGroups.innerHTML = `
+        <div class="empty-tab">
+          <svg><use href="#icon-music"></use></svg>
+          <strong>${tabs.find((tab) => tab.id === activeTab)?.name || ''}</strong>
+          <span>内容正在准备中</span>
+        </div>
+      `;
+    }
+  }
+
+  function switchTab(tabId) {
+    activeTab = tabId;
+    activeFilter = 'all';
+    document.querySelectorAll('.tab-button').forEach((button) => {
+      const active = button.dataset.tab === tabId;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    document.body.dataset.tab = tabId;
+    updateActiveCollections();
+    if (activeTab === 'songs' || activeTab === 'wow') {
+      renderPlaylist();
+    } else {
+      applyFilter();
+    }
+    updatePlaybackButtons();
+    updateProgressUI();
+    updateStatsUI();
   }
 
   let loadingSongId = null;
@@ -779,6 +836,12 @@
   els.playAllButton.addEventListener('click', playAll);
   els.modeButton.addEventListener('click', cycleMode);
 
+  els.tabBar.addEventListener('click', (event) => {
+    const button = event.target.closest('.tab-button');
+    if (!button || button.dataset.tab === activeTab) return;
+    switchTab(button.dataset.tab);
+  });
+
   els.filterRow.addEventListener('click', (event) => {
     const chip = event.target.closest('.filter-chip');
     if (!chip) return;
@@ -947,12 +1010,11 @@
     }
   }, 500);
 
-  const totalSeconds = songs.reduce((sum, song) => sum + (Number(song.duration) || 0), 0);
-  els.heroTotalDuration.textContent = String(Math.round(totalSeconds / 60));
+  updateActiveCollections();
   updateModeUI();
   updateVolumeUI();
   if (currentSongId) {
-    prepareAudioSource(currentSong());
+    prepareAudioSource(songById.get(currentSongId));
     updateSongInfo();
   }
   renderPlaylist();

@@ -10,9 +10,9 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="baby专属">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="apple-touch-icon" href="icons/apple-touch-icon-v3.png?v=27">
-  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v3.png?v=27">
-  <link rel="stylesheet" href="styles.css?v=30">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon-v3.png?v=31">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v3.png?v=31">
+  <link rel="stylesheet" href="styles.css?v=31">
   <title>baby专属</title>
 </head>
 <body>
@@ -122,9 +122,25 @@
         </div>
         <div class="playlist-groups" id="playlistGroups"></div>
       </section>
-    </main>
+      <nav class="bottom-tabs" id="tabBar" role="tablist" aria-label="内容分类">
+        <button class="tab-button is-active" type="button" data-tab="songs" role="tab" aria-selected="true">
+          <svg><use href="#icon-music"></use></svg><span>儿歌</span>
+        </button>
+        <button class="tab-button" type="button" data-tab="wow" role="tab" aria-selected="false">
+          <svg><use href="#icon-globe"></use></svg><span>wow</span>
+        </button>
+        <button class="tab-button" type="button" data-tab="littlefox" role="tab" aria-selected="false">
+          <svg><use href="#icon-abc"></use></svg><span>little fox</span>
+        </button>
+        <button class="tab-button" type="button" data-tab="talk" role="tab" aria-selected="false">
+          <svg><use href="#icon-hand"></use></svg><span>见物能聊</span>
+        </button>
+        <button class="tab-button" type="button" data-tab="scene" role="tab" aria-selected="false">
+          <svg><use href="#icon-bus"></use></svg><span>场景口语</span>
+        </button>
+      </nav>
 
-    <footer class="player-dock" id="playerDock" aria-label="播放器">
+      <footer class="player-dock" id="playerDock" aria-label="播放器">
       <div class="dock-now">
         <div class="mini-cover" id="dockCover" data-category="lullaby">
           <svg class="category-icon" id="dockCategoryIcon"><use href="#icon-moon"></use></svg>
@@ -253,7 +269,7 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <audio id="audio" preload="auto" playsinline crossorigin="anonymous"></audio>
 
-  <script src="songs.js?v=27"></script>
-  <script src="app.js?v=27"></script>
+  <script src="songs.js?v=31"></script>
+  <script src="app.js?v=31"></script>
 </body>
 </html>

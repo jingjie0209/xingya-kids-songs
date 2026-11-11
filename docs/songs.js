@@ -110,6 +110,30 @@ window.SONG_CATEGORIES = [
     "note": "农场、丛林和海洋动物",
     "icon": "paw",
     "color": "#668d4f"
+  },
+  {
+    "id": "wow-yellow",
+    "name": "Wow! Yellow",
+    "english": "YELLOW 3-4",
+    "note": "黄色分级课程音频",
+    "icon": "globe",
+    "color": "#e8a13a"
+  },
+  {
+    "id": "wow-blue",
+    "name": "Wow! Blue",
+    "english": "BLUE 4-6",
+    "note": "蓝色分级课程音频",
+    "icon": "globe",
+    "color": "#4f8ccc"
+  },
+  {
+    "id": "wow-red",
+    "name": "Wow! Red",
+    "english": "RED 5-6",
+    "note": "红色分级课程音频",
+    "icon": "globe",
+    "color": "#cf5b5f"
   }
 ];
 
@@ -825,5 +849,797 @@ window.SONGS = [
     "category": "rhymes",
     "duration": 84.610563,
     "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/jack-and-jill.mp3"
+  },
+  {
+    "id": "wow-yellow-001",
+    "title": "Wow!Yellow Unit 1 hello video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 234.888,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-001.mp3"
+  },
+  {
+    "id": "wow-yellow-002",
+    "title": "Wow!Yellow Unit 1 hello video_song1",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 105.216,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-002.mp3"
+  },
+  {
+    "id": "wow-yellow-003",
+    "title": "Wow!Yellow Unit 1 hello video_song2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 69.288,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-003.mp3"
+  },
+  {
+    "id": "wow-yellow-004",
+    "title": "Wow!Yellow Unit 2 colour video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 232.344,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-004.mp3"
+  },
+  {
+    "id": "wow-yellow-005",
+    "title": "Wow!Yellow Unit 2 colour video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 151.968,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-005.mp3"
+  },
+  {
+    "id": "wow-yellow-006",
+    "title": "Wow!Yellow Unit 3 garden - part 1 video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 286.32,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-006.mp3"
+  },
+  {
+    "id": "wow-yellow-007",
+    "title": "Wow!Yellow Unit 3 garden - part 1 video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 93.84,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-007.mp3"
+  },
+  {
+    "id": "wow-yellow-008",
+    "title": "Wow!Yellow Unit 3 garden - part 2 video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 291.12,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-008.mp3"
+  },
+  {
+    "id": "wow-yellow-009",
+    "title": "Wow!Yellow Unit 3 garden - part 2 video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 90.36,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-009.mp3"
+  },
+  {
+    "id": "wow-yellow-010",
+    "title": "Wow!Yellow Unit 4 toys- part 1 video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 233.088,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-010.mp3"
+  },
+  {
+    "id": "wow-yellow-011",
+    "title": "Wow!Yellow Unit 4 toys- part 1 video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 76.08,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-011.mp3"
+  },
+  {
+    "id": "wow-yellow-012",
+    "title": "Wow!Yellow Unit 4 'toys' - part 2 video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 306.0,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-012.mp3"
+  },
+  {
+    "id": "wow-yellow-013",
+    "title": "Wow!Yellow Unit 4 'toys' - part 2 video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 76.056,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-013.mp3"
+  },
+  {
+    "id": "wow-yellow-014",
+    "title": "Wow!Yellow Unit 5 'body' - part 1 video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 268.608,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-014.mp3"
+  },
+  {
+    "id": "wow-yellow-015",
+    "title": "Wow!Yellow Unit 5 'body' - part 1 video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 92.688,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-015.mp3"
+  },
+  {
+    "id": "wow-yellow-016",
+    "title": "Wow!Yellow Unit 5 'body' - part 2 video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 253.464,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-016.mp3"
+  },
+  {
+    "id": "wow-yellow-017",
+    "title": "Wow!Yellow Unit 5 'body' - part 2 video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 92.928,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-017.mp3"
+  },
+  {
+    "id": "wow-yellow-018",
+    "title": "Wow!Yellow Unit 6 'food' - part 1 video_story",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 284.52,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-018.mp3"
+  },
+  {
+    "id": "wow-yellow-019",
+    "title": "Wow!Yellow Unit 6 'food' - part 1 video_song",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 154.992,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-019.mp3"
+  },
+  {
+    "id": "wow-yellow-020",
+    "title": "Wow!Yellow Unit 6 'food' - part 2 video_story_6_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 240.36,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-020.mp3"
+  },
+  {
+    "id": "wow-yellow-021",
+    "title": "Wow!Yellow Unit 6 'food' - part 2 video_song_6_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 148.56,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-021.mp3"
+  },
+  {
+    "id": "wow-yellow-022",
+    "title": "Wow!Yellow Unit 7 'bugs' - part 1 video_story_7_1",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 293.568,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-022.mp3"
+  },
+  {
+    "id": "wow-yellow-023",
+    "title": "Wow!Yellow Unit 7 'bugs' - part 1 video_song_7_1",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 74.856,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-023.mp3"
+  },
+  {
+    "id": "wow-yellow-024",
+    "title": "Wow!Yellow Unit 7 bugs - part 2 video_story_7_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 259.728,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-024.mp3"
+  },
+  {
+    "id": "wow-yellow-025",
+    "title": "Wow!Yellow Unit 7 bugs - part 2 video_song_7_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 72.336,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-025.mp3"
+  },
+  {
+    "id": "wow-yellow-026",
+    "title": "Wow!Yellow Unit 8 'feelings' - part 1 video_story_8_1",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 213.768,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-026.mp3"
+  },
+  {
+    "id": "wow-yellow-027",
+    "title": "Wow!Yellow Unit 8 'feelings' - part 1 video_song_8_1",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 88.752,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-027.mp3"
+  },
+  {
+    "id": "wow-yellow-028",
+    "title": "Wow!Yellow Unit 8 'feelings' - part 2 video_story_8_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 287.568,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-028.mp3"
+  },
+  {
+    "id": "wow-yellow-029",
+    "title": "Wow!Yellow Unit 8 'feelings' - part 2 video_song_8_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 91.008,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-029.mp3"
+  },
+  {
+    "id": "wow-yellow-030",
+    "title": "Wow!Yellow Unit 9 'clothes' - part 1 video_story_9_1",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 314.328,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-030.mp3"
+  },
+  {
+    "id": "wow-yellow-031",
+    "title": "Wow!Yellow Unit 9 'clothes' - part 1 video_song_9_1",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 86.208,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-031.mp3"
+  },
+  {
+    "id": "wow-yellow-032",
+    "title": "Wow!Yellow Unit 9 'clothes' - part 2 video_story_9_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 273.12,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-032.mp3"
+  },
+  {
+    "id": "wow-yellow-033",
+    "title": "Wow!Yellow Unit 9 'clothes' - part 2 video_song_9_2",
+    "zh": "黄色（3-4岁）",
+    "category": "wow-yellow",
+    "duration": 90.36,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-yellow-033.mp3"
+  },
+  {
+    "id": "wow-blue-001",
+    "title": "Wow!Blue - Unit 1 story",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 228.288,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-001.mp3"
+  },
+  {
+    "id": "wow-blue-002",
+    "title": "Wow!Blue - Unit 1 song1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 72.36,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-002.mp3"
+  },
+  {
+    "id": "wow-blue-003",
+    "title": "Wow!Blue - Unit 1 song2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 85.776,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-003.mp3"
+  },
+  {
+    "id": "wow-blue-004",
+    "title": "Wow!Blue - Unit 2 story",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 377.76,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-004.mp3"
+  },
+  {
+    "id": "wow-blue-005",
+    "title": "Wow!Blue - Unit 2 song",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 143.76,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-005.mp3"
+  },
+  {
+    "id": "wow-blue-006",
+    "title": "Wow!Blue - Unit 3 - part 1 story",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 244.968,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-006.mp3"
+  },
+  {
+    "id": "wow-blue-007",
+    "title": "Wow!Blue - Unit 3 - part 1 song",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 151.704,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-007.mp3"
+  },
+  {
+    "id": "wow-blue-008",
+    "title": "Wow!Blue - Unit 3 - part 2 story",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 242.592,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-008.mp3"
+  },
+  {
+    "id": "wow-blue-009",
+    "title": "Wow!Blue - Unit 3 - part 2 song",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 133.272,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-009.mp3"
+  },
+  {
+    "id": "wow-blue-010",
+    "title": "Wow!Blue - Unit 4 - part 1 story",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 267.864,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-010.mp3"
+  },
+  {
+    "id": "wow-blue-011",
+    "title": "Wow!Blue - Unit 4 - part 1 song",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 90.768,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-011.mp3"
+  },
+  {
+    "id": "wow-blue-012",
+    "title": "Wow!Blue - Unit 4 - part 2 story",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 355.416,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-012.mp3"
+  },
+  {
+    "id": "wow-blue-013",
+    "title": "Wow!Blue - Unit 4 - part 2 song",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 92.448,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-013.mp3"
+  },
+  {
+    "id": "wow-blue-014",
+    "title": "Wow!Blue - Unit 5 - part 1 story_5_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 209.616,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-014.mp3"
+  },
+  {
+    "id": "wow-blue-015",
+    "title": "Wow!Blue - Unit 5 - part 1 song_5_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 119.832,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-015.mp3"
+  },
+  {
+    "id": "wow-blue-016",
+    "title": "Wow!Blue - Unit 5 - part 2 story_5_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 336.024,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-016.mp3"
+  },
+  {
+    "id": "wow-blue-017",
+    "title": "Wow!Blue - Unit 5 - part 2 song_5_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 116.328,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-017.mp3"
+  },
+  {
+    "id": "wow-blue-018",
+    "title": "Wow!Blue - Unit 6 - part 1 story_6_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 347.4,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-018.mp3"
+  },
+  {
+    "id": "wow-blue-019",
+    "title": "Wow!Blue - Unit 6 - part 1 song_6_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 124.632,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-019.mp3"
+  },
+  {
+    "id": "wow-blue-020",
+    "title": "Wow!Blue - Unit 6 - part 2 story_6_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 288.648,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-020.mp3"
+  },
+  {
+    "id": "wow-blue-021",
+    "title": "Wow!Blue - Unit 6 - part 2 song_6_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 127.008,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-021.mp3"
+  },
+  {
+    "id": "wow-blue-022",
+    "title": "Wow!Blue - Unit 7 - part 1 story_7_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 395.952,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-022.mp3"
+  },
+  {
+    "id": "wow-blue-023",
+    "title": "Wow!Blue - Unit 7 - part 1 song_7_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 149.592,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-023.mp3"
+  },
+  {
+    "id": "wow-blue-024",
+    "title": "Wow!Blue - Unit 7 - part 2 story_7_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 259.992,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-024.mp3"
+  },
+  {
+    "id": "wow-blue-025",
+    "title": "Wow!Blue - Unit 7 - part 2 song_7_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 148.248,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-025.mp3"
+  },
+  {
+    "id": "wow-blue-026",
+    "title": "Wow!Blue - Unit 8 - part 1 story_8_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 283.488,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-026.mp3"
+  },
+  {
+    "id": "wow-blue-027",
+    "title": "Wow!Blue - Unit 8 - part 1 song_8_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 117.528,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-027.mp3"
+  },
+  {
+    "id": "wow-blue-028",
+    "title": "Wow!Blue - Unit 8 - part 2 story_8_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 359.472,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-028.mp3"
+  },
+  {
+    "id": "wow-blue-029",
+    "title": "Wow!Blue - Unit 8 - part 2 song_8_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 115.992,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-029.mp3"
+  },
+  {
+    "id": "wow-blue-030",
+    "title": "Wow!Blue - Unit 9 - part 1 story_9_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 332.232,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-030.mp3"
+  },
+  {
+    "id": "wow-blue-031",
+    "title": "Wow!Blue - Unit 9 - part 1 song_9_1",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 127.296,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-031.mp3"
+  },
+  {
+    "id": "wow-blue-032",
+    "title": "Wow!Blue - Unit 9 - part 2 story_9_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 312.672,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-032.mp3"
+  },
+  {
+    "id": "wow-blue-033",
+    "title": "Wow!Blue - Unit 9 - part 2 song_9_2",
+    "zh": "蓝色（4-6岁）",
+    "category": "wow-blue",
+    "duration": 129.576,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-blue-033.mp3"
+  },
+  {
+    "id": "wow-red-001",
+    "title": "Wow!Red - Unit 1 'hello' story_1_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 266.64,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-001.mp3"
+  },
+  {
+    "id": "wow-red-002",
+    "title": "Wow!Red - Unit 1 'hello' song_1_1a",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 101.568,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-002.mp3"
+  },
+  {
+    "id": "wow-red-003",
+    "title": "Wow!Red - Unit 1 'hello' song_1_1b",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 124.632,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-003.mp3"
+  },
+  {
+    "id": "wow-red-004",
+    "title": "Wow!Red - Unit 2 'colours' story_2_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 260.376,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-004.mp3"
+  },
+  {
+    "id": "wow-red-005",
+    "title": "Wow!Red - Unit 2 'colours' song_2_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 139.992,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-005.mp3"
+  },
+  {
+    "id": "wow-red-006",
+    "title": "Wow!Red - Unit 3 'at home' - part 1 story_3_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 274.728,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-006.mp3"
+  },
+  {
+    "id": "wow-red-007",
+    "title": "Wow!Red - Unit 3 'at home' - part 1 song_3_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 133.08,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-007.mp3"
+  },
+  {
+    "id": "wow-red-008",
+    "title": "Wow!Red - Unit 3 'at home' - part 2 story_3_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 351.84,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-008.mp3"
+  },
+  {
+    "id": "wow-red-009",
+    "title": "Wow!Red - Unit 3 'at home' - part 2 song_3_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 135.048,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-009.mp3"
+  },
+  {
+    "id": "wow-red-010",
+    "title": "Wow!Red - Unit 4 'music' - part 1 story_4_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 334.056,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-010.mp3"
+  },
+  {
+    "id": "wow-red-011",
+    "title": "Wow!Red - Unit 4 'music' - part 1 song_4_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 155.04,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-011.mp3"
+  },
+  {
+    "id": "wow-red-012",
+    "title": "Wow!Red - Unit 4 'music' - part 2 story_4_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 254.424,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-012.mp3"
+  },
+  {
+    "id": "wow-red-013",
+    "title": "Wow!Red - Unit 4 'music' - part 2 song_4_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 150.408,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-013.mp3"
+  },
+  {
+    "id": "wow-red-014",
+    "title": "Wow!Red - Unit 5 'face' - part 1 story_5_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 342.84,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-014.mp3"
+  },
+  {
+    "id": "wow-red-015",
+    "title": "Wow!Red - Unit 5 'face' - part 1 song_5_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 145.68,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-015.mp3"
+  },
+  {
+    "id": "wow-red-016",
+    "title": "Wow!Red - Unit 5 'face' - part 2 story_5_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 312.48,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-016.mp3"
+  },
+  {
+    "id": "wow-red-017",
+    "title": "Wow!Red - Unit 5 'face' - part 2 song_5_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 143.568,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-017.mp3"
+  },
+  {
+    "id": "wow-red-018",
+    "title": "Wow!Red - Unit 6 'fruit' - part 1 story_6_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 344.448,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-018.mp3"
+  },
+  {
+    "id": "wow-red-019",
+    "title": "Wow!Red - Unit 6 'fruit' - part 1 song_6_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 117.888,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-019.mp3"
+  },
+  {
+    "id": "wow-red-020",
+    "title": "Wow!Red - Unit 6 'fruit' - part 2 story_6_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 368.28,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-020.mp3"
+  },
+  {
+    "id": "wow-red-021",
+    "title": "Wow!Red - Unit 6 'fruit' - part 2 song_6_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 118.608,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-021.mp3"
+  },
+  {
+    "id": "wow-red-022",
+    "title": "Wow!Red - Unit 7 'farm' - part 1 story_7_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 319.752,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-022.mp3"
+  },
+  {
+    "id": "wow-red-023",
+    "title": "Wow!Red - Unit 7 'farm' - part 1 song_7_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 210.912,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-023.mp3"
+  },
+  {
+    "id": "wow-red-024",
+    "title": "Wow!Red - Unit 7 'farm' - part 2 story_7_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 333.048,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-024.mp3"
+  },
+  {
+    "id": "wow-red-025",
+    "title": "Wow!Red - Unit 7 'farm' - part 2 song_7_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 211.872,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-025.mp3"
+  },
+  {
+    "id": "wow-red-026",
+    "title": "Wow!Red - Unit 8 'feelings' - part 1 story_8_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 324.504,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-026.mp3"
+  },
+  {
+    "id": "wow-red-027",
+    "title": "Wow!Red - Unit 8 'feelings' - part 1 song_8_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 136.728,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-027.mp3"
+  },
+  {
+    "id": "wow-red-028",
+    "title": "Wow!Red - Unit 8 'feelings' - part 2 story_8_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 383.064,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-028.mp3"
+  },
+  {
+    "id": "wow-red-029",
+    "title": "Wow!Red - Unit 8 'feelings' - part 2 song_8_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 131.64,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-029.mp3"
+  },
+  {
+    "id": "wow-red-030",
+    "title": "Wow!Red - Unit 9 'weather' - part 1 story_9_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 345.84,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-030.mp3"
+  },
+  {
+    "id": "wow-red-031",
+    "title": "Wow!Red - Unit 9 'weather' - part 1 song_9_1",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 111.384,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-031.mp3"
+  },
+  {
+    "id": "wow-red-032",
+    "title": "Wow!Red - Unit 9 'weather' - part 1 story_9_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 267.36,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-032.mp3"
+  },
+  {
+    "id": "wow-red-033",
+    "title": "Wow!Red - Unit 9 'weather' - part 1 song_9_2",
+    "zh": "红色（5-6岁）",
+    "category": "wow-red",
+    "duration": 106.584,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-red-033.mp3"
   }
 ];
