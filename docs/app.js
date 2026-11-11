@@ -479,7 +479,7 @@
         } else {
           shuffleHistory = [];
           if (mode === 'shuffle') resetShuffleQueue(id);
-          loadSong(id, { autoplay: true, resetShuffle: false });
+          loadSong(id, { autoplay: true, resetShuffle: false, restart: id === currentSongId });
         }
       });
     });
