@@ -1567,7 +1567,7 @@ input[type="range"]::-moz-range-thumb {
   .hero-visual { display: none; }
   .library { padding: 28px 22px 32px; border-radius: 30px; }
   .library-head { margin-bottom: 0; }
-  .filter-row { margin-inline: -22px; padding-inline: 22px; }
+  .filter-row { margin-inline: 0; padding-inline: 0; }
   .song-row { grid-template-columns: 38px minmax(0, 1fr) 65px 36px; gap: 8px; padding-inline: 13px; }
   .song-play-count { display: none; }
   .player-dock {
@@ -1612,7 +1612,7 @@ input[type="range"]::-moz-range-thumb {
   .hero-visual { display: none; }
   .library { margin-top: 18px; padding: 24px 13px 26px; border-radius: 26px; }
   .library-head { margin-bottom: 0; }
-  .filter-row { margin-inline: -13px; padding-inline: 13px; gap: 5px; }
+  .filter-row { margin-inline: 0; padding-inline: 0; gap: 5px; }
   .filter-chip { min-height: 33px; padding-inline: 11px; font-size: 10px; }
   .playlist-groups { gap: 14px; }
   .song-group { border-radius: 20px; }
