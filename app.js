@@ -471,7 +471,7 @@
   }
 
   function renderAnimationPlaylist() {
-    els.libraryHead.hidden = true;
+    els.libraryHead.hidden = false;
     els.filterRow.hidden = false;
     renderFilters();
     const visible = animationGroups.filter((group) => activeFilter === 'all' || activeFilter === group.id);
