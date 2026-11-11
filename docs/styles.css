@@ -122,21 +122,22 @@ svg {
 }
 
 .brand-mark {
+  overflow: hidden;
   display: grid;
   width: 46px;
   height: 46px;
   place-items: center;
+  border: 2px solid #fff;
   border-radius: 15px;
-  background: var(--navy);
-  box-shadow: 0 8px 20px rgba(23, 49, 79, 0.2);
+  background: #fdeff4;
+  box-shadow: 0 8px 20px rgba(226, 128, 155, 0.22);
   transform: rotate(-4deg);
 }
 
-.brand-mark svg {
-  width: 25px;
-  height: 25px;
-  fill: var(--yellow);
-  stroke: none;
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .brand-copy {
@@ -213,24 +214,25 @@ svg {
   padding: 56px 64px;
   border-radius: var(--radius-xl);
   background:
-    radial-gradient(circle at 78% 20%, rgba(245, 206, 104, 0.14), transparent 20rem),
-    radial-gradient(circle at 10% 110%, rgba(241, 124, 109, 0.25), transparent 25rem),
-    linear-gradient(135deg, #142d4a 0%, #1b3b59 56%, #244d65 100%);
-  box-shadow: 0 28px 70px rgba(23, 49, 79, 0.2);
-  color: #fffaf0;
+    radial-gradient(circle at 82% 18%, rgba(255, 255, 255, 0.55), transparent 22rem),
+    radial-gradient(circle at 8% 112%, rgba(126, 192, 220, 0.2), transparent 24rem),
+    linear-gradient(135deg, #fff0f5 0%, #fbe2ec 58%, #efd9e7 100%);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: 0 28px 70px rgba(209, 117, 148, 0.18);
+  color: #5a3d48;
 }
 
 .hero::before {
   position: absolute;
-  top: -90px;
-  right: -80px;
-  width: 330px;
-  height: 330px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  top: -110px;
+  right: -95px;
+  width: 360px;
+  height: 360px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
   border-radius: 50%;
   box-shadow:
-    0 0 0 58px rgba(255, 255, 255, 0.025),
-    0 0 0 116px rgba(255, 255, 255, 0.018);
+    0 0 0 58px rgba(255, 255, 255, 0.26),
+    0 0 0 116px rgba(255, 255, 255, 0.14);
   content: "";
 }
 
@@ -241,10 +243,10 @@ svg {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--yellow);
-  box-shadow: 90px -210px 0 1px rgba(255,255,255,.35), 340px -125px 0 rgba(245,206,104,.5);
+  background: #e8809d;
+  box-shadow: 90px -210px 0 1px rgba(255,255,255,.58), 340px -125px 0 rgba(126,192,220,.42);
   content: "";
-  opacity: .7;
+  opacity: .72;
 }
 
 .hero-copy {
@@ -257,7 +259,7 @@ svg {
   align-items: center;
   gap: 9px;
   margin-bottom: 18px;
-  color: rgba(255, 250, 240, 0.72);
+  color: #b26078;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -286,14 +288,14 @@ svg {
 }
 
 .hero h1 em {
-  color: var(--yellow);
+  color: #e8809d;
   font-style: normal;
 }
 
 .hero-copy > p {
   max-width: 570px;
   margin: 21px 0 0;
-  color: rgba(255, 250, 240, 0.66);
+  color: #856270;
   font-size: 15px;
   font-weight: 450;
   line-height: 1.8;
@@ -322,14 +324,14 @@ svg {
 
 .primary-button {
   border: 0;
-  background: var(--coral);
-  box-shadow: 0 10px 24px rgba(219, 101, 88, 0.26);
+  background: #e88fae;
+  box-shadow: 0 10px 24px rgba(209, 96, 134, 0.24);
   color: #fff;
 }
 
 .primary-button:hover {
-  background: #f58a7b;
-  box-shadow: 0 14px 28px rgba(219, 101, 88, 0.32);
+  background: #ec9eb9;
+  box-shadow: 0 14px 28px rgba(209, 96, 134, 0.3);
   transform: translateY(-2px);
 }
 
@@ -368,14 +370,15 @@ svg {
 }
 
 .secondary-button {
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  background: rgba(255, 255, 255, 0.08);
-  color: rgba(255, 250, 240, 0.9);
+  border: 1px solid rgba(184, 88, 121, 0.2);
+  background: rgba(255, 255, 255, 0.62);
+  color: #7b5365;
   backdrop-filter: blur(10px);
 }
 
 .secondary-button:hover {
-  background: rgba(255, 255, 255, 0.13);
+  border-color: rgba(184, 88, 121, 0.32);
+  background: rgba(255, 255, 255, 0.85);
   transform: translateY(-2px);
 }
 
@@ -384,7 +387,7 @@ svg {
   flex-wrap: wrap;
   gap: 22px;
   margin-top: 28px;
-  color: rgba(255, 250, 240, 0.52);
+  color: #966c7d;
   font-size: 12px;
 }
 
@@ -395,7 +398,7 @@ svg {
 }
 
 .hero-meta strong {
-  color: rgba(255, 250, 240, 0.82);
+  color: #7c4c60;
   font-weight: 650;
 }
 
