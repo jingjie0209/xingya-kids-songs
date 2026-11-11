@@ -1512,12 +1512,12 @@ input[type="range"]::-moz-range-thumb {
   transform: translate(-50%, 0);
 }
 
-/* Bottom tabs sit above the audio dock and keep five destinations thumb-reachable. */
+/* Tabs are the bottom-most navigation bar; the audio dock floats above it. */
 .bottom-tabs {
   position: fixed;
-  z-index: 40;
+  z-index: 50;
   right: 24px;
-  bottom: calc(128px + env(safe-area-inset-bottom));
+  bottom: 8px;
   left: 24px;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -1644,12 +1644,12 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media (max-width: 860px) {
-  body { padding-bottom: calc(228px + env(safe-area-inset-bottom)); }
+  body { padding-bottom: calc(238px + env(safe-area-inset-bottom)); }
   .app-shell { padding: 18px 16px 18px; }
   .topbar { margin-bottom: 16px; }
   .bottom-tabs {
     right: 16px;
-    bottom: calc(124px + env(safe-area-inset-bottom));
+    bottom: 8px;
     left: 16px;
     padding: 3px;
     border-radius: 20px;
@@ -1674,7 +1674,7 @@ input[type="range"]::-moz-range-thumb {
   .song-play-count { display: none; }
   .player-dock {
     right: calc(12px + env(safe-area-inset-right));
-    bottom: calc(10px + env(safe-area-inset-bottom));
+    bottom: calc(84px + env(safe-area-inset-bottom));
     left: calc(12px + env(safe-area-inset-left));
     width: calc(100% - 24px);
     min-height: 126px;
@@ -1693,11 +1693,11 @@ input[type="range"]::-moz-range-thumb {
   .dock-play-button { width: 43px; height: 43px; }
   .progress-row { grid-template-columns: 31px minmax(70px, 1fr) 31px; }
   .volume-button { display: none; }
-  .toast { bottom: calc(206px + env(safe-area-inset-bottom)); }
+  .toast { bottom: calc(222px + env(safe-area-inset-bottom)); }
 }
 
 @media (max-width: 560px) {
-  body { padding-bottom: calc(156px + env(safe-area-inset-bottom)); }
+  body { padding-bottom: calc(242px + env(safe-area-inset-bottom)); }
   .app-shell { padding-inline: 10px; }
   .topbar { padding-inline: 4px; }
   .brand-mark { width: 41px; height: 41px; border-radius: 13px; }
@@ -1729,7 +1729,7 @@ input[type="range"]::-moz-range-thumb {
   .song-duration { font-size: 9px; }
   .dock-copy strong { max-width: 185px; font-size: 12px; }
   .dock-copy span { max-width: 185px; }
-  .bottom-tabs { right: 10px; bottom: calc(121px + env(safe-area-inset-bottom)); left: 10px; }
+  .bottom-tabs { right: 10px; bottom: 8px; left: 10px; }
   .tab-button { font-size: 8px; gap: 1px; padding: 5px 1px; }
   .tab-button svg { width: 16px; height: 16px; }
   .mini-cover { width: 43px; height: 43px; border-radius: 13px; }
