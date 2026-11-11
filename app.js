@@ -37,6 +37,7 @@
     },
   ];
   let activeTab = 'songs';
+  let playerExpanded = false;
   let songs = [];
   let categories = [];
   const songById = new Map(allSongs.map((song) => [song.id, song]));
@@ -75,6 +76,10 @@
     heroTotalDuration: document.getElementById('heroTotalDuration'),
     heroTodayDuration: document.getElementById('heroTodayDuration'),
     headerTodayDuration: document.getElementById('headerTodayDuration'),
+    playerDock: document.getElementById('playerDock'),
+    miniPlayerButton: document.getElementById('miniPlayerButton'),
+    miniPlayerDisc: document.getElementById('miniPlayerDisc'),
+    miniPlayerIcon: document.getElementById('miniPlayerIcon'),
     dockCover: document.getElementById('dockCover'),
     dockCategoryIcon: document.getElementById('dockCategoryIcon'),
     dockTitle: document.getElementById('dockTitle'),
@@ -355,6 +360,14 @@
     }
   }
 
+  function setPlayerExpanded(expanded) {
+    playerExpanded = expanded;
+    els.playerDock.classList.toggle('is-expanded', expanded);
+    els.miniPlayerButton.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    els.miniPlayerButton.setAttribute('aria-label', expanded ? '收起播放器' : '展开播放器');
+    document.body.classList.toggle('player-expanded', expanded);
+  }
+
   function updatePlaybackButtons() {
     const playing = !audio.paused && !audio.ended;
     setIcon(els.dockPlayIcon, playing ? 'pause' : 'play');
@@ -367,6 +380,7 @@
         ? '继续播放'
         : '播放这首';
     els.heroCover.classList.toggle('is-playing', playing);
+    els.miniPlayerDisc.classList.toggle('is-playing', playing);
     document.body.classList.toggle('is-playing', playing);
     if ('mediaSession' in navigator) {
       navigator.mediaSession.playbackState = playing ? 'playing' : 'paused';
@@ -381,8 +395,10 @@
 
     els.heroCover.dataset.category = song.category;
     els.dockCover.dataset.category = song.category;
+    els.miniPlayerDisc.dataset.category = song.category;
     setIcon(els.heroCategoryIcon, category.icon);
     setIcon(els.dockCategoryIcon, category.icon);
+    setIcon(els.miniPlayerIcon, category.icon);
     els.heroCategoryName.textContent = category.name;
     els.heroSongTitle.textContent = song.title;
     els.heroSongZh.textContent = song.zh;
@@ -709,6 +725,7 @@
   }
 
   function switchTab(tabId) {
+    setPlayerExpanded(false);
     activeTab = tabId;
     activeFilter = 'all';
     document.querySelectorAll('.tab-button').forEach((button) => {
@@ -955,6 +972,10 @@
     switchTab(button.dataset.tab);
   });
 
+  els.miniPlayerButton.addEventListener('click', () => {
+    setPlayerExpanded(!playerExpanded);
+  });
+
   els.filterRow.addEventListener('click', (event) => {
     const chip = event.target.closest('.filter-chip');
     if (!chip) return;
@@ -1123,6 +1144,7 @@
     }
   }, 500);
 
+  setPlayerExpanded(false);
   updateActiveCollections();
   updateModeUI();
   updateVolumeUI();
