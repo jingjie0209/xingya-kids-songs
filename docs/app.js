@@ -8,15 +8,30 @@
     { id: 'wow', name: 'wow', icon: 'globe' },
     { id: 'littlefox', name: 'little fox', icon: 'abc' },
     { id: 'talk', name: '见物能聊', icon: 'hand' },
-    { id: 'scene', name: '场景口语', icon: 'bus' },
+    { id: 'library', name: '资料库', icon: 'globe' },
   ];
   const tabCategoryGroups = {
     wow: ['wow-yellow', 'wow-blue', 'wow-red'],
     talk: ['talk'],
   };
+  const collectionTabIds = new Set(['songs', 'wow', 'talk']);
+  const resourceLinks = [
+    {
+      title: 'Susan句型理论',
+      note: '核心句型与语法学习笔记',
+      icon: 'abc',
+      url: 'https://jingjie0209.github.io/susan-grammar-study-notes/index.html?series=B#core-notes',
+    },
+    {
+      title: '动画主题覆盖',
+      note: '动画主题与分级覆盖查询',
+      icon: 'globe',
+      url: 'https://jingjie0209.github.io/yakka-dee-theme-map/?v=1794292843012',
+    },
+  ];
   let activeTab = 'songs';
-  let songs = window.SONGS.filter((song) => !song.category.startsWith('wow-'));
-  let categories = window.SONG_CATEGORIES.filter((category) => !category.id.startsWith('wow-'));
+  let songs = [];
+  let categories = [];
   const songById = new Map(allSongs.map((song) => [song.id, song]));
   const categoryById = new Map(allCategories.map((category) => [category.id, category]));
   const audio = document.getElementById('audio');
@@ -40,6 +55,7 @@
   const els = {
     playlistGroups: document.getElementById('playlistGroups'),
     filterRow: document.getElementById('filterRow'),
+    libraryHead: document.querySelector('.library-head'),
     heroCover: document.getElementById('heroCover'),
     heroCategoryIcon: document.getElementById('heroCategoryIcon'),
     heroCategoryName: document.getElementById('heroCategoryName'),
@@ -124,7 +140,7 @@
   function normalizeCounts(value) {
     const counts = {};
     if (!value || typeof value !== 'object') return counts;
-    for (const song of songs) {
+    for (const song of allSongs) {
       const count = Number(value[song.id]);
       counts[song.id] = Number.isFinite(count) && count > 0 ? Math.floor(count) : 0;
     }
@@ -412,14 +428,15 @@
   }
 
   function updateActiveCollections() {
+    if (!collectionTabIds.has(activeTab)) return;
     if (tabCategoryGroups[activeTab]) {
       const allowed = tabCategoryGroups[activeTab];
       categories = allCategories.filter((category) => allowed.includes(category.id));
       songs = allSongs.filter((song) => allowed.includes(song.category));
     } else {
-      const hidden = Object.values(tabCategoryGroups).flat();
-      categories = allCategories.filter((category) => !hidden.includes(category.id));
-      songs = allSongs.filter((song) => !hidden.includes(song.category));
+      const excluded = Object.values(tabCategoryGroups).flat();
+      categories = allCategories.filter((category) => !excluded.includes(category.id));
+      songs = allSongs.filter((song) => !excluded.includes(song.category));
     }
     if (!songById.has(currentSongId) && songs.length) {
       currentSongId = songs[0].id;
@@ -440,6 +457,8 @@
   }
 
   function renderPlaylist() {
+    els.libraryHead.hidden = false;
+    els.filterRow.hidden = false;
     renderFilters();
     els.playlistGroups.innerHTML = categories.map((category) => {
       const entries = groupSongs(category.id);
@@ -573,6 +592,50 @@
     updateCountsUI();
   }
 
+  function renderEmptyTab() {
+    els.libraryHead.hidden = true;
+    els.filterRow.hidden = true;
+    els.playlistGroups.innerHTML = `
+      <div class="empty-tab">
+        <svg><use href="#icon-music"></use></svg>
+        <strong>${tabs.find((tab) => tab.id === activeTab)?.name || ''}</strong>
+        <span>内容正在准备中</span>
+      </div>
+    `;
+  }
+
+  function renderResourceLibrary() {
+    els.libraryHead.hidden = true;
+    els.filterRow.hidden = true;
+    els.playlistGroups.innerHTML = `
+      <div class="resource-grid">
+        ${resourceLinks.map((item) => `
+          <a class="resource-card" href="${item.url}" target="_blank" rel="noopener noreferrer">
+            <span class="resource-card-icon"><svg><use href="#icon-${item.icon}"></use></svg></span>
+            <span class="resource-card-copy">
+              <strong>${item.title}</strong>
+              <span>${item.note}</span>
+            </span>
+            <span class="resource-card-arrow" aria-hidden="true">→</span>
+          </a>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  function renderCurrentTab() {
+    if (activeTab === 'library') {
+      renderResourceLibrary();
+      return;
+    }
+    if (activeTab === 'littlefox') {
+      renderEmptyTab();
+      return;
+    }
+    updateActiveCollections();
+    renderPlaylist();
+  }
+
   function applyFilter() {
     els.playlistGroups.querySelectorAll('[data-group-category]').forEach((group) => {
       group.hidden = activeFilter !== 'all' && group.dataset.groupCategory !== activeFilter;
@@ -582,15 +645,6 @@
       chip.classList.toggle('is-active', active);
       chip.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
-    if (!tabCategoryGroups[activeTab]) {
-      els.playlistGroups.innerHTML = `
-        <div class="empty-tab">
-          <svg><use href="#icon-music"></use></svg>
-          <strong>${tabs.find((tab) => tab.id === activeTab)?.name || ''}</strong>
-          <span>内容正在准备中</span>
-        </div>
-      `;
-    }
   }
 
   function switchTab(tabId) {
@@ -602,12 +656,7 @@
       button.setAttribute('aria-selected', active ? 'true' : 'false');
     });
     document.body.dataset.tab = tabId;
-    updateActiveCollections();
-    if (tabCategoryGroups[activeTab]) {
-      renderPlaylist();
-    } else {
-      applyFilter();
-    }
+    renderCurrentTab();
     updatePlaybackButtons();
     updateProgressUI();
     updateStatsUI();
