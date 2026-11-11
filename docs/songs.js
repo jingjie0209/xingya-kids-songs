@@ -809,5 +809,21 @@ window.SONGS = [
     "category": "animals",
     "duration": 176.274286,
     "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/mary-had-a-little-lamb.mp3"
+  },
+  {
+    "id": "im-a-little-teapot",
+    "title": "I'm a Little Teapot",
+    "zh": "我是一把小茶壶",
+    "category": "rhymes",
+    "duration": 46.00165,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/im-a-little-teapot.mp3"
+  },
+  {
+    "id": "jack-and-jill",
+    "title": "Jack and Jill",
+    "zh": "杰克和吉尔",
+    "category": "rhymes",
+    "duration": 84.610563,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/jack-and-jill.mp3"
   }
 ];

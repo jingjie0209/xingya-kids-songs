@@ -809,5 +809,21 @@ window.SONGS = [
     "category": "animals",
     "duration": 176.274286,
     "file": "audio/mary-had-a-little-lamb.mp3"
+  },
+  {
+    "id": "im-a-little-teapot",
+    "title": "I'm a Little Teapot",
+    "zh": "我是一把小茶壶",
+    "category": "rhymes",
+    "duration": 46.00165,
+    "file": "audio/im-a-little-teapot.mp3"
+  },
+  {
+    "id": "jack-and-jill",
+    "title": "Jack and Jill",
+    "zh": "杰克和吉尔",
+    "category": "rhymes",
+    "duration": 84.610563,
+    "file": "audio/jack-and-jill.mp3"
   }
 ];
