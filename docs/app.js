@@ -25,7 +25,6 @@
 
   const els = {
     playlistGroups: document.getElementById('playlistGroups'),
-    songCount: document.getElementById('songCount'),
     filterRow: document.getElementById('filterRow'),
     heroCover: document.getElementById('heroCover'),
     heroCategoryIcon: document.getElementById('heroCategoryIcon'),
@@ -412,7 +411,6 @@
   }
 
   function renderPlaylist() {
-    els.songCount.textContent = String(songs.length);
     renderFilters();
     els.playlistGroups.innerHTML = categories.map((category) => {
       const entries = groupSongs(category.id);

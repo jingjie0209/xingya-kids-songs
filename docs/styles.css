@@ -638,8 +638,16 @@ svg {
 
 .filter-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 7px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter-row::-webkit-scrollbar {
+  display: none;
 }
 
 .filter-chip {
@@ -652,6 +660,8 @@ svg {
   cursor: pointer;
   font-size: 12px;
   font-weight: 620;
+  white-space: nowrap;
+  scroll-snap-align: start;
   transition: all .2s ease;
 }
 
@@ -1557,7 +1567,8 @@ input[type="range"]::-moz-range-thumb {
      record area is removed to keep the blue hero compact. */
   .hero-visual { display: none; }
   .library { padding: 28px 22px 32px; border-radius: 30px; }
-  .library-head { align-items: flex-start; flex-direction: column; }
+  .library-head { margin-bottom: 0; }
+  .filter-row { margin-inline: -22px; padding-inline: 22px; }
   .song-row { grid-template-columns: 38px minmax(0, 1fr) 65px 36px; gap: 8px; padding-inline: 13px; }
   .song-play-count { display: none; }
   .player-dock {
@@ -1602,8 +1613,8 @@ input[type="range"]::-moz-range-thumb {
   .hero-meta { gap: 9px; margin-top: 8px; font-size: 10px; }
   .hero-visual { display: none; }
   .library { margin-top: 18px; padding: 24px 13px 26px; border-radius: 26px; }
-  .library-head { margin-bottom: 20px; padding-inline: 4px; }
-  .filter-row { gap: 5px; }
+  .library-head { margin-bottom: 0; }
+  .filter-row { margin-inline: -13px; padding-inline: 13px; gap: 5px; }
   .filter-chip { min-height: 33px; padding-inline: 11px; font-size: 10px; }
   .playlist-groups { gap: 14px; }
   .song-group { border-radius: 20px; }
