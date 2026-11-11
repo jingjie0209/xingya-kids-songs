@@ -11,7 +11,7 @@
     { id: 'library', name: '资料库', icon: 'globe' },
   ];
   const tabCategoryGroups = {
-    wow: ['wow-yellow', 'wow-blue', 'wow-red'],
+    wow: ['wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange', 'wow-bronze', 'wow-silver', 'wow-gold'],
     talk: ['talk'],
   };
   const collectionTabIds = new Set(['songs', 'wow', 'talk']);

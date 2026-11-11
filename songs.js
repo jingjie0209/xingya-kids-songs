@@ -142,6 +142,46 @@ window.SONG_CATEGORIES = [
     "note": "100篇常用物品对话",
     "icon": "hand",
     "color": "#b06fb4"
+  },
+  {
+    "id": "wow-green",
+    "name": "Wow! Green",
+    "english": "GREEN 6-7",
+    "note": "绿色分级课程音频",
+    "icon": "globe",
+    "color": "#5c9a6a"
+  },
+  {
+    "id": "wow-orange",
+    "name": "Wow! Orange",
+    "english": "ORANGE 7-8",
+    "note": "橘色分级课程音频",
+    "icon": "globe",
+    "color": "#d98543"
+  },
+  {
+    "id": "wow-bronze",
+    "name": "Wow! Bronze",
+    "english": "BRONZE 8-9",
+    "note": "棕色分级课程音频",
+    "icon": "globe",
+    "color": "#9a6e4f"
+  },
+  {
+    "id": "wow-silver",
+    "name": "Wow! Silver",
+    "english": "SILVER 9-10",
+    "note": "银色分级课程音频",
+    "icon": "globe",
+    "color": "#8795a4"
+  },
+  {
+    "id": "wow-gold",
+    "name": "Wow! Gold",
+    "english": "GOLD 10-12",
+    "note": "金色分级课程音频",
+    "icon": "globe",
+    "color": "#c7a13b"
   }
 ];
 
@@ -2449,5 +2489,1141 @@ window.SONGS = [
     "category": "talk",
     "duration": 66.351,
     "file": "audio/talk/talk-99.mp3"
+  },
+  {
+    "id": "wow-green-001",
+    "title": "Wow!Green - Unit 1 story",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 242.76,
+    "file": "audio/wow/wow-green-001.mp3"
+  },
+  {
+    "id": "wow-green-002",
+    "title": "Wow!Green - Unit 1 song",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 51.72,
+    "file": "audio/wow/wow-green-002.mp3"
+  },
+  {
+    "id": "wow-green-003",
+    "title": "Wow!Green - Unit 2 story",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 356.688,
+    "file": "audio/wow/wow-green-003.mp3"
+  },
+  {
+    "id": "wow-green-004",
+    "title": "Wow!Green - Unit 2 song",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 187.32,
+    "file": "audio/wow/wow-green-004.mp3"
+  },
+  {
+    "id": "wow-green-005",
+    "title": "Wow!Green - Unit 3 story1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 385.296,
+    "file": "audio/wow/wow-green-005.mp3"
+  },
+  {
+    "id": "wow-green-006",
+    "title": "Wow!Green - Unit 3 story2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 316.368,
+    "file": "audio/wow/wow-green-006.mp3"
+  },
+  {
+    "id": "wow-green-007",
+    "title": "Wow!Green - Unit 3 song1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 127.968,
+    "file": "audio/wow/wow-green-007.mp3"
+  },
+  {
+    "id": "wow-green-008",
+    "title": "Wow!Green - Unit 3 song2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 128.472,
+    "file": "audio/wow/wow-green-008.mp3"
+  },
+  {
+    "id": "wow-green-009",
+    "title": "Wow!Green - Unit 4 story1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 300.96,
+    "file": "audio/wow/wow-green-009.mp3"
+  },
+  {
+    "id": "wow-green-010",
+    "title": "Wow!Green - Unit 4 story2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 362.808,
+    "file": "audio/wow/wow-green-010.mp3"
+  },
+  {
+    "id": "wow-green-011",
+    "title": "Wow!Green - Unit 4 song1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 257.088,
+    "file": "audio/wow/wow-green-011.mp3"
+  },
+  {
+    "id": "wow-green-012",
+    "title": "Wow!Green - Unit 4 song2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 253.92,
+    "file": "audio/wow/wow-green-012.mp3"
+  },
+  {
+    "id": "wow-green-013",
+    "title": "Wow!Green - Unit 5 story1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 332.52,
+    "file": "audio/wow/wow-green-013.mp3"
+  },
+  {
+    "id": "wow-green-014",
+    "title": "Wow!Green - Unit 5 story2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 301.728,
+    "file": "audio/wow/wow-green-014.mp3"
+  },
+  {
+    "id": "wow-green-015",
+    "title": "Wow!Green - Unit 5 song1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 171.816,
+    "file": "audio/wow/wow-green-015.mp3"
+  },
+  {
+    "id": "wow-green-016",
+    "title": "Wow!Green - Unit 5song2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 172.728,
+    "file": "audio/wow/wow-green-016.mp3"
+  },
+  {
+    "id": "wow-green-017",
+    "title": "Wow!Green - Unit 6 story1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 334.104,
+    "file": "audio/wow/wow-green-017.mp3"
+  },
+  {
+    "id": "wow-green-018",
+    "title": "Wow!Green - Unit 6 story2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 379.44,
+    "file": "audio/wow/wow-green-018.mp3"
+  },
+  {
+    "id": "wow-green-019",
+    "title": "Wow!Green - Unit 6 song1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 116.832,
+    "file": "audio/wow/wow-green-019.mp3"
+  },
+  {
+    "id": "wow-green-020",
+    "title": "Wow!Green - Unit 6 song2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 114.888,
+    "file": "audio/wow/wow-green-020.mp3"
+  },
+  {
+    "id": "wow-green-021",
+    "title": "Wow!Green - Unit 7 story1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 288.024,
+    "file": "audio/wow/wow-green-021.mp3"
+  },
+  {
+    "id": "wow-green-022",
+    "title": "Wow!Green - Unit 7 story2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 328.968,
+    "file": "audio/wow/wow-green-022.mp3"
+  },
+  {
+    "id": "wow-green-023",
+    "title": "Wow!Green - Unit 7 song1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 138.36,
+    "file": "audio/wow/wow-green-023.mp3"
+  },
+  {
+    "id": "wow-green-024",
+    "title": "Wow!Green - Unit 7 song2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 126.24,
+    "file": "audio/wow/wow-green-024.mp3"
+  },
+  {
+    "id": "wow-green-025",
+    "title": "Wow!Green - Unit 8 story1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 292.44,
+    "file": "audio/wow/wow-green-025.mp3"
+  },
+  {
+    "id": "wow-green-026",
+    "title": "Wow!Green - Unit 8 story2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 356.496,
+    "file": "audio/wow/wow-green-026.mp3"
+  },
+  {
+    "id": "wow-green-027",
+    "title": "Wow!Green - Unit 8 song1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 146.208,
+    "file": "audio/wow/wow-green-027.mp3"
+  },
+  {
+    "id": "wow-green-028",
+    "title": "Wow!Green - Unit 8 song2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 144.888,
+    "file": "audio/wow/wow-green-028.mp3"
+  },
+  {
+    "id": "wow-green-029",
+    "title": "Wow!Green - Unit 9 story1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 382.152,
+    "file": "audio/wow/wow-green-029.mp3"
+  },
+  {
+    "id": "wow-green-030",
+    "title": "Wow!Green - Unit 9 story2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 267.168,
+    "file": "audio/wow/wow-green-030.mp3"
+  },
+  {
+    "id": "wow-green-031",
+    "title": "Wow!Green - Unit 9 song1",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 169.944,
+    "file": "audio/wow/wow-green-031.mp3"
+  },
+  {
+    "id": "wow-green-032",
+    "title": "Wow!Green - Unit 9 song2",
+    "zh": "绿色（6-7岁）",
+    "category": "wow-green",
+    "duration": 169.128,
+    "file": "audio/wow/wow-green-032.mp3"
+  },
+  {
+    "id": "wow-orange-001",
+    "title": "Wow!Orange - Unit 1 _intro",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 59.088,
+    "file": "audio/wow/wow-orange-001.mp3"
+  },
+  {
+    "id": "wow-orange-002",
+    "title": "Wow!Orange - Unit 1 story",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 351.768,
+    "file": "audio/wow/wow-orange-002.mp3"
+  },
+  {
+    "id": "wow-orange-003",
+    "title": "Wow!Orange - Unit 1 song",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 140.64,
+    "file": "audio/wow/wow-orange-003.mp3"
+  },
+  {
+    "id": "wow-orange-004",
+    "title": "Wow!Orange - Unit 2 story_2_1",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 349.2,
+    "file": "audio/wow/wow-orange-004.mp3"
+  },
+  {
+    "id": "wow-orange-005",
+    "title": "Wow!Orange - Unit 2 song_2_1",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 145.992,
+    "file": "audio/wow/wow-orange-005.mp3"
+  },
+  {
+    "id": "wow-orange-006",
+    "title": "Wow!Orange - Unit 3 story_3_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 360.336,
+    "file": "audio/wow/wow-orange-006.mp3"
+  },
+  {
+    "id": "wow-orange-007",
+    "title": "Wow!Orange - Unit 3 story_3_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 354.84,
+    "file": "audio/wow/wow-orange-007.mp3"
+  },
+  {
+    "id": "wow-orange-008",
+    "title": "Wow!Orange - Unit 3 song_3_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 176.088,
+    "file": "audio/wow/wow-orange-008.mp3"
+  },
+  {
+    "id": "wow-orange-009",
+    "title": "Wow!Orange - Unit 3 song_3_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 165.0,
+    "file": "audio/wow/wow-orange-009.mp3"
+  },
+  {
+    "id": "wow-orange-010",
+    "title": "Wow!Orange - Unit 4 story_4_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 401.304,
+    "file": "audio/wow/wow-orange-010.mp3"
+  },
+  {
+    "id": "wow-orange-011",
+    "title": "Wow!Orange - Unit 4 story_4_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 327.384,
+    "file": "audio/wow/wow-orange-011.mp3"
+  },
+  {
+    "id": "wow-orange-012",
+    "title": "Wow!Orange - Unit 4 song_4_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 153.96,
+    "file": "audio/wow/wow-orange-012.mp3"
+  },
+  {
+    "id": "wow-orange-013",
+    "title": "Wow!Orange - Unit 4 song_4_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 165.528,
+    "file": "audio/wow/wow-orange-013.mp3"
+  },
+  {
+    "id": "wow-orange-014",
+    "title": "Wow!Orange - Unit 5 story_5_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 333.48,
+    "file": "audio/wow/wow-orange-014.mp3"
+  },
+  {
+    "id": "wow-orange-015",
+    "title": "Wow!Orange - Unit 5 story_5_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 363.096,
+    "file": "audio/wow/wow-orange-015.mp3"
+  },
+  {
+    "id": "wow-orange-016",
+    "title": "Wow!Orange - Unit 5 song_5_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 112.536,
+    "file": "audio/wow/wow-orange-016.mp3"
+  },
+  {
+    "id": "wow-orange-017",
+    "title": "Wow!Orange - Unit 5 song_5_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 109.368,
+    "file": "audio/wow/wow-orange-017.mp3"
+  },
+  {
+    "id": "wow-orange-018",
+    "title": "Wow!Orange - Unit 6 story_6_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 367.368,
+    "file": "audio/wow/wow-orange-018.mp3"
+  },
+  {
+    "id": "wow-orange-019",
+    "title": "Wow!Orange - Unit 6 story_6_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 355.992,
+    "file": "audio/wow/wow-orange-019.mp3"
+  },
+  {
+    "id": "wow-orange-020",
+    "title": "Wow!Orange - Unit 6 song_6_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 120.072,
+    "file": "audio/wow/wow-orange-020.mp3"
+  },
+  {
+    "id": "wow-orange-021",
+    "title": "Wow!Orange - Unit 6 song_6_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 102.744,
+    "file": "audio/wow/wow-orange-021.mp3"
+  },
+  {
+    "id": "wow-orange-022",
+    "title": "Wow!Orange - Unit 7 story_7_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 355.224,
+    "file": "audio/wow/wow-orange-022.mp3"
+  },
+  {
+    "id": "wow-orange-023",
+    "title": "Wow!Orange - Unit 7 story_7_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 304.008,
+    "file": "audio/wow/wow-orange-023.mp3"
+  },
+  {
+    "id": "wow-orange-024",
+    "title": "Wow!Orange - Unit 7 song_7_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 229.656,
+    "file": "audio/wow/wow-orange-024.mp3"
+  },
+  {
+    "id": "wow-orange-025",
+    "title": "Wow!Orange - Unit 7 song_7_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 229.872,
+    "file": "audio/wow/wow-orange-025.mp3"
+  },
+  {
+    "id": "wow-orange-026",
+    "title": "Wow!Orange - Unit 8 story_8_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 323.544,
+    "file": "audio/wow/wow-orange-026.mp3"
+  },
+  {
+    "id": "wow-orange-027",
+    "title": "Wow!Orange - Unit 8 story_8_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 405.096,
+    "file": "audio/wow/wow-orange-027.mp3"
+  },
+  {
+    "id": "wow-orange-028",
+    "title": "Wow!Orange - Unit 8 song_8_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 178.368,
+    "file": "audio/wow/wow-orange-028.mp3"
+  },
+  {
+    "id": "wow-orange-029",
+    "title": "Wow!Orange - Unit 8 song_8_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 179.544,
+    "file": "audio/wow/wow-orange-029.mp3"
+  },
+  {
+    "id": "wow-orange-030",
+    "title": "Wow!Orange - Unit 9 story_9_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 362.04,
+    "file": "audio/wow/wow-orange-030.mp3"
+  },
+  {
+    "id": "wow-orange-031",
+    "title": "Wow!Orange - Unit 9 story_9_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 275.736,
+    "file": "audio/wow/wow-orange-031.mp3"
+  },
+  {
+    "id": "wow-orange-032",
+    "title": "Wow!Orange - Unit 9 song_9_1a",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 125.136,
+    "file": "audio/wow/wow-orange-032.mp3"
+  },
+  {
+    "id": "wow-orange-033",
+    "title": "Wow!Orange - Unit 9 song_9_1b",
+    "zh": "橘色（7-8岁）",
+    "category": "wow-orange",
+    "duration": 124.2,
+    "file": "audio/wow/wow-orange-033.mp3"
+  },
+  {
+    "id": "wow-bronze-001",
+    "title": "Wow!Bronze - Unit 1 story_1_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 276.648,
+    "file": "audio/wow/wow-bronze-001.mp3"
+  },
+  {
+    "id": "wow-bronze-002",
+    "title": "Wow!Bronze - Unit 1 song_1_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 194.448,
+    "file": "audio/wow/wow-bronze-002.mp3"
+  },
+  {
+    "id": "wow-bronze-003",
+    "title": "Wow!Bronze - Unit 2 story_2_1a",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 209.856,
+    "file": "audio/wow/wow-bronze-003.mp3"
+  },
+  {
+    "id": "wow-bronze-004",
+    "title": "Wow!Bronze - Unit 2 story_2_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 247.2,
+    "file": "audio/wow/wow-bronze-004.mp3"
+  },
+  {
+    "id": "wow-bronze-005",
+    "title": "Wow!Bronze - Unit 2 song_2_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 208.008,
+    "file": "audio/wow/wow-bronze-005.mp3"
+  },
+  {
+    "id": "wow-bronze-006",
+    "title": "Wow!Bronze - Unit 3 story_3_1a",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 324.168,
+    "file": "audio/wow/wow-bronze-006.mp3"
+  },
+  {
+    "id": "wow-bronze-007",
+    "title": "Wow!Bronze - Unit 3 story_3_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 277.368,
+    "file": "audio/wow/wow-bronze-007.mp3"
+  },
+  {
+    "id": "wow-bronze-008",
+    "title": "Wow!Bronze - Unit 3 song_3_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 136.968,
+    "file": "audio/wow/wow-bronze-008.mp3"
+  },
+  {
+    "id": "wow-bronze-009",
+    "title": "Wow!Bronze - Unit 4 story_4_1a",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 290.712,
+    "file": "audio/wow/wow-bronze-009.mp3"
+  },
+  {
+    "id": "wow-bronze-010",
+    "title": "Wow!Bronze - Unit 4 story_4_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 338.952,
+    "file": "audio/wow/wow-bronze-010.mp3"
+  },
+  {
+    "id": "wow-bronze-011",
+    "title": "Wow!Bronze - Unit 4 song_4_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 199.056,
+    "file": "audio/wow/wow-bronze-011.mp3"
+  },
+  {
+    "id": "wow-bronze-012",
+    "title": "Wow!Bronze - Unit 5 .story_5_1a",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 304.68,
+    "file": "audio/wow/wow-bronze-012.mp3"
+  },
+  {
+    "id": "wow-bronze-013",
+    "title": "Wow!Bronze - Unit 5 story_5_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 284.184,
+    "file": "audio/wow/wow-bronze-013.mp3"
+  },
+  {
+    "id": "wow-bronze-014",
+    "title": "Wow!Bronze - Unit 5 song_5_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 122.136,
+    "file": "audio/wow/wow-bronze-014.mp3"
+  },
+  {
+    "id": "wow-bronze-015",
+    "title": "Wow!Bronze - Unit 6 story_6_1a",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 342.936,
+    "file": "audio/wow/wow-bronze-015.mp3"
+  },
+  {
+    "id": "wow-bronze-016",
+    "title": "Wow!Bronze - Unit 6 story_6_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 222.48,
+    "file": "audio/wow/wow-bronze-016.mp3"
+  },
+  {
+    "id": "wow-bronze-017",
+    "title": "Wow!Bronze - Unit 6 _song_6_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 183.84,
+    "file": "audio/wow/wow-bronze-017.mp3"
+  },
+  {
+    "id": "wow-bronze-018",
+    "title": "Wow!Bronze - Unit 7 story_7_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 284.088,
+    "file": "audio/wow/wow-bronze-018.mp3"
+  },
+  {
+    "id": "wow-bronze-019",
+    "title": "Wow!Bronze - Unit 7 song_7_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 247.248,
+    "file": "audio/wow/wow-bronze-019.mp3"
+  },
+  {
+    "id": "wow-bronze-020",
+    "title": "Wow!Bronze - Unit 8 story_8_1a",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 315.0,
+    "file": "audio/wow/wow-bronze-020.mp3"
+  },
+  {
+    "id": "wow-bronze-021",
+    "title": "Wow!Bronze - Unit 8 story_8_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 249.048,
+    "file": "audio/wow/wow-bronze-021.mp3"
+  },
+  {
+    "id": "wow-bronze-022",
+    "title": "Wow!Bronze - Unit 8 song_8_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 214.752,
+    "file": "audio/wow/wow-bronze-022.mp3"
+  },
+  {
+    "id": "wow-bronze-023",
+    "title": "Wow!Bronze - Unit 9 story_9_1a",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 331.176,
+    "file": "audio/wow/wow-bronze-023.mp3"
+  },
+  {
+    "id": "wow-bronze-024",
+    "title": "Wow!Bronze - Unit 9 story_9_1b",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 293.832,
+    "file": "audio/wow/wow-bronze-024.mp3"
+  },
+  {
+    "id": "wow-bronze-025",
+    "title": "Wow!Bronze - Unit 9 song_9_1",
+    "zh": "棕色（8-9岁）",
+    "category": "wow-bronze",
+    "duration": 198.12,
+    "file": "audio/wow/wow-bronze-025.mp3"
+  },
+  {
+    "id": "wow-silver-001",
+    "title": "Wow!Silver - Unit 1 song_1_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 257.88,
+    "file": "audio/wow/wow-silver-001.mp3"
+  },
+  {
+    "id": "wow-silver-002",
+    "title": "Wow!Silver - Unit 1 _song_1_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 261.24,
+    "file": "audio/wow/wow-silver-002.mp3"
+  },
+  {
+    "id": "wow-silver-003",
+    "title": "Wow!Silver - Unit 1 story_2_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 348.456,
+    "file": "audio/wow/wow-silver-003.mp3"
+  },
+  {
+    "id": "wow-silver-004",
+    "title": "Wow!Silver - Unit 1 story_2_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 327.792,
+    "file": "audio/wow/wow-silver-004.mp3"
+  },
+  {
+    "id": "wow-silver-005",
+    "title": "Wow!Silver - Unit 1 song_2_1",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 205.512,
+    "file": "audio/wow/wow-silver-005.mp3"
+  },
+  {
+    "id": "wow-silver-006",
+    "title": "Wow!Silver - Unit 3 story_3_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 327.0,
+    "file": "audio/wow/wow-silver-006.mp3"
+  },
+  {
+    "id": "wow-silver-007",
+    "title": "Wow!Silver - Unit 3 story_3_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 359.16,
+    "file": "audio/wow/wow-silver-007.mp3"
+  },
+  {
+    "id": "wow-silver-008",
+    "title": "Wow!Silver - Unit 3 song_3_1",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 213.96,
+    "file": "audio/wow/wow-silver-008.mp3"
+  },
+  {
+    "id": "wow-silver-009",
+    "title": "Wow!Silver - Unit 4 story_4_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 315.48,
+    "file": "audio/wow/wow-silver-009.mp3"
+  },
+  {
+    "id": "wow-silver-010",
+    "title": "Wow!Silver - Unit 4 story_4_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 357.912,
+    "file": "audio/wow/wow-silver-010.mp3"
+  },
+  {
+    "id": "wow-silver-011",
+    "title": "Wow!Silver - Unit 4 song_4_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 199.512,
+    "file": "audio/wow/wow-silver-011.mp3"
+  },
+  {
+    "id": "wow-silver-012",
+    "title": "Wow!Silver - Unit 5 story_5_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 282.12,
+    "file": "audio/wow/wow-silver-012.mp3"
+  },
+  {
+    "id": "wow-silver-013",
+    "title": "Wow!Silver - Unit 5 story_5_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 296.016,
+    "file": "audio/wow/wow-silver-013.mp3"
+  },
+  {
+    "id": "wow-silver-014",
+    "title": "Wow!Silver - Unit 5 song_5_1",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 179.448,
+    "file": "audio/wow/wow-silver-014.mp3"
+  },
+  {
+    "id": "wow-silver-015",
+    "title": "Wow!Silver - Unit 6 story_6_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 340.632,
+    "file": "audio/wow/wow-silver-015.mp3"
+  },
+  {
+    "id": "wow-silver-016",
+    "title": "Wow!Silver - Unit 6 story_6_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 405.48,
+    "file": "audio/wow/wow-silver-016.mp3"
+  },
+  {
+    "id": "wow-silver-017",
+    "title": "Wow!Silver - Unit 6 song_6_1",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 167.688,
+    "file": "audio/wow/wow-silver-017.mp3"
+  },
+  {
+    "id": "wow-silver-018",
+    "title": "Wow!Silver - Unit 7 story_7_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 325.128,
+    "file": "audio/wow/wow-silver-018.mp3"
+  },
+  {
+    "id": "wow-silver-019",
+    "title": "Wow!Silver - Unit 7 story_7_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 303.528,
+    "file": "audio/wow/wow-silver-019.mp3"
+  },
+  {
+    "id": "wow-silver-020",
+    "title": "Wow!Silver - Unit 7 song_7_1",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 166.848,
+    "file": "audio/wow/wow-silver-020.mp3"
+  },
+  {
+    "id": "wow-silver-021",
+    "title": "Wow!Silver - Unit 8 story_8_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 350.112,
+    "file": "audio/wow/wow-silver-021.mp3"
+  },
+  {
+    "id": "wow-silver-022",
+    "title": "Wow!Silver - Unit 8 story_8_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 370.128,
+    "file": "audio/wow/wow-silver-022.mp3"
+  },
+  {
+    "id": "wow-silver-023",
+    "title": "Wow!Silver - Unit 8 song_8_1",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 159.6,
+    "file": "audio/wow/wow-silver-023.mp3"
+  },
+  {
+    "id": "wow-silver-024",
+    "title": "Wow!Silver - Unit 9 story_9_1a",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 327.888,
+    "file": "audio/wow/wow-silver-024.mp3"
+  },
+  {
+    "id": "wow-silver-025",
+    "title": "Wow!Silver - Unit 9 story_9_1b",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 273.96,
+    "file": "audio/wow/wow-silver-025.mp3"
+  },
+  {
+    "id": "wow-silver-026",
+    "title": "Wow!Silver - Unit 9 song_9_1",
+    "zh": "银色（9-10岁）",
+    "category": "wow-silver",
+    "duration": 171.672,
+    "file": "audio/wow/wow-silver-026.mp3"
+  },
+  {
+    "id": "wow-gold-001",
+    "title": "Wow!Gold - Unit 1 story_1_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 349.368,
+    "file": "audio/wow/wow-gold-001.mp3"
+  },
+  {
+    "id": "wow-gold-002",
+    "title": "Wow!Gold - Unit 1 song_1_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 164.88,
+    "file": "audio/wow/wow-gold-002.mp3"
+  },
+  {
+    "id": "wow-gold-003",
+    "title": "Wow!Gold - Unit 2 story_2_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 330.264,
+    "file": "audio/wow/wow-gold-003.mp3"
+  },
+  {
+    "id": "wow-gold-004",
+    "title": "Wow!Gold - Unit 2 story_2_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 275.76,
+    "file": "audio/wow/wow-gold-004.mp3"
+  },
+  {
+    "id": "wow-gold-005",
+    "title": "Wow!Gold - Unit 2 song_2_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 181.728,
+    "file": "audio/wow/wow-gold-005.mp3"
+  },
+  {
+    "id": "wow-gold-006",
+    "title": "Wow!Gold - Unit 3 story_3_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 324.912,
+    "file": "audio/wow/wow-gold-006.mp3"
+  },
+  {
+    "id": "wow-gold-007",
+    "title": "Wow!Gold - Unit 3 story_3_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 346.632,
+    "file": "audio/wow/wow-gold-007.mp3"
+  },
+  {
+    "id": "wow-gold-008",
+    "title": "Wow!Gold - Unit 3 song_3_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 163.968,
+    "file": "audio/wow/wow-gold-008.mp3"
+  },
+  {
+    "id": "wow-gold-009",
+    "title": "Wow!Gold - Unit 4 story_4_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 332.52,
+    "file": "audio/wow/wow-gold-009.mp3"
+  },
+  {
+    "id": "wow-gold-010",
+    "title": "Wow!Gold - Unit 4 story_4_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 252.312,
+    "file": "audio/wow/wow-gold-010.mp3"
+  },
+  {
+    "id": "wow-gold-011",
+    "title": "Wow!Gold - Unit 4 song_4_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 161.88,
+    "file": "audio/wow/wow-gold-011.mp3"
+  },
+  {
+    "id": "wow-gold-012",
+    "title": "Wow!Gold - Unit 5 story_5_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 282.72,
+    "file": "audio/wow/wow-gold-012.mp3"
+  },
+  {
+    "id": "wow-gold-013",
+    "title": "Wow!Gold - Unit 5 story_5_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 276.456,
+    "file": "audio/wow/wow-gold-013.mp3"
+  },
+  {
+    "id": "wow-gold-014",
+    "title": "Wow!Gold - Unit 5 song_5_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 162.672,
+    "file": "audio/wow/wow-gold-014.mp3"
+  },
+  {
+    "id": "wow-gold-015",
+    "title": "Wow!Gold - Unit 6 story_6_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 364.632,
+    "file": "audio/wow/wow-gold-015.mp3"
+  },
+  {
+    "id": "wow-gold-016",
+    "title": "Wow!Gold - Unit 6 story_6_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 435.048,
+    "file": "audio/wow/wow-gold-016.mp3"
+  },
+  {
+    "id": "wow-gold-017",
+    "title": "Wow!Gold - Unit 6 song_6_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 172.08,
+    "file": "audio/wow/wow-gold-017.mp3"
+  },
+  {
+    "id": "wow-gold-018",
+    "title": "Wow!Gold - Unit 7 story_7_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 263.88,
+    "file": "audio/wow/wow-gold-018.mp3"
+  },
+  {
+    "id": "wow-gold-019",
+    "title": "Wow!Gold - Unit 7 story_7_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 336.984,
+    "file": "audio/wow/wow-gold-019.mp3"
+  },
+  {
+    "id": "wow-gold-020",
+    "title": "Wow!Gold - Unit 7 song_7_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 185.616,
+    "file": "audio/wow/wow-gold-020.mp3"
+  },
+  {
+    "id": "wow-gold-021",
+    "title": "Wow!Gold - Unit 8 story_8_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 319.248,
+    "file": "audio/wow/wow-gold-021.mp3"
+  },
+  {
+    "id": "wow-gold-022",
+    "title": "Wow!Gold - Unit 8 story_8_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 332.952,
+    "file": "audio/wow/wow-gold-022.mp3"
+  },
+  {
+    "id": "wow-gold-023",
+    "title": "Wow!Gold - Unit 8 song_8_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 204.408,
+    "file": "audio/wow/wow-gold-023.mp3"
+  },
+  {
+    "id": "wow-gold-024",
+    "title": "Wow!Gold - Unit 9 story_9_1a",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 365.088,
+    "file": "audio/wow/wow-gold-024.mp3"
+  },
+  {
+    "id": "wow-gold-025",
+    "title": "Wow!Gold - Unit 9 story_9_1b",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 244.824,
+    "file": "audio/wow/wow-gold-025.mp3"
+  },
+  {
+    "id": "wow-gold-026",
+    "title": "Wow!Gold - Unit 9 song_9_1",
+    "zh": "金色（10-12岁）",
+    "category": "wow-gold",
+    "duration": 179.328,
+    "file": "audio/wow/wow-gold-026.mp3"
   }
 ];
