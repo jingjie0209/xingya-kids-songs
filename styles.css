@@ -1536,27 +1536,14 @@ input[type="range"]::-moz-range-thumb {
   .hero {
     min-height: 0;
     grid-template-columns: 1fr;
-    padding: 32px 28px 22px;
+    padding: 24px 20px 16px;
     border-radius: 30px;
   }
-  .hero h1 { font-size: clamp(36px, 7.4vw, 50px); }
+  .hero h1 { font-size: clamp(35px, 6.6vw, 46px); }
   .hero-copy > p { max-width: 600px; }
-  .hero-visual {
-    min-height: 72px;
-    margin-top: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 14px;
-  }
-  .vinyl-wrap { width: 104px; height: 104px; flex: 0 0 auto; }
-  .now-card {
-    position: relative;
-    right: auto;
-    bottom: auto;
-    width: 232px;
-    flex: 0 1 232px;
-  }
+  /* On phones the dock already shows the current song, so the decorative
+     record area is removed to keep the blue hero compact. */
+  .hero-visual { display: none; }
   .library { padding: 28px 22px 32px; border-radius: 30px; }
   .library-head { align-items: flex-start; flex-direction: column; }
   .song-row { grid-template-columns: 38px minmax(0, 1fr) 65px 36px; gap: 8px; padding-inline: 13px; }
@@ -1594,31 +1581,14 @@ input[type="range"]::-moz-range-thumb {
   .report-button { min-height: 38px; padding-inline: 11px; }
   .report-button span { font-size: 0; }
   .report-button strong { font-size: 12px; }
-  .hero { padding: 23px 18px 15px; border-radius: 26px; }
-  .eyebrow { margin-bottom: 8px; }
-  .hero h1 { font-size: 35px; }
-  .hero-copy > p { margin-top: 10px; font-size: 12px; line-height: 1.55; }
-  .hero-actions { margin-top: 14px; }
+  .hero { padding: 20px 17px 13px; border-radius: 26px; }
+  .eyebrow { margin-bottom: 7px; }
+  .hero h1 { font-size: 34px; }
+  .hero-copy > p { margin-top: 8px; font-size: 12px; line-height: 1.5; }
+  .hero-actions { margin-top: 12px; }
   .primary-button, .secondary-button { min-height: 42px; padding-inline: 14px; font-size: 11px; }
-  .hero-meta { gap: 10px; margin-top: 12px; }
-  .hero-visual { min-height: 112px; margin-top: 2px; gap: 10px; }
-  .vinyl-wrap { width: 92px; height: 92px; }
-  .vinyl-label { width: 72px; height: 72px; }
-  .vinyl-groove.groove-one { inset: 20px; }
-  .vinyl-groove.groove-two { inset: 36px; }
-  .vinyl-groove.groove-three { inset: 51px; }
-  .vinyl-hole { width: 8px; height: 8px; }
-  .now-card {
-    position: relative;
-    right: auto;
-    bottom: auto;
-    width: 192px;
-    flex: 0 1 192px;
-    padding: 9px 11px;
-  }
-  .orbit-star-one { right: 24px; }
-  .orbit-star-two { left: 3px; }
-  .orbit-star-three { right: 0; bottom: 66px; }
+  .hero-meta { gap: 10px; margin-top: 11px; }
+  .hero-visual { display: none; }
   .library { margin-top: 18px; padding: 24px 13px 26px; border-radius: 26px; }
   .library-head { margin-bottom: 20px; padding-inline: 4px; }
   .filter-row { gap: 5px; }
@@ -1655,11 +1625,8 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media (max-width: 390px) {
-  .hero h1 { font-size: 34px; }
+  .hero h1 { font-size: 33px; }
   .hero-actions .secondary-button { display: none; }
-  .hero-visual { min-height: 108px; gap: 8px; }
-  .vinyl-wrap { width: 88px; height: 88px; }
-  .now-card { width: 178px; flex-basis: 178px; padding: 8px 10px; }
   .dock-copy strong, .dock-copy span { max-width: 155px; }
 }
 
