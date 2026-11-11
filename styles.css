@@ -102,7 +102,7 @@ svg {
 .app-shell {
   width: min(1440px, 100%);
   margin: 0 auto;
-  padding: calc(26px + env(safe-area-inset-top)) calc(36px + env(safe-area-inset-right)) 30px calc(36px + env(safe-area-inset-left));
+  padding: calc(56px + env(safe-area-inset-top)) calc(36px + env(safe-area-inset-right)) 30px calc(36px + env(safe-area-inset-left));
 }
 
 .topbar {
@@ -1816,7 +1816,7 @@ input[type="range"]::-moz-range-thumb {
 @media (max-width: 860px) {
   body { padding-bottom: calc(108px + env(safe-area-inset-bottom)); }
   body.player-expanded { padding-bottom: calc(246px + env(safe-area-inset-bottom)); }
-  .app-shell { padding: 18px 16px 18px; }
+  .app-shell { padding: 48px 16px 18px; }
   .topbar { margin-bottom: 16px; }
   .bottom-tabs {
     right: 16px;
