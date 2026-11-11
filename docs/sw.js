@@ -1,4 +1,4 @@
-const CACHE_NAME = 'xingya-shell-v21';
+const CACHE_NAME = 'xingya-shell-v22';
 const SHELL = [
   './',
   './index.html',
@@ -6,9 +6,9 @@ const SHELL = [
   './app.js',
   './songs.js',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png',
+  './icons/icon-192-v2.png',
+  './icons/icon-512-v2.png',
+  './icons/apple-touch-icon-v2.png',
 ];
 
 self.addEventListener('install', (event) => {
