@@ -1525,9 +1525,9 @@ input[type="range"]::-moz-range-thumb {
   bottom: 8px;
   left: 24px;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 2px;
-  padding: 4px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+  padding: 5px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.94);
@@ -1536,25 +1536,26 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .tab-button {
+  width: 100%;
   min-width: 0;
   display: grid;
   place-items: center;
-  gap: 2px;
-  padding: 6px 2px;
+  gap: 3px;
+  padding: 7px 3px;
   border: 0;
   border-radius: 18px;
   background: transparent;
   color: var(--muted);
   cursor: pointer;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 680;
   letter-spacing: .02em;
   transition: color .18s ease, background .18s ease, transform .18s ease;
 }
 
 .tab-button svg {
-  width: 17px;
-  height: 17px;
+  width: 21px;
+  height: 21px;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -1816,8 +1817,8 @@ input[type="range"]::-moz-range-thumb {
   .dock-copy strong { max-width: 185px; font-size: 12px; }
   .dock-copy span { max-width: 185px; }
   .bottom-tabs { right: 10px; bottom: 8px; left: 10px; }
-  .tab-button { font-size: 8px; gap: 1px; padding: 5px 1px; }
-  .tab-button svg { width: 16px; height: 16px; }
+  .tab-button { font-size: 10px; gap: 3px; padding: 7px 2px; }
+  .tab-button svg { width: 20px; height: 20px; }
   .mini-cover { width: 43px; height: 43px; border-radius: 13px; }
   .mode-button { height: 34px; padding-inline: 9px; }
   .mode-button span { display: none; }
