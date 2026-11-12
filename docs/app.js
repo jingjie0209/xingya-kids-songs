@@ -871,9 +871,16 @@
     if (!chip) return;
     const container = chip.closest('.filter-row, .secondary-tabs');
     if (!container) return;
-    const target = Math.max(0, chip.offsetLeft - (container.clientWidth / 2) + (chip.offsetWidth / 2));
-    container.scrollTo({ left: target, behavior: 'smooth' });
-    setTimeout(() => container.scrollTo({ left: target, behavior: 'smooth' }), 60);
+    requestAnimationFrame(() => {
+      const offset = chip.offsetLeft - container.offsetLeft;
+      const target = Math.max(0, offset - (container.clientWidth / 2) + (chip.offsetWidth / 2));
+      container.scrollTo({ left: target, behavior: 'smooth' });
+      setTimeout(() => {
+        const offset2 = chip.offsetLeft - container.offsetLeft;
+        const target2 = Math.max(0, offset2 - (container.clientWidth / 2) + (chip.offsetWidth / 2));
+        container.scrollTo({ left: target2, behavior: 'smooth' });
+      }, 120);
+    });
   }
 
   function applyFilter() {
