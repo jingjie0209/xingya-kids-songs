@@ -699,6 +699,7 @@
         renderAnimationPlaylist();
       });
     });
+    scrollActiveChipIntoView(els.playlistGroups.querySelector('[data-wow-level].is-active, [data-littlefox-level].is-active, [data-littlefox-series].is-active, [data-peppa-season].is-active'));
     bindSongRows();
     updateSongRows();
     updateCountsUI();
@@ -866,12 +867,20 @@
     else renderPlaylist();
   }
 
+  function scrollActiveChipIntoView(chip) {
+    if (!chip) return;
+    requestAnimationFrame(() => {
+      chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    });
+  }
+
   function applyFilter() {
     els.filterRow.querySelectorAll('.filter-chip').forEach((chip) => {
       const active = chip.dataset.filter === activeFilter;
       chip.classList.toggle('is-active', active);
       chip.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
+    scrollActiveChipIntoView(els.filterRow.querySelector('.filter-chip.is-active'));
     if (activeTab === 'animation') {
       renderAnimationPlaylist();
       return;
