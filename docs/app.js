@@ -873,6 +873,7 @@
     if (!container) return;
     const target = Math.max(0, chip.offsetLeft - (container.clientWidth / 2) + (chip.offsetWidth / 2));
     container.scrollTo({ left: target, behavior: 'smooth' });
+    setTimeout(() => container.scrollTo({ left: target, behavior: 'smooth' }), 60);
   }
 
   function applyFilter() {

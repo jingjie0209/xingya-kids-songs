@@ -615,14 +615,21 @@ svg {
   display: none !important;
 }
 
-.filter-row {
+/* Sticky category tabs live on the head wrapper so they can remain fixed
+   while the long playlist continues to scroll underneath. */
+.library-head {
   position: sticky;
-  top: calc(64px + env(safe-area-inset-top));
+  top: calc(56px + env(safe-area-inset-top));
   z-index: 8;
   margin-inline: -6px;
-  padding-inline: 6px;
-  background: linear-gradient(180deg, rgba(255,255,255,.98) 82%, rgba(255,255,255,.9));
+  padding: 6px;
+  background: linear-gradient(180deg, rgba(255,255,255,.99) 84%, rgba(255,255,255,.92));
   backdrop-filter: blur(10px);
+}
+
+.filter-row,
+.secondary-tabs {
+  position: relative;
 }
 
 .section-kicker {
