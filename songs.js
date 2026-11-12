@@ -231,13 +231,29 @@ window.SONG_CATEGORIES = [
     "icon": "paw",
     "color": "#5d9a72"
   },
-  {
-    "id": "littlefox-2-wacky-ricky",
-    "name": "Wacky Ricky",
-    "english": "L2 · WACKY RICKY",
-    "note": "Little Fox L2 动画音频",
+{
+    "id": "littlefox-3-wizard-and-cat",
+    "name": "Wizard and Cat",
+    "english": "L3 · WIZARD & CAT",
+    "note": "Little Fox L3 动画音频",
+    "icon": "puzzle",
+    "color": "#7d6bb0"
+  },
+{
+    "id": "littlefox-3-cinderella",
+    "name": "Cinderella",
+    "english": "L3 · CINDERELLA",
+    "note": "Little Fox L3 动画音频",
     "icon": "smile",
-    "color": "#b575c5"
+    "color": "#dc7f9b"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows",
+    "name": "The Wind in the Willows",
+    "english": "L3 · WIND IN THE WILLOWS",
+    "note": "Little Fox L3 动画音频",
+    "icon": "globe",
+    "color": "#5d9a72"
   },
   {
     "id": "littlefox-1-big-green-forest",
@@ -6610,13 +6626,1477 @@ window.SONGS = [
     "duration": 169.992,
     "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-120.mp3"
   },
-  {
-    "id": "littlefox-2-wacky-ricky-100",
-    "title": "A Family Project",
-    "zh": "Wacky Ricky",
-    "category": "littlefox-2-wacky-ricky",
-    "duration": 112.483265,
-    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-100.mp3"
+{
+    "id": "littlefox-3-wizard-and-cat-001",
+    "title": "Once Upon a Time",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 242.155102,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-001.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-002",
+    "title": "Tom's Gift",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 225.071020,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-002.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-003",
+    "title": "Into the Dark Forest",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 223.216327,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-003.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-004",
+    "title": "Two New Friends",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 193.123265,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-004.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-005",
+    "title": "The Palace",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 213.472653,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-005.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-006",
+    "title": "The King and Queen",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 217.391020,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-006.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-007",
+    "title": "The Grim Dungeon",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 196.911020,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-007.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-008",
+    "title": "The New Royal Wizard",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 195.343673,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-008.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-009",
+    "title": "At the Palace",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 260.075102,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-009.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-010",
+    "title": "The Crown in the Moat",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 208.274286,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-010.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-011",
+    "title": "Crocodiles!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 173.635918,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-011.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-012",
+    "title": "The Best Royal Wizard Ever",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 217.600000,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-012.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-013",
+    "title": "Prince Eric's Birthday",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 189.387755,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-013.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-014",
+    "title": "A Special Dog",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 188.499592,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-014.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-015",
+    "title": "Potions and Spells",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 208.770612,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-015.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-016",
+    "title": "A Surprise for the Prince",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 230.060408,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-016.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-017",
+    "title": "A Fire-Breathing Dragon!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 189.466122,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-017.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-018",
+    "title": "A Spell for Ann",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 190.615510,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-018.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-019",
+    "title": "The Angry Dragon!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 172.852245,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-019.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-020",
+    "title": "Tom and the Dragon",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 216.189388,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-020.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-021",
+    "title": "The Royal Fair",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 194.377143,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-021.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-022",
+    "title": "The Bad Knight",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 206.524082,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-022.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-023",
+    "title": "A Midnight Meeting",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 211.513469,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-023.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-024",
+    "title": "A Fair Joust",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 211.905306,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-024.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-025",
+    "title": "The Princess Is Sick!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 187.924898,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-025.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-026",
+    "title": "Back to the Dark Forest",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 200.019592,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-026.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-027",
+    "title": "The Tale of the Pinkberry Bush",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 169.482449,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-027.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-028",
+    "title": "A Pinkberry Bush Appears",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 231.758367,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-028.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-029",
+    "title": "The Royal Family Goes on a Trip",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 205.244082,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-029.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-030",
+    "title": "Looking for Ann",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 207.595102,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-030.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-031",
+    "title": "Picnic at the Palace",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 192.391837,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-031.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-032",
+    "title": "A Royal Potion",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 235.911837,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-032.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-033",
+    "title": "The New Jester",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 197.982041,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-033.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-034",
+    "title": "The Jester's Secret",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 199.993469,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-034.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-035",
+    "title": "The Grand Banquet",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 211.278367,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-035.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-036",
+    "title": "The Crack in the Wall",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 214.256327,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-036.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-037",
+    "title": "A Spell for Princess Mary",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 168.646531,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-037.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-038",
+    "title": "The Five Princes",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 176.822857,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-038.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-039",
+    "title": "A Kiss and a Potion",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 193.906939,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-039.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-040",
+    "title": "A Wonderful Spell",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 190.328163,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-040.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-041",
+    "title": "A Wizard Appears",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 205.897143,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-041.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-042",
+    "title": "A Good Plan",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 164.911020,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-042.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-043",
+    "title": "Daimon's Spell",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 175.438367,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-043.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-044",
+    "title": "A Huge Splash",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 175.568980,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-044.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-045",
+    "title": "Where Is Princess Mary",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 198.635102,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-045.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-046",
+    "title": "The Unicorn",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 157.831837,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-046.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-047",
+    "title": "Abracadabra!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 178.259592,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-047.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-048",
+    "title": "The Angry Ogre",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 165.825306,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-048.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-049",
+    "title": "A Royal Problem",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 166.373878,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-049.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-050",
+    "title": "Dusting Doors",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 162.351020,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-050.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-051",
+    "title": "A Sleep Spell",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 161.619592,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-051.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-052",
+    "title": "Sheep!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 171.102041,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-052.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-053",
+    "title": "The Great Itch",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 147.356735,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-053.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-054",
+    "title": "Stop the Itch!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 174.341224,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-054.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-055",
+    "title": "Scat, Rats!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 172.303673,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-055.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-056",
+    "title": "Flee, Bees!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 176.822857,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-056.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-057",
+    "title": "The King's Feast",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 175.516735,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-057.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-058",
+    "title": "A Magic Powder",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 211.304490,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-058.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-059",
+    "title": "More Food!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 197.825306,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-059.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-060",
+    "title": "Mouse Pie",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 197.511837,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-060.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-061",
+    "title": "The Prince Runs Away",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 196.536000,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-061.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-062",
+    "title": "The Apple Cart",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 216.946939,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-062.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-063",
+    "title": "Out to Sea",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 216.946939,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-063.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-064",
+    "title": "A Sinking Boat!",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 172.956735,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-064.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-065",
+    "title": "The Royal Grandmother Comes",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 210.625306,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-065.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-066",
+    "title": "The Wishing Cap",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 160.626939,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-066.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-067",
+    "title": "The Royal Grandmother's Wishes",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 173.740408,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-067.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-068",
+    "title": "One Last Wish",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 177.162449,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-068.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-069",
+    "title": "The Royal Race",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 150.439184,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-069.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-070",
+    "title": "Race Day",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 171.624490,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-070.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-071",
+    "title": "Losing the Race",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 155.951020,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-071.mp3"
+  },
+{
+    "id": "littlefox-3-wizard-and-cat-072",
+    "title": "A Royal Mess",
+    "zh": "Wizard and Cat",
+    "category": "littlefox-3-wizard-and-cat",
+    "duration": 169.822041,
+    "file": "audio/littlefox/littlefox-3-wizard-and-cat/littlefox-3-wizard-and-cat-072.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-001",
+    "title": "A Kind Girl",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 179.905306,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-001.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-002",
+    "title": "Sad News",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 203.180408,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-002.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-003",
+    "title": "A Royal Message",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 151.666939,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-003.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-004",
+    "title": "Getting Ready for the Ball",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 167.575510,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-004.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-005",
+    "title": "A Visitor",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 159.164082,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-005.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-006",
+    "title": "A Wish Comes True",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 202.475102,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-006.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-007",
+    "title": "The Princess Arrives",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 198.426122,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-007.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-008",
+    "title": "The Ball",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 215.301224,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-008.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-009",
+    "title": "Singing Softly",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 201.038367,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-009.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-010",
+    "title": "Midnight!",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 170.135510,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-010.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-011",
+    "title": "The Glass Shoe",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 207.647347,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-011.mp3"
+  },
+{
+    "id": "littlefox-3-cinderella-012",
+    "title": "Happily Ever After",
+    "zh": "Cinderella",
+    "category": "littlefox-3-cinderella",
+    "duration": 215.431837,
+    "file": "audio/littlefox/littlefox-3-cinderella/littlefox-3-cinderella-012.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-001",
+    "title": "It Is Spring!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 128.470204,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-001.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-002",
+    "title": "Boating with Water Rat",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 130.063673,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-002.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-003",
+    "title": "On the River",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 145.475918,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-003.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-004",
+    "title": "Getting to Know the River",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 146.808163,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-004.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-005",
+    "title": "Mole Overboard!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 139.337143,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-005.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-006",
+    "title": "Mole Gets a New Home",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 153.704490,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-006.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-007",
+    "title": "Toad Hall",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 159.895510,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-007.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-008",
+    "title": "Toad's Big Idea",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 147.774694,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-008.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-009",
+    "title": "On the Road",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 144.222041,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-009.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-010",
+    "title": "Longing for the River",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 151.040000,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-010.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-011",
+    "title": "In a Ditch",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 167.000816,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-011.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-012",
+    "title": "Toad's Dream Car",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 161.567347,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-012.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-013",
+    "title": "Vroom!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 168.254694,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-013.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-014",
+    "title": "The Wild Wood",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 162.586122,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-014.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-015",
+    "title": "Afraid in the Wood",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 172.852245,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-015.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-016",
+    "title": "Rat Searches for Mole",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 146.337959,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-016.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-017",
+    "title": "Friends Find Each Other",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 155.768163,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-017.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-018",
+    "title": "Lost and Cold",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 151.745306,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-018.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-019",
+    "title": "A Lucky Break",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 165.250612,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-019.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-020",
+    "title": "Mr. Badger",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 141.296327,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-020.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-021",
+    "title": "Waking up Badger",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 150.700408,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-021.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-022",
+    "title": "Up Late",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 155.454694,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-022.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-023",
+    "title": "Rabbits Never Help",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 140.251429,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-023.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-024",
+    "title": "The Hedgehogs",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 131.056327,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-024.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-025",
+    "title": "Badger's Big House",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 141.479184,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-025.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-026",
+    "title": "The Story of the Wild Wood",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 142.132245,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-026.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-027",
+    "title": "Out of the Wild Wood",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 142.001633,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-027.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-028",
+    "title": "Home",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 145.293061,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-028.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-029",
+    "title": "Finding Home",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 141.897143,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-029.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-030",
+    "title": "Mole End",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 146.886531,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-030.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-031",
+    "title": "Dinner at Mole's House",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 136.306939,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-031.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-032",
+    "title": "The Singing Mice",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 165.616327,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-032.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-033",
+    "title": "Amusing the Mice",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 140.382041,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-033.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-034",
+    "title": "Sweet Home",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 124.786939,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-034.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-035",
+    "title": "A Wonderful Night!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 162.403265,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-035.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-036",
+    "title": "Helping Mr. Toad",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 147.487347,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-036.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-037",
+    "title": "Badger Gets Mad",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 152.528980,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-037.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-038",
+    "title": "Talking to Toad",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 140.016327,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-038.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-039",
+    "title": "Toad Never Listens",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 160.235102,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-039.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-040",
+    "title": "Crash! Flip! Thud!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 156.264490,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-040.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-041",
+    "title": "Rat Gets Fooled",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 159.895510,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-041.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-042",
+    "title": "The Red Lion",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 152.398367,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-042.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-043",
+    "title": "King of the Road!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 157.701224,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-043.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-044",
+    "title": "Toad in Trouble",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 145.684898,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-044.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-045",
+    "title": "Little Portly",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 145.684898,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-045.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-046",
+    "title": "The Wind in the Reeds",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 144.169796,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-046.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-047",
+    "title": "A Small Island",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 138.031020,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-047.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-048",
+    "title": "A Mysterious Friend",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 145.084082,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-048.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-049",
+    "title": "Otter and Portly",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 148.662857,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-049.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-050",
+    "title": "Toad in Jail",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 162.507755,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-050.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-051",
+    "title": "A New Friend",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 136.724898,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-051.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-052",
+    "title": "A Plan for Escape",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 126.380408,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-052.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-053",
+    "title": "Toad and the Washwoman",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 131.474286,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-053.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-054",
+    "title": "Freedom!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 127.111837,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-054.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-055",
+    "title": "No Money and No Ticket",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 133.302857,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-055.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-056",
+    "title": "On the Train",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 138.266122,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-056.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-057",
+    "title": "Chasing Toad",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 138.605714,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-057.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-058",
+    "title": "Off the Train",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 157.753469,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-058.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-059",
+    "title": "Going South",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 143.438367,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-059.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-060",
+    "title": "The Dusty Stranger",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 137.430204,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-060.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-061",
+    "title": "Sea Rat Tales",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 150.831020,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-061.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-062",
+    "title": "Poor Rat",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 148.349388,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-062.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-063",
+    "title": "Cheering Up Rat!",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 137.038367,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-063.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-064",
+    "title": "Toad on the Road",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 166.138776,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-064.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-065",
+    "title": "Possum's Boat",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 149.551020,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-065.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-066",
+    "title": "Doing the Wash",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 160.470204,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-066.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-067",
+    "title": "Toad Gets Revenge",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 156.577959,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-067.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-068",
+    "title": "Toad in the Road",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 143.177143,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-068.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-069",
+    "title": "Back in the Driver's Seat",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 141.714286,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-069.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-070",
+    "title": "On the Road Again",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 144.143673,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-070.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-071",
+    "title": "In the Mud",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 151.928163,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-071.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-072",
+    "title": "Stupid Toad",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 152.790204,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-072.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-073",
+    "title": "Water Rat",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 144.927347,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-073.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-074",
+    "title": "Saved by Water Rat",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 144.352653,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-074.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-075",
+    "title": "Rat Talks to Toad",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 150.569796,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-075.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-076",
+    "title": "The Weasels and Ferrets",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 141.217959,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-076.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-077",
+    "title": "Wild-Wooders in Toad Hall",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 142.001633,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-077.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-078",
+    "title": "Toad Goes Home",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 148.088163,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-078.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-079",
+    "title": "Weasels at the Bridge",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 144.013061,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-079.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-080",
+    "title": "Together Again",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 140.251429,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-080.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-081",
+    "title": "Beef, Pickles, and Pie",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 143.960816,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-081.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-082",
+    "title": "The Plan",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 153.600000,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-082.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-083",
+    "title": "Fooling the Ferrets",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 136.960000,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-083.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-084",
+    "title": "Mole's Story",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 131.552653,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-084.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-085",
+    "title": "Jealous Toad",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 131.317551,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-085.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-086",
+    "title": "Badger Explains",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 157.152653,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-086.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-087",
+    "title": "The Secret Tunnel",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 147.513469,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-087.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-088",
+    "title": "Toad Can Stay",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 144.509388,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-088.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-089",
+    "title": "The Weasels Party",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 155.559184,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-089.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-090",
+    "title": "The Battle of Toad Hall",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 149.890612,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-090.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-091",
+    "title": "After the Fight",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 152.163265,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-091.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-092",
+    "title": "Supper at Home",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 154.540408,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-092.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-093",
+    "title": "Breakfast at Toad Hall",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 145.266939,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-093.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-094",
+    "title": "Invitations",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 163.004082,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-094.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-095",
+    "title": "Toad's Party Plans",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 145.266939,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-095.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-096",
+    "title": "Bragging Rights",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 149.289796,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-096.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-097",
+    "title": "Toad's Song",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 128.470204,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-097.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-098",
+    "title": "Toad's Party",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 168.542041,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-098.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-099",
+    "title": "At Home",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 141.035102,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-099.mp3"
+  },
+{
+    "id": "littlefox-3-wind-in-the-willows-100",
+    "title": "Tales Told Twice",
+    "zh": "The Wind in the Willows",
+    "category": "littlefox-3-wind-in-the-willows",
+    "duration": 192.078367,
+    "file": "audio/littlefox/littlefox-3-wind-in-the-willows/littlefox-3-wind-in-the-willows-100.mp3"
   },
   {
     "id": "littlefox-2-wacky-ricky-010",

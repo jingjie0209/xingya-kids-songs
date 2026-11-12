@@ -16,6 +16,7 @@
       'littlefox-1-tire-town', 'littlefox-1-dino-buddies', 'littlefox-1-bat-and-friends',
       'littlefox-1-big-green-forest',
       'littlefox-2-bird-and-kip', 'littlefox-2-wacky-ricky',
+      'littlefox-3-wizard-and-cat', 'littlefox-3-cinderella', 'littlefox-3-wind-in-the-willows',
       'peppa-1', 'peppa-2', 'peppa-3', 'peppa-4', 'peppa-5',
     ],
     talk: ['talk'],
@@ -34,6 +35,9 @@
     { id: 'littlefox-1-big-green-forest', level: 'littlefox-1', name: 'The Big Green Forest', icon: 'paw', color: '#5d9a72' },
     { id: 'littlefox-2-bird-and-kip', level: 'littlefox-2', name: 'Bird and Kip', icon: 'paw', color: '#5d9a72' },
     { id: 'littlefox-2-wacky-ricky', level: 'littlefox-2', name: 'Wacky Ricky', icon: 'smile', color: '#b575c5' },
+    { id: 'littlefox-3-wizard-and-cat', level: 'littlefox-3', name: 'Wizard and Cat', icon: 'puzzle', color: '#7d6bb0' },
+    { id: 'littlefox-3-cinderella', level: 'littlefox-3', name: 'Cinderella', icon: 'smile', color: '#dc7f9b' },
+    { id: 'littlefox-3-wind-in-the-willows', level: 'littlefox-3', name: 'The Wind in the Willows', icon: 'globe', color: '#5d9a72' },
   ];
   const peppaSeasons = [
     { id: 'peppa-1', season: 'peppa-1', name: '小猪佩奇 第1季', subtitle: '小猪佩奇 · 第1季', icon: 'hand', color: '#dc7f9b' },
@@ -520,6 +524,7 @@
         <button class="secondary-tab ${activeLittleFoxLevel === 'all' ? 'is-active' : ''}" type="button" data-littlefox-level="all">全部</button>
         <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-1' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-1">L1</button>
         <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-2' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-2">L2</button>
+        <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-3' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-3">L3</button>
       </div>
     `;
   }
@@ -540,7 +545,7 @@
         <header class="group-head">
           <div class="group-title">
             <span class="group-icon" style="--group-color:${series.color}"><svg><use href="#icon-${series.icon}"></use></svg></span>
-            <span class="group-title-text"><strong>${series.name}</strong><span>${series.subtitle || `Little Fox ${series.level === 'littlefox-2' ? 'L2' : 'L1'}`}</span></span>
+            <span class="group-title-text"><strong>${series.name}</strong><span>${series.subtitle || `Little Fox ${(series.level || '').replace('littlefox-', 'L').toUpperCase()}`}</span></span>
           </div>
           <span class="group-count">${entries.length} 首</span>
         </header>
