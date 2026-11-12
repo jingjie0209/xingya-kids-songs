@@ -187,6 +187,7 @@
   let volume = Number(storedValue(STORAGE.volume, 'xingya-volume-v1'));
   let isMuted = storedValue(STORAGE.muted, 'xingya-muted-v1') === 'true';
   let activeFilter = 'all';
+  let activeWowLevel = 'all';
   let sessionCounted = false;
   let lastTickWall = Date.now();
   let lastPersist = 0;
@@ -480,10 +481,25 @@
     const filters = activeTab === 'animation'
       ? animationGroups.map((group) => ({ id: group.id, name: group.name }))
       : categories.map((category) => ({ id: category.id, name: category.name }));
+    const visibleFilters = activeTab === 'animation'
+      ? filters.filter((item) => item.id !== 'animation-wow')
+      : filters;
     els.filterRow.innerHTML = [
-      '<button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">全部</button>',
-      ...filters.map((item) => `<button class="filter-chip" type="button" data-filter="${item.id}" aria-pressed="false">${item.name}</button>`),
+      `<button class="filter-chip ${activeFilter === 'all' ? 'is-active' : ''}" type="button" data-filter="all" aria-pressed="${activeFilter === 'all' ? 'true' : 'false'}">全部</button>`,
+      ...visibleFilters.map((item) => `<button class="filter-chip ${activeFilter === item.id ? 'is-active' : ''}" type="button" data-filter="${item.id}" aria-pressed="${activeFilter === item.id ? 'true' : 'false'}">${item.name}</button>`),
     ].join('');
+  }
+
+  function renderWowLevelTabs() {
+    const levels = categories
+      .filter((category) => category.id.startsWith('wow-'))
+      .map((category) => ({ id: category.id, name: category.name.replace('Wow! ', '') }));
+    return `
+      <div class="secondary-tabs" role="tablist" aria-label="Wow English 分级">
+        <button class="secondary-tab ${activeWowLevel === 'all' ? 'is-active' : ''}" type="button" data-wow-level="all">全部</button>
+        ${levels.map((level) => `<button class="secondary-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}</button>`).join('')}
+      </div>
+    `;
   }
 
   function renderAnimationPlaylist() {
@@ -492,7 +508,35 @@
     renderFilters();
     const visible = animationGroups.filter((group) => activeFilter === 'all' || activeFilter === group.id);
     const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
-    els.playlistGroups.innerHTML = visible.map((group) => {
+    const wowSelected = visible.some((group) => group.id === 'animation-wow');
+    const wowSongs = wowSelected
+      ? animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
+          .filter((song) => activeWowLevel === 'all' || song.category === activeWowLevel)
+      : [];
+    const wowHtml = wowSelected ? `
+      <section class="song-group wow-level-group" data-group-category="animation-wow">
+        <header class="group-head">
+          <div class="group-title">
+            <span class="group-icon" style="--group-color:#d98543"><svg><use href="#icon-globe"></use></svg></span>
+            <span class="group-title-text">
+              <strong>Wow English</strong>
+              <span>按颜色分级快速定位</span>
+            </span>
+          </div>
+          <span class="group-count">${wowSongs.length} 首</span>
+        </header>
+        ${renderWowLevelTabs()}
+        <div class="song-list">${wowSongs.map((song, index) => `
+          <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+            <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+            <span class="song-title-block"><strong>${song.title}</strong><span>${song.zh}</span></span>
+            <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+            <span class="song-duration">${formatTime(song.duration)}</span>
+            <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+          </button>`).join('')}</div>
+      </section>
+    ` : '';
+    els.playlistGroups.innerHTML = wowHtml + visible.filter((group) => group.id !== 'animation-wow').map((group) => {
       const rows = animationSongs(group).map((song, index) => `
         <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
           <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
@@ -521,6 +565,12 @@
         </section>
       `;
     }).join('');
+    els.playlistGroups.querySelectorAll('[data-wow-level]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeWowLevel = button.dataset.wowLevel;
+        renderAnimationPlaylist();
+      });
+    });
     bindSongRows();
     updateSongRows();
     updateCountsUI();
@@ -729,6 +779,7 @@
     setPlayerExpanded(false);
     activeTab = tabId;
     activeFilter = 'all';
+    activeWowLevel = 'all';
     document.querySelectorAll('.tab-button').forEach((button) => {
       const active = button.dataset.tab === tabId;
       button.classList.toggle('is-active', active);
