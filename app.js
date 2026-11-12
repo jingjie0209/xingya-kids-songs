@@ -573,10 +573,10 @@
   function renderWowLevelTabs() {
     const levels = categories
       .filter((category) => category.id.startsWith('wow-'))
-      .map((category) => ({ id: category.id, name: category.name.replace('Wow! ', '') }));
+      .map((category) => ({ id: category.id, name: category.name.replace('Wow! ', ''), note: category.note.replace('分级课程音频', '') }));
     return `
       <div class="secondary-tabs" role="tablist" aria-label="Wow English 分级">
-          ${levels.map((level) => `<button class="secondary-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}</button>`).join('')}
+          ${levels.map((level) => `<button class="secondary-tab wow-level-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}<span class="level-note">${level.note}</span></button>`).join('')}
       </div>
     `;
   }
@@ -604,7 +604,7 @@
         <div class="song-list">${littleFoxSongs.map((song, index) => `
           <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
             <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
-            <span class="song-title-block"><strong>${song.title}</strong><span>${song.zh}</span></span>
+            <span class="song-title-block"><strong>${song.title}</strong></span>
             <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
             <span class="song-duration">${formatTime(song.duration)}</span>
             <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
