@@ -13,7 +13,7 @@
   const tabCategoryGroups = {
     animation: [
       'wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange',
-      'wow-bronze', 'wow-silver', 'wow-gold', 'guli', 'vocab-town',
+      'wow-bronze', 'wow-silver', 'wow-gold', 'guli', 'vocab-town', 'qplay',
       'littlefox-1-tire-town', 'littlefox-1-dino-buddies', 'littlefox-1-bat-and-friends',
       'littlefox-1-big-green-forest',
       'littlefox-2-bird-and-kip', 'littlefox-2-wacky-ricky',
@@ -27,7 +27,8 @@
     { id: 'animation-littlefox', name: 'Little Fox', categoryPrefixes: ['littlefox-'], icon: 'abc', color: '#4f8ccc' },
     { id: 'animation-peppa', name: '小猪佩奇', categoryPrefixes: ['peppa-'], icon: 'hand', color: '#dc7f9b' },
     { id: 'animation-guli', name: '古力小超人', categoryPrefixes: ['guli'], icon: 'globe', color: '#7b88c7' },
-    { id: 'animation-vocab-town', name: '词汇妙趣国', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
+    { id: 'animation-qplay', name: 'Q-play', categoryPrefixes: ['qplay'], icon: 'globe', color: '#d9798f' },
+    { id: 'animation-vocab-town', name: 'W-play', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
   ];
   const littleFoxSeries = [
     { id: 'littlefox-1-big-green-forest', level: 'littlefox-1', name: 'The Big Green Forest', icon: 'paw', color: '#5d9a72' },

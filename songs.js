@@ -192,10 +192,18 @@ window.SONG_CATEGORIES = [
     "color": "#7b88c7"
   },
   {
+    "id": "qplay",
+    "name": "Q-play",
+    "english": "Q-PLAY",
+    "note": "Q-play动画音频",
+    "icon": "globe",
+    "color": "#d9798f"
+  },
+  {
     "id": "vocab-town",
-    "name": "词汇妙趣国",
-    "english": "VOCAB TOWN",
-    "note": "词汇妙趣国动画音频",
+    "name": "W-play",
+    "english": "W-PLAY",
+    "note": "W-play动画音频",
     "icon": "globe",
     "color": "#57a59a"
   },
@@ -11169,5 +11177,85 @@ window.SONGS = [
     "category": "peppa-5",
     "duration": 312.072,
     "file": "audio/peppa/peppa-5/peppa-5-052.mp3"
+  },
+  {
+    "id": "qplay-001",
+    "title": "What's in your bag",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 184.711813,
+    "file": "audio/qplay/qplay-001.mp3"
+  },
+  {
+    "id": "qplay-002",
+    "title": "Why is her name monster",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 179.0955,
+    "file": "audio/qplay/qplay-002.mp3"
+  },
+  {
+    "id": "qplay-003",
+    "title": "Can I have it",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 205.374687,
+    "file": "audio/qplay/qplay-003.mp3"
+  },
+  {
+    "id": "qplay-004",
+    "title": "Are we there yet",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 178.991,
+    "file": "audio/qplay/qplay-004.mp3"
+  },
+  {
+    "id": "qplay-005",
+    "title": "Whose turn is it",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 159.111813,
+    "file": "audio/qplay/qplay-005.mp3"
+  },
+  {
+    "id": "qplay-006",
+    "title": "Did you wash your hands",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 216.973062,
+    "file": "audio/qplay/qplay-006.mp3"
+  },
+  {
+    "id": "qplay-007",
+    "title": "What's that sound",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 179.330563,
+    "file": "audio/qplay/qplay-007.mp3"
+  },
+  {
+    "id": "qplay-008",
+    "title": "Can I take my ball",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 167.444875,
+    "file": "audio/qplay/qplay-008.mp3"
+  },
+  {
+    "id": "qplay-009",
+    "title": "What did you build",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 198.713437,
+    "file": "audio/qplay/qplay-009.mp3"
+  },
+  {
+    "id": "qplay-010",
+    "title": "Is it yummy",
+    "zh": "Q-play",
+    "category": "qplay",
+    "duration": 191.059562,
+    "file": "audio/qplay/qplay-010.mp3"
   }
 ];
