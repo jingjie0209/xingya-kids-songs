@@ -238,6 +238,14 @@ window.SONG_CATEGORIES = [
     "note": "Little Fox L2 动画音频",
     "icon": "smile",
     "color": "#b575c5"
+  },
+  {
+    "id": "littlefox-1-big-green-forest",
+    "name": "The Big Green Forest",
+    "english": "L1 · BIG GREEN FOREST",
+    "note": "Little Fox L1 动画音频",
+    "icon": "paw",
+    "color": "#5d9a72"
   }
 ];
 
@@ -7361,5 +7369,197 @@ window.SONGS = [
     "category": "littlefox-2-wacky-ricky",
     "duration": 138.161633,
     "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-009.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-001",
+    "title": "I Can Hop",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 160.182857,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-001.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-002",
+    "title": "Look!",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 146.599184,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-002.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-003",
+    "title": "I Will Fly",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 163.291429,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-003.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-004",
+    "title": "Where Can We Play",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 139.650612,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-004.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-005",
+    "title": "I Can not Find My Leaf",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 189.831837,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-005.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-006",
+    "title": "I Want to Sing",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 172.8,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-006.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-007",
+    "title": "I Sleep at Night",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 178.050612,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-007.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-008",
+    "title": "I See Something",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 170.710204,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-008.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-009",
+    "title": "Go Away, Bugs!",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 242.155102,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-009.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-010",
+    "title": "Can You Help",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 236.617143,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-010.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-011",
+    "title": "Watch Me Run",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 132.858776,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-011.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-012",
+    "title": "Please Stop",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 174.106122,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-012.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-013",
+    "title": "I Like to Climb",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 179.173878,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-013.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-014",
+    "title": "I Want to Eat",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 216.32,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-014.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-015",
+    "title": "Let is Walk",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 261.537959,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-015.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-016",
+    "title": "I Will Sit",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 230.530612,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-016.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-017",
+    "title": "Yes, I Can",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 184.737959,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-017.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-018",
+    "title": "You Will Fall",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 173.453061,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-018.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-019",
+    "title": "Let is Make Something",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 192.287347,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-019.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-020",
+    "title": "I Can Hold It",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 184.450612,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-020.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-021",
+    "title": "I Have Something",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 139.363265,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-021.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-022",
+    "title": "I Am Tall",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 178.886531,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-022.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-023",
+    "title": "I Can Draw",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 121.991837,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-023.mp3"
+  },
+  {
+    "id": "littlefox-1-big-green-forest-024",
+    "title": "Let is Get Apples",
+    "zh": "The Big Green Forest",
+    "category": "littlefox-1-big-green-forest",
+    "duration": 176.613878,
+    "file": "audio/littlefox/littlefox-1-big-green-forest/littlefox-1-big-green-forest-024.mp3"
   }
 ];
