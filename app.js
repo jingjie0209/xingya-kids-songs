@@ -581,10 +581,10 @@
     els.libraryHead.hidden = false;
     els.filterRow.hidden = false;
     renderFilters();
+    const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
     const visible = animationGroups.filter((group) =>
       animationSongs(group).length > 0 && activeFilter === group.id
     );
-    const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
     const wowSelected = visible.some((group) => group.id === 'animation-wow');
     const wowSongs = wowSelected
       ? animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
