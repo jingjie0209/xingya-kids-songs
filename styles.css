@@ -1791,6 +1791,22 @@ input[type="range"]::-moz-range-thumb {
   gap: 5px;
 }
 
+.littlefox-series-tabs .series-count {
+  min-width: 16px;
+  padding: 1px 4px;
+  border-radius: 999px;
+  background: rgba(79, 140, 204, 0.12);
+  font-size: 8px;
+  font-weight: 750;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.littlefox-series-tabs .secondary-tab.is-active .series-count {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+
 .peppa-season-tabs .season-count {
   min-width: 16px;
   padding: 1px 4px;

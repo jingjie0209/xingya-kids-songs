@@ -215,6 +215,7 @@
   let activeFilter = 'all';
   let activeWowLevel = 'wow-yellow';
   let activeLittleFoxLevel = 'littlefox-1';
+  let activeLittleFoxSeries = 'littlefox-1-tire-town';
   let activePeppaSeason = 'peppa-1';
   let sessionCounted = false;
   let lastTickWall = Date.now();
@@ -533,6 +534,15 @@
     `;
   }
 
+  function renderLittleFoxSeriesTabs() {
+    const series = littleFoxSeries.filter((item) => item.level === activeLittleFoxLevel);
+    return `
+      <div class="secondary-tabs littlefox-series-tabs" role="tablist" aria-label="Little Fox 系列">
+        ${series.map((item) => `<button class="secondary-tab ${activeLittleFoxSeries === item.id ? 'is-active' : ''}" type="button" data-littlefox-series="${item.id}">${item.name}<span class="series-count">${songs.filter((song) => song.category === item.id).length}</span></button>`).join('')}
+      </div>
+    `;
+  }
+
   function renderPeppaSeasonTabs() {
     return `
       <div class="secondary-tabs peppa-season-tabs" role="tablist" aria-label="小猪佩奇分季">
@@ -600,11 +610,12 @@
     const littleFoxSelected = visible.some((group) => group.id === 'animation-littlefox');
     const littleFoxSongs = littleFoxSelected
       ? animationSongs(animationGroups.find((group) => group.id === 'animation-littlefox'))
-          .filter((song) => activeLittleFoxLevel === 'all' || song.category.startsWith(activeLittleFoxLevel))
+          .filter((song) => song.category === activeLittleFoxSeries)
       : [];
     const littleFoxHtml = littleFoxSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-littlefox">
         ${renderLittleFoxLevelTabs()}
+        ${renderLittleFoxSeriesTabs()}
         <div class="song-list">${littleFoxSongs.map((song, index) => `
           <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
             <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
@@ -671,6 +682,13 @@
     els.playlistGroups.querySelectorAll('[data-littlefox-level]').forEach((button) => {
       button.addEventListener('click', () => {
         activeLittleFoxLevel = button.dataset.littlefoxLevel;
+        activeLittleFoxSeries = littleFoxSeries.find((item) => item.level === activeLittleFoxLevel)?.id || activeLittleFoxSeries;
+        renderAnimationPlaylist();
+      });
+    });
+    els.playlistGroups.querySelectorAll('[data-littlefox-series]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeLittleFoxSeries = button.dataset.littlefoxSeries;
         renderAnimationPlaylist();
       });
     });
@@ -882,6 +900,7 @@
     activeFilter = tabId === 'animation' ? 'animation-wow' : 'all';
     activeWowLevel = 'wow-yellow';
     activeLittleFoxLevel = 'littlefox-1';
+    activeLittleFoxSeries = 'littlefox-1-tire-town';
     activePeppaSeason = 'peppa-1';
     document.querySelectorAll('.tab-button').forEach((button) => {
       const active = button.dataset.tab === tabId;
