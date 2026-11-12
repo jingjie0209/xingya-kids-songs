@@ -2064,3 +2064,114 @@ input[type="range"]::-moz-range-thumb {
     transition-duration: .01ms !important;
   }
 }
+
+/* Content-only global scale. Hero, topbar, player dock, and bottom tabs are excluded. */
+.library {
+  font-size: 15px;
+}
+
+.library .filter-chip {
+  min-height: 39px;
+  padding-inline: 16px;
+  font-size: 13px;
+}
+
+.library .filter-chip .filter-count {
+  min-width: 20px;
+  font-size: 10px;
+  padding: 2px 6px;
+}
+
+.library .song-row {
+  min-height: 76px;
+  grid-template-columns: 48px minmax(0, 1fr) 88px 76px 44px;
+  gap: 13px;
+  padding: 12px 20px;
+}
+
+.library .song-number {
+  width: 36px;
+  height: 36px;
+  font-size: 12px;
+}
+
+.library .song-title-block strong {
+  font-size: 15px;
+}
+
+.library .song-title-block span {
+  font-size: 11px;
+}
+
+.library .song-duration,
+.library .song-play-count {
+  font-size: 11px;
+}
+
+.library .song-play-button {
+  width: 37px;
+  height: 37px;
+}
+
+.library .song-play-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.library .secondary-tabs {
+  padding: 14px 20px;
+  gap: 8px;
+}
+
+.library .secondary-tab {
+  min-height: 35px;
+  padding: 0 15px;
+  font-size: 12px;
+}
+
+.library .wow-level-tab .level-note,
+.library .littlefox-series-tabs .series-count,
+.library .peppa-season-tabs .season-count {
+  font-size: 10px;
+  padding: 2px 6px;
+  min-width: 20px;
+}
+
+.library .resource-card {
+  min-height: 144px;
+  padding: 22px;
+  gap: 16px;
+}
+
+.library .resource-card-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.library .resource-card-copy strong {
+  font-size: 17px;
+}
+
+.library .resource-card-copy span {
+  font-size: 11px;
+}
+
+.library .group-empty {
+  font-size: 12px;
+}
+
+@media (max-width: 560px) {
+  .library .filter-chip { min-height: 37px; padding-inline: 13px; font-size: 12px; }
+  .library .filter-chip .filter-count { font-size: 9px; }
+  .library .song-row { min-height: 72px; grid-template-columns: 35px minmax(0, 1fr) 64px 34px; gap: 9px; padding: 9px 12px; }
+  .library .song-number { width: 32px; height: 32px; font-size: 11px; }
+  .library .song-title-block strong { font-size: 14px; }
+  .library .song-duration { font-size: 10px; }
+  .library .song-play-button { width: 33px; height: 33px; }
+  .library .secondary-tabs { padding: 12px 16px; }
+  .library .secondary-tab { min-height: 33px; padding: 0 13px; font-size: 11px; }
+  .library .resource-card { min-height: 94px; padding: 16px; border-radius: 20px; }
+  .library .resource-card-icon { width: 42px; height: 42px; }
+  .library .resource-card-copy strong { font-size: 15px; }
+  .library .resource-card-copy span { font-size: 11px; }
+}
