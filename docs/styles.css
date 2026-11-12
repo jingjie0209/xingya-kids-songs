@@ -1759,6 +1759,18 @@ input[type="range"]::-moz-range-thumb {
   color: #fff;
 }
 
+.wow-level-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wow-level-tab .level-note {
+  font-size: 8px;
+  font-weight: 700;
+  opacity: .72;
+}
+
 .peppa-season-tabs {
   border-bottom: 0;
   background: transparent;
