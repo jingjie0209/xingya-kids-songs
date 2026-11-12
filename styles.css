@@ -1762,6 +1762,7 @@ input[type="range"]::-moz-range-thumb {
 .peppa-season-tabs {
   border-bottom: 0;
   background: transparent;
+  padding-block: 0;
 }
 
 .peppa-season-tab {
