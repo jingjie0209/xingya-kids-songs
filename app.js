@@ -619,16 +619,6 @@
     ` : '';
     const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">
-        <header class="group-head">
-          <div class="group-title">
-            <span class="group-icon" style="--group-color:#d98543"><svg><use href="#icon-globe"></use></svg></span>
-            <span class="group-title-text">
-              <strong>Wow English</strong>
-              <span>按颜色分级快速定位</span>
-            </span>
-          </div>
-          <span class="group-count">${wowSongs.length} 首</span>
-        </header>
         ${renderWowLevelTabs()}
         <div class="song-list">${wowSongs.map((song, index) => `
           <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">

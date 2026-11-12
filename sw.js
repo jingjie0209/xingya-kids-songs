@@ -1,4 +1,4 @@
-const CACHE_NAME = 'xingya-shell-v55';
+const CACHE_NAME = 'xingya-shell-v56';
 const SHELL = [
   './',
   './index.html',
