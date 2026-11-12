@@ -2101,11 +2101,15 @@ input[type="range"]::-moz-range-thumb {
 
 .library .song-row {
   min-height: 66px;
-  grid-template-columns: 48px minmax(0, 1fr) auto auto;
-  gap: 10px;
+  grid-template-columns: 48px minmax(0, 1fr) auto 44px;
+  gap: 12px;
   padding: 9px 20px;
   align-items: center;
-  justify-content: space-between;
+}
+
+.library .song-row > .song-duration {
+  margin-left: auto;
+  text-align: right;
 }
 
 .library .song-row > .song-duration,
