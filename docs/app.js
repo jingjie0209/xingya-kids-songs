@@ -869,9 +869,10 @@
 
   function scrollActiveChipIntoView(chip) {
     if (!chip) return;
-    requestAnimationFrame(() => {
-      chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-    });
+    const container = chip.closest('.filter-row, .secondary-tabs');
+    if (!container) return;
+    const target = Math.max(0, chip.offsetLeft - (container.clientWidth / 2) + (chip.offsetWidth / 2));
+    container.scrollTo({ left: target, behavior: 'smooth' });
   }
 
   function applyFilter() {
