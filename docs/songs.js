@@ -1019,6 +1019,14 @@ window.SONGS = [
     "file": "audio/jack-and-jill.mp3"
   },
   {
+    "id": "brown-bear-sing-along",
+    "title": "Brown Bear Sing Along",
+    "zh": "棕色熊原版跟唱（男声）",
+    "category": "rhymes",
+    "duration": 155.08,
+    "file": "audio/brown-bear-sing-along.mp3"
+  },
+  {
     "id": "wow-yellow-001",
     "title": "Wow!Yellow Unit 1 hello video_story",
     "zh": "黄色（3-4岁）",
