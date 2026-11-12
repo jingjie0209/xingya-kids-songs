@@ -596,7 +596,7 @@
     const littleFoxSelected = visible.some((group) => group.id === 'animation-littlefox');
     const littleFoxSongs = littleFoxSelected
       ? animationSongs(animationGroups.find((group) => group.id === 'animation-littlefox'))
-          .filter((song) => activeLittleFoxLevel === 'all' || song.category === activeLittleFoxLevel)
+          .filter((song) => activeLittleFoxLevel === 'all' || song.category.startsWith(activeLittleFoxLevel))
       : [];
     const littleFoxHtml = littleFoxSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-littlefox">
