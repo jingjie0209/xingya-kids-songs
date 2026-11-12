@@ -13,6 +13,7 @@
     animation: [
       'wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange',
       'wow-bronze', 'wow-silver', 'wow-gold', 'guli', 'vocab-town',
+      'littlefox-1-tire-town', 'littlefox-1-dino-buddies', 'littlefox-1-bat-and-friends',
     ],
     talk: ['talk'],
   };
@@ -22,6 +23,11 @@
     { id: 'animation-peppa', name: '小猪佩奇', categoryPrefixes: ['peppa-'], icon: 'hand', color: '#dc7f9b' },
     { id: 'animation-guli', name: '古力小超人', categoryPrefixes: ['guli'], icon: 'globe', color: '#7b88c7' },
     { id: 'animation-vocab-town', name: '词汇妙趣国', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
+  ];
+  const littleFoxSeries = [
+    { id: 'littlefox-1-tire-town', level: 'littlefox-1', name: 'Tire Town School', icon: 'bus', color: '#d98543' },
+    { id: 'littlefox-1-dino-buddies', level: 'littlefox-1', name: 'Dino Buddies', icon: 'paw', color: '#5d9a72' },
+    { id: 'littlefox-1-bat-and-friends', level: 'littlefox-1', name: 'Bat and Friends', icon: 'hand', color: '#7d6bb0' },
   ];
   const collectionTabIds = new Set(['songs', 'animation', 'talk']);
   const resourceLinks = [
@@ -190,6 +196,7 @@
   let isMuted = storedValue(STORAGE.muted, 'xingya-muted-v1') === 'true';
   let activeFilter = 'all';
   let activeWowLevel = 'all';
+  let activeLittleFoxLevel = 'littlefox-1';
   let sessionCounted = false;
   let lastTickWall = Date.now();
   let lastPersist = 0;
@@ -481,16 +488,48 @@
   }
 
   function renderFilters() {
-    const filters = activeTab === 'animation'
-      ? animationGroups.map((group) => ({ id: group.id, name: group.name }))
-      : categories.map((category) => ({ id: category.id, name: category.name }));
-    const visibleFilters = activeTab === 'animation'
-      ? filters.filter((item) => item.id !== 'animation-wow')
-      : filters;
+    if (activeTab === 'animation') {
+      els.filterRow.innerHTML = animationGroups.map((group) =>
+        `<button class="filter-chip ${activeFilter === group.id ? 'is-active' : ''}" type="button" data-filter="${group.id}" aria-pressed="${activeFilter === group.id ? 'true' : 'false'}">${group.name}</button>`
+      ).join('');
+      return;
+    }
     els.filterRow.innerHTML = [
-      `<button class="filter-chip ${activeFilter === 'all' ? 'is-active' : ''}" type="button" data-filter="all" aria-pressed="${activeFilter === 'all' ? 'true' : 'false'}">${activeTab === 'animation' ? 'Wow English' : '全部'}</button>`,
-      ...visibleFilters.map((item) => `<button class="filter-chip ${activeFilter === item.id ? 'is-active' : ''}" type="button" data-filter="${item.id}" aria-pressed="${activeFilter === item.id ? 'true' : 'false'}">${item.name}</button>`),
+      `<button class="filter-chip ${activeFilter === 'all' ? 'is-active' : ''}" type="button" data-filter="all" aria-pressed="${activeFilter === 'all' ? 'true' : 'false'}">全部</button>`,
+      ...categories.map((category) => `<button class="filter-chip ${activeFilter === category.id ? 'is-active' : ''}" type="button" data-filter="${category.id}" aria-pressed="${activeFilter === category.id ? 'true' : 'false'}">${category.name}</button>`),
     ].join('');
+  }
+
+  function renderLittleFoxLevelTabs() {
+    return `
+      <div class="secondary-tabs" role="tablist" aria-label="Little Fox 分级">
+        <button class="secondary-tab ${activeLittleFoxLevel === 'all' ? 'is-active' : ''}" type="button" data-littlefox-level="all">全部</button>
+        <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-1' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-1">L1</button>
+      </div>
+    `;
+  }
+
+  function seriesSongRows(series) {
+    const entries = songs.filter((song) => song.category === series.id);
+    return `
+      <section class="song-group" data-group-category="${series.id}">
+        <header class="group-head">
+          <div class="group-title">
+            <span class="group-icon" style="--group-color:${series.color}"><svg><use href="#icon-${series.icon}"></use></svg></span>
+            <span class="group-title-text"><strong>${series.name}</strong><span>Little Fox L1</span></span>
+          </div>
+          <span class="group-count">${entries.length} 首</span>
+        </header>
+        <div class="song-list">${entries.map((song, index) => `
+          <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+            <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+            <span class="song-title-block"><strong>${song.title}</strong><span>${song.zh}</span></span>
+            <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+            <span class="song-duration">${formatTime(song.duration)}</span>
+            <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+          </button>`).join('')}</div>
+      </section>
+    `;
   }
 
   function renderWowLevelTabs() {
@@ -510,7 +549,7 @@
     els.filterRow.hidden = false;
     renderFilters();
     const visible = animationGroups.filter((group) =>
-      animationSongs(group).length > 0 && (activeFilter === 'all' || activeFilter === group.id)
+      animationSongs(group).length > 0 && activeFilter === group.id
     );
     const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
     const wowSelected = visible.some((group) => group.id === 'animation-wow');
@@ -518,6 +557,21 @@
       ? animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
           .filter((song) => activeWowLevel === 'all' || song.category === activeWowLevel)
       : [];
+    const littleFoxSelected = visible.some((group) => group.id === 'animation-littlefox');
+    const littleFoxCount = animationSongs(animationGroups.find((group) => group.id === 'animation-littlefox')).length;
+    const littleFoxHtml = littleFoxSelected ? `
+      <section class="song-group wow-level-group" data-group-category="animation-littlefox">
+        <header class="group-head">
+          <div class="group-title">
+            <span class="group-icon" style="--group-color:#4f8ccc"><svg><use href="#icon-abc"></use></svg></span>
+            <span class="group-title-text"><strong>Little Fox</strong><span>按分级快速定位</span></span>
+          </div>
+          <span class="group-count">${littleFoxCount} 首</span>
+        </header>
+        ${renderLittleFoxLevelTabs()}
+      </section>
+      ${littleFoxSeries.filter((series) => activeLittleFoxLevel === 'all' || series.level === activeLittleFoxLevel).map(seriesSongRows).join('')}
+    ` : '';
     const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">
         <header class="group-head">
@@ -541,7 +595,7 @@
           </button>`).join('')}</div>
       </section>
     ` : '';
-    els.playlistGroups.innerHTML = wowHtml + visible.filter((group) => group.id !== 'animation-wow').map((group) => {
+    els.playlistGroups.innerHTML = wowHtml + littleFoxHtml + visible.filter((group) => !['animation-wow', 'animation-littlefox'].includes(group.id)).map((group) => {
       const rows = animationSongs(group).map((song, index) => `
         <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
           <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
@@ -573,6 +627,12 @@
     els.playlistGroups.querySelectorAll('[data-wow-level]').forEach((button) => {
       button.addEventListener('click', () => {
         activeWowLevel = button.dataset.wowLevel;
+        renderAnimationPlaylist();
+      });
+    });
+    els.playlistGroups.querySelectorAll('[data-littlefox-level]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeLittleFoxLevel = button.dataset.littlefoxLevel;
         renderAnimationPlaylist();
       });
     });
@@ -783,8 +843,9 @@
   function switchTab(tabId) {
     setPlayerExpanded(false);
     activeTab = tabId;
-    activeFilter = 'all';
+    activeFilter = tabId === 'animation' ? 'animation-wow' : 'all';
     activeWowLevel = 'all';
+    activeLittleFoxLevel = 'littlefox-1';
     document.querySelectorAll('.tab-button').forEach((button) => {
       const active = button.dataset.tab === tabId;
       button.classList.toggle('is-active', active);

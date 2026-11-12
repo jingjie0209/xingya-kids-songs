@@ -198,6 +198,30 @@ window.SONG_CATEGORIES = [
     "note": "词汇妙趣国动画音频",
     "icon": "globe",
     "color": "#57a59a"
+  },
+  {
+    "name": "Tire Town School",
+    "english": "L1 · TIRE TOWN",
+    "note": "Little Fox L1 动画音频",
+    "icon": "bus",
+    "color": "#d98543",
+    "id": "littlefox-1-tire-town"
+  },
+  {
+    "name": "Dino Buddies",
+    "english": "L1 · DINO BUDDIES",
+    "note": "Little Fox L1 动画音频",
+    "icon": "paw",
+    "color": "#5d9a72",
+    "id": "littlefox-1-dino-buddies"
+  },
+  {
+    "name": "Bat and Friends",
+    "english": "L1 · BAT & FRIENDS",
+    "note": "Little Fox L1 动画音频",
+    "icon": "hand",
+    "color": "#7d6bb0",
+    "id": "littlefox-1-bat-and-friends"
   }
 ];
 
@@ -3833,5 +3857,1733 @@ window.SONGS = [
     "category": "vocab-town",
     "duration": 217.573878,
     "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-012.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-001",
+    "title": "Eddy is First Day",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 133.302857,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-001.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-002",
+    "title": "New Friends",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 135.026939,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-002.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-003",
+    "title": "The Race",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 173.505306,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-003.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-004",
+    "title": "Crash",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 149.446531,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-004.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-005",
+    "title": "Field Trip",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 143.830204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-005.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-006",
+    "title": "The Car Wash",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 141.531429,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-006.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-007",
+    "title": "Eddy in the Car Wash",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 148.976327,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-007.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-008",
+    "title": "Poppy Is Scared",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 154.253061,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-008.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-009",
+    "title": "Fast Eddy",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 138.893061,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-009.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-010",
+    "title": "Safety Class",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 124.682449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-010.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-011",
+    "title": "Not Too Fast",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 128.574694,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-011.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-012",
+    "title": "Eddy Is Not Safe",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 154.906122,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-012.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-013",
+    "title": "Something New",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 139.546122,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-013.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-014",
+    "title": "The Dirt Path",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 142.419592,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-014.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-015",
+    "title": "Mud",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 148.610612,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-015.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-016",
+    "title": "Deep Mud",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 161.671837,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-016.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-017",
+    "title": "Tag",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 130.220408,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-017.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-018",
+    "title": "Flat Tire",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 134.086531,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-018.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-019",
+    "title": "Black Smoke",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 122.697143,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-019.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-020",
+    "title": "Out of Gas",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 152.633469,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-020.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-021",
+    "title": "Eddy Is Busy",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 132.702041,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-021.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-022",
+    "title": "The Racetrack",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 151.666939,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-022.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-023",
+    "title": "The Slippery Racetrack",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 139.807347,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-023.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-024",
+    "title": "Zippy Is Stuck",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 196.04898,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-024.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-025",
+    "title": "Black Marks",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 145.449796,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-025.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-026",
+    "title": "Skidding",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 132.336327,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-026.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-027",
+    "title": "Roar",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 138.579592,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-027.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-028",
+    "title": "Pop",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 170.161633,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-028.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-029",
+    "title": "The Plan",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 133.590204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-029.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-030",
+    "title": "Brakes Are Boring",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 132.989388,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-030.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-031",
+    "title": "No Brakes",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 140.277551,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-031.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-032",
+    "title": "Playing in the Dirt",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 151.24898,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-032.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-033",
+    "title": "Up, Up, Up",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 148.976327,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-033.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-034",
+    "title": "The New Bridge",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 118.543673,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-034.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-035",
+    "title": "Eddy Is Brave",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 125.54449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-035.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-036",
+    "title": "Across the Bridge",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 125.831837,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-036.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-037",
+    "title": "The Racing Team",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 178.416327,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-037.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-038",
+    "title": "Tryouts",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 129.097143,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-038.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-039",
+    "title": "Stickers",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 159.059592,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-039.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-040",
+    "title": "The Best Team Ever",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 143.934694,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-040.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-041",
+    "title": "Jeb Is Slow",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 147.252245,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-041.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-042",
+    "title": "Snowflakes",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 140.8,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-042.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-043",
+    "title": "Deep Snow",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 151.510204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-043.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-044",
+    "title": "Jeb Helps",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 136.489796,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-044.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-045",
+    "title": "Parking",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 130.194286,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-045.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-046",
+    "title": "A Great Friend",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 126.92898,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-046.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-047",
+    "title": "Recess Race",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 134.19102,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-047.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-048",
+    "title": "Poppy Is Mad",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 143.725714,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-048.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-049",
+    "title": "The Junkyard",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 137.586939,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-049.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-050",
+    "title": "A Monster",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 133.146122,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-050.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-051",
+    "title": "Playing Games",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 143.804082,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-051.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-052",
+    "title": "Really Loud",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 125.204898,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-052.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-053",
+    "title": "The Old Car Home",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 135.758367,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-053.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-054",
+    "title": "The Dirt Pile",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 149.289796,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-054.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-055",
+    "title": "Ruining the Garden",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 147.800816,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-055.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-056",
+    "title": "Eddy and Jeb is Surprise",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 158.798367,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-056.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-057",
+    "title": "A Mystery",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 141.061224,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-057.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-058",
+    "title": "Where Is Mr. Grill",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 133.590204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-058.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-059",
+    "title": "Another Clue",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 168.045714,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-059.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-060",
+    "title": "Honk, Honk",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 168.698776,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-060.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-061",
+    "title": "Amazing News",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 141.923265,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-061.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-062",
+    "title": "The Spaceport",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 159.033469,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-062.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-063",
+    "title": "Rocky",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 162.507755,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-063.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-064",
+    "title": "Blastoff",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 160.705306,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-064.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-065",
+    "title": "Tire Town Beach",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 137.586939,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-065.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-066",
+    "title": "Gasser is Big Splash",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 132.022857,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-066.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-067",
+    "title": "Splashing and Playing",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 140.251429,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-067.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-068",
+    "title": "Toots",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 162.925714,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-068.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-069",
+    "title": "A Talent",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 134.4,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-069.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-070",
+    "title": "Dipper is Music Player",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 143.908571,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-070.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-071",
+    "title": "A New Music Player",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 151.928163,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-071.mp3"
+  },
+  {
+    "id": "littlefox-1-tire-town-072",
+    "title": "The Talent Show",
+    "zh": "Tire Town School",
+    "category": "littlefox-1-tire-town",
+    "duration": 187.193469,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-tire-town/littlefox-1-tire-town-072.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-001",
+    "title": "The Park",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 156.26449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-001.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-002",
+    "title": "Stuck",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 134.582857,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-002.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-003",
+    "title": "More Help",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 143.386122,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-003.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-004",
+    "title": "New Friends",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 151.771429,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-004.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-005",
+    "title": "Let's Play",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 134.974694,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-005.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-006",
+    "title": "Vines",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 155.036735,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-006.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-007",
+    "title": "A Good Jumper",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 139.62449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-007.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-008",
+    "title": "Having Fun",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 167.601633,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-008.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-009",
+    "title": "The Egg",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 144.718367,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-009.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-010",
+    "title": "Cute Bugs",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 156.36898,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-010.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-011",
+    "title": "A Big Scare",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 171.467755,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-011.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-012",
+    "title": "The Nest",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 151.04,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-012.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-013",
+    "title": "Fun in the Rain",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 166.922449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-013.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-014",
+    "title": "The Cave",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 137.586939,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-014.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-015",
+    "title": "Paint Fight",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 149.446531,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-015.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-016",
+    "title": "The Big Painting",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 142.524082,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-016.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-017",
+    "title": "The Picnic",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 145.502041,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-017.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-018",
+    "title": "Swimming",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 152.999184,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-018.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-019",
+    "title": "The Log",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 152.790204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-019.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-020",
+    "title": "Another Picnic",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 143.777959,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-020.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-021",
+    "title": "Bored",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 149.028571,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-021.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-022",
+    "title": "Tor Gets Mad",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 134.817959,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-022.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-023",
+    "title": "The Fort",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 138.840816,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-023.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-024",
+    "title": "Pow",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 145.162449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-024.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-025",
+    "title": "Purple Berries",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 166.536,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-025.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-026",
+    "title": "Sick Sid",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 142.32,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-026.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-027",
+    "title": "Where is Sid",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 147.288,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-027.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-028",
+    "title": "Too Many Berries",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 173.664,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-028.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-029",
+    "title": "The Rock Tower",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 141.48,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-029.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-030",
+    "title": "Music",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 149.328,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-030.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-031",
+    "title": "Different Sounds",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 154.872,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-031.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-032",
+    "title": "Something Is Missing",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 167.328,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-032.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-033",
+    "title": "Playing Tag",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 141.864,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-033.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-034",
+    "title": "Cleaning Up",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 162.456,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-034.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-035",
+    "title": "Nuts",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 158.328,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-035.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-036",
+    "title": "The Squirrel",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 152.736,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-036.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-037",
+    "title": "The Waterfall",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 168.528,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-037.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-038",
+    "title": "Caves",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 150.672,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-038.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-039",
+    "title": "Muddy",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 158.616,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-039.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-040",
+    "title": "A Hero",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 156.604082,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-040.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-041",
+    "title": "Hide-and-Seek",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 145.293061,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-041.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-042",
+    "title": "Flowers",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 160.235102,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-042.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-043",
+    "title": "A Perfect Hiding Spot",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 149.446531,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-043.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-044",
+    "title": "The Winner",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 184.607347,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-044.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-045",
+    "title": "The Race",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 139.896,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-045.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-046",
+    "title": "What to Do",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 145.944,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-046.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-047",
+    "title": "Clever and Brave",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 152.76,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-047.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-048",
+    "title": "Sara's Plan",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 155.544,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-048.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-049",
+    "title": "Sam",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 164.76,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-049.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-050",
+    "title": "Babysitters",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 168.24,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-050.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-051",
+    "title": "No Fun",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 154.176,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-051.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-052",
+    "title": "Sara's Game",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 145.416,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-052.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-053",
+    "title": "A Long Walk",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 137.832,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-053.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-054",
+    "title": "Grumpy Sid",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 153.24,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-054.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-055",
+    "title": "Where is Tor",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 138.84,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-055.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-056",
+    "title": "Tor's New Friend",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 147.696,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-056.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-057",
+    "title": "Bonk",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 141.432,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-057.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-058",
+    "title": "Stomp and Roar",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 136.224,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-058.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-059",
+    "title": "Everyone Is Angry",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 150.36,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-059.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-060",
+    "title": "Sorry",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 149.904,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-060.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-061",
+    "title": "Tired Sid",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 163.032,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-061.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-062",
+    "title": "The Sea",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 153.48,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-062.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-063",
+    "title": "Ricky",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 176.688,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-063.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-064",
+    "title": "Push",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 160.416,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-064.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-065",
+    "title": "Sara's Big Hat",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 157.488,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-065.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-066",
+    "title": "Nate",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 159.024,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-066.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-067",
+    "title": "The Hat Is Stuck",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 153.816,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-067.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-068",
+    "title": "A Better House",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 145.752,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-068.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-069",
+    "title": "The Rock Slide",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 144.696,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-069.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-070",
+    "title": "Trapped",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 150.096,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-070.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-071",
+    "title": "Bam! Boom",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 137.496,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-071.mp3"
+  },
+  {
+    "id": "littlefox-1-dino-buddies-072",
+    "title": "The Hero",
+    "zh": "Dino Buddies",
+    "category": "littlefox-1-dino-buddies",
+    "duration": 157.896,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-dino-buddies/littlefox-1-dino-buddies-072.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-001",
+    "title": "Hunting for Bugs",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 130.037551,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-001.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-002",
+    "title": "Lost in the Rain",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 106.161633,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-002.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-003",
+    "title": "The Red Barn",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 135.053061,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-003.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-004",
+    "title": "Little Drops and Big Drops",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 134.19102,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-004.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-005",
+    "title": "What Is It",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 147.382857,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-005.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-006",
+    "title": "There It Is",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 151.954286,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-006.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-007",
+    "title": "Bat Looks for a Friend",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 173.348571,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-007.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-008",
+    "title": "No Luck",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 137.900408,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-008.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-009",
+    "title": "A New Home",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 143.804082,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-009.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-010",
+    "title": "Is It a Monster",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 121.861224,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-010.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-011",
+    "title": "Around the Well",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 137.299592,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-011.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-012",
+    "title": "Cow Tells How",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 132.989388,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-012.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-013",
+    "title": "Cat's Wish",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 136.463673,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-013.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-014",
+    "title": "Something Brown",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 148.349388,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-014.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-015",
+    "title": "Look at This Thing",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 122.723265,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-015.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-016",
+    "title": "The Thing in the Barn",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 162.377143,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-016.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-017",
+    "title": "Big News",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 151.14449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-017.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-018",
+    "title": "Cat Hides",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 145.319184,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-018.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-019",
+    "title": "Dog Helps Cat",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 131.265306,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-019.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-020",
+    "title": "Super Pig",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 118.909388,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-020.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-021",
+    "title": "Super Pig and the Bees",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 126.667755,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-021.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-022",
+    "title": "Super Friend",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 127.712653,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-022.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-023",
+    "title": "Hide-and-Seek",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 135.314286,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-023.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-024",
+    "title": "Pig Seeks",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 153.965714,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-024.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-025",
+    "title": "Pig Finds His Friends",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 176.039184,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-025.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-026",
+    "title": "Cow's Plan",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 113.031837,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-026.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-027",
+    "title": "Blueberries",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 186.200816,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-027.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-028",
+    "title": "A Trip",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 133.22449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-028.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-029",
+    "title": "At the Park",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 139.128163,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-029.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-030",
+    "title": "Stuck in the Mud",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 137.560816,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-030.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-031",
+    "title": "Cat Falls",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 116.715102,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-031.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-032",
+    "title": "In the Well",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 118.204082,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-032.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-033",
+    "title": "Cat Comes Up",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 133.590204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-033.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-034",
+    "title": "Snow",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 139.676735,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-034.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-035",
+    "title": "Whee",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 136.568163,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-035.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-036",
+    "title": "Snow Friends",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 145.867755,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-036.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-037",
+    "title": "Dog Is Sick",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 131.683265,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-037.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-038",
+    "title": "Bat Knows What to Do",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 130.873469,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-038.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-039",
+    "title": "The Fox Comes",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 149.524898,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-039.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-040",
+    "title": "Cat Goes to Town",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 142.550204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-040.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-041",
+    "title": "Where Is the Truck",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 160.809796,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-041.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-042",
+    "title": "Cat Is Lost",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 187.95102,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-042.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-043",
+    "title": "Who is Driving the Tractor",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 145.136327,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-043.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-044",
+    "title": "Help",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 151.849796,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-044.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-045",
+    "title": "The Tractor Is Saved",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 172.016327,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-045.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-046",
+    "title": "Farmer Is Lazy, Cow Is Busy",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 152.032653,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-046.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-047",
+    "title": "Where Is Cow's Hula Hoop",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 169.377959,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-047.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-048",
+    "title": "Bat Looks",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 220.760816,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-048.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-049",
+    "title": "Pig's New Kite",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 136.96,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-049.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-050",
+    "title": "A Windy Day",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 128.078367,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-050.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-051",
+    "title": "Stuck in the Tree",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 145.266939,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-051.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-052",
+    "title": "Let's Go Camping",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 193.750204,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-052.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-053",
+    "title": "In the Woods",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 218.488163,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-053.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-054",
+    "title": "Spooky Stories",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 153.129796,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-054.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-055",
+    "title": "Picking Apples",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 161.28,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-055.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-056",
+    "title": "Crisp, Juicy Apples",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 171.546122,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-056.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-057",
+    "title": "Who Ate the Apples",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 130.925714,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-057.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-058",
+    "title": "Cat Wants to Sleep",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 187.167347,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-058.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-059",
+    "title": "Waking Up Farmer",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 137.142857,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-059.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-060",
+    "title": "No Fair",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 107.755102,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-060.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-061",
+    "title": "Oof",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 139.937959,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-061.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-062",
+    "title": "A New Friend on the Farm",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 116.871837,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-062.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-063",
+    "title": "Carrots",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 139.62449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-063.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-064",
+    "title": "Playing Catch",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 148.845714,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-064.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-065",
+    "title": "Cat Stinks",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 146.285714,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-065.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-066",
+    "title": "Cat Runs Away",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 166.922449,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-066.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-067",
+    "title": "Some Storm",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 147.382857,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-067.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-068",
+    "title": "Fixing the Hole",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 130.56,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-068.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-069",
+    "title": "Red Bird's Hero",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 152.816327,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-069.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-070",
+    "title": "Who Will Help",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 154.488163,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-070.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-071",
+    "title": "No One Will Help",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 138.266122,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-071.mp3"
+  },
+  {
+    "id": "littlefox-1-bat-and-friends-072",
+    "title": "Everyone Helps",
+    "zh": "Bat and Friends",
+    "category": "littlefox-1-bat-and-friends",
+    "duration": 206.236735,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-072.mp3"
   }
 ];
