@@ -635,7 +635,7 @@
         <div class="song-list">${wowSongs.map((song, index) => `
           <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
             <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
-            <span class="song-title-block"><strong>${song.title}</strong><span>${song.zh}</span></span>
+            <span class="song-title-block"><strong>${song.title}</strong></span>
             <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
             <span class="song-duration">${formatTime(song.duration)}</span>
             <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
