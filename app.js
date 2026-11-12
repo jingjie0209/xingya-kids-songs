@@ -935,6 +935,8 @@
 
   let loadingSongId = null;
   let loadingToken = 0;
+  let audioSources = [];
+  let audioSourceIndex = 0;
 
   function prepareAudioSource(song, preservePosition = false) {
     const oldPosition = preservePosition ? audio.currentTime : 0;
@@ -944,7 +946,9 @@
     // Setting preload=auto lets Safari start buffering immediately; metadata
     // usually arrives before playback is invoked, keeping the click instant.
     window.clearTimeout(recoverTimer);
-    audio.src = AUDIO_BASE + song.file;
+    audioSources = [AUDIO_BASE + song.file];
+    audioSourceIndex = 0;
+    audio.src = audioSources[0];
     audio.load();
     const restore = () => {
       if (token !== loadingToken) return;
@@ -1106,6 +1110,12 @@
     // A slow CDN can keep readyState low for a while. Give the network room and
     // avoid a toast that makes normal startup look stuck.
     if (position < 0.2) {
+      if (audioSourceIndex + 1 < audioSources.length) {
+        audioSourceIndex += 1;
+        audio.src = audioSources[audioSourceIndex];
+        audio.load();
+        return;
+      }
       if (audio.networkState === HTMLMediaElement.NETWORK_NO_SOURCE || audio.error) {
         showToast('音频加载失败，请点击播放重试');
       }
@@ -1130,7 +1140,13 @@
     audio.addEventListener(type, () => window.clearTimeout(recoverTimer));
   });
   audio.addEventListener('error', () => {
-    if (audio.error) showToast('这首歌曲暂时无法播放，请检查文件是否完整');
+    if (audioSourceIndex + 1 < audioSources.length) {
+      audioSourceIndex += 1;
+      audio.src = audioSources[audioSourceIndex];
+      audio.load();
+      return;
+    }
+    if (audio.error) showToast('这首歌曲暂时无法播放，请检查网络后重试');
     updatePlaybackButtons();
   });
   audio.addEventListener('ended', () => {
