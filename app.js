@@ -700,28 +700,24 @@
     els.libraryHead.hidden = false;
     els.filterRow.hidden = false;
     renderFilters();
-    els.playlistGroups.innerHTML = categories.map((category) => {
-      const entries = groupSongs(category.id);
-      if (!entries.length) return '';
-      const rows = entries.map(({ song, index }) => `
-        <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${category.id}">
-          <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
-          <span class="song-title-block">
-            <strong>${song.title}</strong>
-            <span>${song.zh}</span>
-          </span>
-          <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
-          <span class="song-duration">${formatTime(song.duration)}</span>
-          <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
-        </button>
-      `).join('');
-
-      return `
-        <section class="song-group" data-group-category="${category.id}">
-          <div class="song-list">${rows}</div>
-        </section>
-      `;
-    }).join('');
+    const entries = songs.map((song, index) => ({ song, index }));
+    const rows = entries.map(({ song, index }) => `
+      <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+        <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+        <span class="song-title-block">
+          <strong>${song.title}</strong>
+          <span>${song.zh}</span>
+        </span>
+        <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+        <span class="song-duration">${formatTime(song.duration)}</span>
+        <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+      </button>
+    `).join('');
+    els.playlistGroups.innerHTML = `
+      <section class="song-group flat-song-group" data-group-category="all-songs">
+        <div class="song-list">${rows}</div>
+      </section>
+    `;
 
     bindSongRows();
     updateSongRows();
@@ -860,9 +856,18 @@
       renderAnimationPlaylist();
       return;
     }
-    els.playlistGroups.querySelectorAll('[data-group-category]').forEach((group) => {
-      group.hidden = activeFilter !== 'all' && group.dataset.groupCategory !== activeFilter;
+    els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
+      row.hidden = activeFilter !== 'all' && row.dataset.category !== activeFilter;
     });
+    const visibleRows = els.playlistGroups.querySelectorAll('.song-row:not([hidden])').length;
+    let empty = els.playlistGroups.querySelector('.group-empty');
+    if (!empty) {
+      empty = document.createElement('div');
+      empty.className = 'group-empty';
+      empty.textContent = '没有这个分类的儿歌';
+      els.playlistGroups.firstElementChild?.appendChild(empty);
+    }
+    empty.hidden = visibleRows > 0;
     els.filterRow.querySelectorAll('.filter-chip').forEach((chip) => {
       const active = chip.dataset.filter === activeFilter;
       chip.classList.toggle('is-active', active);

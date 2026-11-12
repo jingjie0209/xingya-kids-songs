@@ -1722,6 +1722,14 @@ input[type="range"]::-moz-range-thumb {
 }
 
 
+.flat-song-group .song-row {
+  border-radius: 0;
+}
+
+.flat-song-group .group-empty {
+  border-top: 1px solid var(--line);
+}
+
 .group-empty {
   padding: 26px 18px;
   color: var(--muted);
