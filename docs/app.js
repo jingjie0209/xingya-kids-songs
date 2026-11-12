@@ -485,7 +485,7 @@
       ? filters.filter((item) => item.id !== 'animation-wow')
       : filters;
     els.filterRow.innerHTML = [
-      `<button class="filter-chip ${activeFilter === 'all' ? 'is-active' : ''}" type="button" data-filter="all" aria-pressed="${activeFilter === 'all' ? 'true' : 'false'}">全部</button>`,
+      `<button class="filter-chip ${activeFilter === 'all' ? 'is-active' : ''}" type="button" data-filter="all" aria-pressed="${activeFilter === 'all' ? 'true' : 'false'}">${activeTab === 'animation' ? 'Wow English' : '全部'}</button>`,
       ...visibleFilters.map((item) => `<button class="filter-chip ${activeFilter === item.id ? 'is-active' : ''}" type="button" data-filter="${item.id}" aria-pressed="${activeFilter === item.id ? 'true' : 'false'}">${item.name}</button>`),
     ].join('');
   }
@@ -506,7 +506,9 @@
     els.libraryHead.hidden = false;
     els.filterRow.hidden = false;
     renderFilters();
-    const visible = animationGroups.filter((group) => activeFilter === 'all' || activeFilter === group.id);
+    const visible = animationGroups.filter((group) =>
+      animationSongs(group).length > 0 && (activeFilter === 'all' || activeFilter === group.id)
+    );
     const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
     const wowSelected = visible.some((group) => group.id === 'animation-wow');
     const wowSongs = wowSelected
