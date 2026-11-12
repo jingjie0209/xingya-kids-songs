@@ -2102,14 +2102,22 @@ input[type="range"]::-moz-range-thumb {
 .library .song-row {
   min-height: 66px;
   grid-template-columns: 48px minmax(0, 1fr) 24px 44px;
-  gap: 12px;
+  gap: 8px 12px;
   padding: 9px 20px;
   align-items: center;
 }
 
 .library .song-row > .song-duration {
+  grid-column: 2;
+  grid-row: 1;
   justify-self: end;
-  text-align: right;
+  margin-left: 0;
+}
+
+.library .song-row > .song-play-button {
+  grid-column: 3 / span 2;
+  grid-row: 1;
+  margin-left: auto;
 }
 
 .library .song-row > .song-duration,
