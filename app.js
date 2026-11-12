@@ -530,6 +530,7 @@
     els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
       row.addEventListener('click', () => {
         const id = row.dataset.songId;
+        setPlayerExpanded(true);
         if (id === currentSongId) togglePlayback();
         else {
           shuffleHistory = [];
@@ -781,14 +782,15 @@
     }
     updatePlaybackButtons();
     if (options.autoplay) {
-      audio.play().catch(() => {
+      audio.play().catch((error) => {
         updatePlaybackButtons();
-        showToast('请再点一次播放按钮');
+        if (error?.name !== 'AbortError') showToast('暂时无法播放，请检查网络后重试');
       });
     }
   }
 
   function togglePlayback() {
+    setPlayerExpanded(true);
     if (!currentSongId && songs.length) loadSong(songs[0].id, { autoplay: false });
     if (audio.paused) {
       const duration = Number.isFinite(audio.duration) ? audio.duration : (currentSong()?.duration || 0);
@@ -796,7 +798,9 @@
         audio.currentTime = 0;
         beginPlaySession();
       }
-      audio.play().catch(() => showToast('请再点一次播放按钮'));
+      audio.play().catch((error) => {
+        if (error?.name !== 'AbortError') showToast('暂时无法播放，请检查网络后重试');
+      });
     } else {
       audio.pause();
     }
@@ -903,44 +907,31 @@
     updateProgressUI();
   });
 
-  async function recoverPlayback(reason) {
-    const song = currentSong();
-    if (!song || audio.paused || audio.ended) return;
+  async function recoverPlayback() {
+    if (audio.paused || audio.ended) return;
     const position = audio.currentTime;
-    const wasPlaying = !audio.paused;
-    if (!wasPlaying) return;
-    showToast('网络有点慢，正在自动恢复播放…');
+    // Initial loading is not a stalled playback. Reloading here resets time to
+    // zero and can make every first tap appear to fail.
+    if (position < 0.2) {
+      showToast('音频正在加载，请稍候…');
+      return;
+    }
     try {
-      if (Number.isFinite(audio.currentTime) && audio.currentTime > 0) {
-        audio.currentTime = Math.max(audio.currentTime - 0.08, 0);
-      } else {
-        audio.load();
-      }
+      audio.currentTime = Math.max(position - 0.08, 0);
       await audio.play();
     } catch (error) {
-      loadingToken += 1;
-      loadingSongId = null;
-      prepareAudioSource(song);
-      audio.currentTime = position;
-      try {
-        await audio.play();
-      } catch (retryError) {
-        showToast('播放中断了，请再点一次播放按钮');
-        audio.pause();
-      }
+      showToast('网络有点慢，请再点一次播放按钮');
     }
   }
 
   let recoverTimer = null;
-  audio.addEventListener('waiting', () => {
+  function scheduleRecovery() {
     window.clearTimeout(recoverTimer);
-    recoverTimer = window.setTimeout(() => recoverPlayback('waiting'), 4200);
-  });
-  audio.addEventListener('stalled', () => {
-    window.clearTimeout(recoverTimer);
-    recoverTimer = window.setTimeout(() => recoverPlayback('stalled'), 4200);
-  });
-  ['playing', 'pause', 'ended', 'error'].forEach((type) => {
+    recoverTimer = window.setTimeout(recoverPlayback, 9000);
+  }
+  audio.addEventListener('waiting', scheduleRecovery);
+  audio.addEventListener('stalled', scheduleRecovery);
+  ['playing', 'pause', 'ended', 'error', 'canplay', 'canplaythrough', 'loadeddata'].forEach((type) => {
     audio.addEventListener(type, () => window.clearTimeout(recoverTimer));
   });
   audio.addEventListener('error', () => {
