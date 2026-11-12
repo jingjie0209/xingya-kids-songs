@@ -594,19 +594,22 @@
           .filter((song) => song.category === activeWowLevel)
       : [];
     const littleFoxSelected = visible.some((group) => group.id === 'animation-littlefox');
-    const littleFoxCount = animationSongs(animationGroups.find((group) => group.id === 'animation-littlefox')).length;
+    const littleFoxSongs = littleFoxSelected
+      ? animationSongs(animationGroups.find((group) => group.id === 'animation-littlefox'))
+          .filter((song) => activeLittleFoxLevel === 'all' || song.category === activeLittleFoxLevel)
+      : [];
     const littleFoxHtml = littleFoxSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-littlefox">
-        <header class="group-head">
-          <div class="group-title">
-            <span class="group-icon" style="--group-color:#4f8ccc"><svg><use href="#icon-abc"></use></svg></span>
-            <span class="group-title-text"><strong>Little Fox</strong><span>按分级快速定位</span></span>
-          </div>
-          <span class="group-count">${littleFoxCount} 首</span>
-        </header>
         ${renderLittleFoxLevelTabs()}
+        <div class="song-list">${littleFoxSongs.map((song, index) => `
+          <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+            <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+            <span class="song-title-block"><strong>${song.title}</strong><span>${song.zh}</span></span>
+            <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+            <span class="song-duration">${formatTime(song.duration)}</span>
+            <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+          </button>`).join('')}</div>
       </section>
-      ${littleFoxSeries.filter((series) => activeLittleFoxLevel === 'all' || series.level === activeLittleFoxLevel).map(seriesSongRows).join('')}
     ` : '';
     const peppaSelected = visible.some((group) => group.id === 'animation-peppa');
     const peppaCount = animationSongs(animationGroups.find((group) => group.id === 'animation-peppa')).length;
