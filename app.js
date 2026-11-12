@@ -573,10 +573,15 @@
   function renderWowLevelTabs() {
     const levels = categories
       .filter((category) => category.id.startsWith('wow-'))
-      .map((category) => ({ id: category.id, name: category.name.replace('Wow! ', ''), note: category.note.replace('分级课程音频', '') }));
+      .map((category) => ({
+        id: category.id,
+        name: category.name.replace('Wow! ', ''),
+        note: category.note.replace('分级课程音频', ''),
+        age: `${(category.english || '').split(' ').slice(1).join(' ')}岁`
+      }));
     return `
       <div class="secondary-tabs" role="tablist" aria-label="Wow English 分级">
-          ${levels.map((level) => `<button class="secondary-tab wow-level-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}<span class="level-note">${level.note}</span></button>`).join('')}
+          ${levels.map((level) => `<button class="secondary-tab wow-level-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}<span class="level-note">${level.note} ${level.age}</span></button>`).join('')}
       </div>
     `;
   }
