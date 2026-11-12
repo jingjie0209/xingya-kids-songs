@@ -943,6 +943,7 @@
     // Do not tear down the old element while the user can still hear it.
     // Setting preload=auto lets Safari start buffering immediately; metadata
     // usually arrives before playback is invoked, keeping the click instant.
+    window.clearTimeout(recoverTimer);
     audio.src = AUDIO_BASE + song.file;
     audio.load();
     const restore = () => {
@@ -1102,10 +1103,12 @@
   async function recoverPlayback() {
     if (audio.paused || audio.ended) return;
     const position = audio.currentTime;
-    // Initial loading is not a stalled playback. Reloading here resets time to
-    // zero and can make every first tap appear to fail.
+    // A slow CDN can keep readyState low for a while. Give the network room and
+    // avoid a toast that makes normal startup look stuck.
     if (position < 0.2) {
-      showToast('音频正在加载，请稍候…');
+      if (audio.networkState === HTMLMediaElement.NETWORK_NO_SOURCE || audio.error) {
+        showToast('音频加载失败，请点击播放重试');
+      }
       return;
     }
     try {
@@ -1123,7 +1126,7 @@
   }
   audio.addEventListener('waiting', scheduleRecovery);
   audio.addEventListener('stalled', scheduleRecovery);
-  ['playing', 'pause', 'ended', 'error', 'canplay', 'canplaythrough', 'loadeddata'].forEach((type) => {
+  ['playing', 'pause', 'ended', 'error', 'canplay', 'canplaythrough', 'loadeddata', 'loadedmetadata'].forEach((type) => {
     audio.addEventListener(type, () => window.clearTimeout(recoverTimer));
   });
   audio.addEventListener('error', () => {
