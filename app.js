@@ -946,7 +946,10 @@
     // Setting preload=auto lets Safari start buffering immediately; metadata
     // usually arrives before playback is invoked, keeping the click instant.
     window.clearTimeout(recoverTimer);
-    audioSources = [AUDIO_BASE + song.file];
+    audioSources = [
+      AUDIO_BASE + song.file,
+      `https://fastly.jsdelivr.net/gh/jingjie0209/xingya-kids-songs@main/${song.file}`,
+    ];
     audioSourceIndex = 0;
     audio.src = audioSources[0];
     audio.load();
