@@ -30,10 +30,10 @@
     { id: 'animation-vocab-town', name: '词汇妙趣国', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
   ];
   const littleFoxSeries = [
+    { id: 'littlefox-1-big-green-forest', level: 'littlefox-1', name: 'The Big Green Forest', icon: 'paw', color: '#5d9a72' },
+    { id: 'littlefox-1-bat-and-friends', level: 'littlefox-1', name: 'Bat and Friends', icon: 'hand', color: '#7d6bb0' },
     { id: 'littlefox-1-tire-town', level: 'littlefox-1', name: 'Tire Town School', icon: 'bus', color: '#d98543' },
     { id: 'littlefox-1-dino-buddies', level: 'littlefox-1', name: 'Dino Buddies', icon: 'paw', color: '#5d9a72' },
-    { id: 'littlefox-1-bat-and-friends', level: 'littlefox-1', name: 'Bat and Friends', icon: 'hand', color: '#7d6bb0' },
-    { id: 'littlefox-1-big-green-forest', level: 'littlefox-1', name: 'The Big Green Forest', icon: 'paw', color: '#5d9a72' },
     { id: 'littlefox-2-bird-and-kip', level: 'littlefox-2', name: 'Bird and Kip', icon: 'paw', color: '#5d9a72' },
     { id: 'littlefox-2-wacky-ricky', level: 'littlefox-2', name: 'Wacky Ricky', icon: 'smile', color: '#b575c5' },
     { id: 'littlefox-3-wizard-and-cat', level: 'littlefox-3', name: 'Wizard and Cat', icon: 'puzzle', color: '#7d6bb0' },
