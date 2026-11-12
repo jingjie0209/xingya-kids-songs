@@ -532,9 +532,12 @@
 
   function renderPeppaSeasonTabs() {
     return `
-      <div class="secondary-tabs" role="tablist" aria-label="小猪佩奇分季">
-        <button class="secondary-tab ${activePeppaSeason === 'all' ? 'is-active' : ''}" type="button" data-peppa-season="all">全部</button>
-        ${peppaSeasons.map((season) => `<button class="secondary-tab ${activePeppaSeason === season.season ? 'is-active' : ''}" type="button" data-peppa-season="${season.season}">第${season.season.split('-')[1]}季</button>`).join('')}
+      <div class="secondary-tabs peppa-season-tabs" role="tablist" aria-label="小猪佩奇分季">
+        ${peppaSeasons.map((season) => {
+          const count = songs.filter((song) => song.category === season.season).length;
+          const label = `第${season.season.split('-')[1]}季`;
+          return `<button class="secondary-tab peppa-season-tab ${activePeppaSeason === season.season ? 'is-active' : ''}" type="button" data-peppa-season="${season.season}">${label}<span class="season-count">${count}</span></button>`;
+        }).join('')}
       </div>
     `;
   }
@@ -608,7 +611,7 @@
       <section class="song-group wow-level-group" data-group-category="animation-peppa">
         ${renderPeppaSeasonTabs()}
       </section>
-      ${peppaSeasons.filter((season) => activePeppaSeason === 'all' || season.season === activePeppaSeason).map((season) => seriesSongRows(season, true)).join('')}
+      ${peppaSeasons.filter((season) => season.season === activePeppaSeason).map((season) => seriesSongRows(season, true)).join('')}
     ` : '';
     const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">

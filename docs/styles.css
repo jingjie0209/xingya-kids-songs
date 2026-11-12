@@ -1735,6 +1735,33 @@ input[type="range"]::-moz-range-thumb {
   background: #d98543;
   color: #fff;
 }
+
+.peppa-season-tabs {
+  border-bottom: 0;
+  background: transparent;
+}
+
+.peppa-season-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.peppa-season-tabs .season-count {
+  min-width: 16px;
+  padding: 1px 4px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: 8px;
+  font-weight: 750;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.peppa-season-tabs .secondary-tab:not(.is-active) .season-count {
+  background: rgba(217, 133, 67, 0.12);
+  color: #d98543;
+}
 .resource-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
