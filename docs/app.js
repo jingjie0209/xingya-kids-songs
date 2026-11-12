@@ -2,6 +2,7 @@
   'use strict';
 
   const allSongs = window.SONGS || [];
+  const AUDIO_BASE = 'https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/';
   const allCategories = window.SONG_CATEGORIES || [];
   const tabs = [
     { id: 'songs', name: '儿歌', icon: 'music' },
@@ -919,7 +920,7 @@
     // Do not tear down the old element while the user can still hear it.
     // Setting preload=auto lets Safari start buffering immediately; metadata
     // usually arrives before playback is invoked, keeping the click instant.
-    audio.src = song.file;
+    audio.src = AUDIO_BASE + song.file;
     audio.load();
     const restore = () => {
       if (token !== loadingToken) return;
