@@ -516,7 +516,10 @@
     }
     els.filterRow.innerHTML = [
       `<button class="filter-chip ${activeFilter === 'all' ? 'is-active' : ''}" type="button" data-filter="all" aria-pressed="${activeFilter === 'all' ? 'true' : 'false'}">全部</button>`,
-      ...categories.map((category) => `<button class="filter-chip ${activeFilter === category.id ? 'is-active' : ''}" type="button" data-filter="${category.id}" aria-pressed="${activeFilter === category.id ? 'true' : 'false'}">${category.name}</button>`),
+      ...categories.map((category) => {
+        const count = allSongs.filter((song) => song.category === category.id).length;
+        return `<button class="filter-chip ${activeFilter === category.id ? 'is-active' : ''}" type="button" data-filter="${category.id}" aria-pressed="${activeFilter === category.id ? 'true' : 'false'}">${category.name}<span class="filter-count">${count}</span></button>`;
+      }),
     ].join('');
   }
 
@@ -705,16 +708,6 @@
 
       return `
         <section class="song-group" data-group-category="${category.id}">
-          <header class="group-head">
-            <div class="group-title">
-              <span class="group-icon" style="--group-color:${category.color}"><svg><use href="#icon-${category.icon}"></use></svg></span>
-              <span class="group-title-text">
-                <strong>${category.name}</strong>
-                <span>${category.english} · ${category.note}</span>
-              </span>
-            </div>
-            <span class="group-count">${entries.length} 首</span>
-          </header>
           <div class="song-list">${rows}</div>
         </section>
       `;
