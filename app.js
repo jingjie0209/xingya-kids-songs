@@ -14,6 +14,7 @@
       'wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange',
       'wow-bronze', 'wow-silver', 'wow-gold', 'guli', 'vocab-town',
       'littlefox-1-tire-town', 'littlefox-1-dino-buddies', 'littlefox-1-bat-and-friends',
+      'littlefox-2-bird-and-kip', 'littlefox-2-wacky-ricky',
     ],
     talk: ['talk'],
   };
@@ -28,6 +29,8 @@
     { id: 'littlefox-1-tire-town', level: 'littlefox-1', name: 'Tire Town School', icon: 'bus', color: '#d98543' },
     { id: 'littlefox-1-dino-buddies', level: 'littlefox-1', name: 'Dino Buddies', icon: 'paw', color: '#5d9a72' },
     { id: 'littlefox-1-bat-and-friends', level: 'littlefox-1', name: 'Bat and Friends', icon: 'hand', color: '#7d6bb0' },
+    { id: 'littlefox-2-bird-and-kip', level: 'littlefox-2', name: 'Bird and Kip', icon: 'paw', color: '#5d9a72' },
+    { id: 'littlefox-2-wacky-ricky', level: 'littlefox-2', name: 'Wacky Ricky', icon: 'smile', color: '#b575c5' },
   ];
   const collectionTabIds = new Set(['songs', 'animation', 'talk']);
   const resourceLinks = [
@@ -505,6 +508,7 @@
       <div class="secondary-tabs" role="tablist" aria-label="Little Fox 分级">
         <button class="secondary-tab ${activeLittleFoxLevel === 'all' ? 'is-active' : ''}" type="button" data-littlefox-level="all">全部</button>
         <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-1' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-1">L1</button>
+        <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-2' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-2">L2</button>
       </div>
     `;
   }
@@ -516,7 +520,7 @@
         <header class="group-head">
           <div class="group-title">
             <span class="group-icon" style="--group-color:${series.color}"><svg><use href="#icon-${series.icon}"></use></svg></span>
-            <span class="group-title-text"><strong>${series.name}</strong><span>Little Fox L1</span></span>
+            <span class="group-title-text"><strong>${series.name}</strong><span>Little Fox ${series.level === 'littlefox-2' ? 'L2' : 'L1'}</span></span>
           </div>
           <span class="group-count">${entries.length} 首</span>
         </header>

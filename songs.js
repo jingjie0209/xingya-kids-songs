@@ -222,6 +222,22 @@ window.SONG_CATEGORIES = [
     "icon": "hand",
     "color": "#7d6bb0",
     "id": "littlefox-1-bat-and-friends"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip",
+    "name": "Bird and Kip",
+    "english": "L2 · BIRD & KIP",
+    "note": "Little Fox L2 动画音频",
+    "icon": "paw",
+    "color": "#5d9a72"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky",
+    "name": "Wacky Ricky",
+    "english": "L2 · WACKY RICKY",
+    "note": "Little Fox L2 动画音频",
+    "icon": "smile",
+    "color": "#b575c5"
   }
 ];
 
@@ -5585,5 +5601,1765 @@ window.SONGS = [
     "category": "littlefox-1-bat-and-friends",
     "duration": 206.236735,
     "file": "audio/littlefox/littlefox-1-bat-and-friends/littlefox-1-bat-and-friends-072.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-001",
+    "title": "A Perfect Tree",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 141.949388,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-001.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-002",
+    "title": "Bird is New Neighbor",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 153.835102,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-002.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-003",
+    "title": "Acorn Gumbo",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 142.628571,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-003.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-004",
+    "title": "Kip, the Race Car Driver",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 104.75102,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-004.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-005",
+    "title": "Fixing Bird is Nest",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 149.080816,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-005.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-006",
+    "title": "The Car Ride",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 138.893061,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-006.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-007",
+    "title": "Kip Is Bored",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 193.462857,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-007.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-008",
+    "title": "The Small Person",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 156.865306,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-008.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-009",
+    "title": "The Fake Person",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 175.986939,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-009.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-010",
+    "title": "Going to the Beach",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 118.83102,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-010.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-011",
+    "title": "Building a Boat",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 134.661224,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-011.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-012",
+    "title": "Lost at Sea!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 157.831837,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-012.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-013",
+    "title": "The Circus",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 122.566531,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-013.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-014",
+    "title": "The Lion Tamer",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 119.693061,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-014.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-015",
+    "title": "Kip is Circus",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 162.063673,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-015.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-016",
+    "title": "A Big, Loud Bird",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 132.257959,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-016.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-017",
+    "title": "Goose",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 140.747755,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-017.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-018",
+    "title": "A Big Loud Friend",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 138.657959,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-018.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-019",
+    "title": "A Bunch of Sticks",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 113.423673,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-019.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-020",
+    "title": "Kip is Nest",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 121.547755,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-020.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-021",
+    "title": "The Huge Mess",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 123.715918,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-021.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-022",
+    "title": "The Hottest Day Ever",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 134.19102,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-022.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-023",
+    "title": "Ice Cubes!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 127.529796,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-023.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-024",
+    "title": "Ice Cream!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 163.996735,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-024.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-025",
+    "title": "Good at Something",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 145.293061,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-025.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-026",
+    "title": "Upside Down Kip",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 139.990204,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-026.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-027",
+    "title": "Silly Kip",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 124.891429,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-027.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-028",
+    "title": "Looking at a Newspaper",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 130.429388,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-028.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-029",
+    "title": "Looking for Kip, Looking for Bird",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 183.301224,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-029.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-030",
+    "title": "Looking at Fish",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 163.343673,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-030.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-031",
+    "title": "Kip is Birthday",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 129.149388,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-031.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-032",
+    "title": "Kip is Party",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 181.76,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-032.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-033",
+    "title": "Surprise, Kip!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 150.491429,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-033.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-034",
+    "title": "Bird is Stamp Collection",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 158.066939,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-034.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-035",
+    "title": "Stamps Everywhere!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 172.146939,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-035.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-036",
+    "title": "Kip is Note",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 216.006531,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-036.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-037",
+    "title": "Bird is Secret",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 164.022857,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-037.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-038",
+    "title": "A New Friend",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 179.905306,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-038.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-039",
+    "title": "Bird is Surprise",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 201.691429,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-039.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-040",
+    "title": "Wide-Awake Kip",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 149.524898,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-040.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-041",
+    "title": "Kip Is Scared",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 168.907755,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-041.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-042",
+    "title": "The Funny Book",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 166.164898,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-042.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-043",
+    "title": "Bird Feels Awful",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 179.278367,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-043.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-044",
+    "title": "Kip Feels Awful",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 144.613878,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-044.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-045",
+    "title": "Bird Feels Better, Kip Feels Better",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 175.986939,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-045.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-046",
+    "title": "Sad News",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 123.010612,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-046.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-047",
+    "title": "Bird Flies South",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 161.332245,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-047.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-048",
+    "title": "Bird is New Tree",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 148.610612,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-048.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-049",
+    "title": "Snowflakes!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 108.277551,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-049.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-050",
+    "title": "The Blizzard",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 117.838367,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-050.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-051",
+    "title": "The Pond",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 154.409796,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-051.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-052",
+    "title": "Making a Snowman",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 123.742041,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-052.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-053",
+    "title": "Building a Snow Fort",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 129.750204,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-053.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-054",
+    "title": "Silly Kip and Squirrel",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 114.546939,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-054.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-055",
+    "title": "Broken Branches",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 130.142041,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-055.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-056",
+    "title": "Looking for a Tree",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 123.715918,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-056.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-057",
+    "title": "New Trees",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 136.150204,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-057.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-058",
+    "title": "The Perfect Acorn",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 147.722449,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-058.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-059",
+    "title": "A Horrible Day",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 188.081633,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-059.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-060",
+    "title": "A Great Day",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 161.306122,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-060.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-061",
+    "title": "Reading a Book",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 129.358367,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-061.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-062",
+    "title": "Bird is Note",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 129.567347,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-062.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-063",
+    "title": "Kip is Note",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 134.373878,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-063.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-064",
+    "title": "Fun Things to Do",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 123.768163,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-064.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-065",
+    "title": "Two Lists",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 137.090612,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-065.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-066",
+    "title": "Splash!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 133.276735,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-066.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-067",
+    "title": "Running",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 129.149388,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-067.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-068",
+    "title": "Training",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 139.859592,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-068.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-069",
+    "title": "The Big Race",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 131.63102,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-069.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-070",
+    "title": "The Police Officer",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 116.088163,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-070.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-071",
+    "title": "Serious Kip",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 137.16898,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-071.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-072",
+    "title": "Officer Kip",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 148.27102,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-072.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-073",
+    "title": "Moving 1 New Neighbors",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 146.304,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-073.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-074",
+    "title": "Moving 2 Loud Neighbors",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 163.248,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-074.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-075",
+    "title": "Moving 3 A New Tree",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 141.096,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-075.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-076",
+    "title": "The Box 1 Kip’s Bookshelf",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 137.952,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-076.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-077",
+    "title": "The Box 2 Bird’s Basket",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 154.56,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-077.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-078",
+    "title": "The Box 3 Bird’s Idea",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 151.656,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-078.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-079",
+    "title": "Acorn Ball 1 A Fun Game",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 143.448,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-079.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-080",
+    "title": "Acorn Ball 2 A Silly Game",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 153.336,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-080.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-081",
+    "title": "Acorn Ball 3 Score!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 148.464,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-081.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-082",
+    "title": "Agent Kip 1 Movie Night",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 132.384,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-082.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-083",
+    "title": "Agent Kip 2 Kip the Spy",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 160.056,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-083.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-084",
+    "title": "Agent Kip 3 The Secret Plan",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 131.256,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-084.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-085",
+    "title": "Time for Lunch 1 Pizza Crusts",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 148.056,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-085.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-086",
+    "title": "Time for Lunch 2 Tacos",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 154.344,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-086.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-087",
+    "title": "Time for Lunch 3 Trash Cans",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 150.648,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-087.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-088",
+    "title": "Grandpa’s Visit 1 Kip’s Map",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 116.664,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-088.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-089",
+    "title": "Grandpa’s Visit 2 Kip’s Pop",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 150.12,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-089.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-090",
+    "title": "Grandpa’s Visit 3 Silly Pop!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 166.752,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-090.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-091",
+    "title": "Lots of Chores 1 Chores",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 146.352,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-091.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-092",
+    "title": "Lots of Chores 2 Bird’s To-Do List",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 135.12,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-092.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-093",
+    "title": "Lots of Chores 3 Kip’s To-Do List",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 159.072,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-093.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-094",
+    "title": "Good at Flying 1 Bird’s Adventure",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 161.448,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-094.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-095",
+    "title": "Good at Flying 2 The Flying Contest",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 135.12,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-095.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-096",
+    "title": "Good at Flying 3 Bird the Hero",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 146.88,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-096.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-097",
+    "title": "Kip’s Campout 1 The Campout",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 135.888,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-097.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-098",
+    "title": "Kip’s Campout 2 Making Plans",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 140.496,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-098.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-099",
+    "title": "Kip’s Campout 3 Not Fun",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 177.264,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-099.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-100",
+    "title": "Beautiful Music 1 The Concert",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 151.776,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-100.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-101",
+    "title": "Beautiful Music 2 Too Loud",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 167.232,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-101.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-102",
+    "title": "Beautiful Music 3 Just Right",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 158.64,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-102.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-103",
+    "title": "The Nut Thief 1 What Happened",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 135.216,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-103.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-104",
+    "title": "The Nut Thief 2 Bird Has a Plan",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 137.064,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-104.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-105",
+    "title": "The Nut Thief 3 Who Did It",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 198.552,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-105.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-106",
+    "title": "The Mean Friend 1 Bird’s New Friend",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 166.632,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-106.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-107",
+    "title": "The Mean Friend 2 Cupcakes for Bird",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 163.344,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-107.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-108",
+    "title": "The Mean Friend 3 Finding Clues",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 166.464,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-108.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-109",
+    "title": "Busy at Work 1 Hard Work",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 136.104,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-109.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-110",
+    "title": "Busy at Work 2 How Is Business",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 158.352,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-110.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-111",
+    "title": "Busy at Work 3 More Work",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 171.096,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-111.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-112",
+    "title": "The Sand Castle 1 A Boring Sand Castle",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 148.44,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-112.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-113",
+    "title": "The Sand Castle 2 Perfect Things",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 142.728,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-113.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-114",
+    "title": "The Sand Castle 3 Smash!",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 148.128,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-114.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-115",
+    "title": "Kip’s Vacation 1 Same Old Park",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 162.552,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-115.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-116",
+    "title": "Kip’s Vacation 2 Packing",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 134.4,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-116.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-117",
+    "title": "Kip’s Vacation 3 Vacation",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 145.368,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-117.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-118",
+    "title": "The Lemonade Stand 1 Kip’s Idea",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 124.848,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-118.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-119",
+    "title": "The Lemonade Stand 2 Lemons",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 152.568,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-119.mp3"
+  },
+  {
+    "id": "littlefox-2-bird-and-kip-120",
+    "title": "The Lemonade Stand 3 Friends",
+    "zh": "Bird and Kip",
+    "category": "littlefox-2-bird-and-kip",
+    "duration": 169.992,
+    "file": "audio/littlefox/littlefox-2-bird-and-kip/littlefox-2-bird-and-kip-120.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-100",
+    "title": "A Family Project",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 112.483265,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-100.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-010",
+    "title": "Hurt Feelings",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 125.074286,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-010.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-011",
+    "title": "Valentine is Mix-up",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 117.028571,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-011.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-012",
+    "title": "School Ideas",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 140.094694,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-012.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-013",
+    "title": "School Supplies",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 109.322449,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-013.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-014",
+    "title": "School Clothes",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 101.746939,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-014.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-015",
+    "title": "Walking to School",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 124.708571,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-015.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-016",
+    "title": "A Sour School Day",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 95.137959,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-016.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-017",
+    "title": "Recess Rescue",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 134.556735,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-017.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-018",
+    "title": "Visiting Grandma",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 121.338776,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-018.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-019",
+    "title": "Pet Care",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 109.740408,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-019.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-001",
+    "title": "Hi, I am Ricky!",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 112.561633,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-001.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-020",
+    "title": "Spring Rain",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 127.294694,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-020.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-021",
+    "title": "Welcome Home, Grandma!",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 122.331429,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-021.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-022",
+    "title": "Planning a Garden",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 117.028571,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-022.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-023",
+    "title": "Gardening",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 137.613061,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-023.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-024",
+    "title": "Ricky is Birthday",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 129.776327,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-024.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-025",
+    "title": "Ricky is Birthday Surprise",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 141.949388,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-025.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-026",
+    "title": "The Birthday Party",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 148.558367,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-026.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-027",
+    "title": "Doing Chores",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 149.237551,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-027.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-028",
+    "title": "Feeling Sick",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 174.524082,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-028.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-029",
+    "title": "In the Classroom",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 119.797551,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-029.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-002",
+    "title": "Getting Ready for Christmas",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 110.889796,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-002.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-030",
+    "title": "Field Trip",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 122.488163,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-030.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-031",
+    "title": "Space Adventure",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 138.083265,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-031.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-032",
+    "title": "The Last Day of School",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 130.220408,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-032.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-033",
+    "title": "Going to the Cottage",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 145.763265,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-033.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-034",
+    "title": "Fishing with Dad",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 127.268571,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-034.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-035",
+    "title": "The Campfire",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 149.054694,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-035.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-036",
+    "title": "Back to School",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 105.430204,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-036.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-037",
+    "title": "Riding a Bike",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 176.326531,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-037.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-038",
+    "title": "Garage Sale",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 142.942041,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-038.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-039",
+    "title": "It is Fall",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 134.217143,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-039.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-003",
+    "title": "Christmas Day",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 155.010612,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-003.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-040",
+    "title": "Apple Picking",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 120.293878,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-040.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-041",
+    "title": "Making Applesauce",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 138.083265,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-041.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-042",
+    "title": "The Perfect Pumpkin",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 132.754286,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-042.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-043",
+    "title": "Trick or Treat",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 144.53551,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-043.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-044",
+    "title": "Rachel is First Swimming Lesson",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 165.485714,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-044.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-045",
+    "title": "I Can Float",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 139.467755,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-045.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-046",
+    "title": "Belly Flop!",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 146.285714,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-046.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-047",
+    "title": "A Very Bad Morning",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 180.819592,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-047.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-048",
+    "title": "The Spelling Test",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 153.182041,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-048.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-049",
+    "title": "Getting a Checkup",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 117.002449,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-049.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-004",
+    "title": "New Year is Celebration",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 100.858776,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-004.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-050",
+    "title": "The Magic Show",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 114.233469,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-050.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-051",
+    "title": "A Holiday Wish",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 129.802449,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-051.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-052",
+    "title": "Making Money",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 129.332245,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-052.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-053",
+    "title": "A True Gift",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 121.208163,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-053.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-054",
+    "title": "A New Year",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 103.235918,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-054.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-055",
+    "title": "A Better Way",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 114.285714,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-055.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-056",
+    "title": "A School Project",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 127.608163,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-056.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-057",
+    "title": "Friends No More",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 119.14449,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-057.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-058",
+    "title": "The Lie",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 115.017143,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-058.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-059",
+    "title": "In Trouble",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 106.527347,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-059.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-005",
+    "title": "Meeting Friends",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 133.381224,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-005.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-060",
+    "title": "Rachel Speaks Up",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 100.493061,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-060.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-061",
+    "title": "The Handshake",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 111.856327,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-061.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-062",
+    "title": "Taking Care of Dad",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 120.737959,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-062.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-063",
+    "title": "Soup for Dad",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 127.529796,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-063.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-064",
+    "title": "Spelling Bee",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 103.053061,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-064.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-065",
+    "title": "The Final Five",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 134.164898,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-065.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-066",
+    "title": "The Contest",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 139.676735,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-066.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-067",
+    "title": "Moving Away",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 97.149388,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-067.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-068",
+    "title": "Saying Good-bye",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 118.465306,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-068.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-069",
+    "title": "Seeing Double",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 97.28,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-069.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-006",
+    "title": "Playing in the Snow",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 138.631837,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-006.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-070",
+    "title": "Meet the Twins",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 85.916735,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-070.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-071",
+    "title": "Favorite Colors",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 121.051429,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-071.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-072",
+    "title": "The Boys Club",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 115.382857,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-072.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-073",
+    "title": "The Clubhouse",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 133.511837,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-073.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-074",
+    "title": "The Secret Password",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 95.320816,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-074.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-075",
+    "title": "The Last Meeting",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 102.948571,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-075.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-076",
+    "title": "A Great Idea",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 104.385306,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-076.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-077",
+    "title": "Snakes and Lizards",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 127.137959,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-077.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-078",
+    "title": "Bad Feelings",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 117.577143,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-078.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-079",
+    "title": "Double Trouble",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 98.037551,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-079.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-007",
+    "title": "Bullies",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 121.835102,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-007.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-080",
+    "title": "Rumors",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 105.822041,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-080.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-081",
+    "title": "A Sick Day",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 101.485714,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-081.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-082",
+    "title": "A Pleasant Surprise",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 96.391837,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-082.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-083",
+    "title": "Summertime",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 92.186122,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-083.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-084",
+    "title": "Taking the Bus",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 107.572245,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-084.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-085",
+    "title": "Newman, Not New Mont",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 116.950204,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-085.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-086",
+    "title": "Final Destination",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 107.755102,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-086.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-087",
+    "title": "Just Like Old Times",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 117.446531,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-087.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-088",
+    "title": "Going Home",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 103.366531,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-088.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-089",
+    "title": "School Again",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 97.854694,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-089.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-008",
+    "title": "Going to Work with Mom",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 120.737959,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-008.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-090",
+    "title": "Dancing Queens",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 120.372245,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-090.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-091",
+    "title": "All the Wrong Moves",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 114.834286,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-091.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-092",
+    "title": "Losing Rachel",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 104.254694,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-092.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-093",
+    "title": "Where Are You",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 108.617143,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-093.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-094",
+    "title": "Help from a Stranger",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 97.17551,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-094.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-095",
+    "title": "Everyone Makes Mistakes",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 90.697143,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-095.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-096",
+    "title": "The Scary Mask",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 97.28,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-096.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-097",
+    "title": "Ricky the Monster",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 138.161633,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-097.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-098",
+    "title": "Computer Breakdown",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 110.210612,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-098.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-099",
+    "title": "Building a City",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 102.29551,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-099.mp3"
+  },
+  {
+    "id": "littlefox-2-wacky-ricky-009",
+    "title": "At the Dentist is Office",
+    "zh": "Wacky Ricky",
+    "category": "littlefox-2-wacky-ricky",
+    "duration": 138.161633,
+    "file": "audio/littlefox/littlefox-2-wacky-ricky/littlefox-2-wacky-ricky-009.mp3"
   }
 ];
