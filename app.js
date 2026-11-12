@@ -12,7 +12,7 @@
   const tabCategoryGroups = {
     animation: [
       'wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange',
-      'wow-bronze', 'wow-silver', 'wow-gold',
+      'wow-bronze', 'wow-silver', 'wow-gold', 'guli', 'vocab-town',
     ],
     talk: ['talk'],
   };
@@ -20,6 +20,8 @@
     { id: 'animation-wow', name: 'Wow English', categoryPrefixes: ['wow-'], icon: 'globe', color: '#d98543' },
     { id: 'animation-littlefox', name: 'Little Fox', categoryPrefixes: ['littlefox-'], icon: 'abc', color: '#4f8ccc' },
     { id: 'animation-peppa', name: '小猪佩奇', categoryPrefixes: ['peppa-'], icon: 'hand', color: '#dc7f9b' },
+    { id: 'animation-guli', name: '古力小超人', categoryPrefixes: ['guli'], icon: 'globe', color: '#7b88c7' },
+    { id: 'animation-vocab-town', name: '词汇妙趣国', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
   ];
   const collectionTabIds = new Set(['songs', 'animation', 'talk']);
   const resourceLinks = [
@@ -474,6 +476,7 @@
   }
 
   function animationSongs(group) {
+    // Prefixes are category prefixes (guli, vocab-town, peppa), not song ids.
     return songs.filter((song) => group.categoryPrefixes.some((prefix) => song.category.startsWith(prefix)));
   }
 

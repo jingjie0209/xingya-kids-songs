@@ -182,6 +182,22 @@ window.SONG_CATEGORIES = [
     "note": "金色分级课程音频",
     "icon": "globe",
     "color": "#c7a13b"
+  },
+  {
+    "id": "guli",
+    "name": "古力小超人",
+    "english": "GULI SUPERHERO",
+    "note": "古力小超人动画音频",
+    "icon": "globe",
+    "color": "#7b88c7"
+  },
+  {
+    "id": "vocab-town",
+    "name": "词汇妙趣国",
+    "english": "VOCAB TOWN",
+    "note": "词汇妙趣国动画音频",
+    "icon": "globe",
+    "color": "#57a59a"
   }
 ];
 
@@ -3625,5 +3641,197 @@ window.SONGS = [
     "category": "wow-gold",
     "duration": 179.328,
     "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/wow/wow-gold-026.mp3"
+  },
+  {
+    "id": "guli-001",
+    "title": "Hello",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 167.832,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-001.mp3"
+  },
+  {
+    "id": "guli-002",
+    "title": "Wake up",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 219.144,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-002.mp3"
+  },
+  {
+    "id": "guli-003",
+    "title": "Scrub",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 166.656,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-003.mp3"
+  },
+  {
+    "id": "guli-004",
+    "title": "Hide and Seek",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 183.48,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-004.mp3"
+  },
+  {
+    "id": "guli-005",
+    "title": "Pat",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 156.816,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-005.mp3"
+  },
+  {
+    "id": "guli-006",
+    "title": "Ready",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 145.944,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-006.mp3"
+  },
+  {
+    "id": "guli-007",
+    "title": "The Birthday Party",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 183.72,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-007.mp3"
+  },
+  {
+    "id": "guli-008",
+    "title": "Yum Yum",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 181.008,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-008.mp3"
+  },
+  {
+    "id": "guli-009",
+    "title": "Go Away Shadow",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 155.016,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-009.mp3"
+  },
+  {
+    "id": "guli-010",
+    "title": "Follow Me",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 165.84,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-010.mp3"
+  },
+  {
+    "id": "guli-011",
+    "title": "The Rainy Day",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 161.256,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-011.mp3"
+  },
+  {
+    "id": "guli-012",
+    "title": "Who are You",
+    "zh": "古力小超人",
+    "category": "guli",
+    "duration": 166.368,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/guli/guli-012.mp3"
+  },
+  {
+    "id": "vocab-town-001",
+    "title": "Gyuri the police officer",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 190.249796,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-001.mp3"
+  },
+  {
+    "id": "vocab-town-002",
+    "title": "Leo the delivery man",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 233.116735,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-002.mp3"
+  },
+  {
+    "id": "vocab-town-003",
+    "title": "Ducky the chef",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 286.537143,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-003.mp3"
+  },
+  {
+    "id": "vocab-town-004",
+    "title": "Bella the doctor",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 193.541224,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-004.mp3"
+  },
+  {
+    "id": "vocab-town-005",
+    "title": "Jojo the fisher man",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 189.178776,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-005.mp3"
+  },
+  {
+    "id": "vocab-town-006",
+    "title": "Tenny the singer",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 239.020408,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-006.mp3"
+  },
+  {
+    "id": "vocab-town-007",
+    "title": "Leo the farmer",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 223.425306,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-007.mp3"
+  },
+  {
+    "id": "vocab-town-008",
+    "title": "Jojo the repairman",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 223.425306,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-008.mp3"
+  },
+  {
+    "id": "vocab-town-009",
+    "title": "Gyuri the firefighter",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 216.52898,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-009.mp3"
+  },
+  {
+    "id": "vocab-town-010",
+    "title": "Ducky the photographer",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 180.48,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-010.mp3"
+  },
+  {
+    "id": "vocab-town-011",
+    "title": "Jojo the camper",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 256.992653,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-011.mp3"
+  },
+  {
+    "id": "vocab-town-012",
+    "title": "Gyuri and his band",
+    "zh": "词汇妙趣国",
+    "category": "vocab-town",
+    "duration": 217.573878,
+    "file": "https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/audio/vocab-town/vocab-town-012.mp3"
   }
 ];
