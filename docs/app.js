@@ -509,7 +509,7 @@
   function renderFilters() {
     if (activeTab === 'animation') {
       els.filterRow.innerHTML = animationGroups.map((group) =>
-        `<button class="filter-chip ${activeFilter === group.id ? 'is-active' : ''}" type="button" data-filter="${group.id}" aria-pressed="${activeFilter === group.id ? 'true' : 'false'}">${group.name}</button>`
+        `<button class="filter-chip ${activeFilter === group.id ? 'is-active' : ''}" type="button" data-filter="${group.id}" aria-pressed="${activeFilter === group.id ? 'true' : 'false'}">${group.name}<span class="filter-count">${counts[group.id]}</span></button>`
       ).join('');
       return;
     }
@@ -641,16 +641,6 @@
       `).join('');
       return `
         <section class="song-group" data-group-category="${group.id}">
-          <header class="group-head">
-            <div class="group-title">
-              <span class="group-icon" style="--group-color:${group.color}"><svg><use href="#icon-${group.icon}"></use></svg></span>
-              <span class="group-title-text">
-                <strong>${group.name}</strong>
-                <span>${counts[group.id] ? `${counts[group.id]} 个音频` : '内容准备中'}</span>
-              </span>
-            </div>
-            <span class="group-count">${counts[group.id]} 首</span>
-          </header>
           ${rows ? `<div class="song-list">${rows}</div>` : '<div class="group-empty">内容正在准备中</div>'}
         </section>
       `;

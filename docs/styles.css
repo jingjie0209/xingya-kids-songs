@@ -681,6 +681,29 @@ svg {
   color: white;
 }
 
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-chip .filter-count {
+  min-width: 18px;
+  padding: 1px 5px;
+  border-radius: 999px;
+  background: rgba(23,49,79,.08);
+  color: #5b6b83;
+  font-size: 9px;
+  font-weight: 740;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.filter-chip.is-active .filter-count {
+  background: rgba(255,255,255,.2);
+  color: #fff;
+}
+
 .playlist-groups {
   display: grid;
   gap: 23px;
