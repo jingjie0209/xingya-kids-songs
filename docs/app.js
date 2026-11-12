@@ -213,7 +213,7 @@
   let volume = Number(storedValue(STORAGE.volume, 'xingya-volume-v1'));
   let isMuted = storedValue(STORAGE.muted, 'xingya-muted-v1') === 'true';
   let activeFilter = 'all';
-  let activeWowLevel = 'all';
+  let activeWowLevel = 'wow-yellow';
   let activeLittleFoxLevel = 'littlefox-1';
   let activePeppaSeason = 'peppa-1';
   let sessionCounted = false;
@@ -569,8 +569,7 @@
       .map((category) => ({ id: category.id, name: category.name.replace('Wow! ', '') }));
     return `
       <div class="secondary-tabs" role="tablist" aria-label="Wow English 分级">
-        <button class="secondary-tab ${activeWowLevel === 'all' ? 'is-active' : ''}" type="button" data-wow-level="all">全部</button>
-        ${levels.map((level) => `<button class="secondary-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}</button>`).join('')}
+          ${levels.map((level) => `<button class="secondary-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}</button>`).join('')}
       </div>
     `;
   }
@@ -586,7 +585,7 @@
     const wowSelected = visible.some((group) => group.id === 'animation-wow');
     const wowSongs = wowSelected
       ? animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
-          .filter((song) => activeWowLevel === 'all' || song.category === activeWowLevel)
+          .filter((song) => song.category === activeWowLevel)
       : [];
     const littleFoxSelected = visible.some((group) => group.id === 'animation-littlefox');
     const littleFoxCount = animationSongs(animationGroups.find((group) => group.id === 'animation-littlefox')).length;
@@ -879,7 +878,7 @@
     setPlayerExpanded(false);
     activeTab = tabId;
     activeFilter = tabId === 'animation' ? 'animation-wow' : 'all';
-    activeWowLevel = 'all';
+    activeWowLevel = 'wow-yellow';
     activeLittleFoxLevel = 'littlefox-1';
     activePeppaSeason = 'peppa-1';
     document.querySelectorAll('.tab-button').forEach((button) => {
