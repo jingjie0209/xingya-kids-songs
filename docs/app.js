@@ -16,6 +16,7 @@
       'littlefox-1-tire-town', 'littlefox-1-dino-buddies', 'littlefox-1-bat-and-friends',
       'littlefox-1-big-green-forest',
       'littlefox-2-bird-and-kip', 'littlefox-2-wacky-ricky',
+      'peppa-1', 'peppa-2', 'peppa-3', 'peppa-4', 'peppa-5',
     ],
     talk: ['talk'],
   };
@@ -33,6 +34,13 @@
     { id: 'littlefox-1-big-green-forest', level: 'littlefox-1', name: 'The Big Green Forest', icon: 'paw', color: '#5d9a72' },
     { id: 'littlefox-2-bird-and-kip', level: 'littlefox-2', name: 'Bird and Kip', icon: 'paw', color: '#5d9a72' },
     { id: 'littlefox-2-wacky-ricky', level: 'littlefox-2', name: 'Wacky Ricky', icon: 'smile', color: '#b575c5' },
+  ];
+  const peppaSeasons = [
+    { id: 'peppa-1', season: 'peppa-1', name: '小猪佩奇 第1季', subtitle: '小猪佩奇 · 第1季', icon: 'hand', color: '#dc7f9b' },
+    { id: 'peppa-2', season: 'peppa-2', name: '小猪佩奇 第2季', subtitle: '小猪佩奇 · 第2季', icon: 'hand', color: '#e88966' },
+    { id: 'peppa-3', season: 'peppa-3', name: '小猪佩奇 第3季', subtitle: '小猪佩奇 · 第3季', icon: 'hand', color: '#e2a74f' },
+    { id: 'peppa-4', season: 'peppa-4', name: '小猪佩奇 第4季', subtitle: '小猪佩奇 · 第4季', icon: 'hand', color: '#7a9fca' },
+    { id: 'peppa-5', season: 'peppa-5', name: '小猪佩奇 第5季', subtitle: '小猪佩奇 · 第5季', icon: 'hand', color: '#8d83c9' },
   ];
   const collectionTabIds = new Set(['songs', 'animation', 'talk']);
   const resourceLinks = [
@@ -202,6 +210,7 @@
   let activeFilter = 'all';
   let activeWowLevel = 'all';
   let activeLittleFoxLevel = 'littlefox-1';
+  let activePeppaSeason = 'peppa-1';
   let sessionCounted = false;
   let lastTickWall = Date.now();
   let lastPersist = 0;
@@ -515,6 +524,15 @@
     `;
   }
 
+  function renderPeppaSeasonTabs() {
+    return `
+      <div class="secondary-tabs" role="tablist" aria-label="小猪佩奇分季">
+        <button class="secondary-tab ${activePeppaSeason === 'all' ? 'is-active' : ''}" type="button" data-peppa-season="all">全部</button>
+        ${peppaSeasons.map((season) => `<button class="secondary-tab ${activePeppaSeason === season.season ? 'is-active' : ''}" type="button" data-peppa-season="${season.season}">第${season.season.split('-')[1]}季</button>`).join('')}
+      </div>
+    `;
+  }
+
   function seriesSongRows(series) {
     const entries = songs.filter((song) => song.category === series.id);
     return `
@@ -522,7 +540,7 @@
         <header class="group-head">
           <div class="group-title">
             <span class="group-icon" style="--group-color:${series.color}"><svg><use href="#icon-${series.icon}"></use></svg></span>
-            <span class="group-title-text"><strong>${series.name}</strong><span>Little Fox ${series.level === 'littlefox-2' ? 'L2' : 'L1'}</span></span>
+            <span class="group-title-text"><strong>${series.name}</strong><span>${series.subtitle || `Little Fox ${series.level === 'littlefox-2' ? 'L2' : 'L1'}`}</span></span>
           </div>
           <span class="group-count">${entries.length} 首</span>
         </header>
@@ -578,6 +596,21 @@
       </section>
       ${littleFoxSeries.filter((series) => activeLittleFoxLevel === 'all' || series.level === activeLittleFoxLevel).map(seriesSongRows).join('')}
     ` : '';
+    const peppaSelected = visible.some((group) => group.id === 'animation-peppa');
+    const peppaCount = animationSongs(animationGroups.find((group) => group.id === 'animation-peppa')).length;
+    const peppaHtml = peppaSelected ? `
+      <section class="song-group wow-level-group" data-group-category="animation-peppa">
+        <header class="group-head">
+          <div class="group-title">
+            <span class="group-icon" style="--group-color:#dc7f9b"><svg><use href="#icon-hand"></use></svg></span>
+            <span class="group-title-text"><strong>小猪佩奇</strong><span>按季快速定位</span></span>
+          </div>
+          <span class="group-count">${peppaCount} 首</span>
+        </header>
+        ${renderPeppaSeasonTabs()}
+      </section>
+      ${peppaSeasons.filter((season) => activePeppaSeason === 'all' || season.season === activePeppaSeason).map(seriesSongRows).join('')}
+    ` : '';
     const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">
         <header class="group-head">
@@ -601,7 +634,7 @@
           </button>`).join('')}</div>
       </section>
     ` : '';
-    els.playlistGroups.innerHTML = wowHtml + littleFoxHtml + visible.filter((group) => !['animation-wow', 'animation-littlefox'].includes(group.id)).map((group) => {
+    els.playlistGroups.innerHTML = wowHtml + littleFoxHtml + peppaHtml + visible.filter((group) => !['animation-wow', 'animation-littlefox', 'animation-peppa'].includes(group.id)).map((group) => {
       const rows = animationSongs(group).map((song, index) => `
         <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
           <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
@@ -639,6 +672,12 @@
     els.playlistGroups.querySelectorAll('[data-littlefox-level]').forEach((button) => {
       button.addEventListener('click', () => {
         activeLittleFoxLevel = button.dataset.littlefoxLevel;
+        renderAnimationPlaylist();
+      });
+    });
+    els.playlistGroups.querySelectorAll('[data-peppa-season]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activePeppaSeason = button.dataset.peppaSeason;
         renderAnimationPlaylist();
       });
     });
@@ -852,6 +891,7 @@
     activeFilter = tabId === 'animation' ? 'animation-wow' : 'all';
     activeWowLevel = 'all';
     activeLittleFoxLevel = 'littlefox-1';
+    activePeppaSeason = 'peppa-1';
     document.querySelectorAll('.tab-button').forEach((button) => {
       const active = button.dataset.tab === tabId;
       button.classList.toggle('is-active', active);
