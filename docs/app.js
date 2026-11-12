@@ -526,7 +526,6 @@
   function renderLittleFoxLevelTabs() {
     return `
       <div class="secondary-tabs" role="tablist" aria-label="Little Fox 分级">
-        <button class="secondary-tab ${activeLittleFoxLevel === 'all' ? 'is-active' : ''}" type="button" data-littlefox-level="all">全部</button>
         <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-1' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-1">L1</button>
         <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-2' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-2">L2</button>
         <button class="secondary-tab ${activeLittleFoxLevel === 'littlefox-3' ? 'is-active' : ''}" type="button" data-littlefox-level="littlefox-3">L3</button>
