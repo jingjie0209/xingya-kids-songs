@@ -507,6 +507,7 @@
   }
 
   function renderFilters() {
+    const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
     if (activeTab === 'animation') {
       els.filterRow.innerHTML = animationGroups.map((group) =>
         `<button class="filter-chip ${activeFilter === group.id ? 'is-active' : ''}" type="button" data-filter="${group.id}" aria-pressed="${activeFilter === group.id ? 'true' : 'false'}">${group.name}<span class="filter-count">${counts[group.id]}</span></button>`
@@ -581,7 +582,6 @@
     els.libraryHead.hidden = false;
     els.filterRow.hidden = false;
     renderFilters();
-    const counts = Object.fromEntries(animationGroups.map((group) => [group.id, animationSongs(group).length]));
     const visible = animationGroups.filter((group) =>
       animationSongs(group).length > 0 && activeFilter === group.id
     );
