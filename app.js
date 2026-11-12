@@ -539,17 +539,18 @@
     `;
   }
 
-  function seriesSongRows(series) {
+  function seriesSongRows(series, hideHeader = false) {
     const entries = songs.filter((song) => song.category === series.id);
     return `
       <section class="song-group" data-group-category="${series.id}">
+        ${hideHeader ? '' : `
         <header class="group-head">
           <div class="group-title">
             <span class="group-icon" style="--group-color:${series.color}"><svg><use href="#icon-${series.icon}"></use></svg></span>
             <span class="group-title-text"><strong>${series.name}</strong><span>${series.subtitle || `Little Fox ${(series.level || '').replace('littlefox-', 'L').toUpperCase()}`}</span></span>
           </div>
           <span class="group-count">${entries.length} 首</span>
-        </header>
+        </header>`}
         <div class="song-list">${entries.map((song, index) => `
           <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
             <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
@@ -606,16 +607,9 @@
     const peppaCount = animationSongs(animationGroups.find((group) => group.id === 'animation-peppa')).length;
     const peppaHtml = peppaSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-peppa">
-        <header class="group-head">
-          <div class="group-title">
-            <span class="group-icon" style="--group-color:#dc7f9b"><svg><use href="#icon-hand"></use></svg></span>
-            <span class="group-title-text"><strong>小猪佩奇</strong><span>按季快速定位</span></span>
-          </div>
-          <span class="group-count">${peppaCount} 首</span>
-        </header>
         ${renderPeppaSeasonTabs()}
       </section>
-      ${peppaSeasons.filter((season) => activePeppaSeason === 'all' || season.season === activePeppaSeason).map(seriesSongRows).join('')}
+      ${peppaSeasons.filter((season) => activePeppaSeason === 'all' || season.season === activePeppaSeason).map((season) => seriesSongRows(season, true)).join('')}
     ` : '';
     const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">
