@@ -1577,7 +1577,7 @@ input[type="range"]::-moz-range-thumb {
   bottom: 8px;
   left: 24px;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 4px;
   padding: 5px;
   border: 1px solid rgba(255, 255, 255, 0.8);
