@@ -2269,3 +2269,16 @@ input[type="range"]::-moz-range-thumb {
     margin-bottom: 14px;
   }
 }
+
+/* Sticky layers need an opaque backing so the playlist cannot show through. */
+@media (max-width: 860px) {
+  .topbar {
+    background: #f3efe5;
+  }
+
+  .library-head {
+    background: #ffffff;
+    box-shadow: 0 8px 16px rgba(23, 43, 69, 0.06);
+    isolation: isolate;
+  }
+}
