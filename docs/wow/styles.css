@@ -2282,3 +2282,16 @@ input[type="range"]::-moz-range-thumb {
     isolation: isolate;
   }
 }
+
+/* Let vertical swipes that start on sticky layers continue scrolling the page. */
+@media (max-width: 860px) {
+  .topbar,
+  .hero,
+  .library-head {
+    touch-action: pan-y;
+  }
+
+  .filter-row {
+    touch-action: pan-x pan-y;
+  }
+}
