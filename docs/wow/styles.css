@@ -2223,3 +2223,49 @@ input[type="range"]::-moz-range-thumb {
   .library .resource-card-copy strong { font-size: 15px; }
   .library .resource-card-copy span { font-size: 11px; }
 }
+
+/* Keep the mobile context visible while the playlist is swiped upward. */
+@media (max-width: 860px) {
+  .topbar {
+    position: sticky;
+    top: env(safe-area-inset-top);
+    z-index: 30;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: linear-gradient(180deg, rgba(243, 239, 229, .98), rgba(243, 239, 229, .88));
+    backdrop-filter: blur(14px);
+  }
+
+  .hero {
+    position: sticky;
+    top: calc(64px + env(safe-area-inset-top));
+    z-index: 20;
+    box-shadow: 0 18px 42px rgba(209, 117, 148, 0.16);
+  }
+
+  .library {
+    padding-top: 16px;
+  }
+
+  .library-head {
+    top: calc(156px + env(safe-area-inset-top));
+    padding-top: 2px;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero {
+    top: calc(58px + env(safe-area-inset-top));
+  }
+
+  .library {
+    padding-top: 12px;
+  }
+
+  .library-head {
+    top: calc(144px + env(safe-area-inset-top));
+    margin-bottom: 14px;
+  }
+}
