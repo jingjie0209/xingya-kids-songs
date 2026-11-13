@@ -770,6 +770,7 @@
   let loadingToken = 0;
   let audioSources = [];
   let audioSourceIndex = 0;
+  let wantsPlayback = false;
 
   function prepareAudioSource(song, preservePosition = false) {
     const oldPosition = preservePosition ? audio.currentTime : 0;
@@ -778,7 +779,6 @@
     // Do not tear down the old element while the user can still hear it.
     // Setting preload=auto lets Safari start buffering immediately; metadata
     // usually arrives before playback is invoked, keeping the click instant.
-    window.clearTimeout(recoverTimer);
     audioSources = [
       AUDIO_BASE + song.file,
       `https://fastly.jsdelivr.net/gh/jingjie0209/xingya-kids-songs@main/${song.file}`,
@@ -815,6 +815,7 @@
     }
     updatePlaybackButtons();
     if (options.autoplay) {
+      wantsPlayback = true;
       audio.play().catch((error) => {
         updatePlaybackButtons();
         if (error?.name !== 'AbortError') showToast('暂时无法播放，请检查网络后重试');
@@ -826,6 +827,7 @@
     setPlayerExpanded(true);
     if (!currentSongId && songs.length) loadSong(songs[0].id, { autoplay: false });
     if (audio.paused) {
+      wantsPlayback = true;
       const duration = Number.isFinite(audio.duration) ? audio.duration : (currentSong()?.duration || 0);
       if (audio.ended || (duration && audio.currentTime >= duration - 0.12)) {
         audio.currentTime = 0;
@@ -835,6 +837,7 @@
         if (error?.name !== 'AbortError') showToast('暂时无法播放，请检查网络后重试');
       });
     } else {
+      wantsPlayback = false;
       audio.pause();
     }
   }
@@ -926,7 +929,10 @@
     lastTickWall = Date.now();
     updatePlaybackButtons();
   });
-  audio.addEventListener('pause', updateAfterPause);
+  audio.addEventListener('pause', () => {
+    if (!audio.ended) wantsPlayback = false;
+    updateAfterPause();
+  });
   audio.addEventListener('seeking', () => {
     flushPlayTime();
     updateProgressUI();
@@ -940,46 +946,19 @@
     updateProgressUI();
   });
 
-  async function recoverPlayback() {
-    if (audio.paused || audio.ended) return;
-    const position = audio.currentTime;
-    // A slow CDN can keep readyState low for a while. Give the network room and
-    // avoid a toast that makes normal startup look stuck.
-    if (position < 0.2) {
-      if (audioSourceIndex + 1 < audioSources.length) {
-        audioSourceIndex += 1;
-        audio.src = audioSources[audioSourceIndex];
-        audio.load();
-        return;
-      }
-      if (audio.networkState === HTMLMediaElement.NETWORK_NO_SOURCE || audio.error) {
-        showToast('音频加载失败，请点击播放重试');
-      }
-      return;
-    }
-    try {
-      audio.currentTime = Math.max(position - 0.08, 0);
-      await audio.play();
-    } catch (error) {
-      showToast('网络有点慢，请再点一次播放按钮');
-    }
-  }
-
-  let recoverTimer = null;
-  function scheduleRecovery() {
-    window.clearTimeout(recoverTimer);
-    recoverTimer = window.setTimeout(recoverPlayback, 3000);
-  }
-  audio.addEventListener('waiting', scheduleRecovery);
-  audio.addEventListener('stalled', scheduleRecovery);
-  ['playing', 'pause', 'ended', 'error', 'canplay', 'canplaythrough', 'loadeddata', 'loadedmetadata'].forEach((type) => {
-    audio.addEventListener(type, () => window.clearTimeout(recoverTimer));
-  });
   audio.addEventListener('error', () => {
     if (audioSourceIndex + 1 < audioSources.length) {
+      const position = audio.currentTime;
+      const shouldResume = wantsPlayback || !audio.paused;
       audioSourceIndex += 1;
       audio.src = audioSources[audioSourceIndex];
       audio.load();
+      audio.addEventListener('loadedmetadata', () => {
+        if (position > 0 && Number.isFinite(audio.duration)) {
+          audio.currentTime = Math.min(position, Math.max(audio.duration - 0.1, 0));
+        }
+        if (shouldResume) audio.play().catch(() => {});
+      }, { once: true });
       return;
     }
     if (audio.error) showToast('这首歌曲暂时无法播放，请检查网络后重试');
@@ -1200,7 +1179,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=3').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=4').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });

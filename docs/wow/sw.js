@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'xingya-wow-shell-';
-const CACHE_NAME = `${CACHE_PREFIX}v3`;
+const CACHE_NAME = `${CACHE_PREFIX}v4`;
 const SHELL = [
   './',
   './index.html',
@@ -32,38 +32,10 @@ self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET') return;
 
-  // Cache songs from the same origin or the GitHub CDN after their first play.
-  // jsDelivr sends CORS headers, so these responses can be stored by the Cache API.
-  if (request.destination === 'audio') {
-    event.respondWith((async () => {
-      const cache = await caches.open(CACHE_NAME);
-      // Always use the song URL as the cache key. Browsers send a different
-      // Range header while seeking, and partial responses must never replace
-      // the complete cached song.
-      const cacheKey = new URL(request.url).toString();
-      const cached = await cache.match(cacheKey, { ignoreVary: true });
-      if (cached) return cached;
-
-      try {
-        // Fetch the complete song once. Returning it to the initial Range
-        // request is accepted by Chrome/Safari, and later seeks reuse the cache.
-        const response = await fetch(request.url, { cache: 'default' });
-        if (response.ok) {
-          // Return the response stream immediately so playback can begin as
-          // soon as the first audio bytes arrive. Cache a clone in the
-          // background instead of blocking playback until the whole MP3 has
-          // downloaded.
-          event.waitUntil(cache.put(cacheKey, response.clone()).catch(() => {}));
-        }
-        return response;
-      } catch (error) {
-        const fallback = await cache.match(cacheKey, { ignoreVary: true });
-        if (fallback) return fallback;
-        throw error;
-      }
-    })());
-    return;
-  }
+  // Do not intercept audio. Let the browser send and receive HTTP Range
+  // requests directly so streaming, seeking, and continuous playback remain
+  // reliable. Caching a full MP3 here would break partial buffering.
+  if (request.destination === 'audio') return;
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
