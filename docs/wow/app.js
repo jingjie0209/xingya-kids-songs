@@ -968,7 +968,7 @@
   let recoverTimer = null;
   function scheduleRecovery() {
     window.clearTimeout(recoverTimer);
-    recoverTimer = window.setTimeout(recoverPlayback, 9000);
+    recoverTimer = window.setTimeout(recoverPlayback, 3000);
   }
   audio.addEventListener('waiting', scheduleRecovery);
   audio.addEventListener('stalled', scheduleRecovery);
@@ -1200,7 +1200,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=3').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });

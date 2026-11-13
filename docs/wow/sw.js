@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'xingya-wow-shell-';
-const CACHE_NAME = `${CACHE_PREFIX}v2`;
+const CACHE_NAME = `${CACHE_PREFIX}v3`;
 const SHELL = [
   './',
   './index.html',
@@ -49,7 +49,11 @@ self.addEventListener('fetch', (event) => {
         // request is accepted by Chrome/Safari, and later seeks reuse the cache.
         const response = await fetch(request.url, { cache: 'default' });
         if (response.ok) {
-          await cache.put(cacheKey, response.clone());
+          // Return the response stream immediately so playback can begin as
+          // soon as the first audio bytes arrive. Cache a clone in the
+          // background instead of blocking playback until the whole MP3 has
+          // downloaded.
+          event.waitUntil(cache.put(cacheKey, response.clone()).catch(() => {}));
         }
         return response;
       } catch (error) {
