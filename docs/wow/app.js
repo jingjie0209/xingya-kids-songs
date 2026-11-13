@@ -23,12 +23,15 @@
     'peppa-1', 'peppa-2', 'peppa-3', 'peppa-4', 'peppa-5',
   ];
   const tabCategoryGroups = {
-    animation: wowCategoryIds,
+    animation: [...wowCategoryIds, 'guli', 'qplay', 'vocab-town'],
     talk: ['talk'],
   };
   const songExcludedCategoryIds = [...animationCategoryIds, 'talk'];
   const animationGroups = [
     { id: 'animation-wow', name: 'Wow English', categoryPrefixes: ['wow-'], icon: 'globe', color: '#d98543' },
+    { id: 'animation-guli', name: '古力小超人', categoryPrefixes: ['guli'], icon: 'globe', color: '#7b88c7' },
+    { id: 'animation-qplay', name: 'Q-play', categoryPrefixes: ['qplay'], icon: 'globe', color: '#d9798f' },
+    { id: 'animation-vocab-town', name: 'W-play', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
   ];
   const collectionTabIds = new Set(['songs', 'animation', 'talk']);
   let activeTab = 'songs';
@@ -509,10 +512,15 @@
     els.libraryHead.hidden = false;
     els.filterRow.hidden = false;
     renderFilters();
-    const wowGroup = animationGroups[0];
-    const wowSongs = animationSongs(wowGroup)
-      .filter((song) => song.category === activeWowLevel);
-    els.playlistGroups.innerHTML = `
+    const visible = animationGroups.filter((group) =>
+      animationSongs(group).length > 0 && activeFilter === group.id
+    );
+    const wowSelected = visible.some((group) => group.id === 'animation-wow');
+    const wowSongs = wowSelected
+      ? animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
+          .filter((song) => song.category === activeWowLevel)
+      : [];
+    const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">
         ${renderWowLevelTabs()}
         <div class="song-list">${wowSongs.map((song, index) => `
@@ -524,7 +532,24 @@
             <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
           </button>`).join('')}</div>
       </section>
-    `;
+    ` : '';
+    const otherHtml = visible.filter((group) => group.id !== 'animation-wow').map((group) => {
+      const rows = animationSongs(group).map((song, index) => `
+        <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+          <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+          <span class="song-title-block"><strong>${song.title}</strong></span>
+          <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+          <span class="song-duration">${formatTime(song.duration)}</span>
+          <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+        </button>
+      `).join('');
+      return `
+        <section class="song-group" data-group-category="${group.id}">
+          ${rows ? `<div class="song-list">${rows}</div>` : '<div class="group-empty">内容正在准备中</div>'}
+        </section>
+      `;
+    }).join('');
+    els.playlistGroups.innerHTML = wowHtml + otherHtml;
     els.playlistGroups.querySelectorAll('[data-wow-level]').forEach((button) => {
       button.addEventListener('click', () => {
         activeWowLevel = button.dataset.wowLevel;
