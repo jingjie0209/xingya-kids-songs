@@ -2,7 +2,8 @@
   'use strict';
 
   const allSongs = window.SONGS || [];
-  const RAW_AUDIO_BASE = 'https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/';
+  const COS_AUDIO_BASE = 'https://baby-songs-audio-1531379207.cos.ap-guangzhou.myqcloud.com/';
+  const GITHUB_AUDIO_BASE = 'https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/';
   const allCategories = window.SONG_CATEGORIES || [];
   const tabs = [
     { id: 'songs', name: '儿歌', icon: 'music' },
@@ -783,13 +784,20 @@
     // Setting preload=auto lets Safari start buffering immediately; metadata
     // usually arrives before playback is invoked, keeping the click instant.
     const bundled = song.file.startsWith('media/');
-    const originalFile = bundled
+    let originalFile = bundled
       ? song.file.replace(/^media\//, '').replace(/\.m4a$/i, '.mp3')
       : song.file;
+    // Peppa files were uploaded under the original season directory in COS.
+    if (originalFile.startsWith('audio/peppa-1/')) {
+      originalFile = originalFile.replace(/^audio\/peppa-1\//, 'audio/peppa/peppa-1/');
+    }
+    // Tencent COS is the primary media origin. The same-site optimized copy and
+    // GitHub raw file remain as automatic fallbacks if a cloud request fails.
     audioSources = [
-      bundled ? new URL(song.file, window.location.href).href : RAW_AUDIO_BASE + originalFile,
-      RAW_AUDIO_BASE + originalFile,
-    ].filter((source, index, list) => list.indexOf(source) === index);
+      COS_AUDIO_BASE + originalFile,
+      bundled ? new URL(song.file, window.location.href).href : null,
+      GITHUB_AUDIO_BASE + originalFile,
+    ].filter((source, index, list) => source && list.indexOf(source) === index);
     audioSourceIndex = 0;
     audio.src = audioSources[0];
     audio.load();
@@ -1188,7 +1196,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=9').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=10').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });
