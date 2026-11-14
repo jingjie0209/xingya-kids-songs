@@ -22,7 +22,7 @@
     'peppa-1', 'peppa-2', 'peppa-3', 'peppa-4', 'peppa-5',
   ];
   const tabCategoryGroups = {
-    animation: [...wowCategoryIds, 'guli', 'qplay', 'vocab-town'],
+    animation: [...wowCategoryIds, 'guli', 'qplay', 'vocab-town', 'peppa-1'],
     talk: ['talk'],
   };
   const songExcludedCategoryIds = [...animationCategoryIds, 'talk'];
@@ -31,6 +31,7 @@
     { id: 'animation-guli', name: '古力小超人', categoryPrefixes: ['guli'], icon: 'globe', color: '#7b88c7' },
     { id: 'animation-qplay', name: 'Q-play', categoryPrefixes: ['qplay'], icon: 'globe', color: '#d9798f' },
     { id: 'animation-vocab-town', name: 'W-play', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
+    { id: 'animation-peppa-1', name: '小猪佩奇第一季', categoryPrefixes: ['peppa-1'], icon: 'hand', color: '#dc7f9b' },
   ];
   const collectionTabIds = new Set(['songs', 'animation', 'talk']);
   let activeTab = 'songs';
@@ -1187,7 +1188,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=8').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=9').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });
