@@ -209,7 +209,7 @@
   }
 
   function currentIndex() {
-    return Math.max(0, songs.findIndex((song) => song.id === currentSongId));
+    return songs.findIndex((song) => song.id === currentSongId);
   }
 
   function formatTime(seconds) {
@@ -459,7 +459,10 @@
       categories = allCategories.filter((category) => !songExcludedCategoryIds.includes(category.id));
       songs = allSongs.filter((song) => !songExcludedCategoryIds.includes(song.category));
     }
-    if (!songs.some((song) => song.id === currentSongId) && songs.length) {
+    // Keep the actually loaded track when switching tabs. Previously this
+    // silently changed currentSongId to the first item in the new tab without
+    // changing audio.src, so tapping that first row only resumed the old audio.
+    if (!currentSongId && songs.length) {
       currentSongId = songs[0].id;
     }
   }
@@ -876,7 +879,8 @@
       shuffleHistory.push(currentSongId);
       nextId = nextShuffleSongId();
     } else {
-      nextId = songs[(currentIndex() + 1) % songs.length].id;
+      const index = currentIndex();
+      nextId = songs[index < 0 ? 0 : (index + 1) % songs.length].id;
     }
     loadSong(nextId, { autoplay: true });
     if (!options.silent) showToast(`下一曲 · ${songById.get(nextId)?.zh || ''}`);
@@ -892,7 +896,8 @@
       const candidates = songs.filter((song) => song.id !== currentSongId);
       previousId = candidates[Math.floor(Math.random() * candidates.length)]?.id || currentSongId;
     } else {
-      previousId = songs[(currentIndex() - 1 + songs.length) % songs.length].id;
+      const index = currentIndex();
+      previousId = songs[index < 0 ? songs.length - 1 : (index - 1 + songs.length) % songs.length].id;
     }
     loadSong(previousId, { autoplay: true });
     showToast(`上一曲 · ${songById.get(previousId)?.zh || ''}`);
@@ -1183,7 +1188,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=5').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=6').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });
