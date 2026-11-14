@@ -320,7 +320,7 @@ window.SONGS = [
     "zh": "一闪一闪小星星",
     "category": "lullaby",
     "duration": 153.94,
-    "file": "audio/01-twinkle-twinkle.mp3"
+    "file": "media/audio/01-twinkle-twinkle.m4a"
   },
   {
     "id": "row-row-row",
@@ -328,7 +328,7 @@ window.SONGS = [
     "zh": "划呀划小船",
     "category": "lullaby",
     "duration": 121.1,
-    "file": "audio/02-row-row-row.mp3"
+    "file": "media/audio/02-row-row-row.m4a"
   },
   {
     "id": "little-snowflake",
@@ -336,7 +336,7 @@ window.SONGS = [
     "zh": "小雪花",
     "category": "lullaby",
     "duration": 169.01,
-    "file": "audio/03-little-snowflake.mp3"
+    "file": "media/audio/03-little-snowflake.m4a"
   },
   {
     "id": "are-you-sleeping",
@@ -344,7 +344,7 @@ window.SONGS = [
     "zh": "你睡了吗",
     "category": "lullaby",
     "duration": 123.65,
-    "file": "audio/04-are-you-sleeping.mp3"
+    "file": "media/audio/04-are-you-sleeping.m4a"
   },
   {
     "id": "apples-bananas",
@@ -352,7 +352,7 @@ window.SONGS = [
     "zh": "苹果和香蕉",
     "category": "alphabet",
     "duration": 196.02,
-    "file": "audio/05-apples-bananas.mp3"
+    "file": "media/audio/05-apples-bananas.m4a"
   },
   {
     "id": "alphabet-chant",
@@ -360,7 +360,7 @@ window.SONGS = [
     "zh": "字母歌谣",
     "category": "alphabet",
     "duration": 121.18,
-    "file": "audio/06-alphabet-chant.mp3"
+    "file": "media/audio/06-alphabet-chant.m4a"
   },
   {
     "id": "wheels-on-the-bus",
@@ -368,7 +368,7 @@ window.SONGS = [
     "zh": "巴士上的轮子",
     "category": "vehicles",
     "duration": 157.26,
-    "file": "audio/07-wheels-on-the-bus.mp3"
+    "file": "media/audio/07-wheels-on-the-bus.m4a"
   },
   {
     "id": "ten-little-airplanes",
@@ -376,7 +376,7 @@ window.SONGS = [
     "zh": "十架小飞机",
     "category": "vehicles",
     "duration": 126.59,
-    "file": "audio/08-ten-little-airplanes.mp3"
+    "file": "media/audio/08-ten-little-airplanes.m4a"
   },
   {
     "id": "ten-little-sailboats",
@@ -384,7 +384,7 @@ window.SONGS = [
     "zh": "十艘小帆船",
     "category": "vehicles",
     "duration": 128.1,
-    "file": "audio/09-ten-little-sailboats.mp3"
+    "file": "media/audio/09-ten-little-sailboats.m4a"
   },
   {
     "id": "ten-little-buses",
@@ -392,7 +392,7 @@ window.SONGS = [
     "zh": "十辆小巴士",
     "category": "vehicles",
     "duration": 124.68,
-    "file": "audio/10-ten-little-buses.mp3"
+    "file": "media/audio/10-ten-little-buses.m4a"
   },
   {
     "id": "ten-little-bicycles",
@@ -400,7 +400,7 @@ window.SONGS = [
     "zh": "十辆小自行车",
     "category": "vehicles",
     "duration": 128.94,
-    "file": "audio/11-ten-little-bicycles.mp3"
+    "file": "media/audio/11-ten-little-bicycles.m4a"
   },
   {
     "id": "wheels-on-the-bus-2019",
@@ -408,7 +408,7 @@ window.SONGS = [
     "zh": "巴士上的轮子 · 新版",
     "category": "vehicles",
     "duration": 152.32,
-    "file": "audio/12-wheels-on-the-bus-2019.mp3"
+    "file": "media/audio/12-wheels-on-the-bus-2019.m4a"
   },
   {
     "id": "driving-in-my-car",
@@ -416,7 +416,7 @@ window.SONGS = [
     "zh": "开着小车去兜风",
     "category": "vehicles",
     "duration": 144.3,
-    "file": "audio/13-driving-in-my-car.mp3"
+    "file": "media/audio/13-driving-in-my-car.m4a"
   },
   {
     "id": "bath-song",
@@ -424,7 +424,7 @@ window.SONGS = [
     "zh": "洗澡歌",
     "category": "habits",
     "duration": 136.85551,
-    "file": "audio/bath-song.mp3"
+    "file": "media/audio/bath-song.m4a"
   },
   {
     "id": "clean-up-song",
@@ -432,7 +432,7 @@ window.SONGS = [
     "zh": "收拾整理歌",
     "category": "habits",
     "duration": 109.531429,
-    "file": "audio/clean-up-song.mp3"
+    "file": "media/audio/clean-up-song.m4a"
   },
   {
     "id": "this-is-the-way",
@@ -440,7 +440,7 @@ window.SONGS = [
     "zh": "就是这样做的",
     "category": "habits",
     "duration": 138.213878,
-    "file": "audio/this-is-the-way.mp3"
+    "file": "media/audio/this-is-the-way.m4a"
   },
   {
     "id": "brush-your-teeth",
@@ -448,7 +448,7 @@ window.SONGS = [
     "zh": "刷刷小牙齿",
     "category": "habits",
     "duration": 134.321633,
-    "file": "audio/brush-your-teeth.mp3"
+    "file": "media/audio/brush-your-teeth.m4a"
   },
   {
     "id": "red-light-green-light",
@@ -456,7 +456,7 @@ window.SONGS = [
     "zh": "红灯绿灯",
     "category": "habits",
     "duration": 114.364082,
-    "file": "audio/red-light-green-light.mp3"
+    "file": "media/audio/red-light-green-light.m4a"
   },
   {
     "id": "sitting-on-the-potty",
@@ -464,7 +464,7 @@ window.SONGS = [
     "zh": "坐小马桶",
     "category": "habits",
     "duration": 123.794286,
-    "file": "audio/sitting-on-the-potty.mp3"
+    "file": "media/audio/sitting-on-the-potty.m4a"
   },
   {
     "id": "line-up",
@@ -472,7 +472,7 @@ window.SONGS = [
     "zh": "排好队",
     "category": "habits",
     "duration": 125.675102,
-    "file": "audio/line-up.mp3"
+    "file": "media/audio/line-up.m4a"
   },
   {
     "id": "good-morning-mr-rooster",
@@ -480,7 +480,7 @@ window.SONGS = [
     "zh": "早安，公鸡先生",
     "category": "social",
     "duration": 55.588571,
-    "file": "audio/good-morning-mr-rooster.mp3"
+    "file": "media/audio/good-morning-mr-rooster.m4a"
   },
   {
     "id": "after-a-while-crocodile",
@@ -488,7 +488,7 @@ window.SONGS = [
     "zh": "一会儿见，小鳄鱼",
     "category": "social",
     "duration": 52.140408,
-    "file": "audio/after-a-while-crocodile.mp3"
+    "file": "media/audio/after-a-while-crocodile.m4a"
   },
   {
     "id": "goodbye-my-friends",
@@ -496,7 +496,7 @@ window.SONGS = [
     "zh": "再见，我的朋友们",
     "category": "social",
     "duration": 82.416327,
-    "file": "audio/goodbye-my-friends.mp3"
+    "file": "media/audio/goodbye-my-friends.m4a"
   },
   {
     "id": "hello-hello-puppets",
@@ -504,7 +504,7 @@ window.SONGS = [
     "zh": "你好你好",
     "category": "social",
     "duration": 80.692245,
-    "file": "audio/hello-hello-puppets.mp3"
+    "file": "media/audio/hello-hello-puppets.m4a"
   },
   {
     "id": "whats-your-name",
@@ -512,7 +512,7 @@ window.SONGS = [
     "zh": "你叫什么名字",
     "category": "social",
     "duration": 93.805714,
-    "file": "audio/whats-your-name.mp3"
+    "file": "media/audio/whats-your-name.m4a"
   },
   {
     "id": "head-shoulders-sing-it",
@@ -520,7 +520,7 @@ window.SONGS = [
     "zh": "头肩膝脚趾 · 唱一唱",
     "category": "body",
     "duration": 60.212245,
-    "file": "audio/head-shoulders-sing-it.mp3"
+    "file": "media/audio/head-shoulders-sing-it.m4a"
   },
   {
     "id": "one-little-finger",
@@ -528,7 +528,7 @@ window.SONGS = [
     "zh": "一根小手指",
     "category": "body",
     "duration": 144.64,
-    "file": "audio/one-little-finger.mp3"
+    "file": "media/audio/one-little-finger.m4a"
   },
   {
     "id": "im-a-little-snowman",
@@ -536,7 +536,7 @@ window.SONGS = [
     "zh": "我是小雪人",
     "category": "body",
     "duration": 96.235102,
-    "file": "audio/im-a-little-snowman.mp3"
+    "file": "media/audio/im-a-little-snowman.m4a"
   },
   {
     "id": "pinocchio",
@@ -544,7 +544,7 @@ window.SONGS = [
     "zh": "匹诺曹",
     "category": "body",
     "duration": 204.199184,
-    "file": "audio/pinocchio.mp3"
+    "file": "media/audio/pinocchio.m4a"
   },
   {
     "id": "how-many-fingers",
@@ -552,7 +552,7 @@ window.SONGS = [
     "zh": "一共有几根手指",
     "category": "body",
     "duration": 182.099592,
-    "file": "audio/how-many-fingers.mp3"
+    "file": "media/audio/how-many-fingers.m4a"
   },
   {
     "id": "broccoli-ice-cream",
@@ -560,7 +560,7 @@ window.SONGS = [
     "zh": "你喜欢西兰花冰淇淋吗",
     "category": "food",
     "duration": 162.742857,
-    "file": "audio/broccoli-ice-cream.mp3"
+    "file": "media/audio/broccoli-ice-cream.m4a"
   },
   {
     "id": "are-you-hungry",
@@ -568,7 +568,7 @@ window.SONGS = [
     "zh": "你饿了吗",
     "category": "food",
     "duration": 119.353469,
-    "file": "audio/are-you-hungry.mp3"
+    "file": "media/audio/are-you-hungry.m4a"
   },
   {
     "id": "hot-cross-buns",
@@ -576,7 +576,7 @@ window.SONGS = [
     "zh": "热十字小面包",
     "category": "food",
     "duration": 104.019592,
-    "file": "audio/hot-cross-buns.mp3"
+    "file": "media/audio/hot-cross-buns.m4a"
   },
   {
     "id": "ants-go-marching-2",
@@ -584,7 +584,7 @@ window.SONGS = [
     "zh": "蚂蚁行军 · 第二版",
     "category": "food",
     "duration": 278.386939,
-    "file": "audio/ants-go-marching-2.mp3"
+    "file": "media/audio/ants-go-marching-2.m4a"
   },
   {
     "id": "favorite-ice-cream-flavor",
@@ -592,7 +592,7 @@ window.SONGS = [
     "zh": "你最喜欢什么冰淇淋",
     "category": "food",
     "duration": 95.216327,
-    "file": "audio/favorite-ice-cream-flavor.mp3"
+    "file": "media/audio/favorite-ice-cream-flavor.m4a"
   },
   {
     "id": "hickory-dickory-dock",
@@ -600,7 +600,7 @@ window.SONGS = [
     "zh": "滴答滴答钟",
     "category": "world",
     "duration": 181.733878,
-    "file": "audio/hickory-dickory-dock.mp3"
+    "file": "media/audio/hickory-dickory-dock.m4a"
   },
   {
     "id": "hows-the-weather",
@@ -608,7 +608,7 @@ window.SONGS = [
     "zh": "今天天气怎么样",
     "category": "world",
     "duration": 126.354286,
-    "file": "audio/hows-the-weather.mp3"
+    "file": "media/audio/hows-the-weather.m4a"
   },
   {
     "id": "i-see-something-blue",
@@ -616,7 +616,7 @@ window.SONGS = [
     "zh": "我看见了蓝色",
     "category": "world",
     "duration": 182.543673,
-    "file": "audio/i-see-something-blue.mp3"
+    "file": "media/audio/i-see-something-blue.m4a"
   },
   {
     "id": "i-see-something-pink",
@@ -624,7 +624,7 @@ window.SONGS = [
     "zh": "我看见了粉色",
     "category": "world",
     "duration": 183.693061,
-    "file": "audio/i-see-something-pink.mp3"
+    "file": "media/audio/i-see-something-pink.m4a"
   },
   {
     "id": "rain-rain-go-away",
@@ -632,7 +632,7 @@ window.SONGS = [
     "zh": "雨儿雨儿快走开",
     "category": "world",
     "duration": 155.559184,
-    "file": "audio/rain-rain-go-away.mp3"
+    "file": "media/audio/rain-rain-go-away.m4a"
   },
   {
     "id": "shape-song-1",
@@ -640,7 +640,7 @@ window.SONGS = [
     "zh": "形状歌 · 第一版",
     "category": "world",
     "duration": 250.592653,
-    "file": "audio/shape-song-1.mp3"
+    "file": "media/audio/shape-song-1.m4a"
   },
   {
     "id": "days-of-the-week",
@@ -648,7 +648,7 @@ window.SONGS = [
     "zh": "一周七天歌",
     "category": "world",
     "duration": 85.394286,
-    "file": "audio/days-of-the-week.mp3"
+    "file": "media/audio/days-of-the-week.m4a"
   },
   {
     "id": "red-yellow-green-blue",
@@ -656,7 +656,7 @@ window.SONGS = [
     "zh": "红黄绿蓝",
     "category": "world",
     "duration": 119.510204,
-    "file": "audio/red-yellow-green-blue.mp3"
+    "file": "media/audio/red-yellow-green-blue.m4a"
   },
   {
     "id": "whats-this-whats-that",
@@ -664,7 +664,7 @@ window.SONGS = [
     "zh": "这是什么？那是什么？",
     "category": "world",
     "duration": 105.273469,
-    "file": "audio/whats-this-whats-that.mp3"
+    "file": "media/audio/whats-this-whats-that.m4a"
   },
   {
     "id": "if-youre-happy",
@@ -672,7 +672,7 @@ window.SONGS = [
     "zh": "如果感到幸福",
     "category": "emotions",
     "duration": 123.115102,
-    "file": "audio/if-youre-happy.mp3"
+    "file": "media/audio/if-youre-happy.m4a"
   },
   {
     "id": "make-a-happy-face",
@@ -680,7 +680,7 @@ window.SONGS = [
     "zh": "你会做开心表情吗",
     "category": "emotions",
     "duration": 120.163265,
-    "file": "audio/make-a-happy-face.mp3"
+    "file": "media/audio/make-a-happy-face.m4a"
   },
   {
     "id": "say-cheese",
@@ -688,7 +688,7 @@ window.SONGS = [
     "zh": "说茄子！",
     "category": "emotions",
     "duration": 117.263673,
-    "file": "audio/say-cheese.mp3"
+    "file": "media/audio/say-cheese.m4a"
   },
   {
     "id": "uh-huh",
@@ -696,7 +696,7 @@ window.SONGS = [
     "zh": "嗯哼！",
     "category": "emotions",
     "duration": 105.06449,
-    "file": "audio/uh-huh.mp3"
+    "file": "media/audio/uh-huh.m4a"
   },
   {
     "id": "my-happy-song",
@@ -704,7 +704,7 @@ window.SONGS = [
     "zh": "我的快乐歌",
     "category": "emotions",
     "duration": 236.094694,
-    "file": "audio/my-happy-song.mp3"
+    "file": "media/audio/my-happy-song.m4a"
   },
   {
     "id": "old-macdonald-farm",
@@ -712,7 +712,7 @@ window.SONGS = [
     "zh": "老麦克唐纳有个农场",
     "category": "rhymes",
     "duration": 209.293061,
-    "file": "audio/old-macdonald-farm.mp3"
+    "file": "media/audio/old-macdonald-farm.m4a"
   },
   {
     "id": "one-potato-two-potatoes",
@@ -720,7 +720,7 @@ window.SONGS = [
     "zh": "一个土豆，两个土豆",
     "category": "rhymes",
     "duration": 97.227755,
-    "file": "audio/one-potato-two-potatoes.mp3"
+    "file": "media/audio/one-potato-two-potatoes.m4a"
   },
   {
     "id": "itsy-bitsy-spider",
@@ -728,7 +728,7 @@ window.SONGS = [
     "zh": "小小蜘蛛",
     "category": "rhymes",
     "duration": 252.499592,
-    "file": "audio/itsy-bitsy-spider.mp3"
+    "file": "media/audio/itsy-bitsy-spider.m4a"
   },
   {
     "id": "five-little-ducks",
@@ -736,7 +736,7 @@ window.SONGS = [
     "zh": "五只小鸭子",
     "category": "rhymes",
     "duration": 173.844898,
-    "file": "audio/five-little-ducks.mp3"
+    "file": "media/audio/five-little-ducks.m4a"
   },
   {
     "id": "little-robin-redbreast",
@@ -744,7 +744,7 @@ window.SONGS = [
     "zh": "小红胸知更鸟",
     "category": "rhymes",
     "duration": 138.971429,
-    "file": "audio/little-robin-redbreast.mp3"
+    "file": "media/audio/little-robin-redbreast.m4a"
   },
   {
     "id": "i-love-the-mountains",
@@ -752,7 +752,7 @@ window.SONGS = [
     "zh": "我爱大山",
     "category": "rhymes",
     "duration": 133.172245,
-    "file": "audio/i-love-the-mountains.mp3"
+    "file": "media/audio/i-love-the-mountains.m4a"
   },
   {
     "id": "bear-went-over-the-mountain",
@@ -760,7 +760,7 @@ window.SONGS = [
     "zh": "小熊翻过大山",
     "category": "rhymes",
     "duration": 142.942041,
-    "file": "audio/bear-went-over-the-mountain.mp3"
+    "file": "media/audio/bear-went-over-the-mountain.m4a"
   },
   {
     "id": "open-shut-them",
@@ -768,7 +768,7 @@ window.SONGS = [
     "zh": "张开合拢",
     "category": "games",
     "duration": 147.356735,
-    "file": "audio/open-shut-them.mp3"
+    "file": "media/audio/open-shut-them.m4a"
   },
   {
     "id": "who-took-the-candy",
@@ -776,7 +776,7 @@ window.SONGS = [
     "zh": "谁拿走了糖果",
     "category": "games",
     "duration": 138.057143,
-    "file": "audio/who-took-the-candy.mp3"
+    "file": "media/audio/who-took-the-candy.m4a"
   },
   {
     "id": "rock-scissors-paper-1",
@@ -784,7 +784,7 @@ window.SONGS = [
     "zh": "石头剪刀布 · 第一版",
     "category": "games",
     "duration": 109.113469,
-    "file": "audio/rock-scissors-paper-1.mp3"
+    "file": "media/audio/rock-scissors-paper-1.m4a"
   },
   {
     "id": "we-all-fall-down",
@@ -792,7 +792,7 @@ window.SONGS = [
     "zh": "我们一起倒下",
     "category": "games",
     "duration": 129.306122,
-    "file": "audio/we-all-fall-down.mp3"
+    "file": "media/audio/we-all-fall-down.m4a"
   },
   {
     "id": "walking-walking",
@@ -800,7 +800,7 @@ window.SONGS = [
     "zh": "走一走",
     "category": "games",
     "duration": 111.36,
-    "file": "audio/walking-walking.mp3"
+    "file": "media/audio/walking-walking.m4a"
   },
   {
     "id": "hide-and-seek",
@@ -808,7 +808,7 @@ window.SONGS = [
     "zh": "捉迷藏",
     "category": "games",
     "duration": 193.645714,
-    "file": "audio/hide-and-seek.mp3"
+    "file": "media/audio/hide-and-seek.m4a"
   },
   {
     "id": "peekaboo",
@@ -816,7 +816,7 @@ window.SONGS = [
     "zh": "躲猫猫",
     "category": "games",
     "duration": 92.421224,
-    "file": "audio/peekaboo.mp3"
+    "file": "media/audio/peekaboo.m4a"
   },
   {
     "id": "where-is-baby",
@@ -824,7 +824,7 @@ window.SONGS = [
     "zh": "宝宝在哪里",
     "category": "games",
     "duration": 192.757551,
-    "file": "audio/where-is-baby.mp3"
+    "file": "media/audio/where-is-baby.m4a"
   },
   {
     "id": "pop-the-bubbles",
@@ -832,7 +832,7 @@ window.SONGS = [
     "zh": "戳破泡泡",
     "category": "math",
     "duration": 170.057143,
-    "file": "audio/pop-the-bubbles.mp3"
+    "file": "media/audio/pop-the-bubbles.m4a"
   },
   {
     "id": "ten-in-the-bed",
@@ -840,7 +840,7 @@ window.SONGS = [
     "zh": "床上十个小朋友",
     "category": "math",
     "duration": 171.702857,
-    "file": "audio/ten-in-the-bed.mp3"
+    "file": "media/audio/ten-in-the-bed.m4a"
   },
   {
     "id": "count-and-move",
@@ -848,7 +848,7 @@ window.SONGS = [
     "zh": "数一数动一动",
     "category": "math",
     "duration": 73.038367,
-    "file": "audio/count-and-move.mp3"
+    "file": "media/audio/count-and-move.m4a"
   },
   {
     "id": "count-down-20-to-1",
@@ -856,7 +856,7 @@ window.SONGS = [
     "zh": "从二十倒数到一",
     "category": "math",
     "duration": 84.897959,
-    "file": "audio/count-down-20-to-1.mp3"
+    "file": "media/audio/count-down-20-to-1.m4a"
   },
   {
     "id": "five-little-pumpkins",
@@ -864,7 +864,7 @@ window.SONGS = [
     "zh": "五个小南瓜",
     "category": "math",
     "duration": 199.183673,
-    "file": "audio/five-little-pumpkins.mp3"
+    "file": "media/audio/five-little-pumpkins.m4a"
   },
   {
     "id": "five-little-monsters-jumping",
@@ -872,7 +872,7 @@ window.SONGS = [
     "zh": "五个小怪物在床上跳",
     "category": "math",
     "duration": 126.354286,
-    "file": "audio/five-little-monsters-jumping.mp3"
+    "file": "media/audio/five-little-monsters-jumping.m4a"
   },
   {
     "id": "jingle-bells",
@@ -880,7 +880,7 @@ window.SONGS = [
     "zh": "铃儿响叮当",
     "category": "holidays",
     "duration": 189.805714,
-    "file": "audio/jingle-bells.mp3"
+    "file": "media/audio/jingle-bells.m4a"
   },
   {
     "id": "go-away",
@@ -888,7 +888,7 @@ window.SONGS = [
     "zh": "走开！",
     "category": "holidays",
     "duration": 114.259592,
-    "file": "audio/go-away.mp3"
+    "file": "media/audio/go-away.m4a"
   },
   {
     "id": "knock-knock-trick-or-treat",
@@ -896,7 +896,7 @@ window.SONGS = [
     "zh": "咚咚咚，不给糖就捣蛋",
     "category": "holidays",
     "duration": 299.598367,
-    "file": "audio/knock-knock-trick-or-treat.mp3"
+    "file": "media/audio/knock-knock-trick-or-treat.m4a"
   },
   {
     "id": "one-for-you-one-for-me",
@@ -904,7 +904,7 @@ window.SONGS = [
     "zh": "一个给你，一个给我",
     "category": "holidays",
     "duration": 169.325714,
-    "file": "audio/one-for-you-one-for-me.mp3"
+    "file": "media/audio/one-for-you-one-for-me.m4a"
   },
   {
     "id": "five-little-monkeys",
@@ -912,7 +912,7 @@ window.SONGS = [
     "zh": "五只小猴子",
     "category": "animals",
     "duration": 129.38449,
-    "file": "audio/five-little-monkeys.mp3"
+    "file": "media/audio/five-little-monkeys.m4a"
   },
   {
     "id": "bingo",
@@ -920,7 +920,7 @@ window.SONGS = [
     "zh": "小狗宾果",
     "category": "animals",
     "duration": 165.877551,
-    "file": "audio/bingo.mp3"
+    "file": "media/audio/bingo.m4a"
   },
   {
     "id": "walking-in-the-jungle",
@@ -928,7 +928,7 @@ window.SONGS = [
     "zh": "走进丛林",
     "category": "animals",
     "duration": 204.199184,
-    "file": "audio/walking-in-the-jungle.mp3"
+    "file": "media/audio/walking-in-the-jungle.m4a"
   },
   {
     "id": "lets-go-to-the-zoo",
@@ -936,7 +936,7 @@ window.SONGS = [
     "zh": "我们去动物园吧",
     "category": "animals",
     "duration": 239.516735,
-    "file": "audio/lets-go-to-the-zoo.mp3"
+    "file": "media/audio/lets-go-to-the-zoo.m4a"
   },
   {
     "id": "i-have-a-pet",
@@ -944,7 +944,7 @@ window.SONGS = [
     "zh": "我有一只宠物",
     "category": "animals",
     "duration": 144.326531,
-    "file": "audio/i-have-a-pet.mp3"
+    "file": "media/audio/i-have-a-pet.m4a"
   },
   {
     "id": "yes-i-can",
@@ -952,7 +952,7 @@ window.SONGS = [
     "zh": "是的，我可以！",
     "category": "animals",
     "duration": 216.999184,
-    "file": "audio/yes-i-can.mp3"
+    "file": "media/audio/yes-i-can.m4a"
   },
   {
     "id": "a-sailor-went-to-sea",
@@ -960,7 +960,7 @@ window.SONGS = [
     "zh": "水手出海去",
     "category": "animals",
     "duration": 200.881633,
-    "file": "audio/a-sailor-went-to-sea.mp3"
+    "file": "media/audio/a-sailor-went-to-sea.m4a"
   },
   {
     "id": "baby-shark-halloween",
@@ -968,7 +968,7 @@ window.SONGS = [
     "zh": "万圣节鲨鱼宝宝",
     "category": "animals",
     "duration": 214.386939,
-    "file": "audio/baby-shark-halloween.mp3"
+    "file": "media/audio/baby-shark-halloween.m4a"
   },
   {
     "id": "old-macdonald-farm-2018",
@@ -976,7 +976,7 @@ window.SONGS = [
     "zh": "老麦克唐纳有个农场 · 新版",
     "category": "animals",
     "duration": 197.355102,
-    "file": "audio/old-macdonald-farm-2018.mp3"
+    "file": "media/audio/old-macdonald-farm-2018.m4a"
   },
   {
     "id": "bees-go-buzzing",
@@ -984,7 +984,7 @@ window.SONGS = [
     "zh": "小蜜蜂嗡嗡嗡",
     "category": "animals",
     "duration": 282.514286,
-    "file": "audio/bees-go-buzzing.mp3"
+    "file": "media/audio/bees-go-buzzing.m4a"
   },
   {
     "id": "humpty-dumpty",
@@ -992,7 +992,7 @@ window.SONGS = [
     "zh": "蛋头先生",
     "category": "rhymes",
     "duration": 78.837551,
-    "file": "audio/humpty-dumpty.mp3"
+    "file": "media/audio/humpty-dumpty.m4a"
   },
   {
     "id": "we-wish-you-a-merry-christmas",
@@ -1000,7 +1000,7 @@ window.SONGS = [
     "zh": "祝你圣诞快乐",
     "category": "holidays",
     "duration": 120.137143,
-    "file": "audio/we-wish-you-a-merry-christmas.mp3"
+    "file": "media/audio/we-wish-you-a-merry-christmas.m4a"
   },
   {
     "id": "mary-had-a-little-lamb",
@@ -1008,7 +1008,7 @@ window.SONGS = [
     "zh": "玛丽有只小羊羔",
     "category": "animals",
     "duration": 176.274286,
-    "file": "audio/mary-had-a-little-lamb.mp3"
+    "file": "media/audio/mary-had-a-little-lamb.m4a"
   },
   {
     "id": "im-a-little-teapot",
@@ -1016,7 +1016,7 @@ window.SONGS = [
     "zh": "我是一把小茶壶",
     "category": "rhymes",
     "duration": 46.00165,
-    "file": "audio/im-a-little-teapot.mp3"
+    "file": "media/audio/im-a-little-teapot.m4a"
   },
   {
     "id": "jack-and-jill",
@@ -1024,7 +1024,7 @@ window.SONGS = [
     "zh": "杰克和吉尔",
     "category": "rhymes",
     "duration": 84.610563,
-    "file": "audio/jack-and-jill.mp3"
+    "file": "media/audio/jack-and-jill.m4a"
   },
   {
     "id": "brown-bear-sing-along",
@@ -1032,7 +1032,7 @@ window.SONGS = [
     "zh": "棕色熊原版跟唱（男声）",
     "category": "rhymes",
     "duration": 155.08,
-    "file": "audio/brown-bear-sing-along.mp3"
+    "file": "media/audio/brown-bear-sing-along.m4a"
   },
   {
     "id": "wow-yellow-001",
@@ -1040,7 +1040,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 234.888,
-    "file": "audio/wow/wow-yellow-001.mp3"
+    "file": "media/audio/wow/wow-yellow-001.m4a"
   },
   {
     "id": "wow-yellow-002",
@@ -1048,7 +1048,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 105.216,
-    "file": "audio/wow/wow-yellow-002.mp3"
+    "file": "media/audio/wow/wow-yellow-002.m4a"
   },
   {
     "id": "wow-yellow-003",
@@ -1056,7 +1056,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 69.288,
-    "file": "audio/wow/wow-yellow-003.mp3"
+    "file": "media/audio/wow/wow-yellow-003.m4a"
   },
   {
     "id": "wow-yellow-004",
@@ -1064,7 +1064,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 232.344,
-    "file": "audio/wow/wow-yellow-004.mp3"
+    "file": "media/audio/wow/wow-yellow-004.m4a"
   },
   {
     "id": "wow-yellow-005",
@@ -1072,7 +1072,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 151.968,
-    "file": "audio/wow/wow-yellow-005.mp3"
+    "file": "media/audio/wow/wow-yellow-005.m4a"
   },
   {
     "id": "wow-yellow-006",
@@ -1080,7 +1080,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 286.32,
-    "file": "audio/wow/wow-yellow-006.mp3"
+    "file": "media/audio/wow/wow-yellow-006.m4a"
   },
   {
     "id": "wow-yellow-007",
@@ -1088,7 +1088,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 93.84,
-    "file": "audio/wow/wow-yellow-007.mp3"
+    "file": "media/audio/wow/wow-yellow-007.m4a"
   },
   {
     "id": "wow-yellow-008",
@@ -1096,7 +1096,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 291.12,
-    "file": "audio/wow/wow-yellow-008.mp3"
+    "file": "media/audio/wow/wow-yellow-008.m4a"
   },
   {
     "id": "wow-yellow-009",
@@ -1104,7 +1104,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 90.36,
-    "file": "audio/wow/wow-yellow-009.mp3"
+    "file": "media/audio/wow/wow-yellow-009.m4a"
   },
   {
     "id": "wow-yellow-010",
@@ -1112,7 +1112,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 233.088,
-    "file": "audio/wow/wow-yellow-010.mp3"
+    "file": "media/audio/wow/wow-yellow-010.m4a"
   },
   {
     "id": "wow-yellow-011",
@@ -1120,7 +1120,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 76.08,
-    "file": "audio/wow/wow-yellow-011.mp3"
+    "file": "media/audio/wow/wow-yellow-011.m4a"
   },
   {
     "id": "wow-yellow-012",
@@ -1128,7 +1128,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 306,
-    "file": "audio/wow/wow-yellow-012.mp3"
+    "file": "media/audio/wow/wow-yellow-012.m4a"
   },
   {
     "id": "wow-yellow-013",
@@ -1136,7 +1136,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 76.056,
-    "file": "audio/wow/wow-yellow-013.mp3"
+    "file": "media/audio/wow/wow-yellow-013.m4a"
   },
   {
     "id": "wow-yellow-014",
@@ -1144,7 +1144,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 268.608,
-    "file": "audio/wow/wow-yellow-014.mp3"
+    "file": "media/audio/wow/wow-yellow-014.m4a"
   },
   {
     "id": "wow-yellow-015",
@@ -1152,7 +1152,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 92.688,
-    "file": "audio/wow/wow-yellow-015.mp3"
+    "file": "media/audio/wow/wow-yellow-015.m4a"
   },
   {
     "id": "wow-yellow-016",
@@ -1160,7 +1160,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 253.464,
-    "file": "audio/wow/wow-yellow-016.mp3"
+    "file": "media/audio/wow/wow-yellow-016.m4a"
   },
   {
     "id": "wow-yellow-017",
@@ -1168,7 +1168,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 92.928,
-    "file": "audio/wow/wow-yellow-017.mp3"
+    "file": "media/audio/wow/wow-yellow-017.m4a"
   },
   {
     "id": "wow-yellow-018",
@@ -1176,7 +1176,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 284.52,
-    "file": "audio/wow/wow-yellow-018.mp3"
+    "file": "media/audio/wow/wow-yellow-018.m4a"
   },
   {
     "id": "wow-yellow-019",
@@ -1184,7 +1184,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 154.992,
-    "file": "audio/wow/wow-yellow-019.mp3"
+    "file": "media/audio/wow/wow-yellow-019.m4a"
   },
   {
     "id": "wow-yellow-020",
@@ -1192,7 +1192,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 240.36,
-    "file": "audio/wow/wow-yellow-020.mp3"
+    "file": "media/audio/wow/wow-yellow-020.m4a"
   },
   {
     "id": "wow-yellow-021",
@@ -1200,7 +1200,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 148.56,
-    "file": "audio/wow/wow-yellow-021.mp3"
+    "file": "media/audio/wow/wow-yellow-021.m4a"
   },
   {
     "id": "wow-yellow-022",
@@ -1208,7 +1208,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 293.568,
-    "file": "audio/wow/wow-yellow-022.mp3"
+    "file": "media/audio/wow/wow-yellow-022.m4a"
   },
   {
     "id": "wow-yellow-023",
@@ -1216,7 +1216,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 74.856,
-    "file": "audio/wow/wow-yellow-023.mp3"
+    "file": "media/audio/wow/wow-yellow-023.m4a"
   },
   {
     "id": "wow-yellow-024",
@@ -1224,7 +1224,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 259.728,
-    "file": "audio/wow/wow-yellow-024.mp3"
+    "file": "media/audio/wow/wow-yellow-024.m4a"
   },
   {
     "id": "wow-yellow-025",
@@ -1232,7 +1232,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 72.336,
-    "file": "audio/wow/wow-yellow-025.mp3"
+    "file": "media/audio/wow/wow-yellow-025.m4a"
   },
   {
     "id": "wow-yellow-026",
@@ -1240,7 +1240,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 213.768,
-    "file": "audio/wow/wow-yellow-026.mp3"
+    "file": "media/audio/wow/wow-yellow-026.m4a"
   },
   {
     "id": "wow-yellow-027",
@@ -1248,7 +1248,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 88.752,
-    "file": "audio/wow/wow-yellow-027.mp3"
+    "file": "media/audio/wow/wow-yellow-027.m4a"
   },
   {
     "id": "wow-yellow-028",
@@ -1256,7 +1256,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 287.568,
-    "file": "audio/wow/wow-yellow-028.mp3"
+    "file": "media/audio/wow/wow-yellow-028.m4a"
   },
   {
     "id": "wow-yellow-029",
@@ -1264,7 +1264,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 91.008,
-    "file": "audio/wow/wow-yellow-029.mp3"
+    "file": "media/audio/wow/wow-yellow-029.m4a"
   },
   {
     "id": "wow-yellow-030",
@@ -1272,7 +1272,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 314.328,
-    "file": "audio/wow/wow-yellow-030.mp3"
+    "file": "media/audio/wow/wow-yellow-030.m4a"
   },
   {
     "id": "wow-yellow-031",
@@ -1280,7 +1280,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 86.208,
-    "file": "audio/wow/wow-yellow-031.mp3"
+    "file": "media/audio/wow/wow-yellow-031.m4a"
   },
   {
     "id": "wow-yellow-032",
@@ -1288,7 +1288,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 273.12,
-    "file": "audio/wow/wow-yellow-032.mp3"
+    "file": "media/audio/wow/wow-yellow-032.m4a"
   },
   {
     "id": "wow-yellow-033",
@@ -1296,7 +1296,7 @@ window.SONGS = [
     "zh": "黄色（3-4岁）",
     "category": "wow-yellow",
     "duration": 90.36,
-    "file": "audio/wow/wow-yellow-033.mp3"
+    "file": "media/audio/wow/wow-yellow-033.m4a"
   },
   {
     "id": "wow-blue-001",
@@ -1304,7 +1304,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 228.288,
-    "file": "audio/wow/wow-blue-001.mp3"
+    "file": "media/audio/wow/wow-blue-001.m4a"
   },
   {
     "id": "wow-blue-002",
@@ -1312,7 +1312,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 72.36,
-    "file": "audio/wow/wow-blue-002.mp3"
+    "file": "media/audio/wow/wow-blue-002.m4a"
   },
   {
     "id": "wow-blue-003",
@@ -1320,7 +1320,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 85.776,
-    "file": "audio/wow/wow-blue-003.mp3"
+    "file": "media/audio/wow/wow-blue-003.m4a"
   },
   {
     "id": "wow-blue-004",
@@ -1328,7 +1328,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 377.76,
-    "file": "audio/wow/wow-blue-004.mp3"
+    "file": "media/audio/wow/wow-blue-004.m4a"
   },
   {
     "id": "wow-blue-005",
@@ -1336,7 +1336,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 143.76,
-    "file": "audio/wow/wow-blue-005.mp3"
+    "file": "media/audio/wow/wow-blue-005.m4a"
   },
   {
     "id": "wow-blue-006",
@@ -1344,7 +1344,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 244.968,
-    "file": "audio/wow/wow-blue-006.mp3"
+    "file": "media/audio/wow/wow-blue-006.m4a"
   },
   {
     "id": "wow-blue-007",
@@ -1352,7 +1352,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 151.704,
-    "file": "audio/wow/wow-blue-007.mp3"
+    "file": "media/audio/wow/wow-blue-007.m4a"
   },
   {
     "id": "wow-blue-008",
@@ -1360,7 +1360,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 242.592,
-    "file": "audio/wow/wow-blue-008.mp3"
+    "file": "media/audio/wow/wow-blue-008.m4a"
   },
   {
     "id": "wow-blue-009",
@@ -1368,7 +1368,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 133.272,
-    "file": "audio/wow/wow-blue-009.mp3"
+    "file": "media/audio/wow/wow-blue-009.m4a"
   },
   {
     "id": "wow-blue-010",
@@ -1376,7 +1376,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 267.864,
-    "file": "audio/wow/wow-blue-010.mp3"
+    "file": "media/audio/wow/wow-blue-010.m4a"
   },
   {
     "id": "wow-blue-011",
@@ -1384,7 +1384,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 90.768,
-    "file": "audio/wow/wow-blue-011.mp3"
+    "file": "media/audio/wow/wow-blue-011.m4a"
   },
   {
     "id": "wow-blue-012",
@@ -1392,7 +1392,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 355.416,
-    "file": "audio/wow/wow-blue-012.mp3"
+    "file": "media/audio/wow/wow-blue-012.m4a"
   },
   {
     "id": "wow-blue-013",
@@ -1400,7 +1400,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 92.448,
-    "file": "audio/wow/wow-blue-013.mp3"
+    "file": "media/audio/wow/wow-blue-013.m4a"
   },
   {
     "id": "wow-blue-014",
@@ -1408,7 +1408,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 209.616,
-    "file": "audio/wow/wow-blue-014.mp3"
+    "file": "media/audio/wow/wow-blue-014.m4a"
   },
   {
     "id": "wow-blue-015",
@@ -1416,7 +1416,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 119.832,
-    "file": "audio/wow/wow-blue-015.mp3"
+    "file": "media/audio/wow/wow-blue-015.m4a"
   },
   {
     "id": "wow-blue-016",
@@ -1424,7 +1424,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 336.024,
-    "file": "audio/wow/wow-blue-016.mp3"
+    "file": "media/audio/wow/wow-blue-016.m4a"
   },
   {
     "id": "wow-blue-017",
@@ -1432,7 +1432,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 116.328,
-    "file": "audio/wow/wow-blue-017.mp3"
+    "file": "media/audio/wow/wow-blue-017.m4a"
   },
   {
     "id": "wow-blue-018",
@@ -1440,7 +1440,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 347.4,
-    "file": "audio/wow/wow-blue-018.mp3"
+    "file": "media/audio/wow/wow-blue-018.m4a"
   },
   {
     "id": "wow-blue-019",
@@ -1448,7 +1448,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 124.632,
-    "file": "audio/wow/wow-blue-019.mp3"
+    "file": "media/audio/wow/wow-blue-019.m4a"
   },
   {
     "id": "wow-blue-020",
@@ -1456,7 +1456,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 288.648,
-    "file": "audio/wow/wow-blue-020.mp3"
+    "file": "media/audio/wow/wow-blue-020.m4a"
   },
   {
     "id": "wow-blue-021",
@@ -1464,7 +1464,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 127.008,
-    "file": "audio/wow/wow-blue-021.mp3"
+    "file": "media/audio/wow/wow-blue-021.m4a"
   },
   {
     "id": "wow-blue-022",
@@ -1472,7 +1472,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 395.952,
-    "file": "audio/wow/wow-blue-022.mp3"
+    "file": "media/audio/wow/wow-blue-022.m4a"
   },
   {
     "id": "wow-blue-023",
@@ -1480,7 +1480,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 149.592,
-    "file": "audio/wow/wow-blue-023.mp3"
+    "file": "media/audio/wow/wow-blue-023.m4a"
   },
   {
     "id": "wow-blue-024",
@@ -1488,7 +1488,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 259.992,
-    "file": "audio/wow/wow-blue-024.mp3"
+    "file": "media/audio/wow/wow-blue-024.m4a"
   },
   {
     "id": "wow-blue-025",
@@ -1496,7 +1496,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 148.248,
-    "file": "audio/wow/wow-blue-025.mp3"
+    "file": "media/audio/wow/wow-blue-025.m4a"
   },
   {
     "id": "wow-blue-026",
@@ -1504,7 +1504,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 283.488,
-    "file": "audio/wow/wow-blue-026.mp3"
+    "file": "media/audio/wow/wow-blue-026.m4a"
   },
   {
     "id": "wow-blue-027",
@@ -1512,7 +1512,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 117.528,
-    "file": "audio/wow/wow-blue-027.mp3"
+    "file": "media/audio/wow/wow-blue-027.m4a"
   },
   {
     "id": "wow-blue-028",
@@ -1520,7 +1520,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 359.472,
-    "file": "audio/wow/wow-blue-028.mp3"
+    "file": "media/audio/wow/wow-blue-028.m4a"
   },
   {
     "id": "wow-blue-029",
@@ -1528,7 +1528,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 115.992,
-    "file": "audio/wow/wow-blue-029.mp3"
+    "file": "media/audio/wow/wow-blue-029.m4a"
   },
   {
     "id": "wow-blue-030",
@@ -1536,7 +1536,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 332.232,
-    "file": "audio/wow/wow-blue-030.mp3"
+    "file": "media/audio/wow/wow-blue-030.m4a"
   },
   {
     "id": "wow-blue-031",
@@ -1544,7 +1544,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 127.296,
-    "file": "audio/wow/wow-blue-031.mp3"
+    "file": "media/audio/wow/wow-blue-031.m4a"
   },
   {
     "id": "wow-blue-032",
@@ -1552,7 +1552,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 312.672,
-    "file": "audio/wow/wow-blue-032.mp3"
+    "file": "media/audio/wow/wow-blue-032.m4a"
   },
   {
     "id": "wow-blue-033",
@@ -1560,7 +1560,7 @@ window.SONGS = [
     "zh": "蓝色（4-6岁）",
     "category": "wow-blue",
     "duration": 129.576,
-    "file": "audio/wow/wow-blue-033.mp3"
+    "file": "media/audio/wow/wow-blue-033.m4a"
   },
   {
     "id": "wow-red-001",
@@ -1568,7 +1568,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 266.64,
-    "file": "audio/wow/wow-red-001.mp3"
+    "file": "media/audio/wow/wow-red-001.m4a"
   },
   {
     "id": "wow-red-002",
@@ -1576,7 +1576,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 101.568,
-    "file": "audio/wow/wow-red-002.mp3"
+    "file": "media/audio/wow/wow-red-002.m4a"
   },
   {
     "id": "wow-red-003",
@@ -1584,7 +1584,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 124.632,
-    "file": "audio/wow/wow-red-003.mp3"
+    "file": "media/audio/wow/wow-red-003.m4a"
   },
   {
     "id": "wow-red-004",
@@ -1592,7 +1592,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 260.376,
-    "file": "audio/wow/wow-red-004.mp3"
+    "file": "media/audio/wow/wow-red-004.m4a"
   },
   {
     "id": "wow-red-005",
@@ -1600,7 +1600,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 139.992,
-    "file": "audio/wow/wow-red-005.mp3"
+    "file": "media/audio/wow/wow-red-005.m4a"
   },
   {
     "id": "wow-red-006",
@@ -1608,7 +1608,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 274.728,
-    "file": "audio/wow/wow-red-006.mp3"
+    "file": "media/audio/wow/wow-red-006.m4a"
   },
   {
     "id": "wow-red-007",
@@ -1616,7 +1616,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 133.08,
-    "file": "audio/wow/wow-red-007.mp3"
+    "file": "media/audio/wow/wow-red-007.m4a"
   },
   {
     "id": "wow-red-008",
@@ -1624,7 +1624,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 351.84,
-    "file": "audio/wow/wow-red-008.mp3"
+    "file": "media/audio/wow/wow-red-008.m4a"
   },
   {
     "id": "wow-red-009",
@@ -1632,7 +1632,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 135.048,
-    "file": "audio/wow/wow-red-009.mp3"
+    "file": "media/audio/wow/wow-red-009.m4a"
   },
   {
     "id": "wow-red-010",
@@ -1640,7 +1640,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 334.056,
-    "file": "audio/wow/wow-red-010.mp3"
+    "file": "media/audio/wow/wow-red-010.m4a"
   },
   {
     "id": "wow-red-011",
@@ -1648,7 +1648,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 155.04,
-    "file": "audio/wow/wow-red-011.mp3"
+    "file": "media/audio/wow/wow-red-011.m4a"
   },
   {
     "id": "wow-red-012",
@@ -1656,7 +1656,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 254.424,
-    "file": "audio/wow/wow-red-012.mp3"
+    "file": "media/audio/wow/wow-red-012.m4a"
   },
   {
     "id": "wow-red-013",
@@ -1664,7 +1664,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 150.408,
-    "file": "audio/wow/wow-red-013.mp3"
+    "file": "media/audio/wow/wow-red-013.m4a"
   },
   {
     "id": "wow-red-014",
@@ -1672,7 +1672,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 342.84,
-    "file": "audio/wow/wow-red-014.mp3"
+    "file": "media/audio/wow/wow-red-014.m4a"
   },
   {
     "id": "wow-red-015",
@@ -1680,7 +1680,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 145.68,
-    "file": "audio/wow/wow-red-015.mp3"
+    "file": "media/audio/wow/wow-red-015.m4a"
   },
   {
     "id": "wow-red-016",
@@ -1688,7 +1688,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 312.48,
-    "file": "audio/wow/wow-red-016.mp3"
+    "file": "media/audio/wow/wow-red-016.m4a"
   },
   {
     "id": "wow-red-017",
@@ -1696,7 +1696,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 143.568,
-    "file": "audio/wow/wow-red-017.mp3"
+    "file": "media/audio/wow/wow-red-017.m4a"
   },
   {
     "id": "wow-red-018",
@@ -1704,7 +1704,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 344.448,
-    "file": "audio/wow/wow-red-018.mp3"
+    "file": "media/audio/wow/wow-red-018.m4a"
   },
   {
     "id": "wow-red-019",
@@ -1712,7 +1712,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 117.888,
-    "file": "audio/wow/wow-red-019.mp3"
+    "file": "media/audio/wow/wow-red-019.m4a"
   },
   {
     "id": "wow-red-020",
@@ -1720,7 +1720,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 368.28,
-    "file": "audio/wow/wow-red-020.mp3"
+    "file": "media/audio/wow/wow-red-020.m4a"
   },
   {
     "id": "wow-red-021",
@@ -1728,7 +1728,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 118.608,
-    "file": "audio/wow/wow-red-021.mp3"
+    "file": "media/audio/wow/wow-red-021.m4a"
   },
   {
     "id": "wow-red-022",
@@ -1736,7 +1736,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 319.752,
-    "file": "audio/wow/wow-red-022.mp3"
+    "file": "media/audio/wow/wow-red-022.m4a"
   },
   {
     "id": "wow-red-023",
@@ -1744,7 +1744,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 210.912,
-    "file": "audio/wow/wow-red-023.mp3"
+    "file": "media/audio/wow/wow-red-023.m4a"
   },
   {
     "id": "wow-red-024",
@@ -1752,7 +1752,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 333.048,
-    "file": "audio/wow/wow-red-024.mp3"
+    "file": "media/audio/wow/wow-red-024.m4a"
   },
   {
     "id": "wow-red-025",
@@ -1760,7 +1760,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 211.872,
-    "file": "audio/wow/wow-red-025.mp3"
+    "file": "media/audio/wow/wow-red-025.m4a"
   },
   {
     "id": "wow-red-026",
@@ -1768,7 +1768,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 324.504,
-    "file": "audio/wow/wow-red-026.mp3"
+    "file": "media/audio/wow/wow-red-026.m4a"
   },
   {
     "id": "wow-red-027",
@@ -1776,7 +1776,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 136.728,
-    "file": "audio/wow/wow-red-027.mp3"
+    "file": "media/audio/wow/wow-red-027.m4a"
   },
   {
     "id": "wow-red-028",
@@ -1784,7 +1784,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 383.064,
-    "file": "audio/wow/wow-red-028.mp3"
+    "file": "media/audio/wow/wow-red-028.m4a"
   },
   {
     "id": "wow-red-029",
@@ -1792,7 +1792,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 131.64,
-    "file": "audio/wow/wow-red-029.mp3"
+    "file": "media/audio/wow/wow-red-029.m4a"
   },
   {
     "id": "wow-red-030",
@@ -1800,7 +1800,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 345.84,
-    "file": "audio/wow/wow-red-030.mp3"
+    "file": "media/audio/wow/wow-red-030.m4a"
   },
   {
     "id": "wow-red-031",
@@ -1808,7 +1808,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 111.384,
-    "file": "audio/wow/wow-red-031.mp3"
+    "file": "media/audio/wow/wow-red-031.m4a"
   },
   {
     "id": "wow-red-032",
@@ -1816,7 +1816,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 267.36,
-    "file": "audio/wow/wow-red-032.mp3"
+    "file": "media/audio/wow/wow-red-032.m4a"
   },
   {
     "id": "wow-red-033",
@@ -1824,7 +1824,7 @@ window.SONGS = [
     "zh": "红色（5-6岁）",
     "category": "wow-red",
     "duration": 106.584,
-    "file": "audio/wow/wow-red-033.mp3"
+    "file": "media/audio/wow/wow-red-033.m4a"
   },
   {
     "id": "talk-01",
@@ -2632,7 +2632,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 242.76,
-    "file": "audio/wow/wow-green-001.mp3"
+    "file": "media/audio/wow/wow-green-001.m4a"
   },
   {
     "id": "wow-green-002",
@@ -2640,7 +2640,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 51.72,
-    "file": "audio/wow/wow-green-002.mp3"
+    "file": "media/audio/wow/wow-green-002.m4a"
   },
   {
     "id": "wow-green-003",
@@ -2648,7 +2648,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 356.688,
-    "file": "audio/wow/wow-green-003.mp3"
+    "file": "media/audio/wow/wow-green-003.m4a"
   },
   {
     "id": "wow-green-004",
@@ -2656,7 +2656,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 187.32,
-    "file": "audio/wow/wow-green-004.mp3"
+    "file": "media/audio/wow/wow-green-004.m4a"
   },
   {
     "id": "wow-green-005",
@@ -2664,7 +2664,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 385.296,
-    "file": "audio/wow/wow-green-005.mp3"
+    "file": "media/audio/wow/wow-green-005.m4a"
   },
   {
     "id": "wow-green-006",
@@ -2672,7 +2672,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 316.368,
-    "file": "audio/wow/wow-green-006.mp3"
+    "file": "media/audio/wow/wow-green-006.m4a"
   },
   {
     "id": "wow-green-007",
@@ -2680,7 +2680,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 127.968,
-    "file": "audio/wow/wow-green-007.mp3"
+    "file": "media/audio/wow/wow-green-007.m4a"
   },
   {
     "id": "wow-green-008",
@@ -2688,7 +2688,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 128.472,
-    "file": "audio/wow/wow-green-008.mp3"
+    "file": "media/audio/wow/wow-green-008.m4a"
   },
   {
     "id": "wow-green-009",
@@ -2696,7 +2696,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 300.96,
-    "file": "audio/wow/wow-green-009.mp3"
+    "file": "media/audio/wow/wow-green-009.m4a"
   },
   {
     "id": "wow-green-010",
@@ -2704,7 +2704,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 362.808,
-    "file": "audio/wow/wow-green-010.mp3"
+    "file": "media/audio/wow/wow-green-010.m4a"
   },
   {
     "id": "wow-green-011",
@@ -2712,7 +2712,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 257.088,
-    "file": "audio/wow/wow-green-011.mp3"
+    "file": "media/audio/wow/wow-green-011.m4a"
   },
   {
     "id": "wow-green-012",
@@ -2720,7 +2720,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 253.92,
-    "file": "audio/wow/wow-green-012.mp3"
+    "file": "media/audio/wow/wow-green-012.m4a"
   },
   {
     "id": "wow-green-013",
@@ -2728,7 +2728,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 332.52,
-    "file": "audio/wow/wow-green-013.mp3"
+    "file": "media/audio/wow/wow-green-013.m4a"
   },
   {
     "id": "wow-green-014",
@@ -2736,7 +2736,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 301.728,
-    "file": "audio/wow/wow-green-014.mp3"
+    "file": "media/audio/wow/wow-green-014.m4a"
   },
   {
     "id": "wow-green-015",
@@ -2744,7 +2744,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 171.816,
-    "file": "audio/wow/wow-green-015.mp3"
+    "file": "media/audio/wow/wow-green-015.m4a"
   },
   {
     "id": "wow-green-016",
@@ -2752,7 +2752,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 172.728,
-    "file": "audio/wow/wow-green-016.mp3"
+    "file": "media/audio/wow/wow-green-016.m4a"
   },
   {
     "id": "wow-green-017",
@@ -2760,7 +2760,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 334.104,
-    "file": "audio/wow/wow-green-017.mp3"
+    "file": "media/audio/wow/wow-green-017.m4a"
   },
   {
     "id": "wow-green-018",
@@ -2768,7 +2768,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 379.44,
-    "file": "audio/wow/wow-green-018.mp3"
+    "file": "media/audio/wow/wow-green-018.m4a"
   },
   {
     "id": "wow-green-019",
@@ -2776,7 +2776,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 116.832,
-    "file": "audio/wow/wow-green-019.mp3"
+    "file": "media/audio/wow/wow-green-019.m4a"
   },
   {
     "id": "wow-green-020",
@@ -2784,7 +2784,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 114.888,
-    "file": "audio/wow/wow-green-020.mp3"
+    "file": "media/audio/wow/wow-green-020.m4a"
   },
   {
     "id": "wow-green-021",
@@ -2792,7 +2792,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 288.024,
-    "file": "audio/wow/wow-green-021.mp3"
+    "file": "media/audio/wow/wow-green-021.m4a"
   },
   {
     "id": "wow-green-022",
@@ -2800,7 +2800,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 328.968,
-    "file": "audio/wow/wow-green-022.mp3"
+    "file": "media/audio/wow/wow-green-022.m4a"
   },
   {
     "id": "wow-green-023",
@@ -2808,7 +2808,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 138.36,
-    "file": "audio/wow/wow-green-023.mp3"
+    "file": "media/audio/wow/wow-green-023.m4a"
   },
   {
     "id": "wow-green-024",
@@ -2816,7 +2816,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 126.24,
-    "file": "audio/wow/wow-green-024.mp3"
+    "file": "media/audio/wow/wow-green-024.m4a"
   },
   {
     "id": "wow-green-025",
@@ -2824,7 +2824,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 292.44,
-    "file": "audio/wow/wow-green-025.mp3"
+    "file": "media/audio/wow/wow-green-025.m4a"
   },
   {
     "id": "wow-green-026",
@@ -2832,7 +2832,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 356.496,
-    "file": "audio/wow/wow-green-026.mp3"
+    "file": "media/audio/wow/wow-green-026.m4a"
   },
   {
     "id": "wow-green-027",
@@ -2840,7 +2840,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 146.208,
-    "file": "audio/wow/wow-green-027.mp3"
+    "file": "media/audio/wow/wow-green-027.m4a"
   },
   {
     "id": "wow-green-028",
@@ -2848,7 +2848,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 144.888,
-    "file": "audio/wow/wow-green-028.mp3"
+    "file": "media/audio/wow/wow-green-028.m4a"
   },
   {
     "id": "wow-green-029",
@@ -2856,7 +2856,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 382.152,
-    "file": "audio/wow/wow-green-029.mp3"
+    "file": "media/audio/wow/wow-green-029.m4a"
   },
   {
     "id": "wow-green-030",
@@ -2864,7 +2864,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 267.168,
-    "file": "audio/wow/wow-green-030.mp3"
+    "file": "media/audio/wow/wow-green-030.m4a"
   },
   {
     "id": "wow-green-031",
@@ -2872,7 +2872,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 169.944,
-    "file": "audio/wow/wow-green-031.mp3"
+    "file": "media/audio/wow/wow-green-031.m4a"
   },
   {
     "id": "wow-green-032",
@@ -2880,7 +2880,7 @@ window.SONGS = [
     "zh": "绿色（6-7岁）",
     "category": "wow-green",
     "duration": 169.128,
-    "file": "audio/wow/wow-green-032.mp3"
+    "file": "media/audio/wow/wow-green-032.m4a"
   },
   {
     "id": "wow-orange-001",
@@ -2888,7 +2888,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 59.088,
-    "file": "audio/wow/wow-orange-001.mp3"
+    "file": "media/audio/wow/wow-orange-001.m4a"
   },
   {
     "id": "wow-orange-002",
@@ -2896,7 +2896,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 351.768,
-    "file": "audio/wow/wow-orange-002.mp3"
+    "file": "media/audio/wow/wow-orange-002.m4a"
   },
   {
     "id": "wow-orange-003",
@@ -2904,7 +2904,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 140.64,
-    "file": "audio/wow/wow-orange-003.mp3"
+    "file": "media/audio/wow/wow-orange-003.m4a"
   },
   {
     "id": "wow-orange-004",
@@ -2912,7 +2912,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 349.2,
-    "file": "audio/wow/wow-orange-004.mp3"
+    "file": "media/audio/wow/wow-orange-004.m4a"
   },
   {
     "id": "wow-orange-005",
@@ -2920,7 +2920,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 145.992,
-    "file": "audio/wow/wow-orange-005.mp3"
+    "file": "media/audio/wow/wow-orange-005.m4a"
   },
   {
     "id": "wow-orange-006",
@@ -2928,7 +2928,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 360.336,
-    "file": "audio/wow/wow-orange-006.mp3"
+    "file": "media/audio/wow/wow-orange-006.m4a"
   },
   {
     "id": "wow-orange-007",
@@ -2936,7 +2936,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 354.84,
-    "file": "audio/wow/wow-orange-007.mp3"
+    "file": "media/audio/wow/wow-orange-007.m4a"
   },
   {
     "id": "wow-orange-008",
@@ -2944,7 +2944,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 176.088,
-    "file": "audio/wow/wow-orange-008.mp3"
+    "file": "media/audio/wow/wow-orange-008.m4a"
   },
   {
     "id": "wow-orange-009",
@@ -2952,7 +2952,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 165.0,
-    "file": "audio/wow/wow-orange-009.mp3"
+    "file": "media/audio/wow/wow-orange-009.m4a"
   },
   {
     "id": "wow-orange-010",
@@ -2960,7 +2960,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 401.304,
-    "file": "audio/wow/wow-orange-010.mp3"
+    "file": "media/audio/wow/wow-orange-010.m4a"
   },
   {
     "id": "wow-orange-011",
@@ -2968,7 +2968,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 327.384,
-    "file": "audio/wow/wow-orange-011.mp3"
+    "file": "media/audio/wow/wow-orange-011.m4a"
   },
   {
     "id": "wow-orange-012",
@@ -2976,7 +2976,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 153.96,
-    "file": "audio/wow/wow-orange-012.mp3"
+    "file": "media/audio/wow/wow-orange-012.m4a"
   },
   {
     "id": "wow-orange-013",
@@ -2984,7 +2984,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 165.528,
-    "file": "audio/wow/wow-orange-013.mp3"
+    "file": "media/audio/wow/wow-orange-013.m4a"
   },
   {
     "id": "wow-orange-014",
@@ -2992,7 +2992,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 333.48,
-    "file": "audio/wow/wow-orange-014.mp3"
+    "file": "media/audio/wow/wow-orange-014.m4a"
   },
   {
     "id": "wow-orange-015",
@@ -3000,7 +3000,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 363.096,
-    "file": "audio/wow/wow-orange-015.mp3"
+    "file": "media/audio/wow/wow-orange-015.m4a"
   },
   {
     "id": "wow-orange-016",
@@ -3008,7 +3008,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 112.536,
-    "file": "audio/wow/wow-orange-016.mp3"
+    "file": "media/audio/wow/wow-orange-016.m4a"
   },
   {
     "id": "wow-orange-017",
@@ -3016,7 +3016,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 109.368,
-    "file": "audio/wow/wow-orange-017.mp3"
+    "file": "media/audio/wow/wow-orange-017.m4a"
   },
   {
     "id": "wow-orange-018",
@@ -3024,7 +3024,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 367.368,
-    "file": "audio/wow/wow-orange-018.mp3"
+    "file": "media/audio/wow/wow-orange-018.m4a"
   },
   {
     "id": "wow-orange-019",
@@ -3032,7 +3032,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 355.992,
-    "file": "audio/wow/wow-orange-019.mp3"
+    "file": "media/audio/wow/wow-orange-019.m4a"
   },
   {
     "id": "wow-orange-020",
@@ -3040,7 +3040,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 120.072,
-    "file": "audio/wow/wow-orange-020.mp3"
+    "file": "media/audio/wow/wow-orange-020.m4a"
   },
   {
     "id": "wow-orange-021",
@@ -3048,7 +3048,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 102.744,
-    "file": "audio/wow/wow-orange-021.mp3"
+    "file": "media/audio/wow/wow-orange-021.m4a"
   },
   {
     "id": "wow-orange-022",
@@ -3056,7 +3056,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 355.224,
-    "file": "audio/wow/wow-orange-022.mp3"
+    "file": "media/audio/wow/wow-orange-022.m4a"
   },
   {
     "id": "wow-orange-023",
@@ -3064,7 +3064,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 304.008,
-    "file": "audio/wow/wow-orange-023.mp3"
+    "file": "media/audio/wow/wow-orange-023.m4a"
   },
   {
     "id": "wow-orange-024",
@@ -3072,7 +3072,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 229.656,
-    "file": "audio/wow/wow-orange-024.mp3"
+    "file": "media/audio/wow/wow-orange-024.m4a"
   },
   {
     "id": "wow-orange-025",
@@ -3080,7 +3080,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 229.872,
-    "file": "audio/wow/wow-orange-025.mp3"
+    "file": "media/audio/wow/wow-orange-025.m4a"
   },
   {
     "id": "wow-orange-026",
@@ -3088,7 +3088,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 323.544,
-    "file": "audio/wow/wow-orange-026.mp3"
+    "file": "media/audio/wow/wow-orange-026.m4a"
   },
   {
     "id": "wow-orange-027",
@@ -3096,7 +3096,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 405.096,
-    "file": "audio/wow/wow-orange-027.mp3"
+    "file": "media/audio/wow/wow-orange-027.m4a"
   },
   {
     "id": "wow-orange-028",
@@ -3104,7 +3104,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 178.368,
-    "file": "audio/wow/wow-orange-028.mp3"
+    "file": "media/audio/wow/wow-orange-028.m4a"
   },
   {
     "id": "wow-orange-029",
@@ -3112,7 +3112,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 179.544,
-    "file": "audio/wow/wow-orange-029.mp3"
+    "file": "media/audio/wow/wow-orange-029.m4a"
   },
   {
     "id": "wow-orange-030",
@@ -3120,7 +3120,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 362.04,
-    "file": "audio/wow/wow-orange-030.mp3"
+    "file": "media/audio/wow/wow-orange-030.m4a"
   },
   {
     "id": "wow-orange-031",
@@ -3128,7 +3128,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 275.736,
-    "file": "audio/wow/wow-orange-031.mp3"
+    "file": "media/audio/wow/wow-orange-031.m4a"
   },
   {
     "id": "wow-orange-032",
@@ -3136,7 +3136,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 125.136,
-    "file": "audio/wow/wow-orange-032.mp3"
+    "file": "media/audio/wow/wow-orange-032.m4a"
   },
   {
     "id": "wow-orange-033",
@@ -3144,7 +3144,7 @@ window.SONGS = [
     "zh": "橘色（7-8岁）",
     "category": "wow-orange",
     "duration": 124.2,
-    "file": "audio/wow/wow-orange-033.mp3"
+    "file": "media/audio/wow/wow-orange-033.m4a"
   },
   {
     "id": "wow-bronze-001",
@@ -3152,7 +3152,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 276.648,
-    "file": "audio/wow/wow-bronze-001.mp3"
+    "file": "media/audio/wow/wow-bronze-001.m4a"
   },
   {
     "id": "wow-bronze-002",
@@ -3160,7 +3160,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 194.448,
-    "file": "audio/wow/wow-bronze-002.mp3"
+    "file": "media/audio/wow/wow-bronze-002.m4a"
   },
   {
     "id": "wow-bronze-003",
@@ -3168,7 +3168,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 209.856,
-    "file": "audio/wow/wow-bronze-003.mp3"
+    "file": "media/audio/wow/wow-bronze-003.m4a"
   },
   {
     "id": "wow-bronze-004",
@@ -3176,7 +3176,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 247.2,
-    "file": "audio/wow/wow-bronze-004.mp3"
+    "file": "media/audio/wow/wow-bronze-004.m4a"
   },
   {
     "id": "wow-bronze-005",
@@ -3184,7 +3184,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 208.008,
-    "file": "audio/wow/wow-bronze-005.mp3"
+    "file": "media/audio/wow/wow-bronze-005.m4a"
   },
   {
     "id": "wow-bronze-006",
@@ -3192,7 +3192,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 324.168,
-    "file": "audio/wow/wow-bronze-006.mp3"
+    "file": "media/audio/wow/wow-bronze-006.m4a"
   },
   {
     "id": "wow-bronze-007",
@@ -3200,7 +3200,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 277.368,
-    "file": "audio/wow/wow-bronze-007.mp3"
+    "file": "media/audio/wow/wow-bronze-007.m4a"
   },
   {
     "id": "wow-bronze-008",
@@ -3208,7 +3208,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 136.968,
-    "file": "audio/wow/wow-bronze-008.mp3"
+    "file": "media/audio/wow/wow-bronze-008.m4a"
   },
   {
     "id": "wow-bronze-009",
@@ -3216,7 +3216,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 290.712,
-    "file": "audio/wow/wow-bronze-009.mp3"
+    "file": "media/audio/wow/wow-bronze-009.m4a"
   },
   {
     "id": "wow-bronze-010",
@@ -3224,7 +3224,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 338.952,
-    "file": "audio/wow/wow-bronze-010.mp3"
+    "file": "media/audio/wow/wow-bronze-010.m4a"
   },
   {
     "id": "wow-bronze-011",
@@ -3232,7 +3232,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 199.056,
-    "file": "audio/wow/wow-bronze-011.mp3"
+    "file": "media/audio/wow/wow-bronze-011.m4a"
   },
   {
     "id": "wow-bronze-012",
@@ -3240,7 +3240,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 304.68,
-    "file": "audio/wow/wow-bronze-012.mp3"
+    "file": "media/audio/wow/wow-bronze-012.m4a"
   },
   {
     "id": "wow-bronze-013",
@@ -3248,7 +3248,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 284.184,
-    "file": "audio/wow/wow-bronze-013.mp3"
+    "file": "media/audio/wow/wow-bronze-013.m4a"
   },
   {
     "id": "wow-bronze-014",
@@ -3256,7 +3256,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 122.136,
-    "file": "audio/wow/wow-bronze-014.mp3"
+    "file": "media/audio/wow/wow-bronze-014.m4a"
   },
   {
     "id": "wow-bronze-015",
@@ -3264,7 +3264,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 342.936,
-    "file": "audio/wow/wow-bronze-015.mp3"
+    "file": "media/audio/wow/wow-bronze-015.m4a"
   },
   {
     "id": "wow-bronze-016",
@@ -3272,7 +3272,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 222.48,
-    "file": "audio/wow/wow-bronze-016.mp3"
+    "file": "media/audio/wow/wow-bronze-016.m4a"
   },
   {
     "id": "wow-bronze-017",
@@ -3280,7 +3280,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 183.84,
-    "file": "audio/wow/wow-bronze-017.mp3"
+    "file": "media/audio/wow/wow-bronze-017.m4a"
   },
   {
     "id": "wow-bronze-018",
@@ -3288,7 +3288,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 284.088,
-    "file": "audio/wow/wow-bronze-018.mp3"
+    "file": "media/audio/wow/wow-bronze-018.m4a"
   },
   {
     "id": "wow-bronze-019",
@@ -3296,7 +3296,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 247.248,
-    "file": "audio/wow/wow-bronze-019.mp3"
+    "file": "media/audio/wow/wow-bronze-019.m4a"
   },
   {
     "id": "wow-bronze-020",
@@ -3304,7 +3304,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 315.0,
-    "file": "audio/wow/wow-bronze-020.mp3"
+    "file": "media/audio/wow/wow-bronze-020.m4a"
   },
   {
     "id": "wow-bronze-021",
@@ -3312,7 +3312,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 249.048,
-    "file": "audio/wow/wow-bronze-021.mp3"
+    "file": "media/audio/wow/wow-bronze-021.m4a"
   },
   {
     "id": "wow-bronze-022",
@@ -3320,7 +3320,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 214.752,
-    "file": "audio/wow/wow-bronze-022.mp3"
+    "file": "media/audio/wow/wow-bronze-022.m4a"
   },
   {
     "id": "wow-bronze-023",
@@ -3328,7 +3328,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 331.176,
-    "file": "audio/wow/wow-bronze-023.mp3"
+    "file": "media/audio/wow/wow-bronze-023.m4a"
   },
   {
     "id": "wow-bronze-024",
@@ -3336,7 +3336,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 293.832,
-    "file": "audio/wow/wow-bronze-024.mp3"
+    "file": "media/audio/wow/wow-bronze-024.m4a"
   },
   {
     "id": "wow-bronze-025",
@@ -3344,7 +3344,7 @@ window.SONGS = [
     "zh": "棕色（8-9岁）",
     "category": "wow-bronze",
     "duration": 198.12,
-    "file": "audio/wow/wow-bronze-025.mp3"
+    "file": "media/audio/wow/wow-bronze-025.m4a"
   },
   {
     "id": "wow-silver-001",
@@ -3352,7 +3352,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 257.88,
-    "file": "audio/wow/wow-silver-001.mp3"
+    "file": "media/audio/wow/wow-silver-001.m4a"
   },
   {
     "id": "wow-silver-002",
@@ -3360,7 +3360,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 261.24,
-    "file": "audio/wow/wow-silver-002.mp3"
+    "file": "media/audio/wow/wow-silver-002.m4a"
   },
   {
     "id": "wow-silver-003",
@@ -3368,7 +3368,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 348.456,
-    "file": "audio/wow/wow-silver-003.mp3"
+    "file": "media/audio/wow/wow-silver-003.m4a"
   },
   {
     "id": "wow-silver-004",
@@ -3376,7 +3376,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 327.792,
-    "file": "audio/wow/wow-silver-004.mp3"
+    "file": "media/audio/wow/wow-silver-004.m4a"
   },
   {
     "id": "wow-silver-005",
@@ -3384,7 +3384,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 205.512,
-    "file": "audio/wow/wow-silver-005.mp3"
+    "file": "media/audio/wow/wow-silver-005.m4a"
   },
   {
     "id": "wow-silver-006",
@@ -3392,7 +3392,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 327.0,
-    "file": "audio/wow/wow-silver-006.mp3"
+    "file": "media/audio/wow/wow-silver-006.m4a"
   },
   {
     "id": "wow-silver-007",
@@ -3400,7 +3400,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 359.16,
-    "file": "audio/wow/wow-silver-007.mp3"
+    "file": "media/audio/wow/wow-silver-007.m4a"
   },
   {
     "id": "wow-silver-008",
@@ -3408,7 +3408,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 213.96,
-    "file": "audio/wow/wow-silver-008.mp3"
+    "file": "media/audio/wow/wow-silver-008.m4a"
   },
   {
     "id": "wow-silver-009",
@@ -3416,7 +3416,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 315.48,
-    "file": "audio/wow/wow-silver-009.mp3"
+    "file": "media/audio/wow/wow-silver-009.m4a"
   },
   {
     "id": "wow-silver-010",
@@ -3424,7 +3424,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 357.912,
-    "file": "audio/wow/wow-silver-010.mp3"
+    "file": "media/audio/wow/wow-silver-010.m4a"
   },
   {
     "id": "wow-silver-011",
@@ -3432,7 +3432,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 199.512,
-    "file": "audio/wow/wow-silver-011.mp3"
+    "file": "media/audio/wow/wow-silver-011.m4a"
   },
   {
     "id": "wow-silver-012",
@@ -3440,7 +3440,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 282.12,
-    "file": "audio/wow/wow-silver-012.mp3"
+    "file": "media/audio/wow/wow-silver-012.m4a"
   },
   {
     "id": "wow-silver-013",
@@ -3448,7 +3448,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 296.016,
-    "file": "audio/wow/wow-silver-013.mp3"
+    "file": "media/audio/wow/wow-silver-013.m4a"
   },
   {
     "id": "wow-silver-014",
@@ -3456,7 +3456,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 179.448,
-    "file": "audio/wow/wow-silver-014.mp3"
+    "file": "media/audio/wow/wow-silver-014.m4a"
   },
   {
     "id": "wow-silver-015",
@@ -3464,7 +3464,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 340.632,
-    "file": "audio/wow/wow-silver-015.mp3"
+    "file": "media/audio/wow/wow-silver-015.m4a"
   },
   {
     "id": "wow-silver-016",
@@ -3472,7 +3472,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 405.48,
-    "file": "audio/wow/wow-silver-016.mp3"
+    "file": "media/audio/wow/wow-silver-016.m4a"
   },
   {
     "id": "wow-silver-017",
@@ -3480,7 +3480,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 167.688,
-    "file": "audio/wow/wow-silver-017.mp3"
+    "file": "media/audio/wow/wow-silver-017.m4a"
   },
   {
     "id": "wow-silver-018",
@@ -3488,7 +3488,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 325.128,
-    "file": "audio/wow/wow-silver-018.mp3"
+    "file": "media/audio/wow/wow-silver-018.m4a"
   },
   {
     "id": "wow-silver-019",
@@ -3496,7 +3496,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 303.528,
-    "file": "audio/wow/wow-silver-019.mp3"
+    "file": "media/audio/wow/wow-silver-019.m4a"
   },
   {
     "id": "wow-silver-020",
@@ -3504,7 +3504,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 166.848,
-    "file": "audio/wow/wow-silver-020.mp3"
+    "file": "media/audio/wow/wow-silver-020.m4a"
   },
   {
     "id": "wow-silver-021",
@@ -3512,7 +3512,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 350.112,
-    "file": "audio/wow/wow-silver-021.mp3"
+    "file": "media/audio/wow/wow-silver-021.m4a"
   },
   {
     "id": "wow-silver-022",
@@ -3520,7 +3520,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 370.128,
-    "file": "audio/wow/wow-silver-022.mp3"
+    "file": "media/audio/wow/wow-silver-022.m4a"
   },
   {
     "id": "wow-silver-023",
@@ -3528,7 +3528,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 159.6,
-    "file": "audio/wow/wow-silver-023.mp3"
+    "file": "media/audio/wow/wow-silver-023.m4a"
   },
   {
     "id": "wow-silver-024",
@@ -3536,7 +3536,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 327.888,
-    "file": "audio/wow/wow-silver-024.mp3"
+    "file": "media/audio/wow/wow-silver-024.m4a"
   },
   {
     "id": "wow-silver-025",
@@ -3544,7 +3544,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 273.96,
-    "file": "audio/wow/wow-silver-025.mp3"
+    "file": "media/audio/wow/wow-silver-025.m4a"
   },
   {
     "id": "wow-silver-026",
@@ -3552,7 +3552,7 @@ window.SONGS = [
     "zh": "银色（9-10岁）",
     "category": "wow-silver",
     "duration": 171.672,
-    "file": "audio/wow/wow-silver-026.mp3"
+    "file": "media/audio/wow/wow-silver-026.m4a"
   },
   {
     "id": "wow-gold-001",
@@ -3560,7 +3560,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 349.368,
-    "file": "audio/wow/wow-gold-001.mp3"
+    "file": "media/audio/wow/wow-gold-001.m4a"
   },
   {
     "id": "wow-gold-002",
@@ -3568,7 +3568,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 164.88,
-    "file": "audio/wow/wow-gold-002.mp3"
+    "file": "media/audio/wow/wow-gold-002.m4a"
   },
   {
     "id": "wow-gold-003",
@@ -3576,7 +3576,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 330.264,
-    "file": "audio/wow/wow-gold-003.mp3"
+    "file": "media/audio/wow/wow-gold-003.m4a"
   },
   {
     "id": "wow-gold-004",
@@ -3584,7 +3584,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 275.76,
-    "file": "audio/wow/wow-gold-004.mp3"
+    "file": "media/audio/wow/wow-gold-004.m4a"
   },
   {
     "id": "wow-gold-005",
@@ -3592,7 +3592,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 181.728,
-    "file": "audio/wow/wow-gold-005.mp3"
+    "file": "media/audio/wow/wow-gold-005.m4a"
   },
   {
     "id": "wow-gold-006",
@@ -3600,7 +3600,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 324.912,
-    "file": "audio/wow/wow-gold-006.mp3"
+    "file": "media/audio/wow/wow-gold-006.m4a"
   },
   {
     "id": "wow-gold-007",
@@ -3608,7 +3608,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 346.632,
-    "file": "audio/wow/wow-gold-007.mp3"
+    "file": "media/audio/wow/wow-gold-007.m4a"
   },
   {
     "id": "wow-gold-008",
@@ -3616,7 +3616,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 163.968,
-    "file": "audio/wow/wow-gold-008.mp3"
+    "file": "media/audio/wow/wow-gold-008.m4a"
   },
   {
     "id": "wow-gold-009",
@@ -3624,7 +3624,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 332.52,
-    "file": "audio/wow/wow-gold-009.mp3"
+    "file": "media/audio/wow/wow-gold-009.m4a"
   },
   {
     "id": "wow-gold-010",
@@ -3632,7 +3632,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 252.312,
-    "file": "audio/wow/wow-gold-010.mp3"
+    "file": "media/audio/wow/wow-gold-010.m4a"
   },
   {
     "id": "wow-gold-011",
@@ -3640,7 +3640,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 161.88,
-    "file": "audio/wow/wow-gold-011.mp3"
+    "file": "media/audio/wow/wow-gold-011.m4a"
   },
   {
     "id": "wow-gold-012",
@@ -3648,7 +3648,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 282.72,
-    "file": "audio/wow/wow-gold-012.mp3"
+    "file": "media/audio/wow/wow-gold-012.m4a"
   },
   {
     "id": "wow-gold-013",
@@ -3656,7 +3656,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 276.456,
-    "file": "audio/wow/wow-gold-013.mp3"
+    "file": "media/audio/wow/wow-gold-013.m4a"
   },
   {
     "id": "wow-gold-014",
@@ -3664,7 +3664,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 162.672,
-    "file": "audio/wow/wow-gold-014.mp3"
+    "file": "media/audio/wow/wow-gold-014.m4a"
   },
   {
     "id": "wow-gold-015",
@@ -3672,7 +3672,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 364.632,
-    "file": "audio/wow/wow-gold-015.mp3"
+    "file": "media/audio/wow/wow-gold-015.m4a"
   },
   {
     "id": "wow-gold-016",
@@ -3680,7 +3680,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 435.048,
-    "file": "audio/wow/wow-gold-016.mp3"
+    "file": "media/audio/wow/wow-gold-016.m4a"
   },
   {
     "id": "wow-gold-017",
@@ -3688,7 +3688,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 172.08,
-    "file": "audio/wow/wow-gold-017.mp3"
+    "file": "media/audio/wow/wow-gold-017.m4a"
   },
   {
     "id": "wow-gold-018",
@@ -3696,7 +3696,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 263.88,
-    "file": "audio/wow/wow-gold-018.mp3"
+    "file": "media/audio/wow/wow-gold-018.m4a"
   },
   {
     "id": "wow-gold-019",
@@ -3704,7 +3704,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 336.984,
-    "file": "audio/wow/wow-gold-019.mp3"
+    "file": "media/audio/wow/wow-gold-019.m4a"
   },
   {
     "id": "wow-gold-020",
@@ -3712,7 +3712,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 185.616,
-    "file": "audio/wow/wow-gold-020.mp3"
+    "file": "media/audio/wow/wow-gold-020.m4a"
   },
   {
     "id": "wow-gold-021",
@@ -3720,7 +3720,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 319.248,
-    "file": "audio/wow/wow-gold-021.mp3"
+    "file": "media/audio/wow/wow-gold-021.m4a"
   },
   {
     "id": "wow-gold-022",
@@ -3728,7 +3728,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 332.952,
-    "file": "audio/wow/wow-gold-022.mp3"
+    "file": "media/audio/wow/wow-gold-022.m4a"
   },
   {
     "id": "wow-gold-023",
@@ -3736,7 +3736,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 204.408,
-    "file": "audio/wow/wow-gold-023.mp3"
+    "file": "media/audio/wow/wow-gold-023.m4a"
   },
   {
     "id": "wow-gold-024",
@@ -3744,7 +3744,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 365.088,
-    "file": "audio/wow/wow-gold-024.mp3"
+    "file": "media/audio/wow/wow-gold-024.m4a"
   },
   {
     "id": "wow-gold-025",
@@ -3752,7 +3752,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 244.824,
-    "file": "audio/wow/wow-gold-025.mp3"
+    "file": "media/audio/wow/wow-gold-025.m4a"
   },
   {
     "id": "wow-gold-026",
@@ -3760,7 +3760,7 @@ window.SONGS = [
     "zh": "金色（10-12岁）",
     "category": "wow-gold",
     "duration": 179.328,
-    "file": "audio/wow/wow-gold-026.mp3"
+    "file": "media/audio/wow/wow-gold-026.m4a"
   },
   {
     "id": "guli-001",
@@ -3768,7 +3768,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 167.832,
-    "file": "audio/guli/guli-001.mp3"
+    "file": "media/audio/guli/guli-001.m4a"
   },
   {
     "id": "guli-002",
@@ -3776,7 +3776,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 219.144,
-    "file": "audio/guli/guli-002.mp3"
+    "file": "media/audio/guli/guli-002.m4a"
   },
   {
     "id": "guli-003",
@@ -3784,7 +3784,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 166.656,
-    "file": "audio/guli/guli-003.mp3"
+    "file": "media/audio/guli/guli-003.m4a"
   },
   {
     "id": "guli-004",
@@ -3792,7 +3792,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 183.48,
-    "file": "audio/guli/guli-004.mp3"
+    "file": "media/audio/guli/guli-004.m4a"
   },
   {
     "id": "guli-005",
@@ -3800,7 +3800,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 156.816,
-    "file": "audio/guli/guli-005.mp3"
+    "file": "media/audio/guli/guli-005.m4a"
   },
   {
     "id": "guli-006",
@@ -3808,7 +3808,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 145.944,
-    "file": "audio/guli/guli-006.mp3"
+    "file": "media/audio/guli/guli-006.m4a"
   },
   {
     "id": "guli-007",
@@ -3816,7 +3816,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 183.72,
-    "file": "audio/guli/guli-007.mp3"
+    "file": "media/audio/guli/guli-007.m4a"
   },
   {
     "id": "guli-008",
@@ -3824,7 +3824,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 181.008,
-    "file": "audio/guli/guli-008.mp3"
+    "file": "media/audio/guli/guli-008.m4a"
   },
   {
     "id": "guli-009",
@@ -3832,7 +3832,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 155.016,
-    "file": "audio/guli/guli-009.mp3"
+    "file": "media/audio/guli/guli-009.m4a"
   },
   {
     "id": "guli-010",
@@ -3840,7 +3840,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 165.84,
-    "file": "audio/guli/guli-010.mp3"
+    "file": "media/audio/guli/guli-010.m4a"
   },
   {
     "id": "guli-011",
@@ -3848,7 +3848,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 161.256,
-    "file": "audio/guli/guli-011.mp3"
+    "file": "media/audio/guli/guli-011.m4a"
   },
   {
     "id": "guli-012",
@@ -3856,7 +3856,7 @@ window.SONGS = [
     "zh": "古力小超人",
     "category": "guli",
     "duration": 166.368,
-    "file": "audio/guli/guli-012.mp3"
+    "file": "media/audio/guli/guli-012.m4a"
   },
   {
     "id": "vocab-town-001",
@@ -3864,7 +3864,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 190.249796,
-    "file": "audio/vocab-town/vocab-town-001.mp3"
+    "file": "media/audio/vocab-town/vocab-town-001.m4a"
   },
   {
     "id": "vocab-town-002",
@@ -3872,7 +3872,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 233.116735,
-    "file": "audio/vocab-town/vocab-town-002.mp3"
+    "file": "media/audio/vocab-town/vocab-town-002.m4a"
   },
   {
     "id": "vocab-town-003",
@@ -3880,7 +3880,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 286.537143,
-    "file": "audio/vocab-town/vocab-town-003.mp3"
+    "file": "media/audio/vocab-town/vocab-town-003.m4a"
   },
   {
     "id": "vocab-town-004",
@@ -3888,7 +3888,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 193.541224,
-    "file": "audio/vocab-town/vocab-town-004.mp3"
+    "file": "media/audio/vocab-town/vocab-town-004.m4a"
   },
   {
     "id": "vocab-town-005",
@@ -3896,7 +3896,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 189.178776,
-    "file": "audio/vocab-town/vocab-town-005.mp3"
+    "file": "media/audio/vocab-town/vocab-town-005.m4a"
   },
   {
     "id": "vocab-town-006",
@@ -3904,7 +3904,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 239.020408,
-    "file": "audio/vocab-town/vocab-town-006.mp3"
+    "file": "media/audio/vocab-town/vocab-town-006.m4a"
   },
   {
     "id": "vocab-town-007",
@@ -3912,7 +3912,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 223.425306,
-    "file": "audio/vocab-town/vocab-town-007.mp3"
+    "file": "media/audio/vocab-town/vocab-town-007.m4a"
   },
   {
     "id": "vocab-town-008",
@@ -3920,7 +3920,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 223.425306,
-    "file": "audio/vocab-town/vocab-town-008.mp3"
+    "file": "media/audio/vocab-town/vocab-town-008.m4a"
   },
   {
     "id": "vocab-town-009",
@@ -3928,7 +3928,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 216.52898,
-    "file": "audio/vocab-town/vocab-town-009.mp3"
+    "file": "media/audio/vocab-town/vocab-town-009.m4a"
   },
   {
     "id": "vocab-town-010",
@@ -3936,7 +3936,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 180.48,
-    "file": "audio/vocab-town/vocab-town-010.mp3"
+    "file": "media/audio/vocab-town/vocab-town-010.m4a"
   },
   {
     "id": "vocab-town-011",
@@ -3944,7 +3944,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 256.992653,
-    "file": "audio/vocab-town/vocab-town-011.mp3"
+    "file": "media/audio/vocab-town/vocab-town-011.m4a"
   },
   {
     "id": "vocab-town-012",
@@ -3952,7 +3952,7 @@ window.SONGS = [
     "zh": "词汇妙趣国",
     "category": "vocab-town",
     "duration": 217.573878,
-    "file": "audio/vocab-town/vocab-town-012.mp3"
+    "file": "media/audio/vocab-town/vocab-town-012.m4a"
   },
   {
     "id": "littlefox-1-tire-town-001",
@@ -11184,7 +11184,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 184.711813,
-    "file": "audio/qplay/qplay-001.mp3"
+    "file": "media/audio/qplay/qplay-001.m4a"
   },
   {
     "id": "qplay-002",
@@ -11192,7 +11192,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 179.0955,
-    "file": "audio/qplay/qplay-002.mp3"
+    "file": "media/audio/qplay/qplay-002.m4a"
   },
   {
     "id": "qplay-003",
@@ -11200,7 +11200,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 205.374687,
-    "file": "audio/qplay/qplay-003.mp3"
+    "file": "media/audio/qplay/qplay-003.m4a"
   },
   {
     "id": "qplay-004",
@@ -11208,7 +11208,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 178.991,
-    "file": "audio/qplay/qplay-004.mp3"
+    "file": "media/audio/qplay/qplay-004.m4a"
   },
   {
     "id": "qplay-005",
@@ -11216,7 +11216,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 159.111813,
-    "file": "audio/qplay/qplay-005.mp3"
+    "file": "media/audio/qplay/qplay-005.m4a"
   },
   {
     "id": "qplay-006",
@@ -11224,7 +11224,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 216.973062,
-    "file": "audio/qplay/qplay-006.mp3"
+    "file": "media/audio/qplay/qplay-006.m4a"
   },
   {
     "id": "qplay-007",
@@ -11232,7 +11232,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 179.330563,
-    "file": "audio/qplay/qplay-007.mp3"
+    "file": "media/audio/qplay/qplay-007.m4a"
   },
   {
     "id": "qplay-008",
@@ -11240,7 +11240,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 167.444875,
-    "file": "audio/qplay/qplay-008.mp3"
+    "file": "media/audio/qplay/qplay-008.m4a"
   },
   {
     "id": "qplay-009",
@@ -11248,7 +11248,7 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 198.713437,
-    "file": "audio/qplay/qplay-009.mp3"
+    "file": "media/audio/qplay/qplay-009.m4a"
   },
   {
     "id": "qplay-010",
@@ -11256,6 +11256,6 @@ window.SONGS = [
     "zh": "Q-play",
     "category": "qplay",
     "duration": 191.059562,
-    "file": "audio/qplay/qplay-010.mp3"
+    "file": "media/audio/qplay/qplay-010.m4a"
   }
 ];

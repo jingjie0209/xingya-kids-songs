@@ -2,7 +2,7 @@
   'use strict';
 
   const allSongs = window.SONGS || [];
-  const AUDIO_BASE = 'https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/';
+  const RAW_AUDIO_BASE = 'https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/';
   const allCategories = window.SONG_CATEGORIES || [];
   const tabs = [
     { id: 'songs', name: '儿歌', icon: 'music' },
@@ -779,10 +779,14 @@
     // Do not tear down the old element while the user can still hear it.
     // Setting preload=auto lets Safari start buffering immediately; metadata
     // usually arrives before playback is invoked, keeping the click instant.
+    const bundled = song.file.startsWith('media/');
+    const originalFile = bundled
+      ? song.file.replace(/^media\//, '').replace(/\.m4a$/i, '.mp3')
+      : song.file;
     audioSources = [
-      AUDIO_BASE + song.file,
-      `https://fastly.jsdelivr.net/gh/jingjie0209/xingya-kids-songs@main/${song.file}`,
-    ];
+      bundled ? new URL(song.file, window.location.href).href : RAW_AUDIO_BASE + originalFile,
+      RAW_AUDIO_BASE + originalFile,
+    ].filter((source, index, list) => list.indexOf(source) === index);
     audioSourceIndex = 0;
     audio.src = audioSources[0];
     audio.load();
@@ -1179,7 +1183,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=4').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=5').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });
