@@ -11,7 +11,6 @@
   ];
   const wowCategoryIds = [
     'wow-yellow', 'wow-blue', 'wow-red', 'wow-green', 'wow-orange',
-    'wow-bronze', 'wow-silver', 'wow-gold',
   ];
   const animationCategoryIds = [
     ...wowCategoryIds,
@@ -1188,7 +1187,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=7').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=8').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });
