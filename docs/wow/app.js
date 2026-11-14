@@ -1188,7 +1188,7 @@
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=6').catch(() => {
+      navigator.serviceWorker.register('sw.js?v=7').catch(() => {
         // Installation and background audio still work when service workers are unavailable.
       });
     });

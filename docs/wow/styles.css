@@ -1997,7 +1997,9 @@ input[type="range"]::-moz-range-thumb {
   .transport-buttons { gap: 8px; }
   .dock-play-button { width: 43px; height: 43px; }
   .progress-row { grid-template-columns: 31px minmax(70px, 1fr) 31px; }
-  .volume-button { display: none; }
+  /* Keep the mute control available on phones. A saved zero volume used to
+     leave mobile users with no visible way to restore sound. */
+  .volume-button { display: grid; flex: 0 0 auto; }
   .toast { bottom: calc(222px + env(safe-area-inset-bottom)); }
 }
 
