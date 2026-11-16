@@ -2301,13 +2301,13 @@ input[type="range"]::-moz-range-thumb {
 
 /* Peppa Pig detail page */
 .episode-page {
-  padding: 14px 0 22px;
+  padding: 20px 0 22px;
 }
 .episode-sticky-head {
   position: sticky;
   top: calc(64px + env(safe-area-inset-top, 0px));
   z-index: 34;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 body.episode-detail-open .topbar {
   position: fixed;
@@ -2341,6 +2341,7 @@ body.episode-detail-open .episode-page {
   color: #ad4f73;
   font-size: 12px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 .episode-back-button svg { width: 15px; height: 15px; fill: currentColor; transform: rotate(180deg); }
 .episode-page-head {
