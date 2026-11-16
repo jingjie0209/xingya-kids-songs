@@ -2309,6 +2309,30 @@ input[type="range"]::-moz-range-thumb {
   z-index: 34;
   margin-bottom: 20px;
 }
+.episode-section-tabs {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+  overflow-x: auto;
+  padding: 6px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.82);
+  backdrop-filter: blur(10px);
+  scrollbar-width: none;
+}
+.episode-section-tabs::-webkit-scrollbar { display: none; }
+.episode-section-tabs button {
+  flex: 0 0 auto;
+  min-height: 31px;
+  padding: 0 11px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #7a5f68;
+  font-size: 11px;
+  font-weight: 700;
+}
+.episode-section-tabs button:active { background: #f4d7e1; color: #8b3b57; }
 body.episode-detail-open .topbar {
   position: fixed;
   top: 0;

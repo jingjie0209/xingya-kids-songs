@@ -12,7 +12,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon-v3.png?v=33">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v3.png?v=33">
-  <link rel="stylesheet" href="styles.css?v=120">
+  <link rel="stylesheet" href="styles.css?v=121">
   <title>baby专属</title>
 </head>
 <body>
@@ -71,10 +71,10 @@
 
     <main id="top">
       <section class="episode-page" id="episodePage" hidden aria-labelledby="episodePageTitle">
-        <button class="episode-back-button" id="episodeBackButton" type="button">
-          <svg><use href="#icon-prev"></use></svg><span>返回剧集列表</span>
-        </button>
         <div class="episode-sticky-head">
+          <button class="episode-back-button" id="episodeBackButton" type="button">
+            <svg><use href="#icon-prev"></use></svg><span>返回剧集列表</span>
+          </button>
           <header class="episode-page-head">
             <div class="episode-title-copy">
               <small>PEPPA PIG · 第一季</small>
@@ -85,6 +85,13 @@
               <span id="episodePlayLabel">播放</span>
             </button>
           </header>
+          <nav class="episode-section-tabs" id="episodeSectionTabs" aria-label="台词内容导航">
+            <button type="button" data-episode-target="episode-section-english">台词-英</button>
+            <button type="button" data-episode-target="episode-section-pairs">台词-中英</button>
+            <button type="button" data-episode-target="episode-section-patterns">语法</button>
+            <button type="button" data-episode-target="episode-section-words">单词</button>
+            <button type="button" data-episode-target="episode-section-collocations">固定搭配</button>
+          </nav>
         </div>
         <div class="episode-page-body" id="episodePageBody"></div>
       </section>
@@ -292,6 +299,6 @@
   <audio id="audio" preload="auto" playsinline></audio>
 
   <script src="songs.js?v=108"></script>
-  <script src="app.js?v=118"></script>
+  <script src="app.js?v=119"></script>
 </body>
 </html>

@@ -126,6 +126,8 @@
     episodePlayButton: document.getElementById('episodePlayButton'),
     episodePlayIcon: document.getElementById('episodePlayIcon'),
     episodePlayLabel: document.getElementById('episodePlayLabel'),
+    episodeStickyHead: document.querySelector('.episode-sticky-head'),
+    episodeSectionTabs: document.getElementById('episodeSectionTabs'),
   };
 
   function readJSON(key, fallback) {
@@ -603,11 +605,11 @@
       <div class="study-row"><div class="study-term"><strong>${item.item}</strong><span>${item.meaning}</span></div><p>${item.example}</p></div>`).join('');
     els.episodePageTitle.textContent = songById.get(id)?.title || id;
     els.episodePageBody.innerHTML = `
-      <section><h4>英文对话独立段落</h4><div class="episode-english">${detail.pairs.map((line) => `<p>${line.en}</p>`).join('')}</div></section>
-      <section><h4>中英台词对照</h4>${list}</section>
-      <section><h4>核心句型与三组扩展</h4>${patterns}</section>
-      <section><h4>核心单词</h4><div class="study-list">${makeRows(detail.words)}</div></section>
-      <section><h4>固定搭配</h4><div class="study-list">${makeRows(detail.collocations)}</div></section>`;
+      <section id="episode-section-english"><h4>英文对话独立段落</h4><div class="episode-english">${detail.pairs.map((line) => `<p>${line.en}</p>`).join('')}</div></section>
+      <section id="episode-section-pairs"><h4>中英台词对照</h4>${list}</section>
+      <section id="episode-section-patterns"><h4>核心句型与三组扩展</h4>${patterns}</section>
+      <section id="episode-section-words"><h4>核心单词</h4><div class="study-list">${makeRows(detail.words)}</div></section>
+      <section id="episode-section-collocations"><h4>固定搭配</h4><div class="study-list">${makeRows(detail.collocations)}</div></section>`;
     els.homeHero.hidden = true;
     els.libraryHead.hidden = true;
     els.filterRow.hidden = true;
@@ -1166,6 +1168,15 @@
     shuffleHistory = [];
     if (mode === 'shuffle') resetShuffleQueue(activeEpisodeDetailId);
     loadSong(activeEpisodeDetailId, { autoplay: true, resetShuffle: false });
+  });
+
+  els.episodeSectionTabs.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-episode-target]');
+    if (!button) return;
+    const section = document.getElementById(button.dataset.episodeTarget);
+    if (!section) return;
+    const top = section.getBoundingClientRect().top + window.scrollY - (els.episodeStickyHead.offsetHeight + 76);
+    window.scrollTo({ top, behavior: 'smooth' });
   });
 
   els.reportButton.addEventListener('click', () => {
