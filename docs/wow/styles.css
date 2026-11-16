@@ -2308,16 +2308,17 @@ input[type="range"]::-moz-range-thumb {
   top: calc(64px + env(safe-area-inset-top, 0px));
   z-index: 34;
   margin-bottom: 20px;
+  background: #f3efe5;
+  padding-bottom: 2px;
 }
 .episode-section-tabs {
   display: flex;
   gap: 6px;
-  margin-top: 12px;
+  margin-top: 20px;
   overflow-x: auto;
   padding: 6px;
   border-radius: 16px;
-  background: rgba(255,255,255,.82);
-  backdrop-filter: blur(10px);
+  background: #ffffff;
   scrollbar-width: none;
 }
 .episode-section-tabs::-webkit-scrollbar { display: none; }
