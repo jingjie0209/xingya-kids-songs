@@ -2437,3 +2437,16 @@ body.episode-detail-open .episode-page {
 .study-row span { color: #657584; font-size: 12px; }
 .study-row p { margin: 3px 0 0; color: #7a8997; font-size: 11px; }
 .bottom-tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+
+.wow-kind-tabs {
+  padding-top: 0;
+  padding-bottom: 12px;
+  background: transparent;
+  border-bottom: 0;
+}
+.wow-kind-tabs .secondary-tab {
+  min-height: 31px;
+  padding: 0 13px;
+  font-size: 11px;
+}

@@ -202,6 +202,7 @@
   let isMuted = storedValue(STORAGE.muted, 'xingya-muted-v1') === 'true';
   let activeFilter = 'all';
   let activeWowLevel = 'wow-yellow';
+  let activeWowKind = 'all';
   let sessionCounted = false;
   let lastTickWall = Date.now();
   let lastPersist = 0;
@@ -512,6 +513,11 @@
     ].join('');
   }
 
+  function wowSongKind(song) {
+    const title = song.title.toLowerCase();
+    return /song|chant|rhyme/.test(title) ? 'song' : 'story';
+  }
+
   function renderWowLevelTabs() {
     const levels = categories
       .filter((category) => category.id.startsWith('wow-'))
@@ -521,9 +527,17 @@
         note: category.note.replace('分级课程音频', ''),
         age: `${(category.english || '').split(' ').slice(1).join(' ')}岁`
       }));
+    const kinds = [
+      { id: 'all', name: '全部' },
+      { id: 'song', name: 'Song' },
+      { id: 'story', name: 'Story' },
+    ];
     return `
       <div class="secondary-tabs" role="tablist" aria-label="Wow English 分级">
           ${levels.map((level) => `<button class="secondary-tab wow-level-tab ${activeWowLevel === level.id ? 'is-active' : ''}" type="button" data-wow-level="${level.id}">${level.name}<span class="level-note">${level.note} ${level.age}</span></button>`).join('')}
+      </div>
+      <div class="secondary-tabs wow-kind-tabs" role="tablist" aria-label="Wow English 类型">
+          ${kinds.map((kind) => `<button class="secondary-tab wow-kind-tab ${activeWowKind === kind.id ? 'is-active' : ''}" type="button" data-wow-kind="${kind.id}">${kind.name}</button>`).join('')}
       </div>
     `;
   }
@@ -538,7 +552,7 @@
     const wowSelected = visible.some((group) => group.id === 'animation-wow');
     const wowSongs = wowSelected
       ? animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
-          .filter((song) => song.category === activeWowLevel)
+          .filter((song) => song.category === activeWowLevel && (activeWowKind === 'all' || wowSongKind(song) === activeWowKind))
       : [];
     const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">
@@ -573,6 +587,12 @@
     els.playlistGroups.querySelectorAll('[data-wow-level]').forEach((button) => {
       button.addEventListener('click', () => {
         activeWowLevel = button.dataset.wowLevel;
+        renderAnimationPlaylist();
+      });
+    });
+    els.playlistGroups.querySelectorAll('[data-wow-kind]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeWowKind = button.dataset.wowKind;
         renderAnimationPlaylist();
       });
     });
@@ -863,6 +883,7 @@
     activeTab = tabId;
     activeFilter = tabId === 'animation' ? 'animation-wow' : 'all';
     activeWowLevel = 'wow-yellow';
+    activeWowKind = 'all';
     document.querySelectorAll('.tab-button').forEach((button) => {
       const active = button.dataset.tab === tabId;
       button.classList.toggle('is-active', active);
