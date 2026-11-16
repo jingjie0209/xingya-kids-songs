@@ -2303,6 +2303,12 @@ input[type="range"]::-moz-range-thumb {
 .episode-page {
   padding: 14px 0 22px;
 }
+.episode-sticky-head {
+  position: sticky;
+  top: calc(64px + env(safe-area-inset-top, 0px));
+  z-index: 34;
+  margin-bottom: 14px;
+}
 body.episode-detail-open .topbar {
   position: fixed;
   top: 0;
@@ -2319,7 +2325,7 @@ body.episode-detail-open .topbar .brand-copy strong {
   font-size: 15px;
 }
 body.episode-detail-open .episode-page {
-  margin-top: calc(58px + env(safe-area-inset-top, 0px));
+  margin-top: calc(64px + env(safe-area-inset-top, 0px));
 }
 .episode-page[hidden] { display: none; }
 .episode-back-button {
@@ -2341,7 +2347,7 @@ body.episode-detail-open .episode-page {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  margin: 16px 0 14px;
+  margin: 0;
   padding: 18px 20px;
   border-radius: 24px;
   background: linear-gradient(135deg, #dc7f9b, #e5949a);
