@@ -12,7 +12,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon-v3.png?v=33">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v3.png?v=33">
-  <link rel="stylesheet" href="styles.css?v=109">
+  <link rel="stylesheet" href="styles.css?v=110">
   <title>baby专属</title>
 </head>
 <body>
@@ -70,7 +70,18 @@
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="heroTitle">
+      <section class="episode-page" id="episodePage" hidden aria-labelledby="episodePageTitle">
+        <button class="episode-back-button" id="episodeBackButton" type="button">
+          <svg><use href="#icon-prev"></use></svg><span>返回剧集列表</span>
+        </button>
+        <header class="episode-page-head">
+          <small>PEPPA PIG · 第一季</small>
+          <h1 id="episodePageTitle">Muddy Puddles</h1>
+        </header>
+        <div class="episode-page-body" id="episodePageBody"></div>
+      </section>
+
+      <section class="hero" id="homeHero" aria-labelledby="heroTitle">
         <div class="hero-copy">
           <h1 id="heroTitle" class="hero-title-one-line">慢慢听，<em>慢慢长大</em></h1>
           <p>单曲循环、顺序播放或随机播放。每一次聆听，都会记在今天的小小音乐日记里。</p>
@@ -269,11 +280,10 @@
     </button>
   </dialog>
 
-  <dialog class="modal episode-dialog" id="episodeDialog" aria-label="小猪佩奇台词详情"></dialog>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <audio id="audio" preload="auto" playsinline></audio>
 
   <script src="songs.js?v=108"></script>
-  <script src="app.js?v=111"></script>
+  <script src="app.js?v=112"></script>
 </body>
 </html>

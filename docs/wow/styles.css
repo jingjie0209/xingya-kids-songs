@@ -2299,65 +2299,68 @@ input[type="range"]::-moz-range-thumb {
 }
 
 
-/* Peppa Pig detail dialog */
-.episode-dialog {
-  width: min(760px, calc(100vw - 20px));
-  max-height: min(86vh, 900px);
-  padding: 0;
-  border: 0;
-  border-radius: 26px;
-  background: #fff;
-  box-shadow: 0 24px 70px rgba(24, 49, 73, .24);
-  overflow: hidden;
+/* Peppa Pig detail page */
+.episode-page {
+  padding: 14px 0 22px;
 }
-.episode-dialog::backdrop { background: rgba(18, 32, 45, .48); }
-.episode-dialog-panel { display: flex; flex-direction: column; max-height: inherit; }
-.episode-dialog-head {
-  display: flex;
+.episode-page[hidden] { display: none; }
+.episode-back-button {
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 18px 22px 14px;
+  gap: 5px;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(220,127,155,.26);
+  border-radius: 999px;
+  background: #fff;
+  color: #ad4f73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.episode-back-button svg { width: 15px; height: 15px; fill: currentColor; transform: rotate(180deg); }
+.episode-page-head {
+  margin: 16px 0 14px;
+  padding: 20px;
+  border-radius: 24px;
   background: linear-gradient(135deg, #dc7f9b, #e5949a);
   color: #fff;
+  box-shadow: 0 14px 34px rgba(201,117,146,.18);
 }
-.episode-dialog-head small { display: block; font-size: 10px; letter-spacing: .12em; opacity: .82; }
-.episode-dialog-head strong { display: block; margin-top: 2px; font-size: 19px; }
-.episode-dialog-head .round-close { border-color: rgba(255,255,255,.5); color: #fff; background: rgba(255,255,255,.16); }
-.episode-dialog-body {
-  overflow: auto;
-  padding: 16px 18px 22px;
-  overscroll-behavior: contain;
+.episode-page-head small { display: block; font-size: 10px; letter-spacing: .12em; opacity: .82; }
+.episode-page-head h1 { margin: 3px 0 0; font-size: clamp(23px, 6vw, 36px); line-height: 1.15; }
+.episode-page-body section {
+  margin-bottom: 18px;
+  padding: 16px;
+  border: 1px solid rgba(220,127,155,.12);
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(24,49,73,.04);
 }
-.episode-dialog-body section + section { margin-top: 20px; }
-.episode-dialog-body h4 {
-  margin: 0 0 10px;
-  color: #ad4f73;
-  font-size: 15px;
-}
+.episode-page-body h4 { margin: 0 0 11px; color: #ad4f73; font-size: 16px; }
 .episode-line {
   display: grid;
-  grid-template-columns: 28px minmax(0, 1fr);
-  gap: 8px;
-  padding: 8px 0;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 9px;
+  padding: 10px 0;
   border-bottom: 1px solid rgba(23,43,69,.07);
 }
+.episode-line:last-child { border-bottom: 0; }
 .episode-line span { color: #9aa6b2; font-size: 10px; font-weight: 700; }
-.episode-line strong { display: block; color: #233b50; font-size: 13px; }
-.episode-line p { margin: 3px 0 0; color: #657584; font-size: 11px; }
-.episode-english { padding: 10px 12px; border-radius: 14px; background: #fbf4f7; }
-.episode-english p { margin: 0 0 4px; color: #33495c; font-size: 12px; font-weight: 650; }
+.episode-line strong { display: block; color: #233b50; font-size: 14px; line-height: 1.4; }
+.episode-line p { margin: 4px 0 0; color: #657584; font-size: 12px; line-height: 1.45; }
+.episode-english { padding: 12px; border-radius: 15px; background: #fbf4f7; }
+.episode-english p { margin: 0 0 5px; color: #33495c; font-size: 13px; font-weight: 650; line-height: 1.55; }
 .episode-english p:last-child { margin: 0; }
-.pattern-card { padding: 12px; border: 1px solid rgba(220,127,155,.16); border-radius: 14px; background: #fffafc; }
-.pattern-card + .pattern-card { margin-top: 9px; }
-.pattern-card h3 { margin: 0 0 7px; color: #ad4f73; font-size: 13px; }
-.pattern-card .source { color: #28455c; font-size: 12px; font-weight: 700; }
-.pattern-card p { margin: 3px 0 5px; color: #67788a; font-size: 11px; }
-.pattern-card ol { margin: 0; padding-left: 20px; color: #3d5364; font-size: 11px; }
-.pattern-card li + li { margin-top: 3px; }
-.study-list { display: grid; gap: 6px; }
-.study-row { padding: 9px 10px; border-radius: 12px; background: #f8fbff; }
-.study-row strong { display: block; color: #284d70; font-size: 12px; }
-.study-row span { display: block; margin-top: 2px; color: #657584; font-size: 11px; }
-.study-row p { margin: 3px 0 0; color: #7a8997; font-size: 10px; }
+.pattern-card { padding: 12px; border: 1px solid rgba(220,127,155,.16); border-radius: 15px; background: #fffafc; }
+.pattern-card + .pattern-card { margin-top: 10px; }
+.pattern-card h3 { margin: 0 0 7px; color: #ad4f73; font-size: 14px; }
+.pattern-card .source { color: #28455c; font-size: 13px; font-weight: 700; }
+.pattern-card p { margin: 3px 0 5px; color: #67788a; font-size: 12px; line-height: 1.45; }
+.pattern-card ol { margin: 0; padding-left: 20px; color: #3d5364; font-size: 12px; }
+.pattern-card li + li { margin-top: 4px; }
+.study-list { display: grid; gap: 7px; }
+.study-row { padding: 10px; border-radius: 13px; background: #f8fbff; }
+.study-row strong { display: block; color: #284d70; font-size: 13px; }
+.study-row span { display: block; margin-top: 2px; color: #657584; font-size: 12px; }
+.study-row p { margin: 3px 0 0; color: #7a8997; font-size: 11px; }
 .bottom-tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); }

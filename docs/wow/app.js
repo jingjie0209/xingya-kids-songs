@@ -117,7 +117,11 @@
     installConfirmButton: document.getElementById('installConfirmButton'),
     toast: document.getElementById('toast'),
     tabBar: document.getElementById('tabBar'),
-    episodeDialog: document.getElementById('episodeDialog'),
+    episodePage: document.getElementById('episodePage'),
+    episodePageTitle: document.getElementById('episodePageTitle'),
+    episodePageBody: document.getElementById('episodePageBody'),
+    homeHero: document.getElementById('homeHero'),
+    episodeBackButton: document.getElementById('episodeBackButton'),
   };
 
   function readJSON(key, fallback) {
@@ -591,23 +595,31 @@
       </article>`).join('');
     const makeRows = (items) => items.map((item) => `
       <div class="study-row"><strong>${item.item}</strong><span>${item.meaning}</span><p>${item.example}</p></div>`).join('');
-    els.episodeDialog.innerHTML = `
-      <div class="episode-dialog-panel">
-        <header class="episode-dialog-head">
-          <div><small>PEPPA PIG · 第一季</small><strong>${songById.get(id)?.title || id}</strong></div>
-          <button class="round-close" type="button" aria-label="关闭"><svg><use href="#icon-close"></use></svg></button>
-        </header>
-        <div class="episode-dialog-body">
-          <section><h4>英文对话独立段落</h4><div class="episode-english">${detail.pairs.map((line) => `<p>${line.en}</p>`).join('')}</div></section>
-          <section><h4>中英台词对照</h4>${list}</section>
-          <section><h4>核心句型与三组扩展</h4>${patterns}</section>
-          <section><h4>核心单词</h4><div class="study-list">${makeRows(detail.words)}</div></section>
-          <section><h4>固定搭配</h4><div class="study-list">${makeRows(detail.collocations)}</div></section>
-        </div>
-      </div>`;
-    const close = els.episodeDialog.querySelector('.episode-dialog-head button');
-    close.addEventListener('click', () => els.episodeDialog.close());
-    els.episodeDialog.showModal();
+    els.episodePageTitle.textContent = songById.get(id)?.title || id;
+    els.episodePageBody.innerHTML = `
+      <section><h4>英文对话独立段落</h4><div class="episode-english">${detail.pairs.map((line) => `<p>${line.en}</p>`).join('')}</div></section>
+      <section><h4>中英台词对照</h4>${list}</section>
+      <section><h4>核心句型与三组扩展</h4>${patterns}</section>
+      <section><h4>核心单词</h4><div class="study-list">${makeRows(detail.words)}</div></section>
+      <section><h4>固定搭配</h4><div class="study-list">${makeRows(detail.collocations)}</div></section>`;
+    els.homeHero.hidden = true;
+    els.libraryHead.hidden = true;
+    els.filterRow.hidden = true;
+    els.playlistGroups.hidden = true;
+    els.episodePage.hidden = false;
+    document.body.classList.add('episode-detail-open');
+    document.title = `${songById.get(id)?.title || id} 台词整理 · baby专属`;
+    window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+  }
+
+
+  function closeEpisodeDetail() {
+    els.episodePage.hidden = true;
+    els.homeHero.hidden = false;
+    renderPeppaPlaylist();
+    document.body.classList.remove('episode-detail-open');
+    document.title = `${songById.get(currentSongId)?.title || 'baby专属'} · baby专属`;
+    window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
   }
 
   function bindSongRows() {
@@ -633,6 +645,7 @@
   function renderPeppaPlaylist() {
     els.libraryHead.hidden = true;
     els.filterRow.hidden = true;
+    els.playlistGroups.hidden = false;
     const rows = songs.map((song, index) => `
       <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
         <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
@@ -825,6 +838,9 @@
 
   function switchTab(tabId) {
     setPlayerExpanded(false);
+    els.episodePage.hidden = true;
+    els.homeHero.hidden = false;
+    document.body.classList.remove('episode-detail-open');
     activeTab = tabId;
     activeFilter = tabId === 'animation' ? 'animation-wow' : 'all';
     activeWowLevel = 'wow-yellow';
@@ -1121,6 +1137,8 @@
     updateVolumeUI();
   });
 
+  els.episodeBackButton.addEventListener('click', closeEpisodeDetail);
+
   els.reportButton.addEventListener('click', () => {
     renderStats();
     els.statsDialog.showModal();
@@ -1164,7 +1182,7 @@
   if (installConfirmButton) installConfirmButton.addEventListener('click', requestInstall);
   els.closeInstallButton.addEventListener('click', () => els.installDialog.close());
 
-  [els.statsDialog, els.installDialog, els.episodeDialog].forEach((dialog) => {
+  [els.statsDialog, els.installDialog].forEach((dialog) => {
     dialog.addEventListener('click', (event) => {
       if (event.target === dialog) dialog.close();
     });
