@@ -598,8 +598,8 @@
           <button class="round-close" type="button" aria-label="关闭"><svg><use href="#icon-close"></use></svg></button>
         </header>
         <div class="episode-dialog-body">
-          <section><h4>中英台词对照</h4>${list}</section>
           <section><h4>英文对话独立段落</h4><div class="episode-english">${detail.pairs.map((line) => `<p>${line.en}</p>`).join('')}</div></section>
+          <section><h4>中英台词对照</h4>${list}</section>
           <section><h4>核心句型与三组扩展</h4>${patterns}</section>
           <section><h4>核心单词</h4><div class="study-list">${makeRows(detail.words)}</div></section>
           <section><h4>固定搭配</h4><div class="study-list">${makeRows(detail.collocations)}</div></section>
