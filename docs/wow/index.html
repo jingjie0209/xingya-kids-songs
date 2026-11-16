@@ -12,7 +12,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon-v3.png?v=33">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v3.png?v=33">
-  <link rel="stylesheet" href="styles.css?v=108">
+  <link rel="stylesheet" href="styles.css?v=109">
   <title>baby专属</title>
 </head>
 <body>
@@ -128,6 +128,9 @@
         </button>
         <button class="tab-button" type="button" data-tab="animation" role="tab" aria-selected="false">
           <svg><use href="#icon-globe"></use></svg><span>动画片熏听</span>
+        </button>
+        <button class="tab-button" type="button" data-tab="peppa" role="tab" aria-selected="false">
+          <svg><use href="#icon-paw"></use></svg><span>小猪佩奇</span>
         </button>
         <button class="tab-button" type="button" data-tab="talk" role="tab" aria-selected="false">
           <svg><use href="#icon-hand"></use></svg><span>见物能聊</span>
@@ -266,10 +269,11 @@
     </button>
   </dialog>
 
+  <dialog class="modal episode-dialog" id="episodeDialog" aria-label="小猪佩奇台词详情"></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <audio id="audio" preload="auto" playsinline></audio>
 
   <script src="songs.js?v=108"></script>
-  <script src="app.js?v=108"></script>
+  <script src="app.js?v=109"></script>
 </body>
 </html>

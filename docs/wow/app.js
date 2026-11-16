@@ -1,6 +1,8 @@
 (() => {
   'use strict';
 
+  const PEPPA_EPISODE_DETAILS_DATA = {"peppa-1-001":{"pairs":[{"zh":"\u6211\u662f\u4f69\u5947\u3002","en":"I'm Peppa Pig."},{"zh":"\u8fd9\u662f\u6211\u7684\u5f1f\u5f1f\u4e54\u6cbb\u3002","en":"This is my little brother, George."},{"zh":"\u8fd9\u662f\u6211\u7684\u5988\u5988\u3002","en":"This is Mummy Pig."},{"zh":"\u8fd9\u662f\u6211\u7684\u7238\u7238\u3002","en":"And this is Daddy Pig."},{"zh":"\u5c0f\u732a\u4f69\u5947","en":"Peppa pig."},{"zh":"\u6ce5\u5751","en":"Muddy Puddles."},{"zh":"\u4eca\u5929\u662f\u96e8\u5929\u3002","en":"It is raining today."},{"zh":"\u6240\u4ee5\u4f69\u5947\u548c\u4e54\u6cbb\u4e0d\u80fd\u5728\u5916\u8fb9\u73a9\u3002","en":"So, Peppa and George cannot play outside."},{"zh":"\u7238\u7238\uff0c\u73b0\u5728\u96e8\u505c\u4e86\u3002","en":"Daddy, it's stopped raining."},{"zh":"\u6211\u4eec\u80fd\u51fa\u53bb\u73a9\u5417\uff1f","en":"Can we go out to play?"},{"zh":"\u597d\u7684\uff0c\u4f60\u4eec\u4e24\u4e2a\u53bb\u73a9\u5427\u3002","en":"Alright, run along you two."},{"zh":"\u4f69\u5947\u559c\u6b22\u5728\u6ce5\u5751\u91cc\u73a9\u3002","en":"Peppa loves jumping in muddy puddles."},{"zh":"\u6211\u559c\u6b22\u5728\u6ce5\u5751\u91cc\u73a9\u3002","en":"I love muddy puddles."},{"zh":"\u4f69\u5947\uff0c\u5982\u679c\u4f60\u8981\u5728\u6ce5\u5751\u91cc\u8df3\uff0c\u4f60\u5fc5\u987b\u8981\u7a7f\u4e0a\u9774\u5b50\u624d\u884c\u3002","en":"Peppa. lf you jump in muddy puddles, you must wear your boots."},{"zh":"\u5bf9\u4e0d\u8d77\uff0c\u5988\u5988\u3002","en":"Sorry, Mummy."},{"zh":"\u4e54\u6cbb\u4e5f\u559c\u6b22\u5728\u6ce5\u5751\u91cc\u8df3\u3002","en":"George likes to jump in muddy puddles, too."},{"zh":"\u4e54\u6cbb\uff0c\u5982\u679c\u4f60\u60f3\u5728\u6ce5\u5751\u91cc\u8df3\uff0c\u4f60\u5fc5\u987b\u7a7f\u4e0a\u9774\u5b50\u624d\u884c\u3002","en":"George. If you jump in muddy puddles, you must wear your boots."},{"zh":"\u4f69\u5947\u559c\u6b22\u7167\u987e\u5979\u7684\u5f1f\u5f1f\u4e54\u6cbb\u3002","en":"Peppa likes to look after her little brother, George."},{"zh":"\u4e54\u6cbb\uff0c\u6211\u4eec\u518d\u53bb\u627e\u51e0\u4e2a\u6ce5\u5751\u8df3\u5427\u3002","en":"George, let's find some more puddles."},{"zh":"\u4f69\u5947\u548c\u4e54\u6cbb\u73a9\u5f97\u5f88\u5f00\u5fc3\u3002","en":"Peppa and George are having a lot of fun."},{"zh":"\u4f69\u5947\u627e\u5230\u4e86\u4e00\u4e2a\u5c0f\u6ce5\u5751\u3002","en":"Peppa has found a little puddle."},{"zh":"\u4e54\u6cbb\u627e\u5230\u4e86\u4e00\u4e2a\u5927\u6ce5\u5751\u3002","en":"George has found a big puddle."},{"zh":"\u4f60\u770b\uff0c\u4e54\u6cbb\u3002\u90a3\u91cc\u6709\u4e00\u4e2a\u5f88\u5927\u7684\u6ce5\u5751\u3002","en":"Look, George. There's a really big puddle."},{"zh":"\u4e54\u6cbb\u60f3\u7b2c\u4e00\u4e2a\u8df3\u5230\u6ce5\u5751\u91cc\u53bb\u73a9\u3002","en":"George wants to jump into the big puddle first."},{"zh":"\u7b49\u4e00\u4e0b\uff0c\u4e54\u6cbb\u3002\u6211\u5f97\u68c0\u67e5\u4e00\u4e0b\u8fd9\u91cc\u5b89\u4e0d\u5b89\u5168\u3002","en":"Stop, George.l must check if it's safe for you."},{"zh":"\u5f88\u597d\uff0c\u4f60\u53ef\u4ee5\u653e\u5fc3\u5730\u73a9\u5566\u3002(\u5bf9\u4f60\u5f88\u5b89\u5168)","en":"Good. It is safe for you."},{"zh":"\u5bf9\u4e0d\u8d77\uff0c\u4e54\u6cbb\u3002\u53ea\u662f\u4e9b\u6ce5\u800c\u5df2\u3002","en":"Sorry, George. It's only mud."},{"zh":"\u4f69\u5947\u548c\u4e54\u6cbb\u559c\u6b22\u5728\u6ce5\u5751\u91cc\u8df3\u6765\u8df3\u53bb\u3002","en":"Peppa and George love jumping in muddy puddles."},{"zh":"\u8d70\uff0c\u4e54\u6cbb\u3002\u6211\u4eec\u53bb\u7ed9\u7238\u7238\u770b\u770b\u3002","en":"Come on, George. Let's go and show Daddy."},{"zh":"\u6211\u7684\u8001\u5929\u5440\u3002","en":"Goodness me."},{"zh":"\u7238\u7238\uff0c\u7238\u7238\uff0c\u4f60\u731c\u731c\u6211\u4eec\u521a\u624d\u5e72\u4e86\u4e9b\u4ec0\u4e48\u3002","en":"Daddy. Daddy.Guess what we've been doing."},{"zh":"\u8ba9\u6211\u60f3\u4e00\u60f3\u3002\u3002\u3002","en":"Let me think..."},{"zh":"\u4f60\u4eec\u521a\u624d\u770b\u7535\u89c6\u4e86\uff1f","en":"Have you been watching television?"},{"zh":"\u4e0d\u5bf9\uff0c\u4e0d\u5bf9\uff0c\u7238\u7238\u3002","en":"No. No. Daddy."},{"zh":"\u4f60\u4eec\u521a\u624d\u6d17\u6fa1\u4e86\uff1f","en":"Have you just had a bath?"},{"zh":"\u4e0d\u5bf9\u3002\u4e0d\u5bf9\u3002","en":"No. No."},{"zh":"\u6211\u77e5\u9053\u4e86\u3002\u4f60\u4eec\u521a\u624d\u5728\u6ce5\u5751\u91cc\u8df3\u6765\u8df3\u53bb\u3002","en":"I know. You've been jumping in muddy puddles."},{"zh":"\u6ca1\u9519\uff0c\u6ca1\u9519\uff0c\u7238\u7238\u3002\u6211\u4eec\u521a\u624d\u5728\u6ce5\u5751\u91cc\u8df3\u6765\u8df3\u53bb\u3002","en":"Yes. Yes. Daddy. We've been jumping in muddy puddles."},{"zh":"\u5475\u5475\uff0c\u770b\u770b\u4f60\u4eec\u5f04\u5f97\u591a\u810f\u5440\u3002","en":"Ho. Ho. And look at the mess you're in."},{"zh":"\u54e6\uff0c\u6ca1\u4e8b\uff0c\u53ea\u662f\u4e9b\u6ce5\u800c\u5df2\u3002","en":"Oh, well, it's only mud."},{"zh":"\u5feb\u6e05\u7406\u5e72\u51c0\uff0c\u522b\u8ba9\u5988\u5988\u770b\u5230\u90a3\u4e48\u810f\u3002\uff08\u5728\u5988\u5988\u770b\u5230\u524d\u5f04\u5e72\u51c0\uff09","en":"Let's clean up quickly before Mummy sees the mess."},{"zh":"\u7238\u7238\uff0c\u6211\u4eec\u6e05\u7406\u5e72\u51c0\u4ee5\u540e\uff0c\u4f60\u548c\u5988\u5988\u4e5f\u4f1a\u4e00\u8d77\u6765\u73a9\u5417\uff1f","en":"Daddy, when we've cleaned up, will you and Mummy come and play, too?"},{"zh":"\u662f\u7684\uff0c\u6211\u4eec\u90fd\u53ef\u4ee5\u5728\u82b1\u56ed\u73a9\u3002","en":"Yes, we can all play in the garden."},{"zh":"\u4f69\u5947\u548c\u4e54\u6cbb\u7a7f\u7740\u4ed6\u4eec\u7684\u9774\u5b50\u3002","en":"Peppa and George are wearing their boots."},{"zh":"\u732a\u5988\u5988\u548c\u732a\u7238\u7238\u4e5f\u7a7f\u7740\u4ed6\u4eec\u7684\u9774\u5b50\u3002","en":"Mummy and Daddy are wearing their boots."},{"zh":"\u4f69\u5947\u559c\u6b22\u5728\u6ce5\u5751\u91cc\u8df3\u6765\u8df3\u53bb\u3002","en":"Peppa loves jumping up and down in muddy puddles."},{"zh":"\u6bcf\u4e2a\u4eba\u90fd\u559c\u6b22\u5728\u6ce5\u5751\u91cc\u8df3\u6765\u8df3\u53bb\u3002","en":"Everyone loves jumping up and down in muddy puddles."},{"zh":"\u54e6\uff0c\u732a\u7238\u7238\uff0c\u77a7\u77a7\u4f60\u8eab\u4e0a\u591a\u810f\u5440\u3002","en":"Oh, Daddy pig,look at the mess you're in."},{"zh":"\u53ea\u662f\u4e9b\u6ce5\u800c\u5df2\u3002","en":"It\u2019s only mud."}],"patterns":[{"pattern":"This is + \u540d\u8bcd","source":"This is my little brother, George.","usage":"\u4ecb\u7ecd\u67d0\u4eba\u6216\u67d0\u7269\uff1bmy \u53ef\u66ff\u6362\u4e3a his, her, our \u7b49\u3002","extensions":["This is my little sister, Lily.","This is our new teacher.","This is my favorite book."]},{"pattern":"It is + \u52a8\u8bcd ing + \u65f6\u95f4\u6216\u573a\u666f","source":"It is raining today.","usage":"\u63cf\u8ff0\u6b63\u5728\u53d1\u751f\u7684\u5929\u6c14\u6216\u52a8\u4f5c\u3002","extensions":["It is snowing today.","It is getting dark.","It is raining outside."]},{"pattern":"So, \u4e3b\u8bed + cannot + \u52a8\u8bcd\u539f\u5f62","source":"So, Peppa and George cannot play outside.","usage":"\u8bf4\u660e\u524d\u56e0\u5bfc\u81f4\u7684\u4e0d\u80fd\u505a\u67d0\u4e8b\uff1bcannot \u53ef\u7f29\u5199\u4e3a can\u2019t\u3002","extensions":["So, we cannot go out today.","So, the children cannot play in the garden.","So, he cannot ride his bike outside."]},{"pattern":"Can we + \u52a8\u8bcd\u539f\u5f62 ...?","source":"Can we go out to play?","usage":"\u793c\u8c8c\u5730\u5f81\u6c42\u8bb8\u53ef\u6216\u63d0\u8bae\u4e00\u8d77\u505a\u67d0\u4e8b\u3002","extensions":["Can we play in the garden?","Can we watch television?","Can we go outside?"]},{"pattern":"If + \u6761\u4ef6, \u4e3b\u8bed + must + \u52a8\u8bcd\u539f\u5f62","source":"If you jump in muddy puddles, you must wear your boots.","usage":"\u8868\u8fbe\u6761\u4ef6\u548c\u5fc5\u987b\u9075\u5b88\u7684\u89c4\u5219\uff1bmust \u8868\u793a\u201c\u5fc5\u987b\u201d\u3002","extensions":["If you go outside, you must put on your coat.","If you touch the dog, you must wash your hands.","If you want to play, you must tidy your room."]},{"pattern":"Let's + \u52a8\u8bcd\u539f\u5f62","source":"Let's find some more puddles.","usage":"\u63d0\u51fa\u5efa\u8bae\u6216\u9080\u8bf7\u5bf9\u65b9\u4e00\u8d77\u505a\u67d0\u4e8b\u3002","extensions":["Let's clean up quickly.","Let's read a book.","Let's go and tell Mummy."]},{"pattern":"\u4e3b\u8bed + has/have found + \u540d\u8bcd","source":"Peppa has found a little puddle.","usage":"\u8868\u793a\u201c\u5df2\u7ecf\u627e\u5230\u201d\uff1bhas \u7528\u4e8e\u7b2c\u4e09\u4eba\u79f0\u5355\u6570\uff0chave \u7528\u4e8e I/you/we/they\u3002","extensions":["Tom has found a red ball.","She has found her shoe.","We have found a quiet place."]},{"pattern":"Have you been + \u52a8\u8bcd ing ...?","source":"Have you been watching television?","usage":"\u8be2\u95ee\u5bf9\u65b9\u521a\u624d\u4e00\u6bb5\u65f6\u95f4\u662f\u5426\u4e00\u76f4\u5728\u505a\u67d0\u4e8b\u3002","extensions":["Have you been playing outside?","Have you been looking for me?","Have you been reading this book?"]},{"pattern":"Have you just + \u8fc7\u53bb\u5206\u8bcd ...?","source":"Have you just had a bath?","usage":"\u8be2\u95ee\u5bf9\u65b9\u662f\u5426\u521a\u521a\u505a\u5b8c\u67d0\u4e8b\u3002","extensions":["Have you just finished your homework?","Have you just eaten lunch?","Have you just come home?"]},{"pattern":"When + \u4ece\u53e5, will + \u4e3b\u8bed + \u52a8\u8bcd ...?","source":"When we've cleaned up, will you and Mummy come and play, too?","usage":"\u8be2\u95ee\u67d0\u4ef6\u4e8b\u5b8c\u6210\u540e\uff0c\u53e6\u4e00\u4ef6\u4e8b\u662f\u5426\u4f1a\u53d1\u751f\u3002","extensions":["When we've finished, will you read a story?","When it stops raining, will we go out?","When I get dressed, can I play?"]},{"pattern":"\u4e3b\u8bed + loves/enjoys + \u52a8\u8bcd ing","source":"Everyone loves jumping up and down in muddy puddles.","usage":"\u8868\u8fbe\u559c\u6b22\u505a\u67d0\u4e8b\uff1blove \u540e\u63a5\u52a8\u8bcd ing\u3002","extensions":["I love reading picture books.","She enjoys drawing animals.","They love playing in the garden."]}],"words":[{"item":"muddy","meaning":"\u6ce5\u6cde\u7684","example":"muddy puddles"},{"item":"puddle","meaning":"\u6c34\u5751\uff1b\u6ce5\u5751","example":"a little puddle / a big puddle"},{"item":"rain","meaning":"\u4e0b\u96e8\uff1b\u96e8","example":"It's raining today."},{"item":"outside","meaning":"\u5728\u5916\u9762\uff1b\u5411\u5916\u9762","example":"play outside"},{"item":"boots","meaning":"\u9774\u5b50","example":"wear your boots"},{"item":"jump","meaning":"\u8df3\uff1b\u8df3\u8dc3","example":"jump in muddy puddles"},{"item":"look after","meaning":"\u7167\u987e","example":"look after her little brother"},{"item":"find","meaning":"\u627e\u5230\uff1b\u53d1\u73b0","example":"find some more puddles"},{"item":"safe","meaning":"\u5b89\u5168\u7684","example":"check if it's safe"},{"item":"mud","meaning":"\u6ce5\uff1b\u6ce5\u5df4","example":"It's only mud."},{"item":"mess","meaning":"\u810f\u4e71\uff1b\u4e00\u56e2\u7cdf","example":"look at the mess"},{"item":"quickly","meaning":"\u5feb\u901f\u5730","example":"clean up quickly"},{"item":"garden","meaning":"\u82b1\u56ed","example":"play in the garden"},{"item":"guess","meaning":"\u731c\uff1b\u731c\u60f3","example":"Guess what ..."},{"item":"television","meaning":"\u7535\u89c6\uff1b\u7535\u89c6\u8282\u76ee","example":"watching television"},{"item":"bath","meaning":"\u6d17\u6fa1\uff1b\u6d74\u7f38","example":"have a bath"},{"item":"everyone","meaning":"\u6bcf\u4e2a\u4eba","example":"Everyone loves ..."}],"collocations":[{"item":"muddy puddles","meaning":"\u6ce5\u5751\uff1b\u6ce5\u6c34\u5751","example":"jumping in muddy puddles"},{"item":"play outside","meaning":"\u5728\u5916\u9762\u73a9","example":"cannot play outside"},{"item":"go out to play","meaning":"\u51fa\u53bb\u73a9","example":"Can we go out to play?"},{"item":"jump in muddy puddles","meaning":"\u5728\u6ce5\u5751\u91cc\u8df3","example":"I love muddy puddles / jumping in muddy puddles"},{"item":"wear your boots","meaning":"\u7a7f\u4e0a\u4f60\u7684\u9774\u5b50","example":"you must wear your boots"},{"item":"look after somebody","meaning":"\u7167\u987e\u67d0\u4eba","example":"look after her little brother"},{"item":"find some more puddles","meaning":"\u518d\u627e\u51e0\u4e2a\u6ce5\u5751","example":"Let's find some more puddles."},{"item":"have a lot of fun","meaning":"\u73a9\u5f97\u5f88\u5f00\u5fc3","example":"are having a lot of fun"},{"item":"check if it's safe","meaning":"\u68c0\u67e5\u662f\u5426\u5b89\u5168","example":"I must check if it's safe for you."},{"item":"jump up and down","meaning":"\u4e0a\u4e0b\u8df3\uff1b\u8df3\u6765\u8df3\u53bb","example":"jumping up and down"},{"item":"show somebody","meaning":"\u7ed9\u67d0\u4eba\u770b","example":"go and show Daddy"},{"item":"watch television","meaning":"\u770b\u7535\u89c6","example":"Have you been watching television?"},{"item":"have a bath","meaning":"\u6d17\u6fa1","example":"Have you just had a bath?"},{"item":"clean up","meaning":"\u6536\u62fe\u5e72\u51c0\uff1b\u6e05\u7406","example":"Let's clean up quickly."},{"item":"before somebody sees ...","meaning":"\u5728\u67d0\u4eba\u770b\u5230\u2026\u2026\u4e4b\u524d","example":"before Mummy sees the mess"},{"item":"come and play","meaning":"\u8fc7\u6765\u4e00\u8d77\u73a9","example":"come and play, too"},{"item":"in the garden","meaning":"\u5728\u82b1\u56ed\u91cc","example":"play in the garden"}]}};
+
   const allSongs = window.SONGS || [];
   const COS_AUDIO_BASE = 'https://baby-songs-audio-1531379207.cos.ap-guangzhou.myqcloud.com/';
   const GITHUB_AUDIO_BASE = 'https://raw.githubusercontent.com/jingjie0209/xingya-kids-songs/main/';
@@ -8,6 +10,7 @@
   const tabs = [
     { id: 'songs', name: '儿歌', icon: 'music' },
     { id: 'animation', name: '动画片熏听', icon: 'globe' },
+    { id: 'peppa', name: '小猪佩奇', icon: 'paw' },
     { id: 'talk', name: '见物能聊', icon: 'hand' },
   ];
   const wowCategoryIds = [
@@ -23,7 +26,8 @@
     'peppa-1', 'peppa-2', 'peppa-3', 'peppa-4', 'peppa-5',
   ];
   const tabCategoryGroups = {
-    animation: [...wowCategoryIds, 'guli', 'qplay', 'vocab-town', 'peppa-1'],
+    animation: [...wowCategoryIds, 'guli', 'qplay', 'vocab-town'],
+    peppa: ['peppa-1'],
     talk: ['talk'],
   };
   const songExcludedCategoryIds = [...animationCategoryIds, 'talk'];
@@ -32,9 +36,8 @@
     { id: 'animation-guli', name: '古力小超人', categoryPrefixes: ['guli'], icon: 'globe', color: '#7b88c7' },
     { id: 'animation-qplay', name: 'Q-play', categoryPrefixes: ['qplay'], icon: 'globe', color: '#d9798f' },
     { id: 'animation-vocab-town', name: 'W-play', categoryPrefixes: ['vocab-town'], icon: 'abc', color: '#57a59a' },
-    { id: 'animation-peppa-1', name: '小猪佩奇第一季', categoryPrefixes: ['peppa-1'], icon: 'hand', color: '#dc7f9b' },
   ];
-  const collectionTabIds = new Set(['songs', 'animation', 'talk']);
+  const collectionTabIds = new Set(['songs', 'animation', 'peppa', 'talk']);
   let activeTab = 'songs';
   let playerExpanded = false;
   let songs = [];
@@ -42,6 +45,7 @@
   const songById = new Map(allSongs.map((song) => [song.id, song]));
   const categoryById = new Map(allCategories.map((category) => [category.id, category]));
   const audio = document.getElementById('audio');
+  const episodeDetails = PEPPA_EPISODE_DETAILS_DATA;
 
   const STORAGE = {
     counts: 'xingya-play-counts-v2',
@@ -113,6 +117,7 @@
     installConfirmButton: document.getElementById('installConfirmButton'),
     toast: document.getElementById('toast'),
     tabBar: document.getElementById('tabBar'),
+    episodeDialog: document.getElementById('episodeDialog'),
   };
 
   function readJSON(key, fallback) {
@@ -566,10 +571,54 @@
     updateCountsUI();
   }
 
+  function openEpisodeDetail(id) {
+    const detail = episodeDetails[id];
+    if (!detail) {
+      showToast('这一集的台词整理正在准备中');
+      return;
+    }
+    const list = detail.pairs.map((line, index) => `
+      <div class="episode-line">
+        <span>${index + 1}</span>
+        <div><strong>${line.en}</strong><p>${line.zh}</p></div>
+      </div>`).join('');
+    const patterns = detail.patterns.map((item) => `
+      <article class="pattern-card">
+        <h3>${item.pattern}</h3>
+        <p class="source">原句：${item.source}</p>
+        <p>${item.usage}</p>
+        <ol>${item.extensions.map((example) => `<li>${example}</li>`).join('')}</ol>
+      </article>`).join('');
+    const makeRows = (items) => items.map((item) => `
+      <div class="study-row"><strong>${item.item}</strong><span>${item.meaning}</span><p>${item.example}</p></div>`).join('');
+    els.episodeDialog.innerHTML = `
+      <div class="episode-dialog-panel">
+        <header class="episode-dialog-head">
+          <div><small>PEPPA PIG · 第一季</small><strong>${songById.get(id)?.title || id}</strong></div>
+          <button class="round-close" type="button" aria-label="关闭"><svg><use href="#icon-close"></use></svg></button>
+        </header>
+        <div class="episode-dialog-body">
+          <section><h4>中英台词对照</h4>${list}</section>
+          <section><h4>英文对话独立段落</h4><div class="episode-english">${detail.pairs.map((line) => `<p>${line.en}</p>`).join('')}</div></section>
+          <section><h4>核心句型与三组扩展</h4>${patterns}</section>
+          <section><h4>核心单词</h4><div class="study-list">${makeRows(detail.words)}</div></section>
+          <section><h4>固定搭配</h4><div class="study-list">${makeRows(detail.collocations)}</div></section>
+        </div>
+      </div>`;
+    const close = els.episodeDialog.querySelector('.episode-dialog-head button');
+    close.addEventListener('click', () => els.episodeDialog.close());
+    els.episodeDialog.showModal();
+  }
+
   function bindSongRows() {
     els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
-      row.addEventListener('click', () => {
+      row.addEventListener('click', (event) => {
         const id = row.dataset.songId;
+        const target = event.target instanceof Element ? event.target : null;
+        if (activeTab === 'peppa' && !target?.closest('.song-play-button')) {
+          openEpisodeDetail(id);
+          return;
+        }
         setPlayerExpanded(true);
         if (id === currentSongId) togglePlayback();
         else {
@@ -579,6 +628,26 @@
         }
       });
     });
+  }
+
+  function renderPeppaPlaylist() {
+    els.libraryHead.hidden = true;
+    els.filterRow.hidden = true;
+    const rows = songs.map((song, index) => `
+      <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+        <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+        <span class="song-title-block"><strong>${song.title}</strong><span>点击名称查看台词</span></span>
+        <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+        <span class="song-duration">${formatTime(song.duration)}</span>
+        <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+      </button>`).join('');
+    els.playlistGroups.innerHTML = `
+      <section class="song-group flat-song-group" data-group-category="peppa-1">
+        <div class="song-list">${rows}</div>
+      </section>`;
+    bindSongRows();
+    updateSongRows();
+    updateCountsUI();
   }
 
   function renderPlaylist() {
@@ -704,6 +773,7 @@
   function renderCurrentTab() {
     updateActiveCollections();
     if (activeTab === 'animation') renderAnimationPlaylist();
+    else if (activeTab === 'peppa') renderPeppaPlaylist();
     else renderPlaylist();
   }
 
@@ -1094,7 +1164,7 @@
   if (installConfirmButton) installConfirmButton.addEventListener('click', requestInstall);
   els.closeInstallButton.addEventListener('click', () => els.installDialog.close());
 
-  [els.statsDialog, els.installDialog].forEach((dialog) => {
+  [els.statsDialog, els.installDialog, els.episodeDialog].forEach((dialog) => {
     dialog.addEventListener('click', (event) => {
       if (event.target === dialog) dialog.close();
     });
