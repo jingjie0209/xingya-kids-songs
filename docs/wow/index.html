@@ -12,7 +12,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon-v3.png?v=33">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192-v3.png?v=33">
-  <link rel="stylesheet" href="styles.css?v=110">
+  <link rel="stylesheet" href="styles.css?v=111">
   <title>baby专属</title>
 </head>
 <body>
@@ -75,8 +75,14 @@
           <svg><use href="#icon-prev"></use></svg><span>返回剧集列表</span>
         </button>
         <header class="episode-page-head">
-          <small>PEPPA PIG · 第一季</small>
-          <h1 id="episodePageTitle">Muddy Puddles</h1>
+          <div class="episode-title-copy">
+            <small>PEPPA PIG · 第一季</small>
+            <h1 id="episodePageTitle">Muddy Puddles</h1>
+          </div>
+          <button class="episode-play-button" id="episodePlayButton" type="button" aria-label="播放 Muddy Puddles">
+            <svg id="episodePlayIcon"><use href="#icon-play"></use></svg>
+            <span id="episodePlayLabel">播放</span>
+          </button>
         </header>
         <div class="episode-page-body" id="episodePageBody"></div>
       </section>
@@ -284,6 +290,6 @@
   <audio id="audio" preload="auto" playsinline></audio>
 
   <script src="songs.js?v=108"></script>
-  <script src="app.js?v=112"></script>
+  <script src="app.js?v=113"></script>
 </body>
 </html>

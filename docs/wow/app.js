@@ -39,6 +39,7 @@
   ];
   const collectionTabIds = new Set(['songs', 'animation', 'peppa', 'talk']);
   let activeTab = 'songs';
+  let activeEpisodeDetailId = null;
   let playerExpanded = false;
   let songs = [];
   let categories = [];
@@ -122,6 +123,9 @@
     episodePageBody: document.getElementById('episodePageBody'),
     homeHero: document.getElementById('homeHero'),
     episodeBackButton: document.getElementById('episodeBackButton'),
+    episodePlayButton: document.getElementById('episodePlayButton'),
+    episodePlayIcon: document.getElementById('episodePlayIcon'),
+    episodePlayLabel: document.getElementById('episodePlayLabel'),
   };
 
   function readJSON(key, fallback) {
@@ -391,6 +395,7 @@
     els.heroCover.classList.toggle('is-playing', playing);
     els.miniPlayerDisc.classList.toggle('is-playing', playing);
     document.body.classList.toggle('is-playing', playing);
+    updateEpisodePlayButton();
     if ('mediaSession' in navigator) {
       navigator.mediaSession.playbackState = playing ? 'playing' : 'paused';
     }
@@ -576,6 +581,7 @@
   }
 
   function openEpisodeDetail(id) {
+    activeEpisodeDetailId = id;
     const detail = episodeDetails[id];
     if (!detail) {
       showToast('这一集的台词整理正在准备中');
@@ -609,11 +615,22 @@
     els.episodePage.hidden = false;
     document.body.classList.add('episode-detail-open');
     document.title = `${songById.get(id)?.title || id} 台词整理 · baby专属`;
+    updateEpisodePlayButton();
     window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
   }
 
 
+  function updateEpisodePlayButton() {
+    if (!els.episodePlayButton) return;
+    const playing = !audio.paused && !audio.ended;
+    const title = songById.get(activeEpisodeDetailId)?.title || '本集';
+    setIcon(els.episodePlayIcon, playing && currentSongId === activeEpisodeDetailId ? 'pause' : 'play');
+    els.episodePlayLabel.textContent = playing && currentSongId === activeEpisodeDetailId ? '暂停' : '播放';
+    els.episodePlayButton.setAttribute('aria-label', `${playing && currentSongId === activeEpisodeDetailId ? '暂停' : '播放'} ${title}`);
+  }
+
   function closeEpisodeDetail() {
+    activeEpisodeDetailId = null;
     els.episodePage.hidden = true;
     els.homeHero.hidden = false;
     renderPeppaPlaylist();
@@ -1138,6 +1155,18 @@
   });
 
   els.episodeBackButton.addEventListener('click', closeEpisodeDetail);
+
+  els.episodePlayButton.addEventListener('click', () => {
+    if (!activeEpisodeDetailId) return;
+    setPlayerExpanded(true);
+    if (activeEpisodeDetailId === currentSongId) {
+      togglePlayback();
+      return;
+    }
+    shuffleHistory = [];
+    if (mode === 'shuffle') resetShuffleQueue(activeEpisodeDetailId);
+    loadSong(activeEpisodeDetailId, { autoplay: true, resetShuffle: false });
+  });
 
   els.reportButton.addEventListener('click', () => {
     renderStats();
