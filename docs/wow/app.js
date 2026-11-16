@@ -1312,10 +1312,17 @@
   }
 
   if ('serviceWorker' in navigator && ['http:', 'https:'].includes(window.location.protocol)) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js?v=10').catch(() => {
-        // Installation and background audio still work when service workers are unavailable.
-      });
+    window.addEventListener('load', async () => {
+      try {
+        const registration = await navigator.serviceWorker.getRegistration();
+        // Remove stale PWA shells. This app loads streaming audio directly, so
+        // the former offline cache is no longer needed and can serve old HTML.
+        if (registration) await registration.unregister();
+        const keys = await caches.keys();
+        await Promise.all(keys.map((key) => caches.delete(key)));
+      } catch (error) {
+        // Browser storage may be unavailable; the page still works online.
+      }
     });
   }
 
