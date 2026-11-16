@@ -2324,6 +2324,7 @@ body.episode-detail-open .topbar .brand-mark,
 body.episode-detail-open .topbar .brand-copy strong {
   font-size: 15px;
 }
+body.episode-detail-open #homeHero { display: none !important; }
 body.episode-detail-open .episode-page {
   margin-top: calc(64px + env(safe-area-inset-top, 0px));
 }
@@ -2406,7 +2407,8 @@ body.episode-detail-open .episode-page {
 .pattern-card li + li { margin-top: 4px; }
 .study-list { display: grid; gap: 7px; }
 .study-row { padding: 10px; border-radius: 13px; background: #f8fbff; }
-.study-row strong { display: block; color: #284d70; font-size: 13px; }
-.study-row span { display: block; margin-top: 2px; color: #657584; font-size: 12px; }
+.study-term { display: flex; align-items: baseline; flex-wrap: wrap; gap: 5px 8px; }
+.study-row strong { color: #284d70; font-size: 13px; }
+.study-row span { color: #657584; font-size: 12px; }
 .study-row p { margin: 3px 0 0; color: #7a8997; font-size: 11px; }
 .bottom-tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); }

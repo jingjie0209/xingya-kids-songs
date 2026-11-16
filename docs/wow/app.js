@@ -600,7 +600,7 @@
         <ol>${item.extensions.map((example) => `<li>${example}</li>`).join('')}</ol>
       </article>`).join('');
     const makeRows = (items) => items.map((item) => `
-      <div class="study-row"><strong>${item.item}</strong><span>${item.meaning}</span><p>${item.example}</p></div>`).join('');
+      <div class="study-row"><div class="study-term"><strong>${item.item}</strong><span>${item.meaning}</span></div><p>${item.example}</p></div>`).join('');
     els.episodePageTitle.textContent = songById.get(id)?.title || id;
     els.episodePageBody.innerHTML = `
       <section><h4>英文对话独立段落</h4><div class="episode-english">${detail.pairs.map((line) => `<p>${line.en}</p>`).join('')}</div></section>
