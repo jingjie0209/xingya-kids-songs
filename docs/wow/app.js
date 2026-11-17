@@ -18,7 +18,7 @@
   ];
   const animationCategoryIds = [
     ...wowCategoryIds,
-    'guli', 'vocab-town', 'qplay', 'andy-1', 'andy-2',
+    'guli', 'vocab-town', 'qplay', 'andy-1', 'andy-2', 'andy-3',
     'littlefox-1-tire-town', 'littlefox-1-dino-buddies', 'littlefox-1-bat-and-friends',
     'littlefox-1-big-green-forest',
     'littlefox-2-bird-and-kip', 'littlefox-2-wacky-ricky',
@@ -26,7 +26,7 @@
     'peppa-1', 'peppa-2', 'peppa-3', 'peppa-4', 'peppa-5',
   ];
   const tabCategoryGroups = {
-    animation: [...wowCategoryIds, 'guli', 'qplay', 'vocab-town', 'andy-1', 'andy-2'],
+    animation: [...wowCategoryIds, 'guli', 'qplay', 'vocab-town', 'andy-1', 'andy-2', 'andy-3'],
     peppa: ['peppa-1'],
     talk: ['talk'],
   };
