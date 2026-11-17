@@ -2451,3 +2451,15 @@ body.episode-detail-open .episode-page {
   padding: 0 13px;
   font-size: 11px;
 }
+
+.andy-season-tabs {
+  padding-top: 0;
+  padding-bottom: 12px;
+  background: transparent;
+  border-bottom: 0;
+}
+.andy-season-tabs .secondary-tab {
+  min-height: 31px;
+  padding: 0 13px;
+  font-size: 11px;
+}

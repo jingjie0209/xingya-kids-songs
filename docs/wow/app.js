@@ -204,6 +204,7 @@
   let activeFilter = 'all';
   let activeWowLevel = 'wow-yellow';
   let activeWowKind = 'all';
+  let activeAndyLevel = 'andy-1';
   let sessionCounted = false;
   let lastTickWall = Date.now();
   let lastPersist = 0;
@@ -543,6 +544,19 @@
     `;
   }
 
+  function renderAndySeasonTabs() {
+    const seasons = [
+      { id: 'andy-1', name: '第一季' },
+      { id: 'andy-2', name: '第二季' },
+      { id: 'andy-3', name: '第三季' },
+    ];
+    return `
+      <div class="secondary-tabs andy-season-tabs" role="tablist" aria-label="Hello Andy 季度">
+        ${seasons.map((season) => `<button class="secondary-tab andy-season-tab ${activeAndyLevel === season.id ? 'is-active' : ''}" type="button" data-andy-level="${season.id}">${season.name}</button>`).join('')}
+      </div>
+    `;
+  }
+
   function renderAnimationPlaylist() {
     els.libraryHead.hidden = false;
     els.filterRow.hidden = false;
@@ -551,9 +565,14 @@
       animationSongs(group).length > 0 && activeFilter === group.id
     );
     const wowSelected = visible.some((group) => group.id === 'animation-wow');
+    const andySelected = visible.some((group) => group.id === 'animation-andy');
     const wowSongs = wowSelected
       ? animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
           .filter((song) => song.category === activeWowLevel && (activeWowKind === 'all' || wowSongKind(song) === activeWowKind))
+      : [];
+    const andySongs = andySelected
+      ? animationSongs(animationGroups.find((group) => group.id === 'animation-andy'))
+          .filter((song) => song.category === activeAndyLevel)
       : [];
     const wowHtml = wowSelected ? `
       <section class="song-group wow-level-group" data-group-category="animation-wow">
@@ -568,7 +587,20 @@
           </button>`).join('')}</div>
       </section>
     ` : '';
-    const otherHtml = visible.filter((group) => group.id !== 'animation-wow').map((group) => {
+    const andyHtml = andySelected ? `
+      <section class="song-group andy-season-group" data-group-category="animation-andy">
+        ${renderAndySeasonTabs()}
+        <div class="song-list">${andySongs.map((song, index) => `
+          <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+            <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
+            <span class="song-title-block"><strong>${song.title}</strong></span>
+            <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
+            <span class="song-duration">${formatTime(song.duration)}</span>
+            <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
+          </button>`).join('')}</div>
+      </section>
+    ` : '';
+    const otherHtml = visible.filter((group) => !['animation-wow', 'animation-andy'].includes(group.id)).map((group) => {
       const rows = animationSongs(group).map((song, index) => `
         <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
           <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
@@ -584,7 +616,7 @@
         </section>
       `;
     }).join('');
-    els.playlistGroups.innerHTML = wowHtml + otherHtml;
+    els.playlistGroups.innerHTML = wowHtml + andyHtml + otherHtml;
     els.playlistGroups.querySelectorAll('[data-wow-level]').forEach((button) => {
       button.addEventListener('click', () => {
         activeWowLevel = button.dataset.wowLevel;
@@ -594,6 +626,12 @@
     els.playlistGroups.querySelectorAll('[data-wow-kind]').forEach((button) => {
       button.addEventListener('click', () => {
         activeWowKind = button.dataset.wowKind;
+        renderAnimationPlaylist();
+      });
+    });
+    els.playlistGroups.querySelectorAll('[data-andy-level]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeAndyLevel = button.dataset.andyLevel;
         renderAnimationPlaylist();
       });
     });
@@ -885,6 +923,7 @@
     activeFilter = tabId === 'animation' ? 'animation-wow' : 'all';
     activeWowLevel = 'wow-yellow';
     activeWowKind = 'all';
+    activeAndyLevel = 'andy-1';
     document.querySelectorAll('.tab-button').forEach((button) => {
       const active = button.dataset.tab === tabId;
       button.classList.toggle('is-active', active);
