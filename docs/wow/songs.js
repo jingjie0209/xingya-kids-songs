@@ -1034,6 +1034,38 @@ window.SONGS = [
     "file": "media/audio/brown-bear-sing-along.m4a"
   },
   {
+    "id": "fruits-is-yummy",
+    "title": "Fruits Is Yummy",
+    "zh": "水果真好吃",
+    "category": "food",
+    "duration": 88.685708,
+    "file": "media/audio/nursery/fruits-is-yummy.mp3"
+  },
+  {
+    "id": "jelly-on-the-plate",
+    "title": "Jelly on the Plate",
+    "zh": "盘子里的果冻",
+    "category": "food",
+    "duration": 92.342833,
+    "file": "media/audio/nursery/jelly-on-the-plate.mp3"
+  },
+  {
+    "id": "leaf-little-leaf",
+    "title": "Leaf Little Leaf",
+    "zh": "小叶子",
+    "category": "world",
+    "duration": 61.44,
+    "file": "media/audio/nursery/leaf-little-leaf.mp3"
+  },
+  {
+    "id": "five-little-peas",
+    "title": "Five Little Peas",
+    "zh": "五颗小豌豆",
+    "category": "math",
+    "duration": 53.524875,
+    "file": "media/audio/nursery/five-little-peas.mp3"
+  },
+  {
     "id": "wow-yellow-001",
     "title": "Wow!Yellow Unit 1 hello video_story",
     "zh": "黄色（3-4岁）",

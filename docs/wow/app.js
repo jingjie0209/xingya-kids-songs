@@ -56,6 +56,7 @@
     mode: 'xingya-play-mode-v2',
     volume: 'xingya-volume-v2',
     muted: 'xingya-muted-v2',
+    favorites: 'xingya-favorite-songs-v1',
   };
 
   const MODES = {
@@ -81,6 +82,8 @@
     heroTotalDuration: document.getElementById('heroTotalDuration'),
     heroTodayDuration: document.getElementById('heroTodayDuration'),
     headerTodayDuration: document.getElementById('headerTodayDuration'),
+    playFavoritesButton: document.getElementById('playFavoritesButton'),
+    favoriteCount: document.getElementById('favoriteCount'),
     playerDock: document.getElementById('playerDock'),
     miniPlayerButton: document.getElementById('miniPlayerButton'),
     miniPlayerDisc: document.getElementById('miniPlayerDisc'),
@@ -191,6 +194,18 @@
     return value !== null ? value : legacyKey ? localStorage.getItem(legacyKey) : null;
   }
 
+  function nurserySongs() {
+    return allSongs.filter((song) => !songExcludedCategoryIds.includes(song.category));
+  }
+
+  function normalizeFavoriteIds(value) {
+    const available = new Set(nurserySongs().map((song) => song.id));
+    return new Set(Array.isArray(value) ? value.filter((id) => available.has(id)) : []);
+  }
+
+  let favoriteSongIds = normalizeFavoriteIds(readJSON(STORAGE.favorites, []));
+  let playbackQueueIds = null;
+  let playbackQueueKind = null;
   let playCounts = normalizeCounts(readJSON(STORAGE.counts, readJSON('xingya-play-counts-v1', {})));
   let daily = normalizeDaily(readJSON(STORAGE.daily, readJSON('xingya-daily-stats-v1', null)));
   let savedCurrentSong = storedValue(STORAGE.current, 'xingya-current-song-v1');
@@ -214,6 +229,37 @@
   let shuffleQueue = [];
   let shuffleHistory = [];
 
+  function currentAnimationQueue() {
+    if (activeTab !== 'animation') return [];
+    if (activeFilter !== 'animation-wow') return [];
+    const selected = animationSongs(animationGroups.find((group) => group.id === 'animation-wow'))
+      .filter((song) => song.category === activeWowLevel)
+      .filter((song) => activeWowKind === 'all' || wowSongKind(song) === activeWowKind);
+    const seen = new Set();
+    return selected.filter((song) => {
+      if (seen.has(song.id)) return false;
+      seen.add(song.id);
+      return true;
+    });
+  }
+
+  function syncCurrentQueueIfNeeded() {
+    if (activeTab === 'animation' && activeFilter === 'animation-wow') {
+      const nextIds = currentAnimationQueue().map((song) => song.id);
+      if (nextIds.join('|') !== (playbackQueueIds || []).join('|')) {
+        playbackQueueIds = nextIds;
+        playbackQueueKind = 'wow';
+        shuffleQueue = [];
+        shuffleHistory = [];
+      }
+    } else if (playbackQueueKind === 'wow') {
+      playbackQueueIds = null;
+      playbackQueueKind = null;
+      shuffleQueue = [];
+      shuffleHistory = [];
+    }
+  }
+
   if (!Number.isFinite(volume)) volume = 0.85;
   volume = Math.min(1, Math.max(0, volume));
   audio.volume = volume;
@@ -227,8 +273,13 @@
     return categoryById.get(currentSong()?.category) || categories[0];
   }
 
+  function playbackSongs() {
+    if (!playbackQueueIds) return songs;
+    return playbackQueueIds.map((id) => songById.get(id)).filter(Boolean);
+  }
+
   function currentIndex() {
-    return songs.findIndex((song) => song.id === currentSongId);
+    return playbackSongs().findIndex((song) => song.id === currentSongId);
   }
 
   function formatTime(seconds) {
@@ -333,7 +384,7 @@
   }
 
   function resetShuffleQueue(anchorId = currentSongId) {
-    shuffleQueue = songs.map((song) => song.id).filter((id) => id !== anchorId);
+    shuffleQueue = playbackSongs().map((song) => song.id).filter((id) => id !== anchorId);
     for (let index = shuffleQueue.length - 1; index > 0; index -= 1) {
       const swapIndex = Math.floor(Math.random() * (index + 1));
       [shuffleQueue[index], shuffleQueue[swapIndex]] = [shuffleQueue[swapIndex], shuffleQueue[index]];
@@ -342,7 +393,7 @@
 
   function nextShuffleSongId() {
     if (!shuffleQueue.length) resetShuffleQueue(currentSongId);
-    return shuffleQueue.shift() || songs.find((song) => song.id !== currentSongId)?.id || currentSongId;
+    return shuffleQueue.shift() || playbackSongs().find((song) => song.id !== currentSongId)?.id || currentSongId;
   }
 
   function updateMediaSession(song) {
@@ -435,11 +486,12 @@
     els.modeButton.setAttribute('aria-label', `播放模式：${config.aria}，点击切换`);
     els.modeButton.title = `当前：${config.aria}，点击切换`;
     setIcon(els.modeIcon, config.icon);
+    const queueCount = playbackSongs().length;
     els.playAllLabel.textContent = mode === 'repeat'
       ? '循环当前歌曲'
       : mode === 'shuffle'
-        ? '随机播放全部'
-        : '顺序播放全部';
+        ? `随机播放当前歌单${queueCount ? `（${queueCount}）` : ''}`
+        : `顺序播放当前歌单${queueCount ? `（${queueCount}）` : ''}`;
   }
 
   function setRangeFill(input, percent) {
@@ -620,12 +672,14 @@
     els.playlistGroups.querySelectorAll('[data-wow-level]').forEach((button) => {
       button.addEventListener('click', () => {
         activeWowLevel = button.dataset.wowLevel;
+        syncCurrentQueueIfNeeded();
         renderAnimationPlaylist();
       });
     });
     els.playlistGroups.querySelectorAll('[data-wow-kind]').forEach((button) => {
       button.addEventListener('click', () => {
         activeWowKind = button.dataset.wowKind;
+        syncCurrentQueueIfNeeded();
         renderAnimationPlaylist();
       });
     });
@@ -639,6 +693,7 @@
     bindSongRows();
     updateSongRows();
     updateCountsUI();
+    updatePlaybackButtons();
   }
 
   function openEpisodeDetail(id) {
@@ -705,6 +760,12 @@
       row.addEventListener('click', (event) => {
         const id = row.dataset.songId;
         const target = event.target instanceof Element ? event.target : null;
+        const favoriteButton = target?.closest('.song-favorite-button');
+        if (favoriteButton) {
+          event.stopPropagation();
+          toggleFavorite(favoriteButton.dataset.favoriteId);
+          return;
+        }
         if (activeTab === 'peppa' && !target?.closest('.song-play-button')) {
           openEpisodeDetail(id);
           return;
@@ -712,12 +773,56 @@
         setPlayerExpanded(true);
         if (id === currentSongId) togglePlayback();
         else {
+          playbackQueueIds = null;
+          playbackQueueKind = null;
           shuffleHistory = [];
           if (mode === 'shuffle') resetShuffleQueue(id);
           loadSong(id, { autoplay: true, resetShuffle: false, restart: id === currentSongId });
         }
       });
+      if (row.getAttribute('role') === 'button') {
+        row.addEventListener('keydown', (event) => {
+          if (event.target !== row || !['Enter', ' '].includes(event.key)) return;
+          event.preventDefault();
+          row.click();
+        });
+      }
     });
+  }
+
+  function favoriteButtonHtml(song) {
+    const active = favoriteSongIds.has(song.id);
+    const action = active ? '取消收藏' : '收藏';
+    return `<button class="song-favorite-button ${active ? 'is-active' : ''}" type="button" data-favorite-id="${song.id}" aria-label="${action} ${song.title}" aria-pressed="${active}" title="${action}">
+      <svg><use href="#icon-star"></use></svg>
+    </button>`;
+  }
+
+  function updateFavoritesUI() {
+    const count = favoriteSongIds.size;
+    if (els.favoriteCount) els.favoriteCount.textContent = String(count);
+    els.playFavoritesButton?.classList.toggle('has-favorites', count > 0);
+    els.playFavoritesButton?.setAttribute('aria-label', count ? `播放收藏歌单，共 ${count} 首` : '播放收藏歌单，暂无收藏');
+    els.playFavoritesButton?.setAttribute('title', count ? `播放收藏歌单（${count}）` : '播放收藏歌单');
+    document.querySelectorAll('[data-favorite-id]').forEach((button) => {
+      const active = favoriteSongIds.has(button.dataset.favoriteId);
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+      const action = active ? '取消收藏' : '收藏';
+      const song = songById.get(button.dataset.favoriteId);
+      button.setAttribute('aria-label', `${action} ${song?.title || ''}`.trim());
+      button.title = action;
+    });
+  }
+
+  function toggleFavorite(songId) {
+    if (!songId) return;
+    if (favoriteSongIds.has(songId)) favoriteSongIds.delete(songId);
+    else favoriteSongIds.add(songId);
+    writeJSON(STORAGE.favorites, [...favoriteSongIds]);
+    updateFavoritesUI();
+    const song = songById.get(songId);
+    showToast(favoriteSongIds.has(songId) ? `已收藏 · ${song?.title || ''}` : `已取消收藏 · ${song?.title || ''}`);
   }
 
   function renderPeppaPlaylist() {
@@ -747,13 +852,14 @@
     renderFilters();
     const entries = songs.map((song, index) => ({ song, index }));
     const rows = entries.map(({ song, index }) => `
-      <button class="song-row" type="button" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
+      <div class="song-row has-favorite" role="button" tabindex="0" data-song-id="${song.id}" data-index="${index}" data-category="${song.category}">
         <span class="song-number">${String(index + 1).padStart(2, '0')}</span>
         <span class="song-title-block"><strong>${song.title}</strong></span>
         <span class="song-play-count" data-count-id="${song.id}">播放 0 次</span>
         <span class="song-duration">${formatTime(song.duration)}</span>
+        ${favoriteButtonHtml(song)}
         <span class="song-play-button" aria-hidden="true"><svg><use href="#icon-play"></use></svg></span>
-      </button>
+      </div>
     `).join('');
     els.playlistGroups.innerHTML = `
       <section class="song-group flat-song-group" data-group-category="all-songs">
@@ -764,6 +870,7 @@
     bindSongRows();
     updateSongRows();
     updateCountsUI();
+    updateFavoritesUI();
     applyFilter();
   }
 
@@ -893,6 +1000,7 @@
     scrollActiveChipIntoView(els.filterRow.querySelector('.filter-chip.is-active'));
     if (activeTab === 'animation') {
       renderAnimationPlaylist();
+      updatePlaybackButtons();
       return;
     }
     els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
@@ -924,6 +1032,7 @@
     activeWowLevel = 'wow-yellow';
     activeWowKind = 'all';
     activeAndyLevel = 'andy-1';
+    syncCurrentQueueIfNeeded();
     document.querySelectorAll('.tab-button').forEach((button) => {
       const active = button.dataset.tab === tabId;
       button.classList.toggle('is-active', active);
@@ -957,11 +1066,16 @@
     if (originalFile.startsWith('audio/peppa-1/')) {
       originalFile = originalFile.replace(/^audio\/peppa-1\//, 'audio/peppa/peppa-1/');
     }
-    // Tencent COS is the primary media origin. The same-site optimized copy and
-    // GitHub raw file remain as automatic fallbacks if a cloud request fails.
+    const siteSource = bundled ? new URL(song.file, window.location.href).href : null;
+    // Newly supplied nursery tracks are not in COS yet; use their same-site copy
+    // first to avoid a failed cloud request before playback.
+    const siteAudioFirst = Boolean(siteSource && song.file.includes('/nursery/'));
+    // Tencent COS is the primary media origin. Same-site and GitHub raw files
+    // remain as automatic fallbacks if a cloud request fails.
     audioSources = [
-      COS_AUDIO_BASE + originalFile,
-      bundled ? new URL(song.file, window.location.href).href : null,
+      siteAudioFirst ? siteSource : null,
+      siteAudioFirst ? null : COS_AUDIO_BASE + originalFile,
+      siteAudioFirst ? COS_AUDIO_BASE + originalFile : siteSource,
       GITHUB_AUDIO_BASE + originalFile,
     ].filter((source, index, list) => source && list.indexOf(source) === index);
     audioSourceIndex = 0;
@@ -1023,8 +1137,39 @@
     }
   }
 
+  function playFavorites() {
+    const favorites = nurserySongs().filter((song) => favoriteSongIds.has(song.id));
+    if (!favorites.length) {
+      showToast('还没有收藏儿歌，点击歌曲右侧的星星添加');
+      return;
+    }
+    if (activeTab !== 'songs') switchTab('songs');
+    playbackQueueIds = favorites.map((song) => song.id);
+    playbackQueueKind = 'favorites';
+    flushPlayTime();
+    shuffleHistory = [];
+    if (mode === 'shuffle') {
+      resetShuffleQueue('');
+      const firstId = nextShuffleSongId();
+      loadSong(firstId, { autoplay: true, resetShuffle: false, restart: true });
+    } else {
+      loadSong(favorites[0].id, { autoplay: true, restart: true });
+    }
+    showToast(`${mode === 'shuffle' ? '随机' : mode === 'repeat' ? '单曲循环' : '顺序'}播放收藏歌单 · ${favorites.length} 首`);
+  }
+
   function playAll() {
-    if (!songs.length) return;
+    if (activeTab === 'animation' && activeFilter === 'animation-wow') {
+      const current = currentAnimationQueue();
+      if (!current.length) return;
+      playbackQueueIds = current.map((song) => song.id);
+      playbackQueueKind = 'wow';
+    } else {
+      playbackQueueIds = null;
+      playbackQueueKind = null;
+    }
+    const queue = playbackSongs();
+    if (!queue.length) return;
     flushPlayTime();
     if (mode === 'shuffle') {
       const previousId = currentSongId;
@@ -1032,7 +1177,7 @@
       resetShuffleQueue('');
       const firstId = nextShuffleSongId();
       loadSong(firstId, { autoplay: true, resetShuffle: false, restart: firstId === previousId });
-      showToast('随机播放全部 · 已经开始');
+      showToast(`随机播放当前歌单 · ${queue.length} 首`);
       return;
     }
     if (mode === 'repeat') {
@@ -1041,12 +1186,13 @@
       return;
     }
     shuffleHistory = [];
-    loadSong(songs[0].id, { autoplay: true, restart: true });
-    showToast('顺序播放全部 · 已经开始');
+    loadSong(queue[0].id, { autoplay: true, restart: true });
+    showToast(`顺序播放当前歌单 · ${queue.length} 首`);
   }
 
   function nextTrack(options = {}) {
-    if (!songs.length) return;
+    const queue = playbackSongs();
+    if (!queue.length) return;
     flushPlayTime();
     let nextId;
     if (mode === 'shuffle') {
@@ -1054,24 +1200,25 @@
       nextId = nextShuffleSongId();
     } else {
       const index = currentIndex();
-      nextId = songs[index < 0 ? 0 : (index + 1) % songs.length].id;
+      nextId = queue[index < 0 ? 0 : (index + 1) % queue.length].id;
     }
     loadSong(nextId, { autoplay: true });
     if (!options.silent) showToast(`下一曲 · ${songById.get(nextId)?.zh || ''}`);
   }
 
   function previousTrack() {
-    if (!songs.length) return;
+    const queue = playbackSongs();
+    if (!queue.length) return;
     flushPlayTime();
     let previousId;
     if (mode === 'shuffle' && shuffleHistory.length) {
       previousId = shuffleHistory.pop();
     } else if (mode === 'shuffle') {
-      const candidates = songs.filter((song) => song.id !== currentSongId);
+      const candidates = queue.filter((song) => song.id !== currentSongId);
       previousId = candidates[Math.floor(Math.random() * candidates.length)]?.id || currentSongId;
     } else {
       const index = currentIndex();
-      previousId = songs[index < 0 ? songs.length - 1 : (index - 1 + songs.length) % songs.length].id;
+      previousId = queue[index < 0 ? queue.length - 1 : (index - 1 + queue.length) % queue.length].id;
     }
     loadSong(previousId, { autoplay: true });
     showToast(`上一曲 · ${songById.get(previousId)?.zh || ''}`);
@@ -1164,6 +1311,7 @@
   els.prevButton.addEventListener('click', previousTrack);
   els.nextButton.addEventListener('click', nextTrack);
   els.playAllButton.addEventListener('click', playAll);
+  els.playFavoritesButton.addEventListener('click', playFavorites);
   els.modeButton.addEventListener('click', cycleMode);
 
   els.tabBar.addEventListener('click', (event) => {
@@ -1180,6 +1328,7 @@
     const chip = event.target.closest('.filter-chip');
     if (!chip) return;
     activeFilter = chip.dataset.filter;
+    syncCurrentQueueIfNeeded();
     applyFilter();
   });
 
@@ -1376,6 +1525,7 @@
     updateSongInfo();
   }
   renderPlaylist();
+  updateFavoritesUI();
   updatePlaybackButtons();
   updateProgressUI();
   updateStatsUI();
