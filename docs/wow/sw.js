@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'xingya-wow-shell-';
-const CACHE_NAME = `${CACHE_PREFIX}v32`;
+const CACHE_NAME = `${CACHE_PREFIX}v31`;
 const SHELL = [
   './',
   './index.html',
