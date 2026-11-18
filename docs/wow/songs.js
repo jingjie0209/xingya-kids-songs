@@ -10759,5 +10759,413 @@ window.SONGS = [
     {"id":"andy-3-029","title":"Let's roller skate","zh":"Hello Andy 第3辑","category":"andy-3","duration":50.233469,"file":"audio/andy/andy-3/andy-3-029.mp3"},
     {"id":"andy-3-030","title":"A windy day","zh":"Hello Andy 第3辑","category":"andy-3","duration":53.838367,"file":"audio/andy/andy-3/andy-3-030.mp3"},
     {"id":"andy-3-031","title":"Who turned on the TV","zh":"Hello Andy 第3辑","category":"andy-3","duration":54.778776,"file":"audio/andy/andy-3/andy-3-031.mp3"},
-    {"id":"andy-3-032","title":"A fast turtle","zh":"Hello Andy 第3辑","category":"andy-3","duration":60.995918,"file":"audio/andy/andy-3/andy-3-032.mp3"}
-  ];
+    {"id":"andy-3-032","title":"A fast turtle","zh":"Hello Andy 第3辑","category":"andy-3","duration":60.995918,"file":"audio/andy/andy-3/andy-3-032.mp3"},
+  {
+    "id": "hello-hello-can-you-clap-your-hands",
+    "title": "Hello Hello! Can You Clap Your Hands",
+    "zh": "你好你好拍拍手",
+    "category": "games",
+    "duration": 91.556281,
+    "file": "media/audio/nursery/hello-hello-can-you-clap-your-hands.m4a"
+  },
+  {
+    "id": "alice-the-camel",
+    "title": "Alice The Camel",
+    "zh": "骆驼爱丽丝",
+    "category": "animals",
+    "duration": 127.547211,
+    "file": "media/audio/nursery/alice-the-camel.m4a"
+  },
+  {
+    "id": "five-little-speckled-frogs",
+    "title": "Five Little Speckled Frogs",
+    "zh": "五只斑点小青蛙",
+    "category": "animals",
+    "duration": 182.485624,
+    "file": "media/audio/nursery/five-little-speckled-frogs.m4a"
+  },
+  {
+    "id": "eeney-meeney-miney-moe",
+    "title": "Eeney Meeney Miney Moe",
+    "zh": "选择小童谣",
+    "category": "games",
+    "duration": 62.902857,
+    "file": "media/audio/nursery/eeney-meeney-miney-moe.m4a"
+  },
+  {
+    "id": "follow-me",
+    "title": "Follow Me",
+    "zh": "跟我做",
+    "category": "habits",
+    "duration": 106.440272,
+    "file": "media/audio/nursery/follow-me.m4a"
+  },
+  {
+    "id": "make-a-circle",
+    "title": "Make A Circle",
+    "zh": "围个圈圈",
+    "category": "games",
+    "duration": 75.557732,
+    "file": "media/audio/nursery/make-a-circle.m4a"
+  },
+  {
+    "id": "mystery-box-1",
+    "title": "Mystery Box #1",
+    "zh": "神秘盒子 · 第一版",
+    "category": "games",
+    "duration": 93.715737,
+    "file": "media/audio/nursery/mystery-box-1.m4a"
+  },
+  {
+    "id": "mystery-box-2",
+    "title": "Mystery Box #2",
+    "zh": "神秘盒子 · 第二版",
+    "category": "games",
+    "duration": 93.112018,
+    "file": "media/audio/nursery/mystery-box-2.m4a"
+  },
+  {
+    "id": "mystery-box-3",
+    "title": "Mystery Box #3",
+    "zh": "神秘盒子 · 第三版",
+    "category": "games",
+    "duration": 93.692517,
+    "file": "media/audio/nursery/mystery-box-3.m4a"
+  },
+  {
+    "id": "rock-scissors-paper-2",
+    "title": "Rock Scissors Paper #2",
+    "zh": "石头剪刀布 · 第二版",
+    "category": "games",
+    "duration": 109.040907,
+    "file": "media/audio/nursery/rock-scissors-paper-2.m4a"
+  },
+  {
+    "id": "rock-scissors-paper-3",
+    "title": "Rock Scissors Paper #3",
+    "zh": "石头剪刀布 · 第三版",
+    "category": "games",
+    "duration": 114.056417,
+    "file": "media/audio/nursery/rock-scissors-paper-3.m4a"
+  },
+  {
+    "id": "rock-scissors-paper-4",
+    "title": "Rock Scissors Paper #4",
+    "zh": "石头剪刀布 · 第四版",
+    "category": "games",
+    "duration": 132.353741,
+    "file": "media/audio/nursery/rock-scissors-paper-4.m4a"
+  },
+  {
+    "id": "take-me-out-to-the-ball-game",
+    "title": "Take Me Out To The Ball Game",
+    "zh": "去看棒球赛",
+    "category": "rhymes",
+    "duration": 106.068753,
+    "file": "media/audio/nursery/take-me-out-to-the-ball-game.m4a"
+  },
+  {
+    "id": "bye-bye-goodbye",
+    "title": "Bye Bye Goodbye",
+    "zh": "拜拜再见",
+    "category": "social",
+    "duration": 120.697324,
+    "file": "media/audio/nursery/bye-bye-goodbye.m4a"
+  },
+  {
+    "id": "see-you-later-alligator",
+    "title": "See You Later, Alligator",
+    "zh": "一会儿见，鳄鱼",
+    "category": "social",
+    "duration": 54.311474,
+    "file": "media/audio/nursery/see-you-later-alligator.m4a"
+  },
+  {
+    "id": "count-down-from-20-to-1",
+    "title": "Count Down From 20 to 1",
+    "zh": "从二十倒数到一 · 新版",
+    "category": "math",
+    "duration": 84.868934,
+    "file": "media/audio/nursery/count-down-from-20-to-1.m4a"
+  },
+  {
+    "id": "seven-steps",
+    "title": "Seven Steps",
+    "zh": "七步走",
+    "category": "math",
+    "duration": 132.353741,
+    "file": "media/audio/nursery/seven-steps.m4a"
+  },
+  {
+    "id": "the-bananas-song",
+    "title": "The Bananas Song",
+    "zh": "香蕉歌",
+    "category": "food",
+    "duration": 95.759093,
+    "file": "media/audio/nursery/the-bananas-song.m4a"
+  },
+  {
+    "id": "10-little-tractors",
+    "title": "10 Little Tractors",
+    "zh": "十辆小拖拉机",
+    "category": "vehicles",
+    "duration": 126.897052,
+    "file": "media/audio/nursery/10-little-tractors.m4a"
+  },
+  {
+    "id": "do-you-like-spaghetti-yogurt",
+    "title": "Do You Like Spaghetti Yogurt",
+    "zh": "你喜欢意面酸奶吗",
+    "category": "food",
+    "duration": 151.161905,
+    "file": "media/audio/nursery/do-you-like-spaghetti-yogurt.m4a"
+  },
+  {
+    "id": "what-do-you-like-to-do",
+    "title": "What Do You Like To Do",
+    "zh": "你喜欢做什么",
+    "category": "games",
+    "duration": 116.842812,
+    "file": "media/audio/nursery/what-do-you-like-to-do.m4a"
+  },
+  {
+    "id": "who-took-the-cookie-farm-animals-version",
+    "title": "Who Took The Cookie (Farm Animals Version)",
+    "zh": "谁拿走了饼干 · 农场版",
+    "category": "animals",
+    "duration": 135.929615,
+    "file": "media/audio/nursery/who-took-the-cookie-farm-animals-version.m4a"
+  },
+  {
+    "id": "who-took-the-cookie",
+    "title": "Who Took The Cookie",
+    "zh": "谁拿走了饼干",
+    "category": "games",
+    "duration": 122.136961,
+    "file": "media/audio/nursery/who-took-the-cookie.m4a"
+  },
+  {
+    "id": "the-muffin-man",
+    "title": "The Muffin Man",
+    "zh": "松饼先生",
+    "category": "food",
+    "duration": 127.059592,
+    "file": "media/audio/nursery/the-muffin-man.m4a"
+  },
+  {
+    "id": "peanut-butter-jelly",
+    "title": "Peanut Butter & Jelly",
+    "zh": "花生酱果冻",
+    "category": "food",
+    "duration": 118.630748,
+    "file": "media/audio/nursery/peanut-butter-jelly.m4a"
+  },
+  {
+    "id": "the-ice-cream-song",
+    "title": "The Ice Cream Song",
+    "zh": "冰淇淋歌",
+    "category": "food",
+    "duration": 200.341769,
+    "file": "media/audio/nursery/the-ice-cream-song.m4a"
+  },
+  {
+    "id": "pat-a-cake",
+    "title": "Pat-A-Cake",
+    "zh": "拍拍蛋糕",
+    "category": "rhymes",
+    "duration": 113.893878,
+    "file": "media/audio/nursery/pat-a-cake.m4a"
+  },
+  {
+    "id": "what-s-your-favorite-color",
+    "title": "What’s Your Favorite Color",
+    "zh": "你最喜欢什么颜色",
+    "category": "world",
+    "duration": 121.39102,
+    "file": "media/audio/nursery/what-s-your-favorite-color.m4a"
+  },
+  {
+    "id": "the-months-chant",
+    "title": "The Months Chant",
+    "zh": "月份歌谣",
+    "category": "world",
+    "duration": 138.692789,
+    "file": "media/audio/nursery/the-months-chant.m4a"
+  },
+  {
+    "id": "the-shape-song-2",
+    "title": "The Shape Song #2",
+    "zh": "形状歌 · 第二版",
+    "category": "world",
+    "duration": 250.566531,
+    "file": "media/audio/nursery/the-shape-song-2.m4a"
+  },
+  {
+    "id": "put-on-your-shoes",
+    "title": "Put On Your Shoes",
+    "zh": "穿上鞋子",
+    "category": "habits",
+    "duration": 181.463946,
+    "file": "media/audio/nursery/put-on-your-shoes.m4a"
+  },
+  {
+    "id": "my-teddy-bear",
+    "title": "My Teddy Bear",
+    "zh": "我的泰迪熊",
+    "category": "lullaby",
+    "duration": 138.785669,
+    "file": "media/audio/nursery/my-teddy-bear.m4a"
+  },
+  {
+    "id": "sweet-dreams-goodnight-song",
+    "title": "Sweet Dreams (Goodnight Song)",
+    "zh": "晚安，好梦",
+    "category": "lullaby",
+    "duration": 187.710113,
+    "file": "media/audio/nursery/sweet-dreams-goodnight-song.m4a"
+  },
+  {
+    "id": "mr-sun-sun-mr-golden-sun",
+    "title": "Mr. Sun, Sun, Mr. Golden Sun",
+    "zh": "金太阳先生",
+    "category": "world",
+    "duration": 150.720726,
+    "file": "media/audio/nursery/mr-sun-sun-mr-golden-sun.m4a"
+  },
+  {
+    "id": "hello-reindeer",
+    "title": "Hello, Reindeer",
+    "zh": "你好，驯鹿",
+    "category": "holidays",
+    "duration": 76.440091,
+    "file": "media/audio/nursery/hello-reindeer.m4a"
+  },
+  {
+    "id": "decorate-the-christmas-tree-to-the-tune-of-deck-the-halls",
+    "title": "Decorate The Christmas Tree",
+    "zh": "装饰圣诞树",
+    "category": "holidays",
+    "duration": 178.097052,
+    "file": "media/audio/nursery/decorate-the-christmas-tree-to-the-tune-of-deck-the-halls.m4a"
+  },
+  {
+    "id": "santa-where-are-you",
+    "title": "Santa, Where Are You",
+    "zh": "圣诞老人在哪里",
+    "category": "holidays",
+    "duration": 149.977687,
+    "file": "media/audio/nursery/santa-where-are-you.m4a"
+  },
+  {
+    "id": "what-do-you-want-for-christmas",
+    "title": "What Do You Want For Christmas",
+    "zh": "圣诞节你想要什么",
+    "category": "holidays",
+    "duration": 388.818141,
+    "file": "media/audio/nursery/what-do-you-want-for-christmas.m4a"
+  },
+  {
+    "id": "five-creepy-spiders",
+    "title": "Five Creepy Spiders",
+    "zh": "五只小蜘蛛",
+    "category": "holidays",
+    "duration": 157.918912,
+    "file": "media/audio/nursery/five-creepy-spiders.m4a"
+  },
+  {
+    "id": "skidamarink-animated-version",
+    "title": "Skidamarink (Animated Version)",
+    "zh": "爱之歌 · 动画版",
+    "category": "rhymes",
+    "duration": 147.400272,
+    "file": "media/audio/nursery/skidamarink-animated-version.m4a"
+  },
+  {
+    "id": "down-by-the-bay-part-1",
+    "title": "Down By The Bay (Part 1)",
+    "zh": "海湾边 · 第一段",
+    "category": "rhymes",
+    "duration": 168.298231,
+    "file": "media/audio/nursery/down-by-the-bay-part-1.m4a"
+  },
+  {
+    "id": "down-by-the-bay-part-2",
+    "title": "Down By The Bay (Part 2)",
+    "zh": "海湾边 · 第二段",
+    "category": "rhymes",
+    "duration": 161.355465,
+    "file": "media/audio/nursery/down-by-the-bay-part-2.m4a"
+  },
+  {
+    "id": "down-by-the-bay-part-3",
+    "title": "Down By The Bay (Part 3)",
+    "zh": "海湾边 · 第三段",
+    "category": "rhymes",
+    "duration": 151.556644,
+    "file": "media/audio/nursery/down-by-the-bay-part-3.m4a"
+  },
+  {
+    "id": "down-by-the-spooky-bay",
+    "title": "Down By The Spooky Bay",
+    "zh": "神秘海湾",
+    "category": "holidays",
+    "duration": 152.833741,
+    "file": "media/audio/nursery/down-by-the-spooky-bay.m4a"
+  },
+  {
+    "id": "the-alphabet-song",
+    "title": "The Alphabet Song",
+    "zh": "字母歌",
+    "category": "alphabet",
+    "duration": 184.15746,
+    "file": "media/audio/nursery/the-alphabet-song.m4a"
+  },
+  {
+    "id": "the-animals-on-the-farm",
+    "title": "The Animals On The Farm",
+    "zh": "农场里的动物",
+    "category": "animals",
+    "duration": 203.731882,
+    "file": "media/audio/nursery/the-animals-on-the-farm.m4a"
+  },
+  {
+    "id": "the-farmer-in-the-dell",
+    "title": "The Farmer In The Dell",
+    "zh": "山谷里的农夫",
+    "category": "animals",
+    "duration": 108.808707,
+    "file": "media/audio/nursery/the-farmer-in-the-dell.m4a"
+  },
+  {
+    "id": "old-macdonald-had-a-farm",
+    "title": "Old MacDonald Had A Farm",
+    "zh": "老麦克唐纳有个农场 · 原版",
+    "category": "animals",
+    "duration": 209.304671,
+    "file": "media/audio/nursery/old-macdonald-had-a-farm.m4a"
+  },
+  {
+    "id": "the-eensy-weensy-spider",
+    "title": "The Eensy Weensy Spider",
+    "zh": "小小蜘蛛 · 原版",
+    "category": "rhymes",
+    "duration": 143.36,
+    "file": "media/audio/nursery/the-eensy-weensy-spider.m4a"
+  },
+  {
+    "id": "the-ants-go-marching",
+    "title": "The Ants Go Marching",
+    "zh": "蚂蚁行军 · 原版",
+    "category": "animals",
+    "duration": 232.060227,
+    "file": "media/audio/nursery/the-ants-go-marching.m4a"
+  },
+  {
+    "id": "what-do-you-hear",
+    "title": "What Do You Hear",
+    "zh": "你听到了什么",
+    "category": "animals",
+    "duration": 192.098685,
+    "file": "media/audio/nursery/what-do-you-hear.m4a"
+  },
+];
