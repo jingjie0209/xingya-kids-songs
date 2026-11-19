@@ -1003,10 +1003,13 @@
       updatePlaybackButtons();
       return;
     }
-    els.playlistGroups.querySelectorAll('.song-row').forEach((row) => {
-      row.hidden = activeFilter !== 'all' && row.dataset.category !== activeFilter;
-    });
-    const visibleRows = els.playlistGroups.querySelectorAll('.song-row:not([hidden])').length;
+    const rows = [...els.playlistGroups.querySelectorAll('.song-row')];
+    if (!rows.length) return;
+    const visible = new Set(activeFilter === 'all'
+      ? rows.map((row) => row.dataset.songId)
+      : rows.filter((row) => row.dataset.category === activeFilter).map((row) => row.dataset.songId));
+    rows.forEach((row) => { row.hidden = !visible.has(row.dataset.songId); });
+    const visibleRows = visible.size;
     let empty = els.playlistGroups.querySelector('.group-empty');
     if (!empty) {
       empty = document.createElement('div');
@@ -1324,13 +1327,24 @@
     setPlayerExpanded(!playerExpanded);
   });
 
+  // Filtering chips are re-rendered when a collection changes. Bind on the
+  // stable parent row so category clicks remain reliable after re-render.
+  const selectFilterChip = (chip) => {
+    activeFilter = chip.dataset.filter || 'all';
+    syncCurrentQueueIfNeeded();
+    applyFilter();
+  };
   els.filterRow.addEventListener('click', (event) => {
     const chip = event.target.closest('.filter-chip');
     if (!chip) return;
-    activeFilter = chip.dataset.filter;
-    syncCurrentQueueIfNeeded();
-    applyFilter();
+    selectFilterChip(chip);
   });
+  els.filterRow.addEventListener('touchend', (event) => {
+    const chip = event.target.closest('.filter-chip');
+    if (!chip) return;
+    event.preventDefault();
+    selectFilterChip(chip);
+  }, { passive: false });
 
   els.progressSlider.addEventListener('input', () => {
     const duration = Number.isFinite(audio.duration) ? audio.duration : (currentSong()?.duration || 0);
