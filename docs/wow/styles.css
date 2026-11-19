@@ -641,6 +641,13 @@ svg {
   display: none !important;
 }
 
+/* A grid/flex display on .song-row overrides the browser default for
+   [hidden], so filtered rows stayed visible on mobile. Force the standard
+   hidden state back. */
+.song-row[hidden] {
+  display: none !important;
+}
+
 /* Sticky category tabs live on the head wrapper so they can remain fixed
    while the long playlist continues to scroll underneath. */
 .library-head {
